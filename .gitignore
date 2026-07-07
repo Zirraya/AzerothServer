@@ -67,3 +67,32 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Игнорируем тяжелые карты игры (они весят гигабайты)
+/data/
+/data/maps/
+/data/vmaps/
+/data/mmaps/
+/data/dbc/
+
+# Игнорируем логи сервера (они постоянно меняются и засоряют гит)
+/logs/
+*.log
+
+# Игнорируем кэш и временные файлы компиляции
+/bin/Build/
+/bin/Release/
+/bin/Debug/
+*.user
+*.suo
+*.pdb
+
+# Игнорируем личные пароли в конфигах (подруга настроит свои)
+/bin/worldserver.conf
+/bin/authserver.conf
+
+# Игнорируем саму папку с установленной базой данных (если у вас портативный MySQL/MariaDB)
+/mysql/
+/mariadb/
+/data/db/
+
