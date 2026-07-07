@@ -96,3 +96,7 @@ Testing/
 /mariadb/
 /data/db/
 
+build/
+vcpkg/
+
+
