@@ -1,2 +1,3 @@
--- DB update 2024_08_05_00 -> 2024_08_06_00
-UPDATE `creature_onkill_reputation` SET `MaxStanding1` = 7 WHERE `creature_id` IN (17977,21582);
+version https://git-lfs.github.com/spec/v1
+oid sha256:3429a12118cdbb7731094b0235e33719a01c5d27ed4969dffb124b9aa99685de
+size 141

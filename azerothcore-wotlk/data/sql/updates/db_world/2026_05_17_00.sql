@@ -1,4 +1,3 @@
--- DB update 2026_05_16_02 -> 2026_05_17_00
-DELETE FROM `spell_proc` WHERE `SpellId` = 20178;
-INSERT INTO `spell_proc` (`SpellId`, `SchoolMask`, `SpellFamilyName`, `SpellFamilyMask0`, `SpellFamilyMask1`, `SpellFamilyMask2`, `ProcFlags`, `SpellTypeMask`, `SpellPhaseMask`, `HitMask`, `AttributesMask`, `DisableEffectsMask`, `ProcsPerMinute`, `Chance`, `Cooldown`, `Charges`) VALUES
-(20178, 0, 0, 0, 0, 0, 0x4, 0, 0, 0x2477, 0, 0, 0, 100, 0, 4);
+version https://git-lfs.github.com/spec/v1
+oid sha256:cb43ac54903bece37bc26399f9b6f879d4523092546bc9e581a7ae228292edf5
+size 444

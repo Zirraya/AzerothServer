@@ -1,4 +1,3 @@
--- DB update 2023_08_13_01 -> 2023_08_13_02
---
-DELETE FROM `creature` WHERE `id1` IN (16179, 16180, 16181);
-DELETE FROM `linked_respawn` WHERE `guid` = 135369;
+version https://git-lfs.github.com/spec/v1
+oid sha256:c84907b7e8101ebc541df16e70e100751f2337e3ad3f5e314f22813ff3d9ce58
+size 160

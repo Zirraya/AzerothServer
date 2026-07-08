@@ -1,6 +1,3 @@
--- DB update 2023_06_24_02 -> 2023_06_24_03
---
-DELETE FROM `spell_script_names` WHERE `ScriptName` = 'spell_capacitus_polarity_charge_aura';
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(39088, 'spell_capacitus_polarity_charge_aura'),
-(39091, 'spell_capacitus_polarity_charge_aura');
+version https://git-lfs.github.com/spec/v1
+oid sha256:f1bc6ba137f7459d183b583315af85b3ea859c74b75149738f373e398071dff9
+size 306

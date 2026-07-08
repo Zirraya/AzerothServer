@@ -1,9 +1,3 @@
--- DB update 2022_10_23_02 -> 2022_10_25_00
---
-DELETE FROM `acore_string` WHERE `entry` = 5083;
-INSERT INTO `acore_string` (`entry`, `content_default`) VALUES
-(5083, 'Character %s (%u) moved from account %s (%u) to account %s (%u).');
-
-DELETE FROM `command` WHERE `name` = 'character changeaccount';
-INSERT INTO `command` (`name`, `security`, `help`) VALUES
-('character changeaccount', 3, 'Syntax: .character changeaccount $NewAccountName $Name.\nMoves the specified character to the provided account. \nKicks the player if the character is online.');
+version https://git-lfs.github.com/spec/v1
+oid sha256:b79d447b2b762de14c9c02886593055efa26b7d670a54ba8724ae5d42037a632
+size 552

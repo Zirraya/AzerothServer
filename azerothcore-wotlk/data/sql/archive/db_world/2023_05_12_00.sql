@@ -1,7 +1,3 @@
--- DB update 2023_05_10_10 -> 2023_05_12_00
---
-UPDATE `creature_template` SET `ScriptName` = 'boss_mennu_the_betrayer', `AIName` = '' WHERE `entry` = 17941;
-UPDATE `creature_template` SET `ScriptName` = 'boss_quagmirran', `AIName` = '' WHERE `entry` = 17942;
-UPDATE `creature_template` SET `ScriptName` = 'boss_rokmar_the_crackler', `AIName` = '' WHERE `entry` = 17991;
-
-DELETE FROM `smart_scripts` WHERE `entryorguid` IN (17941, 17942, 17991) AND `source_type` = 0;
+version https://git-lfs.github.com/spec/v1
+oid sha256:1e088476907dae5197d72ffe85a5e34e9fee50af7d15ac1cc6d623af7054ae6a
+size 467

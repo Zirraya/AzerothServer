@@ -1,9 +1,3 @@
--- DB update 2024_01_07_02 -> 2024_01_07_03
---
-DELETE FROM `command` WHERE `name` = 'gobject respawn';
-INSERT INTO `command` (`name`, `security`, `help`) VALUES
-('gobject respawn', 1, 'Syntax: .gobject respawn #guid./nRespawns the target gameobject.');
-
-DELETE FROM `acore_string` WHERE `entry` = 5085;
-INSERT INTO `acore_string` (`entry`, `content_default`) VALUES
-(5085, 'Object %s (entry :%u guid: %u) respawned!');
+version https://git-lfs.github.com/spec/v1
+oid sha256:505da71a0f2e7a2b2c864c842b43d2969b62e9cb6a706bbb9cb5ebedd1ccb531
+size 419

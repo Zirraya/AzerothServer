@@ -1,3 +1,3 @@
--- DB update 2025_03_31_02 -> 2025_03_31_03
--- Added missing ranged weapon for SpellID 6466
-UPDATE `creature_equip_template` SET `ItemID3` = 5856, `VerifiedBuild` = 0 WHERE (`CreatureID` = 9596);
+version https://git-lfs.github.com/spec/v1
+oid sha256:797afda7f27cc70e420dfaa5f5206712c1ca27dd744d4acd39db48ba4dd1b52d
+size 196

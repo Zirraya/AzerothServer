@@ -1,3 +1,3 @@
--- DB update 2022_06_18_01 -> 2022_06_18_02
---
-DELETE FROM `smart_scripts` WHERE `entryorguid`=9447 AND `source_type`=0 AND `id`=2;
+version https://git-lfs.github.com/spec/v1
+oid sha256:c2ef9fe73fbd4b6fdaf6f36a07ceec7a0846fdc552f11b03d3149ef071bccb08
+size 132

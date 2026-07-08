@@ -1,4 +1,3 @@
--- DB update 2024_02_20_04 -> 2024_02_20_05
--- Wand of Holiday Cheer
-DELETE FROM `spell_custom_attr` WHERE `spell_id`=26074;
-INSERT INTO `spell_custom_attr` (`spell_id`, `attributes`) VALUES (26074, 128);
+version https://git-lfs.github.com/spec/v1
+oid sha256:15a1d868ac319bf73d22022a0ef440d4bc51e26fa20b477d4fabc54249d6eefe
+size 205

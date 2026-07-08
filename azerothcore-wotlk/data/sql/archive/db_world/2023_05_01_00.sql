@@ -1,3 +1,3 @@
--- DB update 2023_04_30_00 -> 2023_05_01_00
---
-DELETE FROM `warden_checks` WHERE `id` IN (793,794,795,796,797,798,799,800,801,802,803,804,805,806,807,808,809,810,811);
+version https://git-lfs.github.com/spec/v1
+oid sha256:1fad03defcf6b1d7d76b7ce05d5ec0cc2840ea89d1bf501daafc93ec642941da
+size 168

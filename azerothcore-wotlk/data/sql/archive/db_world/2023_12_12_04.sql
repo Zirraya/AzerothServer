@@ -1,3 +1,3 @@
--- DB update 2023_12_12_03 -> 2023_12_12_04
---
-UPDATE `command` SET `help`='Syntax: .wpgps\r\nOutput current position to sql developer log as partial SQL query to be used in pathing (formated for waypoint_data table).\r\nUse .wpgps sai for waypoint (SAI) table format.' WHERE `name`='wpgps';
+version https://git-lfs.github.com/spec/v1
+oid sha256:1e656a465da6eede3d2b617df215e6b60103b2beecf8d5347d69da0f4100aaf4
+size 292

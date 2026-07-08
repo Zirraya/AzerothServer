@@ -1,5 +1,3 @@
--- DB update 2022_07_09_07 -> 2022_07_09_08
---
-DELETE FROM `spell_script_names` WHERE `ScriptName` = 'spell_hakkar_power_down';
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(24693, 'spell_hakkar_power_down');
+version https://git-lfs.github.com/spec/v1
+oid sha256:c62f586904b650ff178df6206261285ae221f907c9cc3e9c18d1dc03369cd49c
+size 231

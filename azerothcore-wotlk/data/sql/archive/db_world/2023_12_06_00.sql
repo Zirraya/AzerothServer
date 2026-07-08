@@ -1,6 +1,3 @@
--- DB update 2023_12_04_03 -> 2023_12_06_00
---
-DELETE FROM `pool_template` WHERE `entry` = 137;
-INSERT INTO `pool_template` (`entry`, `max_limit`, `description`) VALUES (137, 1, 'Tanaris - Inconspicuous Landmark Pool');
-
-UPDATE `pool_gameobject` SET `pool_entry` = 137 WHERE `guid` IN (17231,17232,17233,17234,17235,17236);
+version https://git-lfs.github.com/spec/v1
+oid sha256:9cc8ee7134375c981a3435a139e7b5ecded013a6ddfad315ab1515373d323350
+size 324

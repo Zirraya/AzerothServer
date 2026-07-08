@@ -1,4 +1,3 @@
--- DB update 2025_09_26_00 -> 2025_09_26_01
-
--- Remove Phase Mask 1 and add Phasemask 2.
-UPDATE `creature` SET `phaseMask` = `phaseMask` &~1 | 2 WHERE `id1` = 28529 AND `guid` IN (128641,128697);
+version https://git-lfs.github.com/spec/v1
+oid sha256:b3c4901f48769be50d1fd47ffea05b1c6529928e7e1d9a83c74ae2130e965fc8
+size 196

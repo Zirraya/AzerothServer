@@ -1,7 +1,3 @@
--- DB update 2025_05_23_01 -> 2025_05_23_02
---
-
--- Reduce Aku'Mai Servant damage. Auto attack = 36-45 w 1.5k armor
-UPDATE `creature_template` SET `DamageModifier` = 1.7 WHERE `entry` = 4978 AND `type` = 4;
--- Reduce Deviate Moccasin damage. Auto attack = 39-44 w 1.1k armor
-UPDATE `creature_template` SET `DamageModifier` = 1.8 WHERE `entry` = 5762 AND `family` = 35;
+version https://git-lfs.github.com/spec/v1
+oid sha256:230cfc4c22085e31fc988df22ced47f3ee363b76e0ecb199b12654489abfbefb
+size 368

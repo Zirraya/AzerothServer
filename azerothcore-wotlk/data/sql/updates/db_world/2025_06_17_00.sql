@@ -1,3 +1,3 @@
--- DB update 2025_06_16_00 -> 2025_06_17_00
--- Set Distract immunity to Molten War Golem
-UPDATE `creature_template` SET `mechanic_immune_mask`=`mechanic_immune_mask` | (8|64|1024) WHERE `entry` = 8908;
+version https://git-lfs.github.com/spec/v1
+oid sha256:b79d3827aa46079977a59e9a7572cfe5c26fe420ccde2bc880e4b00432d4071e
+size 202

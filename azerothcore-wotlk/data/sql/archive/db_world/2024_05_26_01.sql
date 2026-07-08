@@ -1,5 +1,3 @@
--- DB update 2024_05_26_00 -> 2024_05_26_01
---
-DELETE FROM `creature_text` WHERE (`CreatureID` = 22515) AND (`GroupID` = 19);
-INSERT INTO `creature_text` (`CreatureID`, `GroupID`, `ID`, `Text`, `Type`, `Language`, `Probability`, `Emote`, `Duration`, `Sound`, `BroadcastTextId`, `TextRange`, `comment`) VALUES
-(22515, 19, 0, 'The Ancient Gate of the Keepers unlocks!', 41, 0, 100, 0, 0, 0, 34401, 0, 'Ulduar - The Ancient Gate of the Keepers unlocks!');
+version https://git-lfs.github.com/spec/v1
+oid sha256:fdf86a8e7a438a55086430769a8465d589b33ba8e7e61fe96b98940a24a6ee9c
+size 453

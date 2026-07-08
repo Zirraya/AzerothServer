@@ -1,3 +1,3 @@
--- DB update 2023_08_06_07 -> 2023_08_06_08
---
-UPDATE `creature_template` SET `mechanic_immune_mask`=`mechanic_immune_mask`|33554432 WHERE `entry` IN (15689, 17225);
+version https://git-lfs.github.com/spec/v1
+oid sha256:20bf2d2e30dc1726474c370de84c0c3e5192a4a3c6a70beeed1f412b8e9571fc
+size 166

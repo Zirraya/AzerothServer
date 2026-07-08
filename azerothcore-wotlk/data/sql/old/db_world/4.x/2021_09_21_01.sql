@@ -1,31 +1,3 @@
--- DB update 2021_09_21_00 -> 2021_09_21_01
-DROP PROCEDURE IF EXISTS `updateDb`;
-DELIMITER //
-CREATE PROCEDURE updateDb ()
-proc:BEGIN DECLARE OK VARCHAR(100) DEFAULT 'FALSE';
-SELECT COUNT(*) INTO @COLEXISTS
-FROM information_schema.COLUMNS
-WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'version_db_world' AND COLUMN_NAME = '2021_09_21_00';
-IF @COLEXISTS = 0 THEN LEAVE proc; END IF;
-START TRANSACTION;
-ALTER TABLE version_db_world CHANGE COLUMN 2021_09_21_00 2021_09_21_01 bit;
-SELECT sql_rev INTO OK FROM version_db_world WHERE sql_rev = '1631942187339544702'; IF OK <> 'FALSE' THEN LEAVE proc; END IF;
---
--- START UPDATING QUERIES
---
-
-INSERT INTO `version_db_world` (`sql_rev`) VALUES ('1631942187339544702');
-
--- Deletes Icecap from all NPC loot tables except Spellmaw's
-DELETE FROM `creature_loot_template` WHERE `item` = 13467 AND `comment` LIKE '%Icecap%' AND `Entry` <> 10662;
-
-
---
--- END UPDATING QUERIES
---
-UPDATE version_db_world SET date = '2021_09_21_01' WHERE sql_rev = '1631942187339544702';
-COMMIT;
-END //
-DELIMITER ;
-CALL updateDb();
-DROP PROCEDURE IF EXISTS `updateDb`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:e365324ba8e8eb31feb978c42b1c8df590627426bf59b923ce495d075a9264b2
+size 1089

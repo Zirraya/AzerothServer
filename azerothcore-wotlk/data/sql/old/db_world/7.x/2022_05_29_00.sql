@@ -1,4 +1,3 @@
--- DB update 2022_05_26_01 -> 2022_05_29_00
---
-UPDATE `smart_scripts` SET `action_type`=45, `action_param1`=0, `action_param2`=1 WHERE `entryorguid`=2471801 AND `source_type`=9 AND `id`=3;
-UPDATE `smart_scripts` SET `entryorguid`=24823, `source_type`=0, `event_type`=38, `event_param1`=0, `event_param2`=1 WHERE `entryorguid`=2482300 AND `source_type`=9 AND `id`=0;
+version https://git-lfs.github.com/spec/v1
+oid sha256:95c8a058e55b88df8f7f8ae1c9409ae5e52eea4ea3cdfe68ae70667b4efe7d8f
+size 366

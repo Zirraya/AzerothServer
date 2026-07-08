@@ -1,7 +1,3 @@
--- DB update 2023_12_25_00 -> 2023_12_25_01
---
-DELETE FROM `spell_custom_attr` WHERE `spell_id` = 37546;
-INSERT INTO `spell_custom_attr` (`spell_id`, `attributes`) VALUES
-(37546, 2147483648);
-
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask` |131072 WHERE `entry` = 21215;
+version https://git-lfs.github.com/spec/v1
+oid sha256:1273a187d0d56f986591122d510d6205a64d79deeb10417046a6e477c29afe40
+size 303

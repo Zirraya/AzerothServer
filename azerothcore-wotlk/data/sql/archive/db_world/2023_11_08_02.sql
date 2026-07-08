@@ -1,6 +1,3 @@
--- DB update 2023_11_08_01 -> 2023_11_08_02
--- Carnivorous Bite, Sticky Ooze
-DELETE FROM `spell_custom_attr` WHERE `spell_id` IN (30639,30494);
-INSERT INTO `spell_custom_attr` (`spell_id`, `attributes`) VALUES
-(30639, 4194304),
-(30494, 4194304);
+version https://git-lfs.github.com/spec/v1
+oid sha256:a2db89bdcc3d6cf64208d969134ab63409cff14c12d40e0a092bd2821c1eeeb7
+size 246

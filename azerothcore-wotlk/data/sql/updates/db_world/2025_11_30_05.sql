@@ -1,4 +1,3 @@
--- DB update 2025_11_30_04 -> 2025_11_30_05
---
--- Remove the RewardNextQuest, previously: 12070 (Rallying the Troops), link from 12249 (Ursoc, the Bear God)
-UPDATE `quest_template` SET `RewardNextQuest` = 0 WHERE (`ID` = 12249);
+version https://git-lfs.github.com/spec/v1
+oid sha256:98db03c65a09f13bb9aa5109d563d9c7c5856f3d97c2518e9534d4ec94a10229
+size 229

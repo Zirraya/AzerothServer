@@ -1,3 +1,3 @@
--- DB update 2026_02_18_05 -> 2026_02_18_06
--- Omen of Clarity should only proc from damage and healing spells, not utility spells like Furor
-UPDATE `spell_proc` SET `SpellTypeMask` = 3 WHERE `SpellId` = 16864;
+version https://git-lfs.github.com/spec/v1
+oid sha256:66b4e52c0b98e6059130ac45614616f8572e41374d59233f93abedd88ac42a1f
+size 211

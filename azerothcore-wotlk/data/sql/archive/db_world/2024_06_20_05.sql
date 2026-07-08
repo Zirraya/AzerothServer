@@ -1,3 +1,3 @@
--- DB update 2024_06_20_04 -> 2024_06_20_05
---
-UPDATE `creature_template` SET `flags_extra` = `flags_extra` |256, `mechanic_immune_mask` = `mechanic_immune_mask`|64|256|2048 WHERE `entry` = 22954;
+version https://git-lfs.github.com/spec/v1
+oid sha256:32c26d36dbf8d293a44d064f8e4592950f651aff3a43dcfbb646498cfccf3a60
+size 197

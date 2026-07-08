@@ -1,3 +1,3 @@
--- DB update 2023_04_09_04 -> 2023_04_09_05
--- Terokkarantula and Arconus the Insatiable
-UPDATE `creature` SET `spawntimesecs` = 180 WHERE `guid` IN (86843, 87039) AND `id1` IN (20554, 20682);
+version https://git-lfs.github.com/spec/v1
+oid sha256:6368a4ef6ba1aa2f8eb6ec387d601faa855d5409185430c24db3b7b85bcd450e
+size 193

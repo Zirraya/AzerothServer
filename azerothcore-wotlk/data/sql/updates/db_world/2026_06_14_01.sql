@@ -1,5 +1,3 @@
--- DB update 2026_06_14_00 -> 2026_06_14_01
---
--- Fix Deep Freeze: only proc trigger spell 71757 on permanently stun-immune creatures
-DELETE FROM `spell_script_names` WHERE `spell_id`=71761;
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES (71761, 'spell_mage_deep_freeze_immunity_state');
+version https://git-lfs.github.com/spec/v1
+oid sha256:6f7f713be270a47794f0c617873354439fbe3be9209cec80770a1686abc84495
+size 308

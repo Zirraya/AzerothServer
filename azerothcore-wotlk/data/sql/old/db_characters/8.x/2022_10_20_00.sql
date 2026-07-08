@@ -1,8 +1,3 @@
--- DB update 2022_10_13_00 -> 2022_10_20_00
--- Insert world states (for conditions)
-DELETE FROM `worldstates` WHERE `entry` IN (197,198,199,200);
-INSERT INTO `worldstates` (`entry`, `value`, `comment`) values
-(197,0,'Fishing Extravaganza - STV_FISHING_PREV_WIN_TIME'),
-(198,0,'Fishing Extravaganza - STV_FISHING_HAS_WINNER'),
-(199,0,'Fishing Extravaganza - STV_FISHING_ANNOUNCE_EVENT_BEGIN'),
-(200,0,'Fishing Extravaganza - STV_FISHING_ANNOUNCE_POOLS_DESPAN');
+version https://git-lfs.github.com/spec/v1
+oid sha256:fabc50191e706243f9000eca7bf5669cbeae3c6006372b548733779188df13d7
+size 461

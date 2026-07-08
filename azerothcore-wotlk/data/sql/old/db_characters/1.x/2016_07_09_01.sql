@@ -1,1 +1,3 @@
-ALTER TABLE characters_db_version CHANGE COLUMN 2016_07_09_00 2016_07_09_01 bit;
+version https://git-lfs.github.com/spec/v1
+oid sha256:e15a9b034826b47ac51000df2a796f544a156ec030d59d898e87ad9a285a6628
+size 81

@@ -1,12 +1,3 @@
--- DB update 2023_01_31_00 -> 2023_02_20_00
---
-DROP TABLE IF EXISTS `motd`;
-CREATE TABLE `motd` (
-    `realmid` INT NOT NULL,
-    `text` LONGTEXT NULL DEFAULT NULL,
-    PRIMARY KEY (`realmid`)
-) ENGINE=InnoDB;
-
-DELETE FROM `motd` WHERE  `realmid`=1;
-INSERT INTO `motd` (`realmid`, `text`) VALUES
-(-1, 'Welcome to an AzerothCore server.');
+version https://git-lfs.github.com/spec/v1
+oid sha256:73e162c6898d4d1633cd6aff096fd561a581f4820c7dd0e201c464d096b966f8
+size 339

@@ -1,3 +1,3 @@
--- DB update 2025_12_16_01 -> 2025_12_16_02
--- PrevQuestID 11009 to 0, The Crystals doesn't have Ogre Heaven as a requirement
-UPDATE `quest_template_addon` SET `PrevQuestID` = 0 WHERE (`ID` = 11025);
+version https://git-lfs.github.com/spec/v1
+oid sha256:ea8e1265d9c1db4f359926fce11626ae69678d24a722798f3bb0cad8dbfb19bc
+size 200

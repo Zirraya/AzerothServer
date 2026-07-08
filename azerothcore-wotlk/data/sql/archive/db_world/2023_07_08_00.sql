@@ -1,5 +1,3 @@
--- DB update 2023_07_02_00 -> 2023_07_08_00
--- Shriveling Gaze
-DELETE FROM `spell_script_names` WHERE `spell_id` = 37589;
-INSERT INTO `spell_script_names` (`spell_id`,`ScriptName`) VALUES
-(37589,'spell_gen_shriveling_gaze');
+version https://git-lfs.github.com/spec/v1
+oid sha256:b66b8c3485815c7fb04d0d99ae284d2d0d21b5f82ff298e6d94e53f2fd22249e
+size 225

@@ -1,4 +1,3 @@
--- DB update 2025_12_29_14 -> 2025_12_29_15
---
-UPDATE `gameobject_template` SET `AIName` = '', `ScriptName` = 'go_ancient_skull_pile' WHERE `entry` = 185928;
-DELETE FROM `smart_scripts` WHERE `entryorguid` = 185928 AND `source_type` = 1;
+version https://git-lfs.github.com/spec/v1
+oid sha256:6530a0f81428027168a8b068005b605d3c19fa0675ee0291181439d6e587a6ee
+size 238

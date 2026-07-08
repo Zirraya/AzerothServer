@@ -1,3 +1,3 @@
--- DB update 2026_02_23_04 -> 2026_02_23_05
--- Remove conditions
-DELETE FROM `conditions` WHERE `SourceEntry` = 12528 AND `SourceTypeOrReferenceId` = 19 AND `ConditionValue1` = 12654;
+version https://git-lfs.github.com/spec/v1
+oid sha256:797b1c873d3e2cee06a1cba04ca0737d4c0ddb00968e0ce558bcf8da9922fce5
+size 184

@@ -1,5 +1,3 @@
--- DB update 2023_09_26_01 -> 2023_09_26_02
--- #12145 midsummer add spell script spell_midsummer_ribbon_pole_visual
-DELETE FROM `spell_script_names` WHERE `spell_id` = 29172;
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(29172, 'spell_midsummer_ribbon_pole_visual');
+version https://git-lfs.github.com/spec/v1
+oid sha256:13000ee05dee00cedbd34c3486ca4551dab7c2c94609db70527b5de687f8a17c
+size 289

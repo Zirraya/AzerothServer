@@ -1,29 +1,3 @@
--- DB update 2021_03_09_00 -> 2021_03_09_01
-DROP PROCEDURE IF EXISTS `updateDb`;
-DELIMITER //
-CREATE PROCEDURE updateDb ()
-proc:BEGIN DECLARE OK VARCHAR(100) DEFAULT 'FALSE';
-SELECT COUNT(*) INTO @COLEXISTS
-FROM information_schema.COLUMNS
-WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'version_db_world' AND COLUMN_NAME = '2021_03_09_00';
-IF @COLEXISTS = 0 THEN LEAVE proc; END IF;
-START TRANSACTION;
-ALTER TABLE version_db_world CHANGE COLUMN 2021_03_09_00 2021_03_09_01 bit;
-SELECT sql_rev INTO OK FROM version_db_world WHERE sql_rev = '1615103299173233870'; IF OK <> 'FALSE' THEN LEAVE proc; END IF;
---
--- START UPDATING QUERIES
---
-
-INSERT INTO `version_db_world` (`sql_rev`) VALUES ('1615103299173233870');
-
--- Kolkar Drudge and Kolkar Outrunner spell resistances
-UPDATE `creature_template` SET `resistance2`=0, `resistance5`=0 WHERE `entry` IN (3119,3120);
-
---
--- END UPDATING QUERIES
---
-COMMIT;
-END //
-DELIMITER ;
-CALL updateDb();
-DROP PROCEDURE IF EXISTS `updateDb`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:0e3788c3b1085722c8e2fce266f475d3418dede408bd5df28c03947c9ff9ec8a
+size 977

@@ -1,3 +1,3 @@
--- DB update 2024_05_11_00 -> 2024_05_11_01
---
-UPDATE `spell_target_position` SET `PositionX`=386.27, `PositionY`=33.4144, `PositionZ`=-130.934, `VerifiedBuild`=52237 WHERE `ID`=21128;
+version https://git-lfs.github.com/spec/v1
+oid sha256:40d0f063b6fa0abf0b91b047f21a82bc9e1cdc5b490143cb421b1d913255a439
+size 185

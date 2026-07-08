@@ -1,5 +1,3 @@
--- DB update 2025_09_16_01 -> 2025_09_16_02
---
-DELETE FROM `spell_script_names` WHERE `ScriptName` = 'spell_dragonblight_flame_fury';
-INSERT INTO `spell_script_names` VALUES
-(50348, 'spell_dragonblight_flame_fury');
+version https://git-lfs.github.com/spec/v1
+oid sha256:5387522cf34e0cd93f23a8b1c1c0da09245100873017b026a49584a2890ed224
+size 216

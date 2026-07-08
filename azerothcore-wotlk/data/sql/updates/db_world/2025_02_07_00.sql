@@ -1,3 +1,3 @@
--- DB update 2025_02_06_04 -> 2025_02_07_00
---
-UPDATE `creature_addon` SET `mount` = 20675 WHERE `guid` = 94387;
+version https://git-lfs.github.com/spec/v1
+oid sha256:3d0136bdee5665335518b633e69d5821837f70d57c26427ed9763bd75f655834
+size 113

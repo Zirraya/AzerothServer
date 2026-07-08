@@ -1,6 +1,3 @@
--- DB update 2024_07_13_01 -> 2024_07_13_02
---
-DELETE FROM `spell_script_names` WHERE `spell_id` IN (53646, 54909);
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(53646, 'spell_warl_demonic_pact_aura'),
-(54909, 'spell_warl_demonic_pact_aura');
+version https://git-lfs.github.com/spec/v1
+oid sha256:4cf363c2cee55dda67f4b5df804f155f1f9b8b835a2df4fd1bca7fafc3874008
+size 265

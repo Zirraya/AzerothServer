@@ -1,5 +1,3 @@
--- DB update 2023_11_14_02 -> 2023_11_15_00
--- SSC bosses aggro range
-UPDATE `creature_template` SET `detection_range` = 45 WHERE `entry` = 21212;
-UPDATE `creature_template` SET `detection_range` = 35 WHERE `entry` = 21213;
-UPDATE `creature_template` SET `detection_range` = 30 WHERE `entry` IN (21214,21215,21216);
+version https://git-lfs.github.com/spec/v1
+oid sha256:c16f9762d389dd2a453a992420188c760c5dc172ab989daf99607da93b402875
+size 316

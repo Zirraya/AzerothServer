@@ -1,6 +1,3 @@
--- DB update 2023_11_07_01 -> 2023_11_07_02
-UPDATE `gameobject` SET `position_x` = -5737.2, `position_y` = -3880.4, `position_z` = 330 WHERE `guid` = 75928 and `id` = 1732;
-
-UPDATE `gameobject` SET `position_x` = -5737.2, `position_y` = -3880.4, `position_z` = 330 WHERE `guid` = 75927 and `id` = 1731;
-
-UPDATE `gameobject` SET `position_x` = -5737.2, `position_y` = -3880.4, `position_z` = 330 WHERE `guid` = 75929 and `id` = 1733;
+version https://git-lfs.github.com/spec/v1
+oid sha256:e3095f7718d710453a4cfd589ede407d057b4c9154c15835e0f7c80560c3084e
+size 433

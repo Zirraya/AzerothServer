@@ -1,31 +1,3 @@
--- DB update 2022_01_29_00 -> 2022_02_16_00
-DROP PROCEDURE IF EXISTS `updateDb`;
-DELIMITER //
-CREATE PROCEDURE updateDb ()
-proc:BEGIN DECLARE OK VARCHAR(100) DEFAULT 'FALSE';
-SELECT COUNT(*) INTO @COLEXISTS
-FROM information_schema.COLUMNS
-WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'version_db_characters' AND COLUMN_NAME = '2022_01_29_00';
-IF @COLEXISTS = 0 THEN LEAVE proc; END IF;
-START TRANSACTION;
-ALTER TABLE version_db_characters CHANGE COLUMN 2022_01_29_00 2022_02_16_00 bit;
-SELECT sql_rev INTO OK FROM version_db_characters WHERE sql_rev = '1644943100668922283'; IF OK <> 'FALSE' THEN LEAVE proc; END IF;
---
--- START UPDATING QUERIES
---
-
-INSERT INTO `version_db_characters` (`sql_rev`) VALUES ('1644943100668922283');
-
-UPDATE `pvpstats_battlegrounds`
-SET `bracket_id` = `bracket_id` + 1
-WHERE `type` = 1;
-
---
--- END UPDATING QUERIES
---
-UPDATE version_db_characters SET date = '2022_02_16_00' WHERE sql_rev = '1644943100668922283';
-COMMIT;
-END //
-DELIMITER ;
-CALL updateDb();
-DROP PROCEDURE IF EXISTS `updateDb`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:71ff8531fc5a8e3863b3d6c5460e2cc396ed5532ee3f35186283ca5323ba3d6d
+size 1028

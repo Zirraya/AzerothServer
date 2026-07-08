@@ -1,2 +1,3 @@
--- DB update 2025_02_07_01 -> 2025_02_07_02
-UPDATE `creature_template` SET `skinloot` = 80103 WHERE `entry` = 24316;
+version https://git-lfs.github.com/spec/v1
+oid sha256:4ae502a47fe5f58a38af883424a0718393edda253a8a4ca97a181bea1bbda1f9
+size 117

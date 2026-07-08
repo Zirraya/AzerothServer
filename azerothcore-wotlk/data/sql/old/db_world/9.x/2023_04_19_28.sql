@@ -1,3 +1,3 @@
--- DB update 2023_04_19_27 -> 2023_04_19_28
---
-UPDATE `creature_formations` SET `groupAI`=`groupAI`|1 WHERE `leaderGUID`=37385 AND `memberGUID`=37385;
+version https://git-lfs.github.com/spec/v1
+oid sha256:7ca756acee3e3750416cca492e3cbca89a0c9ad9c51de5d7f46c078323a2c54a
+size 151

@@ -1,6 +1,3 @@
--- DB update 2024_07_17_06 -> 2024_07_18_00
---
-DELETE FROM `spell_script_names` WHERE `ScriptName`='spell_ioc_bomb_blast_criteria' AND `spell_id` IN (67813,67814);
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(67813, 'spell_ioc_bomb_blast_criteria'),
-(67814, 'spell_ioc_bomb_blast_criteria');
+version https://git-lfs.github.com/spec/v1
+oid sha256:bec205ca2fcb862bcc5354a57cf721f5a777c567a87c61d3083fc01f8e41e002
+size 315

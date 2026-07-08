@@ -1,3 +1,3 @@
--- DB update 2025_10_31_02 -> 2025_11_01_00
---
-UPDATE `creature` SET `position_x` = 1262.0, `position_y` = -26.9, `position_z` = 33.5 WHERE `guid` = 126981;
+version https://git-lfs.github.com/spec/v1
+oid sha256:05557a0a4c656b96929bd567d14bcab00241d6cae282ddd86987475882517095
+size 157

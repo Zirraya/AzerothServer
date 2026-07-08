@@ -1,5 +1,3 @@
--- DB update 2023_03_17_00 -> 2023_03_19_00
--- [1] MovementFlags: 1536 (DisableGravity, Root)
-DELETE FROM `creature_template_movement` WHERE `creatureId` = 20343;
-INSERT INTO `creature_template_movement` (`CreatureId`, `Flight`, `Rooted`) VALUES
-(20343, 1, 1);
+version https://git-lfs.github.com/spec/v1
+oid sha256:9fb002c05cae231707d5adad46e3a0880aecf1cfe72433887a2286f3949ffb79
+size 261

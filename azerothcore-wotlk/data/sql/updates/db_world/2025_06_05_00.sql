@@ -1,3 +1,3 @@
--- DB update 2025_05_31_01 -> 2025_06_05_00
---
-UPDATE `creature_template` SET `ScriptName` = 'npc_king_varian_wrynn' WHERE (`entry` = 29611);
+version https://git-lfs.github.com/spec/v1
+oid sha256:1697e5e092153c15a2a086efa5168c855a3291bfef2fd712cc2d372ca7f908f8
+size 142

@@ -1,6 +1,3 @@
--- DB update 2025_09_12_01 -> 2025_09_12_02
---
-DELETE FROM `spell_script_names` WHERE `spell_id` IN (29007, 29008) AND `ScriptName`='spell_gen_food_heart_emote';
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(29007, 'spell_gen_food_heart_emote'),
-(29008, 'spell_gen_food_heart_emote');
+version https://git-lfs.github.com/spec/v1
+oid sha256:93b526c327ddc47e82426be2e76c54a66c3d96fa25d93da6fbc98d61533cfe2a
+size 307

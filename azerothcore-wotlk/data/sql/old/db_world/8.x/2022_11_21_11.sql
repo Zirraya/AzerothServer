@@ -1,3 +1,3 @@
--- DB update 2022_11_21_10 -> 2022_11_21_11
--- Remove golden pearl drop from creature
-DELETE FROM `item_loot_template` WHERE `Entry` IN (17917, 20627) AND (`Item` IN (13926));
+version https://git-lfs.github.com/spec/v1
+oid sha256:21d7c5a8b2e045e477db5cce26cc5337b03eaed266458abc8c9e7228170f3cb7
+size 176

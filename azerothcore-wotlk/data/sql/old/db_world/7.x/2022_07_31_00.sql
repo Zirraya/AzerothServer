@@ -1,7 +1,3 @@
--- DB update 2022_07_29_00 -> 2022_07_31_00
--- Chief Hawkwind
-UPDATE `creature_template` SET `gossip_menu_id`=0, `npcflag`=`npcflag`&~1 WHERE `entry`=2981;
-
-DELETE FROM `quest_greeting` WHERE `ID`=2981;
-INSERT INTO `quest_greeting` (`ID`, `Type`, `GreetEmoteType`, `GreetEmoteDelay`, `Greeting`, `VerifiedBuild`) VALUES
-(2981,0,0,0,"Hail, $c. In my years I have seen many eager tauren who wish to prove their worth to the tribe. It should not be forgotten that eagerness is no substitute for wisdom and experience.",0);
+version https://git-lfs.github.com/spec/v1
+oid sha256:c3345c76ce6df59141cce50453ec9b283a80ab2e3b24c21075360f34d0fa7fa6
+size 520

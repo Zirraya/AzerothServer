@@ -1,2 +1,3 @@
--- DB update 2026_04_28_00 -> 2026_04_28_01
-UPDATE `achievement_reward` SET `Body` = 'With the drums of war pounding in the distance, it is easy for the denizens of Azeroth to forget all that life has to offer.$B$BYou, on the other hand, have maintained the dignity of the good races of Azeroth with your ability to remember what we fight for. To not celebrate our victories is another form of defeat. Remember that well, Reveler.$B$BMay others be inspired by your good cheer,$B$BAlexstrasza the Life-Binder' WHERE `ID` IN (2144, 2145);
+version https://git-lfs.github.com/spec/v1
+oid sha256:2e41c1c3d7b6d6b722e1be4753a0f5c49c54952d4f3f44d57432a0be87f0cbeb
+size 537

@@ -1,3 +1,3 @@
--- DB update 2023_07_08_04 -> 2023_07_08_05
---
-UPDATE `quest_offer_reward` SET `RewardText` = 'Good to hear that Lethvalin made it to safety, and that he was smart enough to ask you for help instead of just waiting there.$B$BI hope that Ranger Salissa made it safely to Farstrider Enclave.' WHERE (`ID` = 9145);
+version https://git-lfs.github.com/spec/v1
+oid sha256:dbc4562cb2fd284d2fab162c88fb2884550b9c2bf895892e0cc12fef28079d6f
+size 312

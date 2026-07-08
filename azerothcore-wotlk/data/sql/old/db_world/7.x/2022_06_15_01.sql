@@ -1,3 +1,3 @@
--- DB update 2022_06_15_00 -> 2022_06_15_01
--- Adjust drop rate of Ritual salve to 72% (based by a sniffer with 325 kills)
-UPDATE `creature_loot_template` SET `Chance` = 72 WHERE `Entry` = 2953 AND `Item` = 6634;
+version https://git-lfs.github.com/spec/v1
+oid sha256:0b47c09e32f28e1f67fe211d88fc8790c4e72f47e77de5f77ad0fc71f712611b
+size 213

@@ -1,6 +1,3 @@
--- DB update 2025_09_11_03 -> 2025_09_12_00
---
--- The Aberrations Must Die.
-UPDATE `quest_template_addon` SET `PrevQuestID` = 12925 WHERE (`ID` = 13425);
--- The Aberrations Must Die. is always available
-DELETE FROM `pool_quest` WHERE `entry`=13425 and `pool_entry` = 354;
+version https://git-lfs.github.com/spec/v1
+oid sha256:016c953b1a5fec2f53bd148c126c3ba23ed7d22efbf3199bc3c589c91207c5ae
+size 272

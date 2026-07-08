@@ -1,30 +1,3 @@
--- DB update 2021_10_22_04 -> 2021_10_22_05
-DROP PROCEDURE IF EXISTS `updateDb`;
-DELIMITER //
-CREATE PROCEDURE updateDb ()
-proc:BEGIN DECLARE OK VARCHAR(100) DEFAULT 'FALSE';
-SELECT COUNT(*) INTO @COLEXISTS
-FROM information_schema.COLUMNS
-WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'version_db_world' AND COLUMN_NAME = '2021_10_22_04';
-IF @COLEXISTS = 0 THEN LEAVE proc; END IF;
-START TRANSACTION;
-ALTER TABLE version_db_world CHANGE COLUMN 2021_10_22_04 2021_10_22_05 bit;
-SELECT sql_rev INTO OK FROM version_db_world WHERE sql_rev = '1634407932513021400'; IF OK <> 'FALSE' THEN LEAVE proc; END IF;
---
--- START UPDATING QUERIES
---
-
-INSERT INTO `version_db_world` (`sql_rev`) VALUES ('1634407932513021400');
-
-UPDATE `creature_template` SET `AIName` = '', `ScriptName` = 'boss_baroness_anastari' WHERE `entry` = 10436;
-DELETE FROM `smart_scripts` WHERE `entryorguid` = 10436 AND `source_type` = 0;
-
---
--- END UPDATING QUERIES
---
-UPDATE version_db_world SET date = '2021_10_22_05' WHERE sql_rev = '1634407932513021400';
-COMMIT;
-END //
-DELIMITER ;
-CALL updateDb();
-DROP PROCEDURE IF EXISTS `updateDb`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:768e36093a137f653640f2722a1c543f6528e3ad3d02752b0caec70c6e37d094
+size 1105

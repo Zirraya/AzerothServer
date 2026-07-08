@@ -1,3 +1,3 @@
--- DB update 2026_03_25_05 -> 2026_03_25_06
--- Remove smoothTransition for Guardian of Life (33528)
-UPDATE `waypoint_data` SET `smoothTransition` = 0 WHERE `id` IN (1375280, 1375290, 1375300, 1375310);
+version https://git-lfs.github.com/spec/v1
+oid sha256:2e80f732d2b27597417ff3b47559592f949be5531b22e5ad5d818909775684c6
+size 202

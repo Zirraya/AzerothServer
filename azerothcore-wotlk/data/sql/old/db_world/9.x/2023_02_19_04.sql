@@ -1,7 +1,3 @@
--- DB update 2023_02_19_03 -> 2023_02_19_04
---
-UPDATE `creature_onkill_reputation` SET `MaxStanding1`=4 WHERE `creature_id` IN (18394,18429);
-DELETE FROM `creature_onkill_reputation` WHERE `creature_id` IN (20262,20252);
-INSERT INTO `creature_onkill_reputation` VALUES
-(20262,933,0,7,0,15,0,0,0,0),
-(20252,933,0,7,0,15,0,0,0,0);
+version https://git-lfs.github.com/spec/v1
+oid sha256:0f960bb990498105400a634b561295fb1279fc6413d86589170fee9ce1a20631
+size 329

@@ -1,3 +1,3 @@
--- DB update 2022_12_06_40 -> 2022_12_06_41
--- Add Plans: Copper Chain Vest
-UPDATE `quest_template` SET `RewardItem2` = 3609, `RewardAmount2` = 1 WHERE (`ID` = 1578);
+version https://git-lfs.github.com/spec/v1
+oid sha256:30dc46a6ab68d9f52360417fbd77ef8cc50ccb32d4d1befbbc44bcce182d583e
+size 167

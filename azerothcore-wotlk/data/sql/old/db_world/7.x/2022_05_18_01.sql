@@ -1,3 +1,3 @@
--- DB update 2022_05_18_00 -> 2022_05_18_01
---
-DELETE FROM `player_factionchange_quests` WHERE `alliance_id`=14111;
+version https://git-lfs.github.com/spec/v1
+oid sha256:28b18d12086d365fe3a0c29d02c87200632cdf9fea3cef556199b976dfd22696
+size 116

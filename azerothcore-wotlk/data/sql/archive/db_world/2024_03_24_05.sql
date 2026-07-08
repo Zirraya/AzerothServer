@@ -1,3 +1,3 @@
--- DB update 2024_03_24_04 -> 2024_03_24_05
--- change quest chaining issue #18055
-UPDATE `quest_template_addon` SET `PrevQuestID` = 9756 WHERE `ID` = 9759;
+version https://git-lfs.github.com/spec/v1
+oid sha256:7841b109d3a5536e66747152b36b9c1902cbd6d1bc1da94692452b9235907921
+size 156

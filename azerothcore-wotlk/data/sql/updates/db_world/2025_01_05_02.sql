@@ -1,7 +1,3 @@
--- DB update 2025_01_05_01 -> 2025_01_05_02
-
-DELETE FROM `creature_template_movement` WHERE `CreatureId` IN (25817, 25748);
-
-UPDATE `creature` SET `MovementType` = 0, `wander_distance` = 0 WHERE `id1` IN (25817, 25748);
--- set to 'sitting'
-UPDATE `creature_template_addon`SET `bytes1` = 1 WHERE `entry` IN (25817, 25748);
+version https://git-lfs.github.com/spec/v1
+oid sha256:2288fa16a8fa80b98cce878364914dce6778e844de7d76844c6a4da06523de6d
+size 322

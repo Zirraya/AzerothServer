@@ -1,5 +1,3 @@
--- DB update 2025_05_30_06 -> 2025_05_30_07
---
-DELETE FROM `command` WHERE `name` = 'group revive';
-INSERT INTO `command` (`name`, `security`, `help`) VALUES
-('group revive', 2, 'Syntax: .group revive\r\n\r\nRevives all players in your group.');
+version https://git-lfs.github.com/spec/v1
+oid sha256:19c51b941f62a4841cd8a3d1fece71d87d348a96779ca74b4902f4779b8efb16
+size 246

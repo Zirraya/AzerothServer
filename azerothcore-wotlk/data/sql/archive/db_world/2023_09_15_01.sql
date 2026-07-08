@@ -1,10 +1,3 @@
--- DB update 2023_09_15_00 -> 2023_09_15_01
-ALTER TABLE `player_class_stats`
-    ADD COLUMN `BaseHP` int unsigned NOT NULL DEFAULT '1' AFTER `Level`,
-    ADD COLUMN `BaseMana` int unsigned NOT NULL DEFAULT '1' AFTER `BaseHP`;
-
-UPDATE player_class_stats AS noo
-JOIN player_classlevelstats AS ole ON noo.Class = ole.class AND noo.Level = ole.level
-SET noo.BaseHP = ole.basehp, noo.BaseMana = ole.basemana;
-
-DROP TABLE IF EXISTS `player_classlevelstats`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:5a41e2ccdcdde64f2e4631774cf4fc610e2e8e769bb68d0ee9a348f3f24d853b
+size 452

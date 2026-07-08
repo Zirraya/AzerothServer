@@ -1,9 +1,3 @@
--- DB update 2022_04_28_00 -> 2022_05_24_00
-
-DROP TABLE IF EXISTS `instance_saved_go_state_data`;
-CREATE TABLE IF NOT EXISTS `instance_saved_go_state_data` (
-  `id` INT UNSIGNED NOT NULL COMMENT 'instance.id',
-  `guid` INT UNSIGNED NOT NULL COMMENT 'gameobject.guid',
-  `state` TINYINT UNSIGNED DEFAULT '0' COMMENT 'gameobject.state',
-  PRIMARY KEY (`id`, `guid`) USING BTREE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+version https://git-lfs.github.com/spec/v1
+oid sha256:ffc9d275eb71ee3cf6150a41b8212eff71f34bdf9468c6af99721ed270a5549f
+size 417

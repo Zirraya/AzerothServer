@@ -1,3 +1,3 @@
--- DB update 2023_09_13_00 -> 2023_09_14_00
---
-UPDATE `creature_template` SET `npcflag` = `npcflag` |1 WHERE `entry` IN (17469,17211,21748,21664,21750,21683,21747,21682,21726,21160,21752,21684);
+version https://git-lfs.github.com/spec/v1
+oid sha256:05fdcd3d5cae39cc629063da6cd2dc62b10746c083d07745bb09b07d6d861511
+size 195

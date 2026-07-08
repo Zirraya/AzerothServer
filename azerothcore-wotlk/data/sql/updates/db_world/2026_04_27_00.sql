@@ -1,4 +1,3 @@
--- DB update 2026_04_26_05 -> 2026_04_27_00
-
--- Change target to self.
-UPDATE `smart_scripts` SET `target_type` = 1 WHERE (`entryorguid` = 8400) AND (`source_type` = 0) AND (`id` IN (0));
+version https://git-lfs.github.com/spec/v1
+oid sha256:8e7ab680baea7366016924a2f7d9193c331459c642ecfe2666a7adc0c8b53648
+size 188

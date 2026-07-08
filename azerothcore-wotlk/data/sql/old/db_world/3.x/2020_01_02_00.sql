@@ -1,28 +1,3 @@
--- DB update 2019_12_31_00 -> 2020_01_02_00
-DROP PROCEDURE IF EXISTS `updateDb`;
-DELIMITER //
-CREATE PROCEDURE updateDb ()
-proc:BEGIN DECLARE OK VARCHAR(100) DEFAULT 'FALSE';
-SELECT COUNT(*) INTO @COLEXISTS
-FROM information_schema.COLUMNS
-WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'version_db_world' AND COLUMN_NAME = '2019_12_31_00';
-IF @COLEXISTS = 0 THEN LEAVE proc; END IF;
-START TRANSACTION;
-ALTER TABLE version_db_world CHANGE COLUMN 2019_12_31_00 2020_01_02_00 bit;
-SELECT sql_rev INTO OK FROM version_db_world WHERE sql_rev = '1577659546451711787'; IF OK <> 'FALSE' THEN LEAVE proc; END IF;
---
--- START UPDATING QUERIES
---
-
-INSERT INTO `version_db_world` (`sql_rev`) VALUES ('1577659546451711787');
-
-UPDATE `creature` SET `position_x` = 2347.43, `position_y` = -6767.51, `position_z` = 17.2098 WHERE `guid` = 35968;
-
---
--- END UPDATING QUERIES
---
-COMMIT;
-END //
-DELIMITER ;
-CALL updateDb();
-DROP PROCEDURE IF EXISTS `updateDb`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:b2fbaca4d0d9b868bf764548968190b290b2645b6989c0f8375d3b47104b91f7
+size 943

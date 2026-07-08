@@ -1,7 +1,3 @@
--- DB update 2025_07_15_01 -> 2025_07_18_00
---
-UPDATE `spell_proc_event` SET `ppmRate` = 1 WHERE `Entry` = 51123;
-UPDATE `spell_proc_event` SET `ppmRate` = 2 WHERE `Entry` = 51127;
-UPDATE `spell_proc_event` SET `ppmRate` = 3 WHERE `Entry` = 51128;
-UPDATE `spell_proc_event` SET `ppmRate` = 4 WHERE `Entry` = 51129;
-UPDATE `spell_proc_event` SET `ppmRate` = 5 WHERE `Entry` = 51130;
+version https://git-lfs.github.com/spec/v1
+oid sha256:f3fe0771572b81649391c35a75141b7b09db6cbd33b7d9ad00baeed3051550dc
+size 382

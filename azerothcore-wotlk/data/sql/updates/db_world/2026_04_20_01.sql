@@ -1,5 +1,3 @@
--- DB update 2026_04_20_00 -> 2026_04_20_01
--- Set Disable Gravity from Power Spark to Power Spark (1)
-DELETE FROM `creature_template_movement` WHERE (`CreatureId` = 32187);
-INSERT INTO `creature_template_movement` (`CreatureId`, `Ground`, `Swim`, `Flight`, `Rooted`, `Chase`, `Random`, `InteractionPauseTimer`) VALUES
-(32187, 0, 0, 1, 0, 0, 0, 0);
+version https://git-lfs.github.com/spec/v1
+oid sha256:897242ffdf09e4082931ca48de75ce7bfbf71fd90615f1f6b048540b3aca03cd
+size 349

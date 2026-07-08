@@ -1,3 +1,3 @@
--- DB update 2023_05_10_03 -> 2023_05_10_04
---
-UPDATE `creature_template` SET `faction` = 1822 WHERE (`entry` IN (21815, 21784));
+version https://git-lfs.github.com/spec/v1
+oid sha256:be9eb16c85d09acce6e110f570173958cebbcbbbf83a9c322f5fb3cdb92354de
+size 130

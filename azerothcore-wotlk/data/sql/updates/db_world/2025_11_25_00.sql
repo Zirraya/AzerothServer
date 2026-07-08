@@ -1,3 +1,3 @@
--- DB update 2025_11_24_03 -> 2025_11_25_00
--- Light Won't Grant Me Vengeance requires Crusader Forward Camp
-UPDATE `quest_template_addon` SET `PrevQuestID` = 12894 WHERE `ID` = 12904;
+version https://git-lfs.github.com/spec/v1
+oid sha256:39fef13b3693697b9ab5084397b2f21be4e75c2e3ae4e9988ebde7d6dfba0051
+size 185

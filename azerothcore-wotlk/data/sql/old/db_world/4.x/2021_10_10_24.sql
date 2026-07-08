@@ -1,30 +1,3 @@
--- DB update 2021_10_10_23 -> 2021_10_10_24
-DROP PROCEDURE IF EXISTS `updateDb`;
-DELIMITER //
-CREATE PROCEDURE updateDb ()
-proc:BEGIN DECLARE OK VARCHAR(100) DEFAULT 'FALSE';
-SELECT COUNT(*) INTO @COLEXISTS
-FROM information_schema.COLUMNS
-WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'version_db_world' AND COLUMN_NAME = '2021_10_10_23';
-IF @COLEXISTS = 0 THEN LEAVE proc; END IF;
-START TRANSACTION;
-ALTER TABLE version_db_world CHANGE COLUMN 2021_10_10_23 2021_10_10_24 bit;
-SELECT sql_rev INTO OK FROM version_db_world WHERE sql_rev = '1633565365065272800'; IF OK <> 'FALSE' THEN LEAVE proc; END IF;
---
--- START UPDATING QUERIES
---
-
-INSERT INTO `version_db_world` (`sql_rev`) VALUES ('1633565365065272800');
-
--- Door (Karazhan)
-UPDATE `gameobject` SET `map` = 0, `zoneId` = 0, `areaId` = 0 WHERE `guid` = 14033 AND `id` = 176578;
-
---
--- END UPDATING QUERIES
---
-UPDATE version_db_world SET date = '2021_10_10_24' WHERE sql_rev = '1633565365065272800';
-COMMIT;
-END //
-DELIMITER ;
-CALL updateDb();
-DROP PROCEDURE IF EXISTS `updateDb`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:5e678e453993041338df8669e0bebb03f0a35b416db5226aef1a8154f9122295
+size 1038

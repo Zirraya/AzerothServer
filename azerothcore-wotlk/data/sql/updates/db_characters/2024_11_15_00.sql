@@ -1,4 +1,3 @@
--- DB update 2024_09_22_00 -> 2024_11_15_00
-UPDATE `updates`
-SET `state` = 'ARCHIVED'
-WHERE `name` LIKE '2023_%';
+version https://git-lfs.github.com/spec/v1
+oid sha256:3feadcc58a76713c4b5898c3eb794310996450793d6d3dfd47aab873a6edf575
+size 114

@@ -1,3 +1,3 @@
--- DB update 2023_04_09_03 -> 2023_04_09_04
--- Pattern: Drums of Restoration
-DELETE FROM `reference_loot_template` WHERE `Entry`=24092 AND `Item`=29714;
+version https://git-lfs.github.com/spec/v1
+oid sha256:218dd4669d11b0092b5a4d3b432d0ed4fdff7c11888f4191ce9be12caab06ef9
+size 153

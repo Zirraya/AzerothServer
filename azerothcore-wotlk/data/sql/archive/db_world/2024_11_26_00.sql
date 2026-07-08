@@ -1,4 +1,3 @@
--- DB update 2024_11_25_01 -> 2024_11_26_00
---
--- Adds "Disarm" immunity to Creautre (Boss) "Nalorakk" - [Zul'Aman]
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask` | 4 WHERE `entry` = 23576;
+version https://git-lfs.github.com/spec/v1
+oid sha256:de88e4c779417076ff8d0561916fa9694f746b74b9a9b073ecafa03217d1fe6a
+size 222

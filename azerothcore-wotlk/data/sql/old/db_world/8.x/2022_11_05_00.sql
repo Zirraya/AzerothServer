@@ -1,3 +1,3 @@
--- DB update 2022_11_04_02 -> 2022_11_05_00
---
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask` & 0xFFFFFF7F;
+version https://git-lfs.github.com/spec/v1
+oid sha256:aa17a7f59f371a1427a56757f8fc0062b213f0fc440db58cfb22510671aa32a9
+size 140

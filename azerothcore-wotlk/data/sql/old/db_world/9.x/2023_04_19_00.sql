@@ -1,5 +1,3 @@
--- DB update 2023_04_18_03 -> 2023_04_19_00
--- Strider Clutchmother (2172)
-UPDATE `creature_formations` SET `groupAI`=`groupAI`|1 WHERE `leaderGUID`=36692 AND`memberGUID`=36692;
-UPDATE `creature_formations` SET `groupAI`=`groupAI`|1 WHERE `leaderGUID`=37385 AND`memberGUID`=36692;
-UPDATE `creature_formations` SET `groupAI`=`groupAI`|1 WHERE `leaderGUID`=37385 AND `memberGUID`=205803;
+version https://git-lfs.github.com/spec/v1
+oid sha256:102f8bae212f9ddd7550cb4450a0ba2e83497b11e205a8cdb55285911cf83bb1
+size 386

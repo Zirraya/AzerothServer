@@ -1,32 +1,3 @@
--- DB update 2016_10_14_02 -> 2016_10_23_00
-DROP PROCEDURE IF EXISTS `updateDb`;
-DELIMITER //
-CREATE PROCEDURE updateDb ()
-proc:BEGIN DECLARE OK VARCHAR(100) DEFAULT 'FALSE';
-START TRANSACTION;
-ALTER TABLE version_db_world CHANGE COLUMN 2016_10_14_02 2016_10_23_00 bit;
-SELECT sql_rev INTO OK FROM version_db_world WHERE sql_rev = '1477151458117544700'; IF OK <> 'FALSE' THEN LEAVE proc; END IF;
---
--- START UPDATING QUERIES
---
-INSERT INTO version_db_world(`sql_rev`) VALUES ('1477151458117544700');
-
-DELETE FROM `creature_loot_template` WHERE `entry` IN (6501, 6502, 6503, 6504, 9162, 9163, 9164) AND `item`=11114;
-
-INSERT INTO `creature_loot_template` (`entry`, `item`, `ChanceOrQuestChance`) VALUES
-(6501, 11114, 30),
-(6502, 11114, 30),
-(6503, 11114, 30),
-(6504, 11114, 30),
-(9162, 11114, 30),
-(9163, 11114, 30),
-(9164, 11114, 30);
---
--- END UPDATING QUERIES
---
-COMMIT;
-END;
-//
-DELIMITER ;
-CALL updateDb();
-DROP PROCEDURE IF EXISTS `updateDb`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:8108dea523453fec932a8c70dfe7fa1dd3593a420fceb293b80f11d0006204f8
+size 947

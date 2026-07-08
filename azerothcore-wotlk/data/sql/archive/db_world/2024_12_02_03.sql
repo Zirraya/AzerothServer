@@ -1,4 +1,3 @@
--- DB update 2024_12_02_02 -> 2024_12_02_03
---
--- Corrected Z-axis of Eydis Darkbane (to match Fjola Lightbane's Z-axis).
-UPDATE `creature` SET  `position_z` = 558.16 WHERE `guid` = 85120 AND `id1` = 36066;
+version https://git-lfs.github.com/spec/v1
+oid sha256:5f63b700ff84067e310a448b15d9bb8e4050ce61082cc3a6b54b677186d59a62
+size 207

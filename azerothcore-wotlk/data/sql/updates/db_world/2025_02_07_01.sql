@@ -1,4 +1,3 @@
--- DB update 2025_02_07_00 -> 2025_02_07_01
-
--- Thornvine Creeper skinloot
-UPDATE `creature_template` SET `skinloot` = 80007 WHERE (`entry` = 23874);
+version https://git-lfs.github.com/spec/v1
+oid sha256:6b26c367dae44907ff433b429d35f1503932e883bca77b7a1f0a85c646280e78
+size 150

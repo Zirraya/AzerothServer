@@ -1,3 +1,3 @@
--- DB update 2025_09_26_01 -> 2025_09_27_00
---
-UPDATE `quest_template_addon` SET `PrevQuestID` = 12863 WHERE (`ID` = 12865);
+version https://git-lfs.github.com/spec/v1
+oid sha256:ae9a2b64a6a5e49cb6a0837ee0c5c3842fa48739381776c97398c7bc09bf548d
+size 125

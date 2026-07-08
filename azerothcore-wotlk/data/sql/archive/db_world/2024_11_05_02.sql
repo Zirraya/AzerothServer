@@ -1,2 +1,3 @@
--- DB update 2024_11_05_01 -> 2024_11_05_02
-UPDATE `npc_vendor` SET `incrtime` = 300 WHERE `item` = 22909 AND `entry` IN (18005, 19837);
+version https://git-lfs.github.com/spec/v1
+oid sha256:9881f264200e8b8fbd989492f2f875bcab617ed534d4ff136b7019d4c014515d
+size 137

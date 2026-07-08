@@ -1,2 +1,3 @@
--- DB update 2024_08_28_04 -> 2024_08_28_05
-UPDATE `waypoint_data` SET `move_type` = 0 WHERE `id` IN (1486850, 1486860, 1486870, 1486880);
+version https://git-lfs.github.com/spec/v1
+oid sha256:4c8ee417efb3705959de526532fa7661d45449dc9ddecd5b4f13f3b8b6ca0527
+size 139

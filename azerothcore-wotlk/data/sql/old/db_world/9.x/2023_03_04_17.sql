@@ -1,3 +1,3 @@
--- DB update 2023_03_04_16 -> 2023_03_04_17
--- Franclorn Forgewright
-UPDATE `gossip_menu` SET `TextID` = 2319 WHERE `MenuID` = 1667;
+version https://git-lfs.github.com/spec/v1
+oid sha256:360593eecbd88874108fa0ae2cd8eb6b8239687c6180707698c2f0e67667bab3
+size 133

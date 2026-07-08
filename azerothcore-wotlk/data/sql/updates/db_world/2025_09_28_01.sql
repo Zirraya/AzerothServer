@@ -1,6 +1,3 @@
--- DB update 2025_09_28_00 -> 2025_09_28_01
---
-DELETE FROM `spell_cooldown_overrides` WHERE `Id` IN (56570, 56585);
-INSERT INTO `spell_cooldown_overrides` (`Id`, `RecoveryTime`, `CategoryRecoveryTime`, `StartRecoveryTime`, `StartRecoveryCategory`, `Comment`) VALUES
-(56570, 200, 200, 0, 0, 'Jotunheim Rapid-Fire Harpoon: Rapid-Fire Harpoon'),
-(56585, 30000, 30000, 0, 0, 'Jotunheim Rapid-Fire Harpoon: Energy Reserve');
+version https://git-lfs.github.com/spec/v1
+oid sha256:34f70791c9c4ddf770d4e4662e2d3a0e846f7d6427affe75124e99a631b5f12d
+size 420

@@ -1,5 +1,3 @@
--- DB update 2025_03_30_01 -> 2025_03_30_02
--- Removes "Rod of Lianthe" and "Nightmare Vine" from "Eclipsion Hawkstrider"'s Loot
-DELETE FROM `creature_loot_template` WHERE (`Entry` = 21627) AND (`Item` IN (22792, 31317));
-
-UPDATE `creature_template` SET `lootid` = 0 WHERE (`entry` = 21627);
+version https://git-lfs.github.com/spec/v1
+oid sha256:74edae6650fb9332cb5358b2dfe33e1627dd38fc1c548157a7b5a5e99e6187c9
+size 292

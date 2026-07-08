@@ -1,4 +1,3 @@
--- DB update 2022_06_29_05 -> 2022_06_30_00
---
-DELETE FROM `creature_template_movement` WHERE `CreatureId`=11502;
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:6ceca5bf68cfbda7a57136c0e305315adf3398f083d150a83d9b9158fe09a384
+size 115

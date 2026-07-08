@@ -1,6 +1,3 @@
--- DB update 2022_08_21_00 -> 2022_10_13_00
---
-DELETE FROM `updates` WHERE  `name`='Homebind_Orientation.sql';
-
-ALTER TABLE `character_homebind`
-	ADD COLUMN `posO` FLOAT NOT NULL DEFAULT '0' AFTER `posZ`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:9ad6233e25acbdd6637f1db6acf6a24c189fb0c3159b2ee419000a24f3d0babb
+size 205

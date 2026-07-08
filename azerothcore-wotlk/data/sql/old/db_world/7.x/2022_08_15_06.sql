@@ -1,3 +1,3 @@
--- DB update 2022_08_15_05 -> 2022_08_15_06
---
-UPDATE `gameobject_template_addon` SET `flags`=`flags`|1 WHERE `entry`=180619;
+version https://git-lfs.github.com/spec/v1
+oid sha256:de1047f525e8cfff063bf2c776ef5969d8b485bfc898abc94bbaa14278c37d39
+size 126

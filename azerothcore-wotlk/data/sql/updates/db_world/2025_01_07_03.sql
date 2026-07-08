@@ -1,3 +1,3 @@
--- DB update 2025_01_07_02 -> 2025_01_07_03
---
-DELETE FROM `conditions` WHERE (`SourceTypeOrReferenceId` = 17) AND (`SourceGroup` = 0) AND (`SourceEntry` IN (17160, 17159));
+version https://git-lfs.github.com/spec/v1
+oid sha256:725d2018ce5e5b4e9ecf213830b841598a41a53d79fae61593e6fa87a4c4cf13
+size 174

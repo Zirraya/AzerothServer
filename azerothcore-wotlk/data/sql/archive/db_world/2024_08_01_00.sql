@@ -1,2 +1,3 @@
--- DB update 2024_07_31_00 -> 2024_08_01_00
-DELETE FROM `spell_script_names` WHERE `spell_id` = 32014;
+version https://git-lfs.github.com/spec/v1
+oid sha256:b4c006e0e1530f31cc4a1feaed7e194c55471b2ff916d07cca7f485b3ed107cf
+size 103

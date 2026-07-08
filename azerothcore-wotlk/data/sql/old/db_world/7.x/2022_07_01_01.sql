@@ -1,3 +1,3 @@
--- DB update 2022_07_01_00 -> 2022_07_01_01
---
-UPDATE `smart_scripts` SET `event_param1` = 5000, `event_param2` = 5000 WHERE `entryorguid` IN (15203, 15204, 15205, 15305) AND `event_type` = 1;
+version https://git-lfs.github.com/spec/v1
+oid sha256:6ec54d6fe1ee289ce4c1e02e1c466769b6c152468eb44143ee351b998d766787
+size 193

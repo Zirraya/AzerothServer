@@ -1,3 +1,3 @@
--- DB update 2024_11_15_01 -> 2024_11_15_02
--- remove trigger flag from 26594 Spiritual Insight Transform
-UPDATE `creature_template` SET `flags_extra` = (`flags_extra` & ~128) WHERE (`entry` = 26594);
+version https://git-lfs.github.com/spec/v1
+oid sha256:ca8841a3c49579295a254c1a43fc080f341921b442996d38297ae1b1c6cc8041
+size 201

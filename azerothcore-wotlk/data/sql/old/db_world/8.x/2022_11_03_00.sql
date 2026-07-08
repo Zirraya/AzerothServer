@@ -1,3 +1,3 @@
--- DB update 2022_11_02_01 -> 2022_11_03_00
---
-UPDATE `gameobject` SET `spawntimesecs`=0 WHERE `id` IN (184466, 185302) AND `guid` IN (25331, 28524);
+version https://git-lfs.github.com/spec/v1
+oid sha256:7a38781f21708ced6ae225cde118a645aca2d2555ef03f8927735e1254c2865e
+size 150

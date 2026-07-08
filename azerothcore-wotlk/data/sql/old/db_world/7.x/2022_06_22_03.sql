@@ -1,7 +1,3 @@
--- DB update 2022_06_22_02 -> 2022_06_22_03
---
-DELETE FROM `command` WHERE `name` IN ("deserter instance remove all", "deserter bg remove all");
-
-INSERT INTO `command` (`name`, `security`, `help`) VALUES
-("deserter instance remove all", 3, "Syntax: .deserter instance remove all <$maxDuration>\r\n Removes the instance deserter debuff from all online and offline players.\nOptional $maxDuration sets the maximum duration to be removed. Use a timestring like \"1h45m\". \"-1\" for any duration. Default: 30m"),
-("deserter bg remove all", 3, "Syntax: .deserter bg remove all <$maxDuration>\r\n Removes the bg deserter debuff from all online and offline players.\nOptional $maxDuration sets the maximum duration to be removed. Use a timestring like \"1h45m\". \"-1\" for any duration. Default: 15m");
+version https://git-lfs.github.com/spec/v1
+oid sha256:e60dab8ac128cfbaaa21efc90db377520a65070c867e3a13af4f0442e556ff07
+size 797

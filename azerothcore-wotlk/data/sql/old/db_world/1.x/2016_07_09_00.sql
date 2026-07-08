@@ -1,3 +1,3 @@
-CREATE TABLE `world_db_version` (
-  `2016_07_09_00` BIT(1) DEFAULT NULL
-) ENGINE=MYISAM DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='Last applied sql update to DB';
+version https://git-lfs.github.com/spec/v1
+oid sha256:56d01b655b6ff225280ede5f16d5284a120fc9d588d4ad11e5845375c7ede663
+size 169

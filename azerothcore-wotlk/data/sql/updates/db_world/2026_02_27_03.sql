@@ -1,6 +1,3 @@
--- DB update 2026_02_27_02 -> 2026_02_27_03
--- Cobra Strikes spell script bindings
-DELETE FROM `spell_script_names` WHERE `spell_id` IN (-53256, 53257);
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(-53256, 'spell_hun_cobra_strikes'),
-(53257, 'spell_hun_cobra_strikes_triggered');
+version https://git-lfs.github.com/spec/v1
+oid sha256:77085b41f80357a0a36d87e6286abe87c8065cb0bed3939e5816b0e4e73be501
+size 303

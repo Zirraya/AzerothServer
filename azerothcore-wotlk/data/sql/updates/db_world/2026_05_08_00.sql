@@ -1,3 +1,3 @@
--- DB update 2026_05_07_01 -> 2026_05_08_00
-UPDATE `conditions` SET `ConditionTypeOrReference` = 25 WHERE `SourceTypeOrReferenceId` = 14 AND `SourceGroup` = 1945 AND `SourceEntry` = 2605 AND `ConditionTypeOrReference` = 16 AND `ConditionValue1` = 14891 AND `NegativeCondition` = 1;
-UPDATE `conditions` SET `ConditionTypeOrReference` = 25 WHERE `SourceTypeOrReferenceId` = 15 AND `SourceGroup` = 1945 AND `SourceEntry` = 0 AND `ConditionTypeOrReference` = 16 AND `ConditionValue1` = 14891 AND `NegativeCondition` = 1;
+version https://git-lfs.github.com/spec/v1
+oid sha256:741d2d591e08332cbf49a9f9a494f26747b3ad9c5f31fea196e576c78c353335
+size 517

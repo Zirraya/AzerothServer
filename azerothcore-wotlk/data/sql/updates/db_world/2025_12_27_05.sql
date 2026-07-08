@@ -1,6 +1,3 @@
--- DB update 2025_12_27_04 -> 2025_12_27_05
--- Delete from Naxxramas References (was alongside recipes)
-DELETE FROM `reference_loot_template` WHERE `Entry` = 35081 AND `Item` = 34052;
-
--- Delete Small Dream Shard from loose creatures
-DELETE FROM `creature_loot_template` WHERE `Entry` IN (24791, 25686) AND `Item` = 34053 AND `Reference` = 0;
+version https://git-lfs.github.com/spec/v1
+oid sha256:4f4b85be28a4ce75c144d71bc0fe1e3be7fa5a662aa0ab97053ee4cd19fa1940
+size 343

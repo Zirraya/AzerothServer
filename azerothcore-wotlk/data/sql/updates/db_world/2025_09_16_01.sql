@@ -1,3 +1,3 @@
--- DB update 2025_09_16_00 -> 2025_09_16_01
--- Changed restock value from 2.5 hours (9000) to 30 mins (1800)
-UPDATE `npc_vendor` SET `incrtime` = 1800 WHERE `entry` = 14860 AND `item` = 11027;
+version https://git-lfs.github.com/spec/v1
+oid sha256:ad2e2d605deff7fe92e81bcd5290779a6e899cc8bf80bd84d25a47ccaaca10bd
+size 193

@@ -1,5 +1,3 @@
--- DB update 2025_12_18_03 -> 2025_12_18_04
---
-DELETE FROM `spell_script_names` WHERE `ScriptName` = 'spell_gen_26pct_count_pct_from_max_hp' AND `spell_id` = 29879;
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(29879, 'spell_gen_26pct_count_pct_from_max_hp');
+version https://git-lfs.github.com/spec/v1
+oid sha256:db9820b6cea4a3201a2c4db60c67a1124faf497c1b26121352b343ad6e384588
+size 282

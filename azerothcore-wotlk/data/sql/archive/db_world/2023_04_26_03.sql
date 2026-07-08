@@ -1,5 +1,3 @@
--- DB update 2023_04_26_02 -> 2023_04_26_03
--- Tortured Skeletons flags
-UPDATE `creature_template` SET `unit_flags` = `unit_flags`&~33554432 WHERE (`entry` = 20662);
--- Most gameobjects were missing Heroic spawns
-UPDATE `gameobject` SET `spawnMask` = `spawnMask`|2 WHERE `map` = 555 AND `id` NOT IN (184196);
+version https://git-lfs.github.com/spec/v1
+oid sha256:fb991367cd05c41066e76b33f8d246b42dce605cd2eaa7aae4e2e641cb1bd146
+size 309

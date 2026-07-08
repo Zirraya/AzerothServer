@@ -1,3 +1,3 @@
--- DB update 2023_11_07_02 -> 2023_11_07_03
--- Gargantuan Abyssal
-UPDATE `smart_scripts` SET `target_param2` = 1 WHERE `entryorguid` = 20898 AND `source_type` = 0 AND `id` = 1;
+version https://git-lfs.github.com/spec/v1
+oid sha256:cb3203012e5aa90a7793177d9ffefd37232f38510e6998353381c2faabf6d132
+size 177

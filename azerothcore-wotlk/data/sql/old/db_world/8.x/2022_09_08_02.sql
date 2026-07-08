@@ -1,7 +1,3 @@
--- DB update 2022_09_08_01 -> 2022_09_08_02
---
-DELETE FROM `reference_loot_template` WHERE `Entry`=34024 AND `Item` BETWEEN 21281 AND 21283;
-INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Chance`, `GroupId`, `Comment`) VALUES
-(34024, 21281, 0, 3, 'Grimoire of Shadow Bolt X'),
-(34024, 21282, 0, 3, 'Grimoire of Immolate VIII'),
-(34024, 21283, 0, 3, 'Grimoire of Corruption VII');
+version https://git-lfs.github.com/spec/v1
+oid sha256:f3fa3fd1b8b4ac6823a9602296e149d2ddbee97b295198c54b6e2fa9f163f9ad
+size 390

@@ -1,3 +1,3 @@
--- DB update 2023_03_24_04 -> 2023_03_24_05
--- Remove (71) Darkmoon Faire Building (Mulgore) gameobjects from (24) Brewfest
-DELETE FROM `game_event_gameobject` WHERE `eventEntry` = 24 AND `guid` IN (31919,31918,31916,31915,31914,31913,31912,31879,31878,31877,31876,31875,31874,31872);
+version https://git-lfs.github.com/spec/v1
+oid sha256:3daa82d4ac85697f1629a73970850f8dd46cca4ed81ccfbea767aaae9ad79457
+size 285

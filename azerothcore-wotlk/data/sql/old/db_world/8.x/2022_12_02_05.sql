@@ -1,3 +1,3 @@
--- DB update 2022_12_02_04 -> 2022_12_02_05
---
-UPDATE `quest_offer_reward_locale` SET `RewardText` = 'Bien, bien, $n. No sé si esto es de buena calidad, pero si Zurdibrujo quería algo más específico, tenía que haberlo dejado claro antes de enviar a los Reivindicadores  aquí fuera.$B$B¿Qué te pareces si te pones con el siguiente objeto de su lista?' WHERE `ID` = 1458 AND `locale` IN ('esMX', 'esES');
+version https://git-lfs.github.com/spec/v1
+oid sha256:539eb3fb5fc2150d503ce3aadaea6139432f3ddbed5bdd57185456b152d17db5
+size 411

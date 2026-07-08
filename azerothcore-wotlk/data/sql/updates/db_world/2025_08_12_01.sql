@@ -1,6 +1,3 @@
--- DB update 2025_08_12_00 -> 2025_08_12_01
--- Anub'ar Guardian - Sunder Armor, Sunder Armor(H)
-DELETE FROM `spell_custom_attr` WHERE `spell_id` IN (53618, 59350);
-INSERT INTO `spell_custom_attr` (`spell_id`, `attributes`) VALUES
-(53618, 4194304),
-(59350, 4194304);
+version https://git-lfs.github.com/spec/v1
+oid sha256:a268154ca417b93b9d29bae9ca6db50721013ce6c045d248e85d163718719360
+size 266

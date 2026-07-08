@@ -1,5 +1,3 @@
--- DB update 2024_06_26_04 -> 2024_06_26_05
--- Raise Dead
-DELETE FROM `spell_cooldown_overrides` WHERE `Id`=34019;
-INSERT INTO `spell_cooldown_overrides` (`Id`, `RecoveryTime`, `CategoryRecoveryTime`, `StartRecoveryTime`, `StartRecoveryCategory`, `Comment`) VALUES
-(34019, 60000, 60000, 0, 0, 'Bleeding Hollow Necrolyte - Raise Dead');
+version https://git-lfs.github.com/spec/v1
+oid sha256:a209f6279b1071e389ff6c41d6ff744ec921d1a02e585165b675c951c967cf78
+size 336

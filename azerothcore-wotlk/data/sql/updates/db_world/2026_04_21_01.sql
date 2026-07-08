@@ -1,6 +1,3 @@
--- DB update 2026_04_21_00 -> 2026_04_21_01
---
--- Mai'ah the mage trainer only trains up to level 6
-UPDATE `creature_default_trainer` SET `TrainerId` = 17 WHERE (`CreatureId` = 5884);
--- Shanda night elf priest trainer only trainers up to level 6
-UPDATE `creature_default_trainer` SET `TrainerId` = 12 WHERE (`CreatureId` = 3595);
+version https://git-lfs.github.com/spec/v1
+oid sha256:4ff6134a2b98d7ab1e204faeede3d2ff78d9cb54beeb580566a4e4489fa64097
+size 331

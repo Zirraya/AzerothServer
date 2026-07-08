@@ -1,3 +1,3 @@
--- DB update 2023_01_25_00 -> 2023_01_25_01
-DELETE FROM `player_class_stats` WHERE `class` = 6 AND `level` < 55;
-DELETE FROM `player_classlevelstats` WHERE `class` = 6 AND `level` < 55;
+version https://git-lfs.github.com/spec/v1
+oid sha256:66016bf2edd53ff1e26eebacf010d5dbc529ae984c012131f9ca8789dd807eac
+size 186

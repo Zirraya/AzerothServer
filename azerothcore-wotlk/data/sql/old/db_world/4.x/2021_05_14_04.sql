@@ -1,29 +1,3 @@
--- DB update 2021_05_14_03 -> 2021_05_14_04
-DROP PROCEDURE IF EXISTS `updateDb`;
-DELIMITER //
-CREATE PROCEDURE updateDb ()
-proc:BEGIN DECLARE OK VARCHAR(100) DEFAULT 'FALSE';
-SELECT COUNT(*) INTO @COLEXISTS
-FROM information_schema.COLUMNS
-WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'version_db_world' AND COLUMN_NAME = '2021_05_14_03';
-IF @COLEXISTS = 0 THEN LEAVE proc; END IF;
-START TRANSACTION;
-ALTER TABLE version_db_world CHANGE COLUMN 2021_05_14_03 2021_05_14_04 bit;
-SELECT sql_rev INTO OK FROM version_db_world WHERE sql_rev = '1620586666463013100'; IF OK <> 'FALSE' THEN LEAVE proc; END IF;
---
--- START UPDATING QUERIES
---
-
-INSERT INTO `version_db_world` (`sql_rev`) VALUES ('1620586666463013100');
-
--- Imp - Felhunter - Voidwalker - Succubus --
-UPDATE `creature_template` SET `InhabitType` = 3 WHERE `entry` IN (416, 417, 1860, 1863);
-
---
--- END UPDATING QUERIES
---
-COMMIT;
-END //
-DELIMITER ;
-CALL updateDb();
-DROP PROCEDURE IF EXISTS `updateDb`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:72abcd04bd72feb1f926d97fb82356755c355895f10a2ecf6fb9cfe341795284
+size 963

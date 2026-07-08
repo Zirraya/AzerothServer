@@ -1,3 +1,3 @@
--- DB update 2024_12_28_02 -> 2024_12_29_00
-UPDATE `gossip_menu` SET `TextID` = 7786 WHERE `MenuID` = 12002 AND `TextID` = 50030;
-DELETE FROM `npc_text` WHERE `ID` = 50030;
+version https://git-lfs.github.com/spec/v1
+oid sha256:4c45416512af4a148eb582cf7ce5fb196dfbe7a64d92d6b19632a273ac3e8d1f
+size 173

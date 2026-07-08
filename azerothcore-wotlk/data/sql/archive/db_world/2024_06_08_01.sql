@@ -1,5 +1,3 @@
--- DB update 2024_06_08_00 -> 2024_06_08_01
---
-DELETE FROM `spell_script_names` WHERE `spell_id` = 32014;
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(32014, 'spell_air_burst');
+version https://git-lfs.github.com/spec/v1
+oid sha256:ae8c1f1ee5e72ece114806cde70b68f3bd39554c626c8c4b8690dabe8e14e220
+size 201

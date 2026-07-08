@@ -1,5 +1,3 @@
--- DB update 2022_08_27_05 -> 2022_08_27_06
---
-
-DELETE FROM `creature_loot_template` WHERE item =23198 AND entry !=10435; -- Magistrate Barthilas
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:41440c02cc2e2acc1ddf05462cfbc7f40bda79dd80bbdea284bccc01c3f756f6
+size 147

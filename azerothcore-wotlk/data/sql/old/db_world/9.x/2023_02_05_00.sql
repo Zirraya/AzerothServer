@@ -1,5 +1,3 @@
--- DB update 2023_02_04_03 -> 2023_02_05_00
---
-DELETE FROM `smart_scripts` WHERE `entryorguid`=17626 AND `source_type`=0 AND `id`=3;
-INSERT INTO `smart_scripts` VALUES
-(17626,0,3,0,0,0,100,0,5000,12000,25000,35000,0,11,18765,0,0,0,0,0,1,0,0,0,0,0,0,0,0,'Laughing Skull Legionnaire - In Combat - Cast Sweeping Strikes');
+version https://git-lfs.github.com/spec/v1
+oid sha256:ad958c6cc2f8b0fe768e3dfd6ed98160c936bcf3b981cb259b72dc16458c1b09
+size 320

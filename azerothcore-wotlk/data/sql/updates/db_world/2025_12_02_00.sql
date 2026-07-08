@@ -1,4 +1,3 @@
--- DB update 2025_12_01_05 -> 2025_12_02_00
-
--- Remove double spawn point
-DELETE FROM `creature` WHERE (`id1` = 32250) AND (`guid` IN (125031));
+version https://git-lfs.github.com/spec/v1
+oid sha256:fb7a97ee6ace21ba618087b35eb120a52d2d681dfc503e217f554432ca8bd270
+size 145

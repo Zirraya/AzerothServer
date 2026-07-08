@@ -1,5 +1,3 @@
--- DB update 2022_08_27_08 -> 2022_08_28_00
---
-DELETE FROM `spell_script_names` WHERE `spell_id`=24905;
-INSERT INTO `spell_script_names` VALUES
-(24905,'spell_dru_moonkin_form_passive_proc');
+version https://git-lfs.github.com/spec/v1
+oid sha256:7fb4ae6a04cd1c3a5763ef912934c0351dd1841a3f8cf579500f86210c8e0afa
+size 191

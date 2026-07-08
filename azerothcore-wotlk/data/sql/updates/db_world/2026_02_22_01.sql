@@ -1,3 +1,3 @@
--- DB update 2026_02_22_00 -> 2026_02_22_01
---
-UPDATE `gameobject_template` SET `ScriptName` = '' WHERE `entry` IN (193958, 193960) AND `ScriptName` = 'go_the_focusing_iris';
+version https://git-lfs.github.com/spec/v1
+oid sha256:e33d8b0de70f5551f958d05206e6a930d0f40a17c5b1b32a5f5a0a3849464262
+size 175

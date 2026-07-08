@@ -1,2 +1,3 @@
--- DB update 2023_01_28_06 -> 2023_01_28_07
-UPDATE `gameobject_template` SET `type` = 2 WHERE `entry` = 180717;
+version https://git-lfs.github.com/spec/v1
+oid sha256:444efcd1655fbd56fd6f28e97baaee978d614a743f7be0aa4b9dcbc2c81ef47d
+size 112

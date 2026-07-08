@@ -1,3 +1,3 @@
--- DB update 2024_07_09_15 -> 2024_07_09_16
--- Sturdy Plate
-UPDATE `creature_template` SET `unit_flags` = `unit_flags`|33554432 WHERE (`entry` = 32839);
+version https://git-lfs.github.com/spec/v1
+oid sha256:cd87b4c47f48a668b434c83cad45aa60a2787b232d28c98681b623b5a564f7ff
+size 153

@@ -1,5 +1,3 @@
--- DB update 2022_08_01_08 -> 2022_08_01_09
---
-UPDATE `creature` SET `wander_distance`=16, `MovementType`=1 WHERE  `guid`=21773;
-UPDATE `creature` SET `wander_distance`=18, `MovementType`=1 WHERE  `guid`=21774;
-UPDATE `creature` SET `wander_distance`=15, `MovementType`=1 WHERE  `guid`=21775;
+version https://git-lfs.github.com/spec/v1
+oid sha256:4535f59ffc6139172e31a9d1e5ade06e7a28a768f468ed5ed915e96c52939fad
+size 293

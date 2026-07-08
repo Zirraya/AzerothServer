@@ -1,29 +1,3 @@
--- DB update 2022_03_02_04 -> 2022_03_02_05
-DROP PROCEDURE IF EXISTS `updateDb`;
-DELIMITER //
-CREATE PROCEDURE updateDb ()
-proc:BEGIN DECLARE OK VARCHAR(100) DEFAULT 'FALSE';
-SELECT COUNT(*) INTO @COLEXISTS
-FROM information_schema.COLUMNS
-WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'version_db_world' AND COLUMN_NAME = '2022_03_02_04';
-IF @COLEXISTS = 0 THEN LEAVE proc; END IF;
-START TRANSACTION;
-ALTER TABLE version_db_world CHANGE COLUMN 2022_03_02_04 2022_03_02_05 bit;
-SELECT sql_rev INTO OK FROM version_db_world WHERE sql_rev = '1645984331813574600'; IF OK <> 'FALSE' THEN LEAVE proc; END IF;
---
--- START UPDATING QUERIES
---
-
-INSERT INTO `version_db_world` (`sql_rev`) VALUES ('1645984331813574600');
-
-UPDATE `creature` SET `position_x`=-7483.79, `position_y`=-1015.99, `position_z`=408.652, `orientation`=4.69494 WHERE `id1`=13020;
-
---
--- END UPDATING QUERIES
---
-UPDATE version_db_world SET date = '2022_03_02_05' WHERE sql_rev = '1645984331813574600';
-COMMIT;
-END //
-DELIMITER ;
-CALL updateDb();
-DROP PROCEDURE IF EXISTS `updateDb`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:9430d5013b99b7e5abb17f6c3652972284db15495e5d93f07afd58b3a1907cf5
+size 1048

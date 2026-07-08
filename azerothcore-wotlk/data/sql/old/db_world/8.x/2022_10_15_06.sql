@@ -1,5 +1,3 @@
--- DB update 2022_10_15_05 -> 2022_10_15_06
---
--- Remove skinning loot from Giant Buzzard
-UPDATE `creature_template` SET `skinloot` = 0 WHERE `entry` = 2831;
-DELETE FROM `skinning_loot_template` WHERE `Entry` = 2831;
+version https://git-lfs.github.com/spec/v1
+oid sha256:32418282e1b20e5411f947cf8c838a44da07321136c8f1aebd21cc2bfd4d71e5
+size 217

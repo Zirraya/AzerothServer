@@ -1,3 +1,3 @@
--- DB update 2023_06_01_01 -> 2023_06_01_02
---
-UPDATE `smart_scripts` SET `action_param1` = 768 WHERE `entryorguid` IN (-151090, -151091, -151092, -151093) AND `source_type` = 0;
+version https://git-lfs.github.com/spec/v1
+oid sha256:57213fb789713b84813c10b44232f3de5b105c20f7bbb821a6ecaf5d1a71cffd
+size 179

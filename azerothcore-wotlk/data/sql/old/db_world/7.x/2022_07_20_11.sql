@@ -1,6 +1,3 @@
--- DB update 2022_07_20_10 -> 2022_07_20_11
---
-DELETE FROM `spell_script_names` WHERE `spell_id` = 25371 AND `ScriptName` = 'spell_consume_aq20';
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES (25371, 'spell_consume_aq20');
-DELETE FROM `spell_script_names` WHERE `spell_id` = 25373 AND `ScriptName` = 'spell_gen_10pct_count_pct_from_max_hp';
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES (25373, 'spell_gen_10pct_count_pct_from_max_hp');
+version https://git-lfs.github.com/spec/v1
+oid sha256:ac04795d389301f71ee9055a3c6da03ca073341ffe094f24308a23c499250424
+size 479

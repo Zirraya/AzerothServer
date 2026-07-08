@@ -1,4 +1,3 @@
--- DB update 2026_03_26_00 -> 2026_03_26_01
-
--- Set Extra Flag Ignore Pathfinding
-UPDATE `creature_template` SET `flags_extra` = `flags_extra` |536871042 WHERE (`entry` = 30616);
+version https://git-lfs.github.com/spec/v1
+oid sha256:8b95847e186fdc4d54983677ab15ddad428851ba5bf1e42b56885d9f6bb5afe4
+size 179

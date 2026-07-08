@@ -1,5 +1,3 @@
--- DB update 2024_08_26_00 -> 2024_08_26_01
---
-DELETE FROM `spell_script_names` WHERE `spell_id` = 41360;
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(41360, 'spell_black_temple_l5_arcane_charge');
+version https://git-lfs.github.com/spec/v1
+oid sha256:6a60c3371abdb7a55e44317a263e0957df79687e99bd9a3e5c4bded464e3f4f3
+size 221

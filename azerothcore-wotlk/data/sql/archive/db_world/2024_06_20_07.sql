@@ -1,5 +1,3 @@
--- DB update 2024_06_20_06 -> 2024_06_20_07
---
-DELETE FROM `conditions` WHERE (`SourceTypeOrReferenceId` = 13) AND (`SourceGroup` = 4) AND (`SourceEntry` = 16609);
-INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry`, `SourceId`, `ElseGroup`, `ConditionTypeOrReference`, `ConditionTarget`, `ConditionValue1`, `ConditionValue2`, `ConditionValue3`, `NegativeCondition`, `ErrorType`, `ErrorTextId`, `ScriptName`, `Comment`) VALUES
-(13, 4, 16609, 0, 0, 6, 0, 67, 0, 0, 0, 0, 0, '', 'Warchief\'s Blessing - Player must be Horde');
+version https://git-lfs.github.com/spec/v1
+oid sha256:e49901ce0580f52dc7f3d8a910983c858dee6db7397468097e1faeadba6449c7
+size 555

@@ -1,3 +1,3 @@
--- DB update 2025_11_25_00 -> 2025_11_25_01
--- Makes the quest "Remember Everfrost" repetable
-UPDATE `quest_template_addon` SET `SpecialFlags` = `SpecialFlags` | 1 WHERE `ID` = 13421;
+version https://git-lfs.github.com/spec/v1
+oid sha256:e2d5eebe6eda695addc736f7ebd108b58076f8ac28d8efbf10a6125b56b03a08
+size 184

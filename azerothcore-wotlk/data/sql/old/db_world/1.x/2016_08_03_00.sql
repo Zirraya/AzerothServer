@@ -1,3 +1,3 @@
-ALTER TABLE world_db_version CHANGE COLUMN 2016_08_01_00 2016_08_03_00 bit;
-
-DELETE from spell_area where spell = 60815  and area = 14;
+version https://git-lfs.github.com/spec/v1
+oid sha256:7d71c0435d3af6f2b3c53d3c9f0d8bb4f0c33884725eec93494e1add51624d4d
+size 136

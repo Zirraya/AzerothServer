@@ -1,2 +1,3 @@
--- DB update 2023_09_10_01 -> 2023_09_11_00
-UPDATE `creature_template_spell` SET `VerifiedBuild` = 0 WHERE `CreatureID` IN (17211, 17469, 21160, 21664, 21682, 21683, 21684, 21726, 21747, 21748, 21750, 21752);
+version https://git-lfs.github.com/spec/v1
+oid sha256:1d757b8787252207f3346e76203afde844a54830e86fdf4fcbf1838dee58074d
+size 209

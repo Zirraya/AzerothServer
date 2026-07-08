@@ -1,4 +1,3 @@
--- DB update 2024_11_06_03 -> 2024_11_06_04
---
-DELETE FROM `spell_script_names` WHERE `spell_id`=24323 AND `ScriptName`='spell_blood_siphon_aura';
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES (24323, 'spell_blood_siphon_aura');
+version https://git-lfs.github.com/spec/v1
+oid sha256:07322a400f255591f8466c2cf8efcd8c01d3965f4455345380e0214577505d46
+size 250

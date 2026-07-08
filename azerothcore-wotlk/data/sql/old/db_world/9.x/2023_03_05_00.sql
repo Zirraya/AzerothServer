@@ -1,3 +1,3 @@
--- DB update 2023_03_04_17 -> 2023_03_05_00
---
-UPDATE `creature_template` SET `ScriptName` = 'boss_thorngrin_the_tender' WHERE `entry` = 17978;
+version https://git-lfs.github.com/spec/v1
+oid sha256:b0d8f533badc6e45006f96c2542f83b85f3d9f790d30bdcf37f7e8297befedd2
+size 144

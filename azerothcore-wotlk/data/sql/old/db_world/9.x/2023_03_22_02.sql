@@ -1,10 +1,3 @@
--- DB update 2023_03_22_01 -> 2023_03_22_02
---
-DELETE FROM `spell_script_names` WHERE `ScriptName` = 'spell_item_goblin_weather_machine';
-DELETE FROM `spell_script_names` WHERE `ScriptName` = 'spell_item_goblin_weather_machine_aura';
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(46203, 'spell_item_goblin_weather_machine'),
-(46736, 'spell_item_goblin_weather_machine_aura'),
-(46738, 'spell_item_goblin_weather_machine_aura'),
-(46739, 'spell_item_goblin_weather_machine_aura'),
-(46740, 'spell_item_goblin_weather_machine_aura');
+version https://git-lfs.github.com/spec/v1
+oid sha256:51668b3d4baab04de7da963d11218b4b28ae15c0ef5a661ce830a142a88878cd
+size 551

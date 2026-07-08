@@ -1,2 +1,3 @@
--- DB update 2023_05_13_02 -> 2023_05_13_03
-UPDATE `smart_scripts` SET `action_type`=9, `comment`='Rhahk\'Zor - On Just Died - Activate Gameobject' WHERE `entryorguid`=644 AND `source_type`=0 AND `id`=2 AND `link`=3;
+version https://git-lfs.github.com/spec/v1
+oid sha256:38543a1f058db6150a4c3b56f523afd521d0850905f8a3725871e3bdded78706
+size 217

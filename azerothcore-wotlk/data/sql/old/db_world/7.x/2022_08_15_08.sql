@@ -1,5 +1,3 @@
--- DB update 2022_08_15_07 -> 2022_08_15_08
---
-UPDATE `creature_template` SET `unit_flags` = `unit_flags` | 33554432, `ScriptName` = 'npc_dirt_mound' WHERE `entry` = 15712;
-
-UPDATE `gameobject_template_addon` SET `flags` = `flags` | 16 WHERE `entry` = 180795;
+version https://git-lfs.github.com/spec/v1
+oid sha256:19fc0c9c496f1e1846580bc8ff7a99b694608a07f4f6b22c260b63e39331d6aa
+size 260

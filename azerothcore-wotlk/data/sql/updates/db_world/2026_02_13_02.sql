@@ -1,5 +1,3 @@
--- DB update 2026_02_13_01 -> 2026_02_13_02
-DELETE FROM `creature_queststarter` WHERE (`quest` = 1823) AND (`id` IN (3041, 4595));
-INSERT INTO `creature_queststarter` (`id`, `quest`) VALUES
-(3041, 1823),
-(4595, 1823);
+version https://git-lfs.github.com/spec/v1
+oid sha256:15cc5095792d189061cd354955e0fadc54c4fac67ee226327abf916810f89edd
+size 218

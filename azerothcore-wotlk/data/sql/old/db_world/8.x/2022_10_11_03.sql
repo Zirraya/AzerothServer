@@ -1,10 +1,3 @@
--- DB update 2022_10_11_02 -> 2022_10_11_03
---
-DELETE FROM `pool_creature` WHERE `pool_entry`=1004 AND `guid` IN (33621, 34520);
-INSERT INTO `pool_creature` (`guid`, `pool_entry`, `description`) VALUES
-(33621, 1004, 'Spawn of Hakkar (5708) - Spawn 1'),
-(34520, 1004, 'Spawn of Hakkar (5708) - Spawn 2');
-
-DELETE FROM `pool_template` WHERE `entry`=1004;
-INSERT INTO `pool_template` (`entry`, `max_limit`, `description`) VALUES
-(1004, 1, 'Spawn of Hakkar (5708)');
+version https://git-lfs.github.com/spec/v1
+oid sha256:20ef5d6223d9c2a982dc006eee6269a66cd06d1da5b445cbc167f3aed41fff2d
+size 463

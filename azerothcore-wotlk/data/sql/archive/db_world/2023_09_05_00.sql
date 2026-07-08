@@ -1,7 +1,3 @@
--- DB update 2023_09_04_02 -> 2023_09_05_00
---
-DELETE FROM `creature_template_addon` WHERE `entry` IN (34146, 34150, 34151);
-INSERT INTO `creature_template_addon` (`entry`, `path_id`, `mount`, `bytes1`, `bytes2`, `emote`, `visibilityDistanceType`, `auras`) VALUES
-(34146, 0, 0, 0, 0, 0, 0, '64615'),
-(34150, 0, 0, 0, 0, 0, 0, '64615'),
-(34151, 0, 0, 0, 0, 0, 0, '64615');
+version https://git-lfs.github.com/spec/v1
+oid sha256:2156ea7eb7f71edfa69480cac186760d06a12b6fc7194b5827b74d50ec710dba
+size 372

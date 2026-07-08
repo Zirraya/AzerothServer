@@ -1,5 +1,3 @@
--- DB update 2025_04_02_00 -> 2025_04_02_01
-DELETE FROM `conditions` WHERE (`SourceTypeOrReferenceId` = 1 AND `SourceGroup` = 21004 AND `SourceEntry` = 31656);
-INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry`, `SourceId`, `ElseGroup`, `ConditionTypeOrReference`, `ConditionTarget`, `ConditionValue1`, `ConditionValue2`, `ConditionValue3`, `NegativeCondition`, `ErrorTextId`, `ScriptName`, `Comment`)
-VALUES
-(1, 21004, 31656, 0, 0, 1, 0, 38778, 0, 0, 0, 0, '', 'Requires Spirit Calling Aura to loot Lesser Nether Drake Spirit');
+version https://git-lfs.github.com/spec/v1
+oid sha256:32bb7ffb47e6ed807c107a27e5c7be81694c53e0feaa616b240487b0e696b7bb
+size 561

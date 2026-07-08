@@ -1,5 +1,3 @@
--- DB update 2022_07_24_02 -> 2022_07_24_03
---
-DELETE FROM `spell_script_names` WHERE `spell_id`=56246;
-INSERT INTO `spell_script_names` VALUES
-(56246,'spell_warl_glyph_of_felguard');
+version https://git-lfs.github.com/spec/v1
+oid sha256:50fa5fd48c2a6b3251d6bf4ff44fe71d308bd6a99fd1368f84cf61f6bca053f2
+size 184

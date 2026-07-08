@@ -1,5 +1,3 @@
--- DB update 2023_04_19_01 -> 2023_04_19_02
---
--- Remove skinning loot from Buzzard creatures
-UPDATE `creature_template` SET `skinloot` = 0 WHERE `entry` IN (5982, 5983, 5436, 7376);
-DELETE FROM `skinning_loot_template` WHERE `Entry` IN (5982, 5983);
+version https://git-lfs.github.com/spec/v1
+oid sha256:c99eedd72bf371e9a4814a1478415e249c44407615c8478a231b6a4af529f2d9
+size 251

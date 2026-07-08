@@ -1,4 +1,3 @@
--- DB update 2026_05_02_00 -> 2026_05_02_01
-
--- Update Quest Requirement
-UPDATE `item_loot_template` SET `QuestRequired` = 0 WHERE (`Entry` = 11107) AND (`Item` IN (11108));
+version https://git-lfs.github.com/spec/v1
+oid sha256:875637eed9b5180cd44c7c800009cd8301e988291de13ea6407df5bdba88aeee
+size 174

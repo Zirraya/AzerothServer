@@ -1,3 +1,3 @@
--- DB update 2023_11_08_06 -> 2023_11_08_07
--- assign correct spell to 'Unlit Torches' to remove AOE circle on item use
-UPDATE `item_template` SET `spellid_1` = 46747 WHERE (`entry` = 34833);
+version https://git-lfs.github.com/spec/v1
+oid sha256:cf52610cae811a15b41e4dac46d3ca419846af0f3bb38e0c6d652324923b8ba4
+size 192

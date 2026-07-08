@@ -1,29 +1,3 @@
--- DB update 2020_05_14_01 -> 2020_05_16_00
-DROP PROCEDURE IF EXISTS `updateDb`;
-DELIMITER //
-CREATE PROCEDURE updateDb ()
-proc:BEGIN DECLARE OK VARCHAR(100) DEFAULT 'FALSE';
-SELECT COUNT(*) INTO @COLEXISTS
-FROM information_schema.COLUMNS
-WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'version_db_world' AND COLUMN_NAME = '2020_05_14_01';
-IF @COLEXISTS = 0 THEN LEAVE proc; END IF;
-START TRANSACTION;
-ALTER TABLE version_db_world CHANGE COLUMN 2020_05_14_01 2020_05_16_00 bit;
-SELECT sql_rev INTO OK FROM version_db_world WHERE sql_rev = '1586601593003530500'; IF OK <> 'FALSE' THEN LEAVE proc; END IF;
---
--- START UPDATING QUERIES
---
-
-INSERT INTO `version_db_world` (`sql_rev`) VALUES ('1586601593003530500');
-
-UPDATE `quest_template_addon` SET `PrevQuestID` = 12294, `NextQuestID` = 12225, `ExclusiveGroup` = -12222 WHERE `id` IN (12222, 12223);
-UPDATE `quest_template_addon` SET `PrevQuestID` = 12222 WHERE `id` = 12255;
-
---
--- END UPDATING QUERIES
---
-COMMIT;
-END //
-DELIMITER ;
-CALL updateDb();
-DROP PROCEDURE IF EXISTS `updateDb`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:73fec3e2b7c27136c425de66aa2190a29cb181a9f122c6a5317f59f9528b4934
+size 1039

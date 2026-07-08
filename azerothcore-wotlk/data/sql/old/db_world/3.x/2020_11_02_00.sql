@@ -1,30 +1,3 @@
--- DB update 2020_11_01_01 -> 2020_11_02_00
-DROP PROCEDURE IF EXISTS `updateDb`;
-DELIMITER //
-CREATE PROCEDURE updateDb ()
-proc:BEGIN DECLARE OK VARCHAR(100) DEFAULT 'FALSE';
-SELECT COUNT(*) INTO @COLEXISTS
-FROM information_schema.COLUMNS
-WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'version_db_world' AND COLUMN_NAME = '2020_11_01_01';
-IF @COLEXISTS = 0 THEN LEAVE proc; END IF;
-START TRANSACTION;
-ALTER TABLE version_db_world CHANGE COLUMN 2020_11_01_01 2020_11_02_00 bit;
-SELECT sql_rev INTO OK FROM version_db_world WHERE sql_rev = '1601868446381471500'; IF OK <> 'FALSE' THEN LEAVE proc; END IF;
---
--- START UPDATING QUERIES
---
-
-INSERT INTO `version_db_world` (`sql_rev`) VALUES ('1601868446381471500');
-
-DELETE FROM `event_scripts` WHERE `id`=14592;
-INSERT INTO `event_scripts` (`id`, `delay`, `command`, `datalong`, `datalong2`, `dataint`, `x`, `y`, `z`, `o`) VALUES 
-(14592, 1, 10, 22890, 300000, 0, -108.252, -510.302, 21.4761, 2.44346);
-
---
--- END UPDATING QUERIES
---
-COMMIT;
-END //
-DELIMITER ;
-CALL updateDb();
-DROP PROCEDURE IF EXISTS `updateDb`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:4a3c6d7ad6688cea9e1d7ba0b87e4a891e1a929b07c94c99b725ee721cce7676
+size 1064

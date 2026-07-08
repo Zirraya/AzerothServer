@@ -1,3 +1,3 @@
--- DB update 2024_06_18_03 -> 2024_06_18_04
--- Mote of Shadow
-UPDATE `creature_loot_template` SET `Chance` = 25 WHERE `Item` = 22577 and `Entry` IN (18869,18870);
+version https://git-lfs.github.com/spec/v1
+oid sha256:1cf08ada1827e76f85843359e23eb05d5607eaea8f3fc529e8833ea9e36995af
+size 163

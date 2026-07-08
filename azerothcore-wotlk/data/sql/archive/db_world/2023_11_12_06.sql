@@ -1,5 +1,3 @@
--- DB update 2023_11_12_05 -> 2023_11_12_06
--- Darkmoon Card: Vengeance
-DELETE FROM `spell_proc_event` WHERE `entry`=39444;
-INSERT INTO `spell_proc_event` (`entry`, `SchoolMask`, `SpellFamilyName`, `SpellFamilyMask0`, `SpellFamilyMask1`, `SpellFamilyMask2`, `procFlags`, `procEx`, `procPhase`, `ppmRate`, `CustomChance`, `Cooldown`) VALUES
-(39444, 0, 0, 0, 0, 0, 0, 8259, 0, 0, 0, 0);
+version https://git-lfs.github.com/spec/v1
+oid sha256:8217a2c6cb695dc74e743b39a487611fb761f22f2e1d09bcc2e7db68ee736d75
+size 385

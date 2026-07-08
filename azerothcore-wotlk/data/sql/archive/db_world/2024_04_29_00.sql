@@ -1,7 +1,3 @@
--- DB update 2024_04_27_00 -> 2024_04_29_00
-UPDATE `gossip_menu_option_locale` SET `OptionText`=REPLACE(`OptionText`,'Ã¤','ä') WHERE `Locale`='deDE';
-UPDATE `gossip_menu_option_locale` SET `OptionText`=REPLACE(`OptionText`,'Ã¼','ü') WHERE `Locale`='deDE';
-UPDATE `gossip_menu_option_locale` SET `OptionText`=REPLACE(`OptionText`,'Ã¶','ö') WHERE `Locale`='deDE';
-UPDATE `gossip_menu_option_locale` SET `BoxText`=REPLACE(`BoxText`,'Ã¤','ä') WHERE `Locale`='deDE';
-UPDATE `gossip_menu_option_locale` SET `BoxText`=REPLACE(`BoxText`,'Ã¼','ü') WHERE `Locale`='deDE';
-UPDATE `gossip_menu_option_locale` SET `BoxText`=REPLACE(`BoxText`,'Ã¶','ö') WHERE `Locale`='deDE';
+version https://git-lfs.github.com/spec/v1
+oid sha256:75cf6ed9ec9dcde6b2781b5d8beacf97b53341ad01f287572e3fcca86b077bdd
+size 680

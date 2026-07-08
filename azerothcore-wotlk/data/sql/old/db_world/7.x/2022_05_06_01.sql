@@ -1,6 +1,3 @@
--- DB update 2022_05_06_00 -> 2022_05_06_01
---
--- Remove the item Cache of Zanzil's Altered Mixture (8073) from Grand Foreman Puzik Gallywix (7288)
-
-DELETE FROM `creature_loot_template` WHERE `Entry` = 7288 AND `Item` = 8073;
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:2789c34d1c8d1389e7df6daa4a33848a64afcc91ab9ce40ffffc4aa1a4c07acb
+size 227

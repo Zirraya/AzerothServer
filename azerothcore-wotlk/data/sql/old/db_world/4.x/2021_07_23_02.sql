@@ -1,30 +1,3 @@
--- DB update 2021_07_23_01 -> 2021_07_23_02
-DROP PROCEDURE IF EXISTS `updateDb`;
-DELIMITER //
-CREATE PROCEDURE updateDb ()
-proc:BEGIN DECLARE OK VARCHAR(100) DEFAULT 'FALSE';
-SELECT COUNT(*) INTO @COLEXISTS
-FROM information_schema.COLUMNS
-WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'version_db_world' AND COLUMN_NAME = '2021_07_23_01';
-IF @COLEXISTS = 0 THEN LEAVE proc; END IF;
-START TRANSACTION;
-ALTER TABLE version_db_world CHANGE COLUMN 2021_07_23_01 2021_07_23_02 bit;
-SELECT sql_rev INTO OK FROM version_db_world WHERE sql_rev = '1626645229282661200'; IF OK <> 'FALSE' THEN LEAVE proc; END IF;
---
--- START UPDATING QUERIES
---
-
-INSERT INTO `version_db_world` (`sql_rev`) VALUES ('1626645229282661200');
-
-UPDATE `item_template` SET `minMoneyLoot` = 100, `maxMoneyLoot` = 500 WHERE (`entry` = 6827);
-
-
---
--- END UPDATING QUERIES
---
-UPDATE version_db_world SET date = '2021_07_23_02' WHERE sql_rev = '1626645229282661200';
-COMMIT;
-END //
-DELIMITER ;
-CALL updateDb();
-DROP PROCEDURE IF EXISTS `updateDb`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:5a7c847aac1655b8da509e641d45d461df11cccb08992d40a91050347903d3ac
+size 1012

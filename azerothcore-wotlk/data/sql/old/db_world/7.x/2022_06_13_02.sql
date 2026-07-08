@@ -1,4 +1,3 @@
--- DB update 2022_06_13_01 -> 2022_06_13_02
-
-UPDATE `creature_template` SET `ScriptName`='npc_chained_spirit', `speed_run`=0.4, `unit_flags`=`unit_flags`|33554432 WHERE `entry`=15117;
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:e8652eba567166ecf2900ada821e9c82d34aaf3f58034aa2ddcb270d6ab05a58
+size 185

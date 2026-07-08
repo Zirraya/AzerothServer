@@ -1,10 +1,3 @@
--- DB update 2025_06_17_01 -> 2025_06_17_02
--- HoL - Static Overload
-DELETE FROM `spell_script_names` WHERE `spell_id` IN (52658,59795) AND `ScriptName`='spell_ionar_static_overload';
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(52658, 'spell_ionar_static_overload'),
-(59795, 'spell_ionar_static_overload');
-
-DELETE FROM `spelldifficulty_dbc` WHERE `ID` = 53337;
-INSERT INTO `spelldifficulty_dbc` (`ID`, `DifficultySpellID_1`, `DifficultySpellID_2`, `DifficultySpellID_3`, `DifficultySpellID_4`) VALUES
-(53337, 53337, 59798, 0, 0);
+version https://git-lfs.github.com/spec/v1
+oid sha256:426b1c7bb8510c504602d65c639c6d9a6fd9baf3d5b3995f22465d7fde3c967b
+size 555

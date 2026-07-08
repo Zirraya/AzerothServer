@@ -1,4 +1,3 @@
--- DB update 2022_08_21_09 -> 2022_08_21_10
---
-DELETE FROM `creature_loot_template` WHERE `Entry` IN (4625,11374,12352,27213,27414);
-UPDATE `creature_template` SET `lootid` = 0 WHERE `entry` IN (4625,11374,12352,27213,27414);
+version https://git-lfs.github.com/spec/v1
+oid sha256:5e869a6bcf7d068303b242ab64673f9c0df3833684ba885e4bca8d08d3b2c6ae
+size 226

@@ -1,29 +1,3 @@
--- DB update 2022_03_18_20 -> 2022_03_21_00
-DROP PROCEDURE IF EXISTS `updateDb`;
-DELIMITER //
-CREATE PROCEDURE updateDb ()
-proc:BEGIN DECLARE OK VARCHAR(100) DEFAULT 'FALSE';
-SELECT COUNT(*) INTO @COLEXISTS
-FROM information_schema.COLUMNS
-WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'version_db_world' AND COLUMN_NAME = '2022_03_18_20';
-IF @COLEXISTS = 0 THEN LEAVE proc; END IF;
-START TRANSACTION;
-ALTER TABLE version_db_world CHANGE COLUMN 2022_03_18_20 2022_03_21_00 bit;
-SELECT sql_rev INTO OK FROM version_db_world WHERE sql_rev = '1647791446104793800'; IF OK <> 'FALSE' THEN LEAVE proc; END IF;
---
--- START UPDATING QUERIES
---
-
-INSERT INTO `version_db_world` (`sql_rev`) VALUES ('1647791446104793800');
-
-UPDATE `creature_template` SET `flags_extra`=`flags_extra`|512 WHERE `entry` IN (10184,36538);
-
---
--- END UPDATING QUERIES
---
-UPDATE version_db_world SET date = '2022_03_21_00' WHERE sql_rev = '1647791446104793800';
-COMMIT;
-END //
-DELIMITER ;
-CALL updateDb();
-DROP PROCEDURE IF EXISTS `updateDb`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:e5a90e3e48c31dd583f48355990ec4cc3cee9dc878fdf102c241c0b9c5b9bb65
+size 1012

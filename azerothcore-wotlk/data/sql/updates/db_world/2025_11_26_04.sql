@@ -1,3 +1,3 @@
--- DB update 2025_11_26_03 -> 2025_11_26_04
---
-UPDATE `smart_scripts` SET `action_param1`=51873, `comment`='Duke Vallenhal - Between 0-50% Health - Cast \'Bloodworm\'' WHERE `entryorguid`=26926 AND `source_type`=0 AND `id`=1;
+version https://git-lfs.github.com/spec/v1
+oid sha256:0ecb570bfc9f1816ca4ab7f8fd9589ea75869bd283e44fe1600d09109eb20e7c
+size 226

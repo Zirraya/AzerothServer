@@ -1,5 +1,3 @@
--- DB update 2023_05_24_00 -> 2023_05_24_01
---
-DELETE FROM `creature_template_spell` WHERE `CreatureID`=18847 AND `Index`=2 AND `Spell`=33096;
-INSERT INTO `creature_template_spell` (`CreatureID`, `Index`, `Spell`, `VerifiedBuild`) VALUES (18847, 2, 33096, 0);
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:c5271e332006fcc121cb8d490597b728948efd63743811b86b470b363fa9eaef
+size 261

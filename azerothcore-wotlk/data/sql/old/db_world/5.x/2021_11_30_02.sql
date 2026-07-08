@@ -1,31 +1,3 @@
--- DB update 2021_11_30_01 -> 2021_11_30_02
-DROP PROCEDURE IF EXISTS `updateDb`;
-DELIMITER //
-CREATE PROCEDURE updateDb ()
-proc:BEGIN DECLARE OK VARCHAR(100) DEFAULT 'FALSE';
-SELECT COUNT(*) INTO @COLEXISTS
-FROM information_schema.COLUMNS
-WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'version_db_world' AND COLUMN_NAME = '2021_11_30_01';
-IF @COLEXISTS = 0 THEN LEAVE proc; END IF;
-START TRANSACTION;
-ALTER TABLE version_db_world CHANGE COLUMN 2021_11_30_01 2021_11_30_02 bit;
-SELECT sql_rev INTO OK FROM version_db_world WHERE sql_rev = '1637861417456909900'; IF OK <> 'FALSE' THEN LEAVE proc; END IF;
---
--- START UPDATING QUERIES
---
-
-INSERT INTO `version_db_world` (`sql_rev`) VALUES ('1637861417456909900');
-
-SET @flag := 268435456;
-
-UPDATE `spell_custom_attr` SET `attributes` = 16777216 WHERE `spell_id` = (SELECT `spell_id` WHERE `attributes` & @flag = @flag);
-
---
--- END UPDATING QUERIES
---
-UPDATE version_db_world SET date = '2021_11_30_02' WHERE sql_rev = '1637861417456909900';
-COMMIT;
-END //
-DELIMITER ;
-CALL updateDb();
-DROP PROCEDURE IF EXISTS `updateDb`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:aaf752fd3dfd1f647bd51090489389bf3ce1389028d5a136c0a104844b7e7203
+size 1072

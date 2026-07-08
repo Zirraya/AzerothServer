@@ -1,9 +1,3 @@
--- DB update 2026_02_21_04 -> 2026_02_22_00
---
-DELETE FROM `creature_template_addon` WHERE `entry` = 30084;
-INSERT INTO `creature_template_addon` (`entry`, `path_id`, `mount`, `bytes1`, `bytes2`, `emote`, `visibilityDistanceType`, `auras`) VALUES
-(30084, 0, 0, 0, 0, 0, 0, '55845');
-
-DELETE FROM `creature_template_movement` WHERE `CreatureId` = 30084;
-INSERT INTO `creature_template_movement` (`CreatureId`, `Flight`) VALUES
-(30084, 1);
+version https://git-lfs.github.com/spec/v1
+oid sha256:631857ffba62b3a368427f7e8980247a0943c2934864f064715a39d6d3945c1f
+size 438

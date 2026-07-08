@@ -1,3 +1,3 @@
--- DB update 2023_03_20_01 -> 2023_03_20_02
--- Fen Ray in Underbog
-UPDATE `creature` SET `unit_flags`=`unit_flags`|64|256|512|33554432 WHERE `id1`=17731 AND `guid` IN (138322,138320,138319,138501,138507,138508,138513,138514,138515,138516,138518);
+version https://git-lfs.github.com/spec/v1
+oid sha256:5a28ed6911c2ea66b9de0d16b1771db659363895fdacd28aa7da7fe13bb24dbe
+size 247

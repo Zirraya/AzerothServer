@@ -1,3 +1,3 @@
--- DB update 2026_05_03_00 -> 2026_05_09_00
-DELETE FROM `rbac_linked_permissions` WHERE `id` = 198 AND `linkedId` = 471;
-DELETE FROM `rbac_permissions` WHERE `id` = 471;
+version https://git-lfs.github.com/spec/v1
+oid sha256:075335b5eb9c295b6656540c9f09096647040bba0ac695b0fbb91ace6c1bcf62
+size 170

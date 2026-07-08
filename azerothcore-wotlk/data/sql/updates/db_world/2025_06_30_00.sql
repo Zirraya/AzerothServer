@@ -1,6 +1,3 @@
--- DB update 2025_06_29_03 -> 2025_06_30_00
---
-DELETE FROM `acore_string` WHERE `entry` IN (6617, 6618);
-INSERT INTO `acore_string` (`entry`, `content_default`) VALUES
-(6617, 'GM Spectator is ON'),
-(6618, 'GM Spectator is OFF');
+version https://git-lfs.github.com/spec/v1
+oid sha256:23bc62076b1c142ce063157365d204439c60a56c56c926da2da0a25f3d0e68eb
+size 229

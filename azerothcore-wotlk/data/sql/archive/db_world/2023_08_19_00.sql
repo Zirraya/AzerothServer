@@ -1,10 +1,3 @@
--- DB update 2023_08_14_04 -> 2023_08_19_00
--- Vile Like Fire! (13071)
--- fix Njorndar Proto-Drake vehicle unable to fly
-DELETE FROM `creature_template_spell` WHERE `CreatureID` = 30564;
-INSERT INTO `creature_template_spell` (`CreatureID`, `Index`, `Spell`, `VerifiedBuild`) VALUES
-(30564, 0, 57493, 12340),
-(30564, 2, 7769, 12340),
-(30564, 6, 57403, 12340);
--- fix Njorndar Proto-Drake display status on the ground
-UPDATE `creature_template_movement` SET `Flight`=2 WHERE  `CreatureId`=30272;
+version https://git-lfs.github.com/spec/v1
+oid sha256:cb717b21b9c1faec7c7d4fe492ba46e44cffa32eaad4974e37e5294e71d5bf22
+size 494

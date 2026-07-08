@@ -1,5 +1,3 @@
--- DB update 2023_10_21_05 -> 2023_10_21_06
---
-DELETE FROM `creature_addon` WHERE `guid` = 135692;
-DELETE FROM `waypoint_data` WHERE `id` = 1356920;
-UPDATE `creature` SET `MovementType` = 1 WHERE `guid` = 135692;
+version https://git-lfs.github.com/spec/v1
+oid sha256:0e7e2e734ba955c0607426594066bfd512633a435254bd5069e6285a741ccf20
+size 213

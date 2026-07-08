@@ -1,8 +1,3 @@
--- DB update 2025_08_12_01 -> 2025_08_13_00
--- Anub'ar Venomancer - Poison Bolt
-DELETE FROM `spell_custom_attr` WHERE `spell_id` = 53617;
-INSERT INTO `spell_custom_attr` (`spell_id`, `attributes`) VALUES (53617, 4194304);
-
--- Anub'ar Venomancer - Poison Bolt(H)
-DELETE FROM `spell_custom_attr` WHERE `spell_id` = 59359;
-INSERT INTO `spell_custom_attr` (`spell_id`, `attributes`) VALUES (59359, 4194304);
+version https://git-lfs.github.com/spec/v1
+oid sha256:1b29dfbea8d43f1bd7c80b4a46219e836e4c64bd3d6c9173bc9bd49f9d1fb8f6
+size 404

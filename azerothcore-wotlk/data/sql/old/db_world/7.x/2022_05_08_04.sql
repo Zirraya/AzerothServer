@@ -1,6 +1,3 @@
--- DB update 2022_05_08_03 -> 2022_05_08_04
---
-DELETE FROM `gossip_menu` WHERE `MenuID` IN (7106,7107);
-INSERT INTO `gossip_menu` VALUES (7106, 8363), (7107, 8364);
-
-UPDATE `gossip_menu_option` SET `ActionMenuID`=7099 WHERE  `MenuID`=7107 AND `OptionID`=0;
+version https://git-lfs.github.com/spec/v1
+oid sha256:8087d8b3a52a3be5b79b52022a6b59e197a910890d5215e6f819aafcba9c8976
+size 257

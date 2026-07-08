@@ -1,4 +1,3 @@
--- DB update 2025_08_18_00 -> 2025_08_18_01
-DELETE FROM `spell_script_names` WHERE `spell_id` = 45848;
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(45848, 'spell_kiljaeden_shield_of_the_blue');
+version https://git-lfs.github.com/spec/v1
+oid sha256:03251c2648b988e2854904cb0f6441e40b0b66bb28b11c027415884fdd4db21e
+size 217

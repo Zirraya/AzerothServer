@@ -1,3 +1,3 @@
--- DB update 2026_04_14_00 -> 2026_04_15_00
--- Erekem Guards: add UNIT_FLAG_IMMUNE_TO_PC (0x100)
-UPDATE `creature_template` SET `unit_flags` = `unit_flags` | 0x100 WHERE `entry` IN (29395, 31513);
+version https://git-lfs.github.com/spec/v1
+oid sha256:15acb3f3926623b039fb9276e3d02314379fa2afff7f97c8d318c42747093d7b
+size 197

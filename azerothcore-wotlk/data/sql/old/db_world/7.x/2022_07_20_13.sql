@@ -1,3 +1,3 @@
--- DB update 2022_07_20_12 -> 2022_07_20_13
--- fix Slim Pickings quest
-UPDATE `creature_template` SET `npcflag`=`npcflag`|1 WHERE `entry` = 26809;
+version https://git-lfs.github.com/spec/v1
+oid sha256:3ee5e20af99c91363fc036c034d57afaafd23d92e0de3e7ac6cfc0c737cf9073
+size 147

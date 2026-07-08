@@ -1,3 +1,3 @@
--- DB update 2026_03_18_02 -> 2026_03_19_00
--- Remove incorrect IMMUNE_TO_PC from Malygos spawn flags
-UPDATE `creature` SET `unit_flags` = 0 WHERE `guid` = 132313 AND `id1` = 28859;
+version https://git-lfs.github.com/spec/v1
+oid sha256:5c617f57e05bb258f1d9c0679eff0260828adc40529cbaf0b05400f2556a5dd4
+size 182

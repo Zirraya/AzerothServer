@@ -1,3 +1,3 @@
--- DB update 2024_06_11_00 -> 2024_06_11_01
--- unlink 'Mighty Blaze' spawns from game events
-DELETE from `game_event_gameobject` WHERE `guid` IN (31640, 31642, 31643, 31644, 31646, 31647, 31649, 31651, 31652, 31653, 31654, 31655, 31659, 31661, 31667, 31670, 31677, 31678, 31679, 31681, 31682, 31683, 31687, 31690, 31691, 31692, 31696, 31697, 31698, 31701, 31713, 31721, 31762);
+version https://git-lfs.github.com/spec/v1
+oid sha256:f346b957785675df0b046b1f3850c8d7fc4caed0db84921b99a9f6b8243aa5c7
+size 378

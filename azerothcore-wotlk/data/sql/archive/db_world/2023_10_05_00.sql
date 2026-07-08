@@ -1,3 +1,3 @@
--- DB update 2023_10_01_04 -> 2023_10_05_00
---
-DELETE FROM `spell_threat` WHERE `entry`=29166;
+version https://git-lfs.github.com/spec/v1
+oid sha256:7a8577e826b83fbcde7d258732dacd907507fe216d70c8f3a59f7252ce6f1298
+size 95

@@ -1,3 +1,3 @@
--- DB update 2023_03_23_02 -> 2023_03_23_03
--- (AC ONLY) SMART_ACTION_SET_GO_STATE -> SMART_ACTION_GO_SET_GO_STATE
-UPDATE `smart_scripts` SET `action_type` = 118 WHERE `action_type` = 202;
+version https://git-lfs.github.com/spec/v1
+oid sha256:05a1ce422f152d1058467013d38631755ddb0ad2ee13a988b77a62e336979e58
+size 189

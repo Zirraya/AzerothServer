@@ -1,4 +1,3 @@
--- DB update 2022_12_11_05 -> 2022_12_11_06
---
-UPDATE `creature_text` SET `text`='The shield is nearly gone! All that I have worked for is in danger!', `Sound`=10439, `BroadcastTextId`=16795 WHERE `CreatureID`=15608 AND `GroupId`=2;
-UPDATE `creature_text` SET `text`='Champions! My shield grows weak!', `Sound`=10437, `BroadcastTextId`=16792 WHERE `CreatureID`=15608 AND `GroupId`=4;
+version https://git-lfs.github.com/spec/v1
+oid sha256:d3b6dda7b4a2d88b3600cb85c8cc5e3879457043a9ec8021f1093c9d6f8717b1
+size 384

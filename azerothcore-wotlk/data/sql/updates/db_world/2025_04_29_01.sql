@@ -1,4 +1,3 @@
--- DB update 2025_04_29_00 -> 2025_04_29_01
-
--- Active SmartAI for female DKs.
-UPDATE `creature_template` SET `AIName` = 'SmartAI' WHERE `entry` = 29030;
+version https://git-lfs.github.com/spec/v1
+oid sha256:0c0c4d94f3be109fa33a6bc75c28af307bfd61a21ebc20e6c2f28c06fe66275c
+size 154

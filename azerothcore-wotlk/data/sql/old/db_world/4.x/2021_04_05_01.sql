@@ -1,29 +1,3 @@
--- DB update 2021_04_05_00 -> 2021_04_05_01
-DROP PROCEDURE IF EXISTS `updateDb`;
-DELIMITER //
-CREATE PROCEDURE updateDb ()
-proc:BEGIN DECLARE OK VARCHAR(100) DEFAULT 'FALSE';
-SELECT COUNT(*) INTO @COLEXISTS
-FROM information_schema.COLUMNS
-WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'version_db_world' AND COLUMN_NAME = '2021_04_05_00';
-IF @COLEXISTS = 0 THEN LEAVE proc; END IF;
-START TRANSACTION;
-ALTER TABLE version_db_world CHANGE COLUMN 2021_04_05_00 2021_04_05_01 bit;
-SELECT sql_rev INTO OK FROM version_db_world WHERE sql_rev = '1617559127512335600'; IF OK <> 'FALSE' THEN LEAVE proc; END IF;
---
--- START UPDATING QUERIES
---
-
-INSERT INTO `version_db_world` (`sql_rev`) VALUES ('1617559127512335600');
-
-UPDATE `gameobject` SET `position_x`=-8747.79, `position_y`=-2256.47, `position_z`=153.350, `orientation`=0.855903 WHERE `guid`=18679;
-
-
---
--- END UPDATING QUERIES
---
-COMMIT;
-END //
-DELIMITER ;
-CALL updateDb();
-DROP PROCEDURE IF EXISTS `updateDb`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:c3c52649510b0c60dd9841a9a1a4c4fd1cdf593bca6be2f5ac85e0b397eda0c7
+size 963

@@ -1,5 +1,3 @@
--- DB update 2024_03_24_09 -> 2024_03_30_00
--- update initial state of some Brazier gameobject spawns
-UPDATE `gameobject` SET `state` = 1 WHERE (`id` = 174744) AND (`guid` = 15229);
-UPDATE `gameobject` SET `state` = 1 WHERE (`id` = 174745) AND (`guid` = 15544);
-UPDATE `gameobject` SET `state` = 1 WHERE (`id` = 178247) AND (`guid` = 47873);
+version https://git-lfs.github.com/spec/v1
+oid sha256:01dc59c1a4b117c15c9dbbc262bc65c29ed54cdeb0c787ccda7b6b0597485aea
+size 342

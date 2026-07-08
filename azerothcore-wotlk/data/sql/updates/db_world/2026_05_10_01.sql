@@ -1,10 +1,3 @@
--- DB update 2026_05_10_00 -> 2026_05_10_01
---
--- Show character level in `.character deleted list` output
---
-DELETE FROM `acore_string` WHERE `entry` IN (1016, 1017, 1018, 1026);
-INSERT INTO `acore_string` (`entry`, `content_default`, `locale_koKR`, `locale_frFR`, `locale_deDE`, `locale_zhCN`, `locale_zhTW`, `locale_esES`, `locale_esMX`, `locale_ruRU`) VALUES
-(1016, '| GUID       | Name                 | Level | Account                      | Delete Date         |', NULL, NULL, '| GUID       | Name                 | Level | Account                      | gelöscht am         |', '| 唯一标识符       | 名称                 | 等级 | 账号                      | 删除日期         |', NULL, NULL, NULL, NULL),
-(1017, '| {} | {} | {} | {} ({}) | {} |', NULL, NULL, '| {} | {} | {} | {} ({}) | {} |', '| {} | {} | {} | {} ({}) | {} |', NULL, NULL, NULL, NULL),
-(1018, '==================================================================================================', NULL, NULL, '==================================================================================================', '错误：510', NULL, NULL, NULL, NULL),
-(1026, 'GUID: {} Name: {} Level: {} Account: {} ({}) Date: {}', NULL, NULL, 'GUID: {} Name: {} Level: {} Account: {} ({}) Datum: {}', '唯一标识符: {} 名称: {} 等级: {} 账号: {} ({}) 时间: {}', NULL, NULL, NULL, NULL);
+version https://git-lfs.github.com/spec/v1
+oid sha256:a8bfac2c734f34f2d21824f3816cf3c6e54298543d19f6ab15f3f5a40d8433b5
+size 1372

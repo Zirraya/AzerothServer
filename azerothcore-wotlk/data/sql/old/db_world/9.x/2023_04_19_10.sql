@@ -1,3 +1,3 @@
--- DB update 2023_04_19_09 -> 2023_04_19_10
--- Burko (18990), Aresella (18991) - Remove Gossip and Vendor npc flags.
-UPDATE `creature_template` SET `npcflag` = `npcflag`&~(128|1) WHERE `entry` IN (18990,18991);
+version https://git-lfs.github.com/spec/v1
+oid sha256:a86607567281836a5a5992ed321131ccc9cbd77e9d5934fe6c71cddb7d3460fd
+size 211

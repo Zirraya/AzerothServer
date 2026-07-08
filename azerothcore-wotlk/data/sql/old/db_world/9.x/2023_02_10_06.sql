@@ -1,2 +1,3 @@
--- DB update 2023_02_10_05 -> 2023_02_10_06
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask` &~ 16384 WHERE `entry` IN (17848, 17862, 18096, 20521, 20531, 20535);
+version https://git-lfs.github.com/spec/v1
+oid sha256:5853bce2a73e6fbc8d1a39360299dbd860401a621408f05f9624336588c040fc
+size 193

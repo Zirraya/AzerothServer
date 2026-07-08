@@ -1,4 +1,3 @@
--- DB update 2023_06_16_02 -> 2023_06_17_00
---
-DELETE FROM `game_event_gameobject` WHERE `eventEntry` = 1 AND `guid` = 28242;
-INSERT INTO `game_event_gameobject` (`eventEntry`,`guid`) VALUES (1, 28242);
+version https://git-lfs.github.com/spec/v1
+oid sha256:41d56a07dea83816cebb90cfdbb85213e7f2b272473147dee678633a03e404a1
+size 203

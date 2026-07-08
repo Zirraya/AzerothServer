@@ -1,3 +1,3 @@
--- DB update 2023_04_18_01 -> 2023_04_18_02
---
-UPDATE `creature_template` SET `dmgschool` = 0 WHERE (`entry` IN (21695, 21696, 21916, 21917));
+version https://git-lfs.github.com/spec/v1
+oid sha256:2f6725edeb55a5e486e2a83289abb8756abd273731738d5409b6281dc512a2b5
+size 143

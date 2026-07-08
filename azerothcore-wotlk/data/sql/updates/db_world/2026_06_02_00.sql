@@ -1,5 +1,3 @@
--- DB update 2026_06_01_02 -> 2026_06_02_00
--- Adjust Scarlet Champion (NPC ID 29080, GUID 129992)
--- Set Idle
--- Set Wander Dist to 0
-UPDATE `creature` SET `wander_distance` = 0, `MovementType` = 0 WHERE (`id1` = 29080) AND (`guid` IN (129992));
+version https://git-lfs.github.com/spec/v1
+oid sha256:59b309c5fe286a1322303c7df4d0f9d7854b0c3d3798e56420db7a0d76c47dcf
+size 247

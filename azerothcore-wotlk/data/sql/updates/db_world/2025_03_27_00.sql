@@ -1,4 +1,3 @@
--- DB update 2025_03_25_01 -> 2025_03_27_00
-
--- Add Hard Reset Extra Flag
-UPDATE `creature_template` SET `flags_extra` = `flags_extra`|2147483648 WHERE `entry` IN (25741);
+version https://git-lfs.github.com/spec/v1
+oid sha256:34b52ab743ba3d1773764772dd4fabd2d7de6142e4c4f7323125c8196ad07500
+size 172

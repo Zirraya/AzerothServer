@@ -1,7 +1,3 @@
--- DB update 2025_12_21_03 -> 2025_12_22_00
---
-UPDATE `creature_template` SET `AIName` = '', `ScriptName` = 'npc_traveler_mammoth_vendor' WHERE (`entry` IN (32638, 32639, 32641, 32642));
-
-DELETE FROM `smart_scripts` WHERE (`source_type` = 0 AND `entryorguid` IN (32638, 32639, 32641, 32642));
-
-UPDATE `vehicle_template_accessory` SET `minion` = 0 WHERE `entry` IN (32633, 32640) AND `accessory_entry` IN (32638, 32639, 32641, 32642);
+version https://git-lfs.github.com/spec/v1
+oid sha256:8d5f7347617e2a5d6be8dfab9ab4c872b66b54152d3bca8b245409ccdd82d48f
+size 434

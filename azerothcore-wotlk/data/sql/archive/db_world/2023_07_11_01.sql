@@ -1,6 +1,3 @@
--- DB update 2023_07_11_00 -> 2023_07_11_01
---
-DELETE FROM `spell_linked_spell` WHERE `spell_trigger` = 30658 AND `spell_effect` = 30571;
-DELETE FROM `spell_script_names` WHERE `ScriptName` = ('spell_magtheridon_quake');
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(30658, 'spell_magtheridon_quake');
+version https://git-lfs.github.com/spec/v1
+oid sha256:b13bfd135d9048c9f2a3ae950465b39b2e45b95e2f8bf2db92c9a3d88cc2c269
+size 324

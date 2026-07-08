@@ -1,3 +1,3 @@
--- DB update 2022_07_10_00 -> 2022_07_10_01
---
-UPDATE `smart_scripts` SET `event_flags`=`event_flags`|512 WHERE `entryorguid`=3040300 AND `source_type`=9;
+version https://git-lfs.github.com/spec/v1
+oid sha256:206a8ddebdf6129c31b63fdb8accc85789c1904222e33a950caad8dd6c82303c
+size 155

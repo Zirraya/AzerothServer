@@ -1,5 +1,3 @@
--- DB update 2026_03_12_00 -> 2026_03_13_00
---
-DELETE FROM `spell_script_names` WHERE `spell_id` = -11426 AND `ScriptName` = 'spell_mage_ice_barrier_aura';
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(-11426, 'spell_mage_ice_barrier_aura');
+version https://git-lfs.github.com/spec/v1
+oid sha256:42ff16069ce8146433ed779c6e956a61e74f52fa09b587223a29c1e4251849b6
+size 264

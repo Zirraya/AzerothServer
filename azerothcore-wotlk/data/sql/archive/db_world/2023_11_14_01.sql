@@ -1,5 +1,3 @@
--- DB update 2023_11_14_00 -> 2023_11_14_01
---
-DELETE FROM `areatrigger_scripts` WHERE `entry` = 4216;
-INSERT INTO `areatrigger_scripts` (`entry`, `ScriptName`) VALUES
-(4216, 'at_karazhan_atiesh_aran');
+version https://git-lfs.github.com/spec/v1
+oid sha256:06e53a31e9082fb6e01a7c653b437ad3b83143652ac8127b355b1088668af53b
+size 203

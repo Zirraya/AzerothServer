@@ -1,3 +1,3 @@
--- DB update 2023_03_07_02 -> 2023_03_07_03
--- Lord Azrethoc - path with equiped melee weapon.
-UPDATE `creature_addon` SET `bytes2` = 1 WHERE `guid` = 29062 AND `path_id` = 290620;
+version https://git-lfs.github.com/spec/v1
+oid sha256:309d5dd144a582cc45a69c3723bbdde1e1a1211c4d8688931ffbf5bf7808e688
+size 181

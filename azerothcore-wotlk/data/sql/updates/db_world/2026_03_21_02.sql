@@ -1,5 +1,3 @@
--- DB update 2026_03_21_01 -> 2026_03_21_02
---
--- swap trainers of Engineering (33611) and Leatherworking (33612) bookshelf creature entries
-UPDATE `creature_default_trainer` SET `TrainerId` = 91 WHERE (`CreatureId` = 33611);
-UPDATE `creature_default_trainer` SET `TrainerId` = 62 WHERE (`CreatureId` = 33612);
+version https://git-lfs.github.com/spec/v1
+oid sha256:67f4dc5c68646af789f0b9205e49980fd75d1743b59b3cf7e56fff0663a02787
+size 311

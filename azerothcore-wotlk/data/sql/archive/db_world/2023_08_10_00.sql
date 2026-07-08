@@ -1,3 +1,3 @@
--- DB update 2023_08_09_02 -> 2023_08_10_00
---
-DELETE FROM `creature_template_resistance` WHERE `CreatureID` IN (4632, 4633, 4634, 4635, 4636, 4637);
+version https://git-lfs.github.com/spec/v1
+oid sha256:6bc2c23ef008e5fc3fef507b3639db2cf82dd27d31dcdf2459e38df4a7863a42
+size 150

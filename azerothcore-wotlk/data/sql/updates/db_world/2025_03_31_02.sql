@@ -1,4 +1,3 @@
--- DB update 2025_03_31_01 -> 2025_03_31_02
-
--- Remove Sunglow Vest from Eredar Twins loot
-DELETE FROM `reference_loot_template` WHERE (`Entry` = 34085) AND (`Item` IN (34212));
+version https://git-lfs.github.com/spec/v1
+oid sha256:5a559c24abc0211942b4f3bad9e0759e4d569b98fdee45d52a852985ed46605a
+size 178

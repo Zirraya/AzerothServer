@@ -1,3 +1,3 @@
--- DB update 2023_03_04_12 -> 2023_03_04_13
--- Too many friendly NPCs dealing damage can interfere with quest objective for killing Socrethar (Quest Credit is self-cast)
-UPDATE `creature_template` SET `flags_extra`=`flags_extra`|2097152 WHERE (`entry` = 20132);
+version https://git-lfs.github.com/spec/v1
+oid sha256:106010185522b43d96e77ab4959970ef5bbc7a111430f3c66c216fbd6fd54b6a
+size 262

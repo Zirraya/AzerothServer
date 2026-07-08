@@ -1,3 +1,3 @@
--- DB update 2023_03_24_05 -> 2023_03_24_06
--- Violet Hold Guard, only the 2 right in front of VH should have emote 333.
-UPDATE `creature_template_addon` SET `emote` = 0 WHERE `entry` = 30659;
+version https://git-lfs.github.com/spec/v1
+oid sha256:45710e5062b08439f1083c17a60690b6e1ff75aabe9debb1f48143f8162ff50c
+size 193

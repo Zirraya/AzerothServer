@@ -1,2 +1,3 @@
--- DB update 2022_12_13_01 -> 2022_12_14_00
-DELETE FROM `npc_trainer` WHERE `ID` = 19063 AND `SpellID` = -201026;
+version https://git-lfs.github.com/spec/v1
+oid sha256:557498acac03403272ff191adebf8cdc92d00b14c96ef4851419deed37da66f2
+size 114

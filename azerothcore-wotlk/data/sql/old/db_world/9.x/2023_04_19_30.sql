@@ -1,4 +1,3 @@
--- DB update 2023_04_19_29 -> 2023_04_19_30
---
--- Remove erronous pickpocket loot
-DELETE FROM `pickpocketing_loot_template` WHERE `Entry`=18204 AND `Item`=24543;
+version https://git-lfs.github.com/spec/v1
+oid sha256:496cf599cfd52b9f4a3f59ae7bdd2b03ff2e8791dbc477f1bc7a3e772187539e
+size 162

@@ -1,3 +1,3 @@
--- DB update 2024_01_16_00 -> 2024_01_16_01
---
-UPDATE `smart_scripts` SET `event_param1` = 0, `event_param2` = 0, `action_param2` = `action_param2`|64 WHERE `entryorguid` = 22009 AND `source_type` = 0 AND `id` = 1;
+version https://git-lfs.github.com/spec/v1
+oid sha256:b2fb3f0f11431bfb2b8ad701db8fb73af49ed19c4c8cb56467c71e71c49b1980
+size 215

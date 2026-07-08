@@ -1,7 +1,3 @@
--- DB update 2025_06_17_00 -> 2025_06_17_01
---
-ALTER TABLE `game_event_creature` MODIFY COLUMN `eventEntry` smallint NOT NULL COMMENT 'Entry of the game event. Put negative entry to remove during event.';
-ALTER TABLE `game_event_gameobject` MODIFY COLUMN `eventEntry` smallint NOT NULL COMMENT 'Entry of the game event. Put negative entry to remove during event.';
-ALTER TABLE `game_event_model_equip` MODIFY COLUMN `eventEntry` tinyint unsigned NOT NULL COMMENT 'Entry of the game event.';
-ALTER TABLE `game_event_npc_vendor` MODIFY COLUMN `eventEntry` smallint NOT NULL COMMENT 'Entry of the game event.';
-ALTER TABLE `game_event_pool` MODIFY COLUMN `eventEntry` smallint NOT NULL COMMENT 'Entry of the game event. Put negative entry to remove during event.';
+version https://git-lfs.github.com/spec/v1
+oid sha256:f040978d28308d1a0f7c26702d5e1c9a92c8ba67e587d2928651403e48fe74f9
+size 762

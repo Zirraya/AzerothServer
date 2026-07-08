@@ -1,3 +1,3 @@
--- DB update 2025_11_27_06 -> 2025_11_27_07
--- Following the same rule as the herbs, ores and fishing for the everfrost to be visible by all possible, they all use phase 255.
-UPDATE `gameobject` SET `phaseMask` = 255 WHERE `id` = 193997;
+version https://git-lfs.github.com/spec/v1
+oid sha256:65c7a483954866ab5192aa709b30b5fd9ef7998c415d734d5242bef5533acbd0
+size 238

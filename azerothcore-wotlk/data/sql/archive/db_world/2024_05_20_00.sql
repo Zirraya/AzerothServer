@@ -1,5 +1,3 @@
--- DB update 2024_05_19_01 -> 2024_05_20_00
---
-DELETE FROM `spell_script_names` WHERE `ScriptName` = 'spell_anetheron_sleep';
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(31298, 'spell_anetheron_sleep');
+version https://git-lfs.github.com/spec/v1
+oid sha256:b338ae221709c7a3eda34512b9336670a99552af32b056b7cd6641c529aac8bd
+size 227

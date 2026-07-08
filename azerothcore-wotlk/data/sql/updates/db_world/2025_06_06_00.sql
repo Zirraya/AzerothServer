@@ -1,3 +1,3 @@
--- DB update 2025_06_05_03 -> 2025_06_06_00
--- Removes: Watcher leesa'oh (9697) as pre-requesite from Observing the Sporelings (9701)
-UPDATE `quest_template_addon` SET `PrevQuestID` = 0 WHERE (`ID` = 9701);
+version https://git-lfs.github.com/spec/v1
+oid sha256:1116da873560d6303dd1191dd50e604d881f1dca040fa749a48199bdd0f44d86
+size 207

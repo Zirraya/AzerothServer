@@ -1,3 +1,3 @@
--- DB update 2025_12_24_00 -> 2025_12_24_01
--- Was
-UPDATE `creature_template` SET `faction` = 634 WHERE `entry` = 29036;
+version https://git-lfs.github.com/spec/v1
+oid sha256:c6e73256c0598177e2bddf584c5f0df9627e9315ab255fb18aafd447b9ab55b9
+size 121

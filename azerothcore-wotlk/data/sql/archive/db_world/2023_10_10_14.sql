@@ -1,6 +1,3 @@
--- DB update 2023_10_10_13 -> 2023_10_10_14
--- Zeppelin Power Core
-UPDATE `creature_template_addon` SET `auras` = '42491' WHERE (`entry` = 23832);
-UPDATE `creature_template` SET `AIName` = '' WHERE `entry` = 23832;
-DELETE FROM `smart_scripts` WHERE (`entryorguid` = 23832) AND (`source_type` = 0);
-DELETE FROM `smart_scripts` WHERE (`entryorguid` = 2383200) AND (`source_type` = 9);
+version https://git-lfs.github.com/spec/v1
+oid sha256:aa9595c4eb4869913185e1825132431801e7ddbf1fd38f55d283ef59bfa6a7e8
+size 383

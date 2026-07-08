@@ -1,28 +1,3 @@
--- DB update 2021_05_04_06 -> 2021_05_04_07
-DROP PROCEDURE IF EXISTS `updateDb`;
-DELIMITER //
-CREATE PROCEDURE updateDb ()
-proc:BEGIN DECLARE OK VARCHAR(100) DEFAULT 'FALSE';
-SELECT COUNT(*) INTO @COLEXISTS
-FROM information_schema.COLUMNS
-WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'version_db_world' AND COLUMN_NAME = '2021_05_04_06';
-IF @COLEXISTS = 0 THEN LEAVE proc; END IF;
-START TRANSACTION;
-ALTER TABLE version_db_world CHANGE COLUMN 2021_05_04_06 2021_05_04_07 bit;
-SELECT sql_rev INTO OK FROM version_db_world WHERE sql_rev = '1619681545150953400'; IF OK <> 'FALSE' THEN LEAVE proc; END IF;
---
--- START UPDATING QUERIES
---
-
-INSERT INTO `version_db_world` (`sql_rev`) VALUES ('1619681545150953400');
-
-UPDATE `npc_text` SET `BroadcastTextID0` = 0 WHERE `ID` = 10106 AND `BroadcastTextID0` = 18360; -- Unlink incorrect broadcast text from Stormwind guard (Class Trainer > Shaman)
-
---
--- END UPDATING QUERIES
---
-COMMIT;
-END //
-DELIMITER ;
-CALL updateDb();
-DROP PROCEDURE IF EXISTS `updateDb`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:2a0decb35c6fc23e7203453287713ef7158805d1d91a8d89f126ebc69135d404
+size 1004

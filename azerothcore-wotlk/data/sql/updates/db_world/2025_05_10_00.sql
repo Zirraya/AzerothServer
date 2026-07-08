@@ -1,3 +1,3 @@
--- DB update 2025_05_09_01 -> 2025_05_10_00
--- Deletes `Lorgalis Manuscript` (5359) from `Aku'mai Fisher` (4824), `Blackfathom Myrmidon` (4807), `Blackfathom Sea Witch` (4805) and `Snapping Crustacean` (4822)
-DELETE FROM `creature_loot_template` WHERE `Item` = 5359;
+version https://git-lfs.github.com/spec/v1
+oid sha256:83b715dfb66b3b7c6ed81ca7a40bbcbe210869fc003215eb571767b2453c417d
+size 267

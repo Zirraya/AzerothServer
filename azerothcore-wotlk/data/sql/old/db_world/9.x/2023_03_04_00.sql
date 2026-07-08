@@ -1,4 +1,3 @@
--- DB update 2023_03_03_00 -> 2023_03_04_00
---
-DELETE FROM `spell_script_names` WHERE `ScriptName` = 'spell_dragonblight_corrosive_spit';
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES (47447, 'spell_dragonblight_corrosive_spit');
+version https://git-lfs.github.com/spec/v1
+oid sha256:7722613682c90da1dc0c15e4da389d0f83b7f9d37e81442298fc53ce82a2fa89
+size 251

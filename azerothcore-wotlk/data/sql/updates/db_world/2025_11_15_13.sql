@@ -1,5 +1,3 @@
--- DB update 2025_11_15_12 -> 2025_11_15_13
---
-DELETE FROM `spell_proc_event` WHERE `entry`= 45278;
-INSERT INTO `spell_proc_event` (`entry`, `procFlags`) VALUES
-(45278, 0x00004400|0x00010000);
+version https://git-lfs.github.com/spec/v1
+oid sha256:c8f40c44619a2ebc78bcf077c8ea318f328e76ef1888e546b567f9e18c989d03
+size 193

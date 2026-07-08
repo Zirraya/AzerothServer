@@ -1,2 +1,3 @@
--- DB update 2024_08_19_01 -> 2024_08_19_02
-UPDATE `creature_template` SET `minlevel` = 68, `maxlevel` = 80, `exp` = 0, `DamageModifier` = 1, `unit_class` = 2 WHERE `entry` = 15438;
+version https://git-lfs.github.com/spec/v1
+oid sha256:bceddbee1e30840cb7dfe0c591aac49e9018883956306ac2dfc38430e105d86e
+size 182

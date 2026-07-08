@@ -1,5 +1,3 @@
--- DB update 2026_02_06_05 -> 2026_02_06_06
---
-DELETE FROM `spell_target_position` WHERE `ID` = 33244 AND `EffectIndex` = 0;
-INSERT INTO `spell_target_position` (`ID`, `EffectIndex`, `MapID`, `PositionX`, `PositionY`, `PositionZ`, `Orientation`, `VerifiedBuild`) VALUES
-(33244, 0, 550, 432.74, -373.645, 18.0138, 1.39626, 50791);
+version https://git-lfs.github.com/spec/v1
+oid sha256:e6e4d122f7d69217638cc712acb4895b2c2518d52ea6a0353285d1799965e86f
+size 330

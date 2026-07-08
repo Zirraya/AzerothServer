@@ -1,3 +1,3 @@
--- DB update 2026_01_22_03 -> 2026_01_22_04
--- Sniffed from 50664 Build
-UPDATE `creature_template` SET `unit_flags` = `unit_flags`&~(2|131072), `unit_flags` = `unit_flags`|256 WHERE (`entry` IN (31079, 31492));
+version https://git-lfs.github.com/spec/v1
+oid sha256:d31a3d06c43a8234adb41d59f56247ab6cadf666b2be855ee4f43cc0e0d55ecc
+size 211

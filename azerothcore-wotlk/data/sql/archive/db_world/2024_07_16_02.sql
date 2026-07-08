@@ -1,2 +1,3 @@
--- DB update 2024_07_16_01 -> 2024_07_16_02
-UPDATE `version` SET `db_version`='ACDB 335.12-dev', `cache_id`=12 LIMIT 1;
+version https://git-lfs.github.com/spec/v1
+oid sha256:26d19ba5764a303c60b73a3247ca52486ba5305e5135bf2eb0b7f902742a4799
+size 120

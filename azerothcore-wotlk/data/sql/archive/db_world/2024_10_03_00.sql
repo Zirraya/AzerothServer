@@ -1,11 +1,3 @@
--- DB update 2024_10_02_01 -> 2024_10_03_00
-UPDATE `waypoint_data` SET `move_type` = 0 WHERE `id` IN (
-1480150, -- Aqueous Spawn
-1480210, -- Aqueous Spawn
-1480170, -- Aqueous Spawn
-1480130, -- Aqueous Spawn
-1480190, -- Aqueous Spawn
-1483640, -- Bonechewer Behemoth
-1483630, -- Bonechewer Behemoth
-1483600 -- Bonechewer Behemoth
-);
+version https://git-lfs.github.com/spec/v1
+oid sha256:9466125fa1db41cad404b0c5643a8d6efa47aaa905792b9cd49d160851bf5eb6
+size 331

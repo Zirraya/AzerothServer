@@ -1,4 +1,3 @@
--- DB update 2023_03_11_08 -> 2023_03_11_09
---
--- Temporus Level fix
-UPDATE `creature_template` SET `minlevel`=72, `maxlevel`=72 WHERE `entry`=17880;
+version https://git-lfs.github.com/spec/v1
+oid sha256:492c9965b1a1be39138652a969d3b147605e842b8eca379c8f2e99684159560f
+size 150

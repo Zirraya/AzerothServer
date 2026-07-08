@@ -1,3 +1,3 @@
--- DB update 2025_04_15_00 -> 2025_04_15_01
--- Singularity speed
-UPDATE `creature_template` SET `speed_walk` = 2, `speed_run` = 0.7142 WHERE (`entry` = 25855);
+version https://git-lfs.github.com/spec/v1
+oid sha256:ed92d5e1beea9fc74b21d180920b895130138d288b8296b2e4d621cb55887f14
+size 160

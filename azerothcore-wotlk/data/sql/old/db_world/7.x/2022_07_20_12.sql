@@ -1,4 +1,3 @@
--- DB update 2022_07_20_11 -> 2022_07_20_12
---
-DELETE FROM `spell_script_names` WHERE `spell_id` = 26180 AND `ScriptName` = 'spell_huhuran_wyvern_sting';
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES (26180, 'spell_huhuran_wyvern_sting');
+version https://git-lfs.github.com/spec/v1
+oid sha256:787cc4f02dbedaeac426a1b5c277706dac278e1beab1587d34a060dbda631f15
+size 260

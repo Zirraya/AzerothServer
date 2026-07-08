@@ -1,4 +1,3 @@
--- DB update 2022_12_22_08 -> 2022_12_22_09
---
-DELETE FROM `spell_loot_template` WHERE `Entry`=58160 AND `Item`=13926;
-DELETE FROM `creature_loot_template` WHERE `item`=24478 AND `entry` IN (21044, 21126, 21842);
+version https://git-lfs.github.com/spec/v1
+oid sha256:6c03d888ed0de81da38b26f2ec5020ea2ff942eda9c53cec09213d5e62583f0b
+size 213

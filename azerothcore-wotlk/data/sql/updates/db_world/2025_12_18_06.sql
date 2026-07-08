@@ -1,3 +1,3 @@
--- DB update 2025_12_18_05 -> 2025_12_18_06
---
-UPDATE `creature` SET `phaseMask` = 256 WHERE `id1` IN (34127, 33550) AND `guid` IN (207381, 207382, 207383, 207384, 207385, 207386, 207387, 207388, 207389, 207540, 207541, 207542, 207543, 207544);
+version https://git-lfs.github.com/spec/v1
+oid sha256:4718e48c0093da49a12dbec9d47a583d15d46b60091fc81684bc8c0d44ac3797
+size 245

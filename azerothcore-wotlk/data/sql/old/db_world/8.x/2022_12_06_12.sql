@@ -1,3 +1,3 @@
--- DB update 2022_12_06_11 -> 2022_12_06_12
---
-UPDATE `smart_scripts` SET `event_chance`=30 WHERE (`entryorguid` = 17264) AND (`source_type` = 0) AND (`id` IN (0));
+version https://git-lfs.github.com/spec/v1
+oid sha256:fa75c0561b69cdad97ebd97b105e74086266683f49247507d49febc9746c0646
+size 165

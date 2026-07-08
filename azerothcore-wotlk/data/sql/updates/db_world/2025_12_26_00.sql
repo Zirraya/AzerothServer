@@ -1,3 +1,3 @@
--- DB update 2025_12_24_01 -> 2025_12_26_00
--- Make "Into the Fold" (11978) available without prereqs
-UPDATE `quest_template_addon` SET `NextQuestID` = 0 WHERE `ID` IN (11977, 11979);
+version https://git-lfs.github.com/spec/v1
+oid sha256:6e5f42498ad96be439a9ff81bf51068ba4f9e20c11e9b03c8ac3a2f1c5033def
+size 184

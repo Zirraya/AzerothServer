@@ -1,4 +1,3 @@
--- DB update 2024_04_20_00 -> 2024_04_20_01
---
-DELETE FROM `spell_script_names` WHERE `spell_id` = 31538;
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES (31538, 'spell_cannibalize_heal');
+version https://git-lfs.github.com/spec/v1
+oid sha256:1be43917aefe29e44695abf737f3efee1772dddc2c46ed1a9c4a219da93dc145
+size 208

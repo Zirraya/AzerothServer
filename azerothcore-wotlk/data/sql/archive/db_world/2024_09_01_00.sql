@@ -1,3 +1,3 @@
--- DB update 2024_08_31_01 -> 2024_09_01_00
---
-UPDATE `creature_template` SET `unit_flags` = 33554432 WHERE `entry` = 23429;
+version https://git-lfs.github.com/spec/v1
+oid sha256:01b18c5631f696a1ea2c1e9c902c590873278dc4b7c61d038eef2ac1f6c6718e
+size 125

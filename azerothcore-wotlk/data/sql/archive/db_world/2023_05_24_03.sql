@@ -1,9 +1,3 @@
--- DB update 2023_05_24_02 -> 2023_05_24_03
---
-UPDATE `creature_loot_template` SET `GroupId` = 1 WHERE (`Entry` = 17370) AND (`Item` IN (1, 2, 3, 4, 5, 6));
-UPDATE `creature_loot_template` SET `Chance` = 5 WHERE (`Entry` = 17370) AND (`Item` IN (1, 2));
-UPDATE `creature_loot_template` SET `Chance` = 1 WHERE (`Entry` = 17370) AND (`Item` IN (3, 4, 5, 6));
-
-UPDATE `creature_loot_template` SET `GroupId` = 1 WHERE (`Entry` = 18620) AND (`Item` IN (1, 2, 3, 4, 5, 6, 7));
-UPDATE `creature_loot_template` SET `Chance` = 5 WHERE (`Entry` = 18620) AND (`Item` IN (1, 2));
-UPDATE `creature_loot_template` SET `Chance` = 1 WHERE (`Entry` = 18620) AND (`Item` IN (3, 4, 5, 6, 7));
+version https://git-lfs.github.com/spec/v1
+oid sha256:6bba9da35380fc1d1157a9be3b2e74f8040880688fb69ae359d25a9ac1b52542
+size 674

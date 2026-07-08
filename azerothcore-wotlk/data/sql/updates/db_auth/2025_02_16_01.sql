@@ -1,11 +1,3 @@
--- DB update 2025_02_16_00 -> 2025_02_16_01
---
-ALTER TABLE `updates`
-    CHANGE COLUMN `state` `state` ENUM('RELEASED','CUSTOM','MODULE','ARCHIVED','PENDING') NOT NULL DEFAULT 'RELEASED' COMMENT 'defines if an update is released or archived.' COLLATE 'utf8mb4_unicode_ci' AFTER `hash`;
-
-ALTER TABLE `updates_include`
-    CHANGE COLUMN `state` `state` ENUM('RELEASED','ARCHIVED','CUSTOM','PENDING') NOT NULL DEFAULT 'RELEASED' COMMENT 'defines if the directory contains released or archived updates.' COLLATE 'utf8mb4_unicode_ci' AFTER `path`;
-
-DELETE FROM `updates_include` WHERE `path` = '$/data/sql/updates/pending_db_auth';
-INSERT INTO `updates_include` (`path`, `state`) VALUES
-('$/data/sql/updates/pending_db_auth', 'PENDING');
+version https://git-lfs.github.com/spec/v1
+oid sha256:7ef296e5abfbf171da21ced323b7350466869bf7ef7685ca93dacdfead51d4d0
+size 733

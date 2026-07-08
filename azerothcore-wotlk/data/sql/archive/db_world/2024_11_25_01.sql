@@ -1,4 +1,3 @@
--- DB update 2024_11_25_00 -> 2024_11_25_01
--- 
--- Adds "Taunt Immunity" to Boss "Hex Lord Malacrass" (Zul'aman)
-UPDATE `creature_template` SET `flags_extra` = `flags_extra` | 256 WHERE `entry` = 24239;
+version https://git-lfs.github.com/spec/v1
+oid sha256:9933c0683e5d229dd03d22428cffec4390a46787068ccfc5271a8cbacc3af627
+size 203

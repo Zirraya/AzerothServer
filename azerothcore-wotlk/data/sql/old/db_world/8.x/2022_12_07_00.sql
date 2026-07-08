@@ -1,9 +1,3 @@
--- DB update 2022_12_06_45 -> 2022_12_07_00
--- Starter
-DELETE FROM `creature_queststarter` WHERE (`quest` = 10259) AND (`id` IN (19942));
-INSERT INTO `creature_queststarter` (`id`, `quest`) VALUES
-(19942, 10259);
--- Ender
-DELETE FROM `creature_questender` WHERE (`quest` = 10259) AND (`id` IN (19942));
-INSERT INTO `creature_questender` (`id`, `quest`) VALUES
-(19942, 10259);
+version https://git-lfs.github.com/spec/v1
+oid sha256:63d600575d1acd5877748bb95ad87063536f29da22f95a1543a3d555cb099298
+size 376

@@ -1,3 +1,3 @@
--- DB update 2022_11_16_01 -> 2022_11_16_02
--- Set Viper Sting to only in heroic
-UPDATE `smart_scripts` SET `event_flags`=4 WHERE (`entryorguid` = 18501) AND (`source_type` = 0) AND (`id` IN (4));
+version https://git-lfs.github.com/spec/v1
+oid sha256:fc8fbbb03d05633e1477b3405de56a49fea3e5ab665df7ad175df3c933040100
+size 197

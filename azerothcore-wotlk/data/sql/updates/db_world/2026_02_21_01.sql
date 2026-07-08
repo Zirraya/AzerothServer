@@ -1,3 +1,3 @@
--- DB update 2026_02_21_00 -> 2026_02_21_01
--- Omen of Clarity: revert SpellTypeMask to 0 to match TrinityCore
-UPDATE `spell_proc` SET `SpellTypeMask` = 0 WHERE `SpellId` = 16864;
+version https://git-lfs.github.com/spec/v1
+oid sha256:fb90b1fea8052caeb3f944a25a26bcf8737a194fedb8caf8078fb647191958bc
+size 180

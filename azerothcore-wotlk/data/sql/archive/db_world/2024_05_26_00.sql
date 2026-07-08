@@ -1,3 +1,3 @@
--- DB update 2024_05_25_01 -> 2024_05_26_00
---
-UPDATE `spell_proc_event` SET `Cooldown`=600 WHERE `entry`=69762;
+version https://git-lfs.github.com/spec/v1
+oid sha256:a495469e12fc5a4bd6f233b4ba91ad2ff2ef794a954b4fbd024bfe3fd3bd8de4
+size 113

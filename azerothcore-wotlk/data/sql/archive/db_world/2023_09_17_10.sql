@@ -1,3 +1,3 @@
--- DB update 2023_09_17_09 -> 2023_09_17_10
-DELETE FROM `game_event_creature` WHERE `guid` IN (245648,245645,245649); 
-DELETE FROM `creature` WHERE `guid` IN (245648,245645,245649);
+version https://git-lfs.github.com/spec/v1
+oid sha256:b2f2f97323c87a64d54f0f96e49fd59f23830d9310cc08cc7fa7b2ef57d84709
+size 182

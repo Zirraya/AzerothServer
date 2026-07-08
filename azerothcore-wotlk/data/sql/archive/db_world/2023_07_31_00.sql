@@ -1,3 +1,3 @@
--- DB update 2023_07_30_01 -> 2023_07_31_00
---
-UPDATE `creature_template` SET `pickpocketloot` = 17414 WHERE (`entry` = 18618);
+version https://git-lfs.github.com/spec/v1
+oid sha256:d486218d7a50a564338ff2b96503d52570c17e85f9b0f2fd0a7e8e9cd217c46f
+size 128

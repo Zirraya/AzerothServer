@@ -1,3 +1,3 @@
--- DB update 2023_04_24_00 -> 2023_05_23_00
---
-ALTER TABLE `characters` MODIFY `name` varchar(12) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL AFTER `account`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:bb48962f480460cfd2b34844d17733fb221ad0b5df758cb5da28060f92004746
+size 166

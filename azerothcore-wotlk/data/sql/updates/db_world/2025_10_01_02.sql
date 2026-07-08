@@ -1,3 +1,3 @@
--- DB update 2025_10_01_01 -> 2025_10_01_02
-UPDATE `creature_template_model` SET `VerifiedBuild` = 51831 WHERE `CreatureID` IN (33666, 33669);
-UPDATE `creature_template_model` SET `Probability` = 0 WHERE `CreatureID` = 33669 AND `CreatureDisplayID` = 27343;
+version https://git-lfs.github.com/spec/v1
+oid sha256:d10d2008d1c2a6dccf6db723c2e1b95c2af218a0743f895a3c3bf91515d809df
+size 258

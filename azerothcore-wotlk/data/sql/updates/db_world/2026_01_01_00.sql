@@ -1,9 +1,3 @@
--- DB update 2025_12_31_01 -> 2026_01_01_00
---
-DELETE FROM `acore_string` WHERE `entry` = 603;
-INSERT INTO `acore_string` (`entry`, `content_default`) VALUES
-(603, 'Do Action performed on [GUID: {}, entry: {}, name: {}] Action: {}');
-
-DELETE FROM `command` WHERE `name` = 'npc do';
-INSERT INTO `command` (`name`, `security`, `help`) VALUES
-('npc do', 3, 'Syntax: .npc do $action\nRequests the NPC to perform DoAction with the specified ActionID. Used for testing scripts.');
+version https://git-lfs.github.com/spec/v1
+oid sha256:f84c59e74c1d8e01b9693f6cc113d9e1f9cd7695f0141428803e494732b5a591
+size 475

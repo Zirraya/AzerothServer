@@ -1,11 +1,3 @@
--- DB update 2024_07_17_00 -> 2024_07_17_01
--- Ashtongue Feral Spirit can't see through Invisiblity
-UPDATE `creature_template_addon` SET `auras` = '18950' WHERE (`entry` = 22849);
--- Illidari Defiler missing Interrupt Immunity
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|1|256|4194304|33554432 WHERE (`entry` = 22853);
--- Illidari Boneslicer missing Stun immunity
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|1|256|2048|4194304|33554432 WHERE (`entry` = 22869);
--- Illidari Heartseeker missing Stun immunity
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|1|256|2048|4194304|33554432 WHERE (`entry` = 23339);
--- Illidari Nightlord missing Taunt immunity
-UPDATE `creature_template` SET `flags_extra` = `flags_extra`|256 WHERE (`entry` = 22855);
+version https://git-lfs.github.com/spec/v1
+oid sha256:d61e9a73ff08eed95fe15101008eed94f509e60899f92dc686df44e918db6daa
+size 844

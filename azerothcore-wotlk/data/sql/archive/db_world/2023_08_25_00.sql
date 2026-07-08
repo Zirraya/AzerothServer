@@ -1,4 +1,3 @@
--- DB update 2023_08_24_02 -> 2023_08_25_00
--- Insertion Aura Has Brewfest Mug
-DELETE FROM `spell_custom_attr` WHERE (`spell_id` = 42533);
-INSERT INTO `spell_custom_attr` (`spell_id`, `attributes`) VALUES (42533, 16777216);
+version https://git-lfs.github.com/spec/v1
+oid sha256:5cdebe32cf095f3e2f3caf2e0da63b6434e1784339b782ab18f95954c52ad312
+size 224

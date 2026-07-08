@@ -1,27 +1,3 @@
--- DB update 2021_11_06_00 -> 2021_12_26_00
-DROP PROCEDURE IF EXISTS `updateDb`;
-DELIMITER //
-CREATE PROCEDURE updateDb ()
-proc:BEGIN DECLARE OK VARCHAR(100) DEFAULT 'FALSE';
-SELECT COUNT(*) INTO @COLEXISTS
-FROM information_schema.COLUMNS
-WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'version_db_characters' AND COLUMN_NAME = '2021_11_06_00';
-IF @COLEXISTS = 0 THEN LEAVE proc; END IF;
-START TRANSACTION;
-ALTER TABLE version_db_characters CHANGE COLUMN 2021_11_06_00 2021_12_26_00 bit;
-SELECT sql_rev INTO OK FROM version_db_characters WHERE sql_rev = '1638643807174948000'; IF OK <> 'FALSE' THEN LEAVE proc; END IF;
---
--- START UPDATING QUERIES
---
-
-INSERT INTO `version_db_characters` (`sql_rev`) VALUES ('1638643807174948000');
--- placeholder
---
--- END UPDATING QUERIES
---
-UPDATE version_db_characters SET date = '2021_12_26_00' WHERE sql_rev = '1638643807174948000';
-COMMIT;
-END //
-DELIMITER ;
-CALL updateDb();
-DROP PROCEDURE IF EXISTS `updateDb`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:a1daecf29f2b6a28daaf071e695054e9954123c3df556f15b28281ee548f12c3
+size 955

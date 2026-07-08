@@ -1,3 +1,3 @@
--- DB update 2023_03_07_09 -> 2023_03_09_00
---
-DELETE FROM `creature_onkill_reputation` WHERE (`creature_id` IN (19958, 19962, 19964, 19969));
+version https://git-lfs.github.com/spec/v1
+oid sha256:72bc9fed03e265fd13b838d78efa3d64c82f0b2a0e9434c7a73d1271d558831b
+size 143

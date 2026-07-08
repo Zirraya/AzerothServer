@@ -1,29 +1,3 @@
--- DB update 2021_04_01_15 -> 2021_04_01_16
-DROP PROCEDURE IF EXISTS `updateDb`;
-DELIMITER //
-CREATE PROCEDURE updateDb ()
-proc:BEGIN DECLARE OK VARCHAR(100) DEFAULT 'FALSE';
-SELECT COUNT(*) INTO @COLEXISTS
-FROM information_schema.COLUMNS
-WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'version_db_world' AND COLUMN_NAME = '2021_04_01_15';
-IF @COLEXISTS = 0 THEN LEAVE proc; END IF;
-START TRANSACTION;
-ALTER TABLE version_db_world CHANGE COLUMN 2021_04_01_15 2021_04_01_16 bit;
-SELECT sql_rev INTO OK FROM version_db_world WHERE sql_rev = '1617177621821036427'; IF OK <> 'FALSE' THEN LEAVE proc; END IF;
---
--- START UPDATING QUERIES
---
-
-INSERT INTO `version_db_world` (`sql_rev`) VALUES ('1617177621821036427');
-
--- Disciple of Naralex
-UPDATE `creature_template` SET `speed_walk`=0.8 WHERE `entry`=3678;
-
---
--- END UPDATING QUERIES
---
-COMMIT;
-END //
-DELIMITER ;
-CALL updateDb();
-DROP PROCEDURE IF EXISTS `updateDb`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:ca58366526d325f75b92effc15942b74345ea5adad2855483a13d3f203155b1a
+size 918

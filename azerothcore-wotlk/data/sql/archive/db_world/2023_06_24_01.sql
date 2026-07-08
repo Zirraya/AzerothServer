@@ -1,3 +1,3 @@
--- DB update 2023_06_24_00 -> 2023_06_24_01
--- Add extra flag 33554432 to several skeleton creatures in Auchenai Crypts to avoid chain pulling
-UPDATE `creature_template` SET `flags_extra` = `flags_extra`|33554432 WHERE (`entry` IN (18700, 20317, 18521, 20315, 18524, 20298));
+version https://git-lfs.github.com/spec/v1
+oid sha256:130361ad961e64157984c915ae5b9e7e810311bffcf897e43fe4ce6e4ffd4062
+size 276

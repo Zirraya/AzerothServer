@@ -1,3 +1,3 @@
--- DB update 2023_08_06_04 -> 2023_08_06_05
---
-UPDATE `item_template` SET `spellppmRate_1` = 1 WHERE (`entry` = 31193);
+version https://git-lfs.github.com/spec/v1
+oid sha256:081e99727ec1180972ac3cce8e3b5eee6703c76efc67853429646676b5d47051
+size 120

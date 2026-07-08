@@ -1,2 +1,3 @@
--- DB update 2024_05_15_00 -> 2024_05_18_00
-UPDATE `creature_text` SET `BroadcastTextId`='32838' WHERE `CreatureID`='32169' AND `GroupID`='0' AND `ID`='0';
+version https://git-lfs.github.com/spec/v1
+oid sha256:1cc8ff762b788ba7ba540131a5bec62e8a4cf7446235446e49452b827e95a5fc
+size 156

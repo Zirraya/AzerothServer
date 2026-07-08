@@ -1,5 +1,3 @@
--- DB update 2022_08_14_03 -> 2022_08_14_04
---
-DELETE FROM `creature_text` WHERE `CreatureID`=15264;
-INSERT INTO `creature_text` (`CreatureID`, `GroupID`, `ID`, `Text`, `Type`, `Language`, `Probability`, `Emote`, `Duration`, `Sound`, `BroadcastTextId`, `TextRange`, `comment`) VALUES
-(15264,0,0,'%s becomes enraged!',16,0,100,0,0,0,24144,0,'Anubisath Sentinel');
+version https://git-lfs.github.com/spec/v1
+oid sha256:0cb6709ce2353caf9a08cd8dcf0806801fc6b35999c89af2a5221dd097f4adad
+size 363

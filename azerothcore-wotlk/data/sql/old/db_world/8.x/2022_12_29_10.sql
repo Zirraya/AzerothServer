@@ -1,5 +1,3 @@
--- DB update 2022_12_29_09 -> 2022_12_29_10
---
-DELETE FROM `creature_loot_template` WHERE (`Entry` = 18134) AND (`Item` IN (24427));
-INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES
-(18134, 24427, 0, 20, 1, 1, 0, 1, 1, 'Fen Strider - Fen Strider Tentacle');
+version https://git-lfs.github.com/spec/v1
+oid sha256:70ed4e22f2b1a2deb7af7e74c67ce8eba90c692be62c535a087b0fbe1d76c604
+size 369

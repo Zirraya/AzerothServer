@@ -1,6 +1,3 @@
--- DB update 2023_10_11_00 -> 2023_10_11_01
--- Call of the Wild
-DELETE FROM `spell_script_names` WHERE `spell_id` IN (-24604,53434);
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(-24604, 'spell_hun_target_self_and_pet'),
-(53434, 'spell_hun_target_self_and_pet');
+version https://git-lfs.github.com/spec/v1
+oid sha256:cc76247fcb1ad0b462448e641d88d6fa585d8733cdf1266b65d505bfb6473a69
+size 285

@@ -1,4 +1,3 @@
--- DB update 2024_11_04_08 -> 2024_11_05_00
---
-DELETE FROM `spell_script_names` WHERE `spell_id`=23595 AND `ScriptName`='spell_item_luffa';
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES (23595, 'spell_item_luffa');
+version https://git-lfs.github.com/spec/v1
+oid sha256:0e9e61c9140f844a8a03644a856afe183c4dcd1c190007f88afb8d19391d79d8
+size 236

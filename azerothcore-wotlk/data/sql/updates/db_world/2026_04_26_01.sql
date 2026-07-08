@@ -1,24 +1,3 @@
--- DB update 2026_04_26_00 -> 2026_04_26_01
---
-DELETE FROM `npc_vendor` WHERE (`entry` = 35642) AND (`item` IN (3775, 43231, 43233, 43235, 43237));
-INSERT INTO `npc_vendor` (`entry`, `slot`, `item`, `maxcount`, `incrtime`, `ExtendedCost`, `VerifiedBuild`) VALUES
-(35642, 0, 3775, 0, 0, 0, 0),
-(35642, 0, 43231, 0, 0, 0, 0),
-(35642, 0, 43233, 0, 0, 0, 0),
-(35642, 0, 43235, 0, 0, 0, 0),
-(35642, 0, 43237, 0, 0, 0, 0);
-
-DELETE FROM `npc_vendor` WHERE (`entry` = 29561) AND (`item` IN (5565, 16583, 17020, 17030, 17031, 17032, 17033, 37201, 44605, 44614, 44615));
-INSERT INTO `npc_vendor` (`entry`, `slot`, `item`, `maxcount`, `incrtime`, `ExtendedCost`, `VerifiedBuild`) VALUES
-(29561, 0, 5565, 5, 600, 0, 0),
-(29561, 0, 16583, 2, 600, 0, 0),
-(29561, 0, 17020, 80, 600, 0, 0),
-(29561, 0, 17030, 10, 600, 0, 0),
-(29561, 0, 17031, 10, 600, 0, 0),
-(29561, 0, 17032, 4, 600, 0, 0),
-(29561, 0, 17033, 10, 600, 0, 0),
--- (29561, 0, 21177, 300, 600, 0, 0), -- fixed in 36a1f31c2911e312a894c7a02027b98c1af79dbc
-(29561, 0, 37201, 40, 600, 0, 0),
-(29561, 0, 44605, 55, 600, 0, 0),
-(29561, 0, 44614, 20, 600, 0, 0),
-(29561, 0, 44615, 55, 600, 0, 0);
+version https://git-lfs.github.com/spec/v1
+oid sha256:4ce16fb3cafca6fed594b7bf41df39d31d658be57c51d95be1466e1e4edd4627
+size 1137

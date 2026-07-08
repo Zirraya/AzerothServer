@@ -1,3 +1,3 @@
--- DB update 2022_11_12_08 -> 2022_11_12_09
--- Remove incorrect gossip from Roetten Stonehammer
-UPDATE `creature_template` SET `npcflag` = 2, `gossip_menu_id` = 0 WHERE (`entry` = 5637);
+version https://git-lfs.github.com/spec/v1
+oid sha256:0b855920cc2daa760d6c4e275b827220cc91a92d1d08f497b66762d2abefa910
+size 187

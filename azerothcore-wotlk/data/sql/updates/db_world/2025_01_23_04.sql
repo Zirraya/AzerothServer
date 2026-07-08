@@ -1,3 +1,3 @@
--- DB update 2025_01_23_03 -> 2025_01_23_04
---
-UPDATE `creature_template_movement` SET `Rooted`= 1, `Flight` = 1 WHERE `CreatureId` = 24666;
+version https://git-lfs.github.com/spec/v1
+oid sha256:46c5538ee84049fdb11c105f90dcdc350e835a5926d3b83e5469c42bd959cd0f
+size 141

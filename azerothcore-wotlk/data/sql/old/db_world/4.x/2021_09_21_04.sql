@@ -1,31 +1,3 @@
--- DB update 2021_09_21_03 -> 2021_09_21_04
-DROP PROCEDURE IF EXISTS `updateDb`;
-DELIMITER //
-CREATE PROCEDURE updateDb ()
-proc:BEGIN DECLARE OK VARCHAR(100) DEFAULT 'FALSE';
-SELECT COUNT(*) INTO @COLEXISTS
-FROM information_schema.COLUMNS
-WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'version_db_world' AND COLUMN_NAME = '2021_09_21_03';
-IF @COLEXISTS = 0 THEN LEAVE proc; END IF;
-START TRANSACTION;
-ALTER TABLE version_db_world CHANGE COLUMN 2021_09_21_03 2021_09_21_04 bit;
-SELECT sql_rev INTO OK FROM version_db_world WHERE sql_rev = '1631945631125292040'; IF OK <> 'FALSE' THEN LEAVE proc; END IF;
---
--- START UPDATING QUERIES
---
-
-INSERT INTO `version_db_world` (`sql_rev`) VALUES ('1631945631125292040');
-
--- Deletes Hide of Lupos from RLT 24062
-DELETE FROM `reference_loot_template` WHERE `Entry` = 24062 AND `Item` = 3018;
-
-
---
--- END UPDATING QUERIES
---
-UPDATE version_db_world SET date = '2021_09_21_04' WHERE sql_rev = '1631945631125292040';
-COMMIT;
-END //
-DELIMITER ;
-CALL updateDb();
-DROP PROCEDURE IF EXISTS `updateDb`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:4c78a1ea8e47faaf70368e23bdf048e01428a663c9c98d1f7acab66ef514442d
+size 1037

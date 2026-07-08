@@ -1,6 +1,3 @@
--- DB update 2022_12_18_00 -> 2022_12_20_00
---
--- Improve Mazthoril Recipe Drop Rates
-UPDATE `creature_loot_template` SET `Chance`=6 WHERE `Entry`=7437 AND `Item`=14493 AND `Reference`=0 AND `GroupId`=0;
-UPDATE `creature_loot_template` SET `Chance`=2 WHERE `Entry`=7437 AND `Item`=16054 AND `Reference`=0 AND `GroupId`=0;
-UPDATE `creature_loot_template` SET `Chance`=10 WHERE `Entry`=7437 AND `Item`=13497 AND `Reference`=0 AND `GroupId`=0;
+version https://git-lfs.github.com/spec/v1
+oid sha256:fa2436b4b0cb197fb605fa07ae19fe96b99f257f30d456e776c90efaec45a3d9
+size 441

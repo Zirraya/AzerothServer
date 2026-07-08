@@ -1,4 +1,3 @@
--- DB update 2022_05_11_02 -> 2022_05_12_00
---
-UPDATE `quest_template_addon` SET `PrevQuestId`=0 WHERE `ID`=1699;
-UPDATE `quest_template_addon` SET `NextQuestId`=1699 WHERE `ID` IN (1698,10371);
+version https://git-lfs.github.com/spec/v1
+oid sha256:7cf81e3b683427644023e69f1e68b2fc3edbe90e13d2590709122cb6f0463574
+size 195

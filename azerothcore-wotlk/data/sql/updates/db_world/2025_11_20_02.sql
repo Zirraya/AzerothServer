@@ -1,5 +1,3 @@
--- DB update 2025_11_20_01 -> 2025_11_20_02
---
-UPDATE `creature_template` SET `speed_run` = 1.142857 WHERE `entry` = 31356;
-UPDATE `creature_template` SET `speed_run` = 0.428571 WHERE `entry` = 31873;
-UPDATE `creature_template` SET `speed_run` = 0.714285 WHERE `entry` = 31348;
+version https://git-lfs.github.com/spec/v1
+oid sha256:5c358f57b7cf696815f5d745f61284d6dbfe40cf79840bb22955fd1e94fff626
+size 278

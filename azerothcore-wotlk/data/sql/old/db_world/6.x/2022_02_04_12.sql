@@ -1,29 +1,3 @@
--- DB update 2022_02_04_11 -> 2022_02_04_12
-DROP PROCEDURE IF EXISTS `updateDb`;
-DELIMITER //
-CREATE PROCEDURE updateDb ()
-proc:BEGIN DECLARE OK VARCHAR(100) DEFAULT 'FALSE';
-SELECT COUNT(*) INTO @COLEXISTS
-FROM information_schema.COLUMNS
-WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'version_db_world' AND COLUMN_NAME = '2022_02_04_11';
-IF @COLEXISTS = 0 THEN LEAVE proc; END IF;
-START TRANSACTION;
-ALTER TABLE version_db_world CHANGE COLUMN 2022_02_04_11 2022_02_04_12 bit;
-SELECT sql_rev INTO OK FROM version_db_world WHERE sql_rev = '1643389586744135400'; IF OK <> 'FALSE' THEN LEAVE proc; END IF;
---
--- START UPDATING QUERIES
---
-
-INSERT INTO `version_db_world` (`sql_rev`) VALUES ('1643389586744135400');
-
-UPDATE `gameobject_loot_template` SET `MaxCount` = 4 WHERE `Entry` = 10039 AND `Item` = 11018;
-
---
--- END UPDATING QUERIES
---
-UPDATE version_db_world SET date = '2022_02_04_12' WHERE sql_rev = '1643389586744135400';
-COMMIT;
-END //
-DELIMITER ;
-CALL updateDb();
-DROP PROCEDURE IF EXISTS `updateDb`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:9bcbc705d8d97d596c0c1040c8b0ee8722c43939c291d5a8cedb6b121d7e9629
+size 1012

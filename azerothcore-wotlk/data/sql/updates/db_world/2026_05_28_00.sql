@@ -1,8 +1,3 @@
--- DB update 2026_05_26_00 -> 2026_05_28_00
---
-DELETE FROM `spawn_group` WHERE `spawnId` IN (153154, 153155, 153156, 153157);
-INSERT INTO `spawn_group` (`groupId`, `spawnType`, `spawnId`) VALUES
-(1, 0, 153154),
-(1, 0, 153155),
-(1, 0, 153156),
-(1, 0, 153157);
+version https://git-lfs.github.com/spec/v1
+oid sha256:bea2ca6e1a37b4b393ff90ae5235093d885302579c228f6db89244d78e25c1b3
+size 259

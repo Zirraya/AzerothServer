@@ -1,3 +1,3 @@
--- DB update 2023_04_19_19 -> 2023_04_19_20
--- DB update En'kilah Hatchling faction (Unable to fight or communicate with players)
-UPDATE `creature_template` SET `faction` = 634 WHERE `entry` IN (25388, 25389, 25390);
+version https://git-lfs.github.com/spec/v1
+oid sha256:345faec257c952b29bfedf522654f8718b60fa752fefa047fd7580facd831908
+size 217

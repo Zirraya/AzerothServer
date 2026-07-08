@@ -1,4 +1,3 @@
--- DB update 2023_04_19_08 -> 2023_04_19_09
--- 20668 (Fiendling Flesh Beast)
-UPDATE `creature_template` SET `AIName` = '' WHERE `entry` = 20668;
-DELETE FROM `smart_scripts` WHERE `entryorguid` = 20668 AND `source_type` = 0;
+version https://git-lfs.github.com/spec/v1
+oid sha256:b38b25301fb55c06e616d962cc00fc535583c09202be6c8bc6d4539a41633ce7
+size 224

@@ -1,3 +1,3 @@
--- DB update 2024_04_02_05 -> 2024_04_03_00
--- remove duplicate 'Door' spawns from Black Temple
-DELETE from `gameobject` WHERE (`id` IN (185482, 185892, 185479, 185478, 185481, 185480)) AND (`guid` IN (20567, 20523, 20559, 20558, 20563, 20561));
+version https://git-lfs.github.com/spec/v1
+oid sha256:134cb35d6477fbd99eefe94491cf249ee15c272bc81b754df72239395fbeba87
+size 246

@@ -1,2 +1,3 @@
--- DB update 2024_07_02_00 -> 2024_07_04_00
-UPDATE `gameobject` SET `position_x` = -11102.743, `position_y` = -1848.9752, `position_z` = 221.06969, `orientation` = 5.393069, `rotation2` = -0.43051052, `rotation3` = 0.90258557 WHERE `guid` = 56429 AND `id` = 185119;
+version https://git-lfs.github.com/spec/v1
+oid sha256:0d6c55b100b74a298fb1c253cde64d6c83678399fc67a3d81e03ec326db12506
+size 266

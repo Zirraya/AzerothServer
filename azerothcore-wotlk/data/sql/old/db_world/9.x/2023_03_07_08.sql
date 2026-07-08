@@ -1,3 +1,3 @@
--- DB update 2023_03_07_07 -> 2023_03_07_08
--- Event: Pilgrim's Bounty - Few Wild Turkeys having npc gossip flag.
-UPDATE `creature` SET `npcflag` = `npcflag`&~(1) WHERE `id1` = 32820 AND `guid` IN (241384,241659,241674,241862,241865,241944,241948,241961,242367,242369,242416,242952,243003,243102,243735,243736,243774,243775);
+version https://git-lfs.github.com/spec/v1
+oid sha256:d87f35391079265db853bb6df2ceb2ef8dd29ebec7019d7a2630593616482b3d
+size 326

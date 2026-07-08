@@ -1,31 +1,3 @@
--- DB update 2022_04_17_00 -> 2022_04_17_01
-DROP PROCEDURE IF EXISTS `updateDb`;
-DELIMITER //
-CREATE PROCEDURE updateDb ()
-proc:BEGIN DECLARE OK VARCHAR(100) DEFAULT 'FALSE';
-SELECT COUNT(*) INTO @COLEXISTS
-FROM information_schema.COLUMNS
-WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'version_db_world' AND COLUMN_NAME = '2022_04_17_00';
-IF @COLEXISTS = 0 THEN LEAVE proc; END IF;
-START TRANSACTION;
-ALTER TABLE version_db_world CHANGE COLUMN 2022_04_17_00 2022_04_17_01 bit;
-SELECT sql_rev INTO OK FROM version_db_world WHERE sql_rev = '1649612333538339500'; IF OK <> 'FALSE' THEN LEAVE proc; END IF;
---
--- START UPDATING QUERIES
---
-
-INSERT INTO `version_db_world` (`sql_rev`) VALUES ('1649612333538339500');
-
-DELETE FROM `spell_bonus_data` WHERE `entry`=18817;
-INSERT INTO `spell_bonus_data` VALUES
-(18817,1,0,0,0,'Skullflame Shield - Drain Life');
-
---
--- END UPDATING QUERIES
---
-UPDATE version_db_world SET date = '2022_04_17_01' WHERE sql_rev = '1649612333538339500';
-COMMIT;
-END //
-DELIMITER ;
-CALL updateDb();
-DROP PROCEDURE IF EXISTS `updateDb`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:588b4f3b5242d8029dff1be9de55901ece07b00467fa863c2e8288a272e896a2
+size 1057

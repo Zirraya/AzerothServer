@@ -1,4 +1,3 @@
--- DB update 2026_06_18_03 -> 2026_06_20_00
---
-DELETE FROM `spell_script_names` WHERE `spell_id` = 64132;
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES (64132, 'spell_yogg_saron_constrictor_tentacle_aura');
+version https://git-lfs.github.com/spec/v1
+oid sha256:be77e1d018a3580e2512aa9e346f1a0100c686dabbc5549dae51287f44c11f49
+size 228

@@ -1,5 +1,3 @@
--- DB update 2024_06_08_02 -> 2024_06_09_00
---
-UPDATE `spell_script_names` SET `ScriptName`='spell_four_horsemen_mark_aura' WHERE `spell_id` IN (28832, 28833, 28834, 28835);
-UPDATE `spell_script_names` SET `ScriptName`='spell_grobbulus_mutating_injection_aura' WHERE `spell_id`=28169;
-UPDATE `spell_script_names` SET `ScriptName`='spell_kelthuzad_detonate_mana_aura' WHERE `spell_id`=27819;
+version https://git-lfs.github.com/spec/v1
+oid sha256:f2d68eba892b5f7046161d7926ed2edd7cc166a59e6cefcd40f9899e34e6d469
+size 391

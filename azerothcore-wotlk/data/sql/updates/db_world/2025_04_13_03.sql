@@ -1,3 +1,3 @@
--- DB update 2025_04_13_02 -> 2025_04_13_03
--- Set immune to taunt
-UPDATE `creature_template` SET `flags_extra` = `flags_extra` |256 WHERE (`entry` = 25840);
+version https://git-lfs.github.com/spec/v1
+oid sha256:8dfe3a839db6764ebfdbc9f26fc59f3fb3f3a0cbae458fb6ca08e429e6105084
+size 158

@@ -1,6 +1,3 @@
--- DB update 2022_09_21_04 -> 2022_09_21_05
---
-UPDATE `creature` SET `phaseMask`=16 WHERE `guid` IN (246011,246009);
-UPDATE `creature` SET `phaseMask`=8 WHERE `guid` IN (246036,246098);
-
-UPDATE `creature_template` SET `unit_flags`=`unit_flags`|770 WHERE `entry` IN (15072,15065,15066,15071);
+version https://git-lfs.github.com/spec/v1
+oid sha256:2d4803c33c0a081eed2a551db59a6d349d0638e1e53f8dc164fe101f0ac39fcc
+size 292

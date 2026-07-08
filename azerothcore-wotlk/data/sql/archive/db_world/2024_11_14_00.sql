@@ -1,5 +1,3 @@
--- DB update 2024_11_13_04 -> 2024_11_14_00
---
-DELETE FROM `spell_script_names` WHERE `ScriptName` = 'spell_electrial_storm' AND `spell_id` = 43648;
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(43648, 'spell_electrial_storm');
+version https://git-lfs.github.com/spec/v1
+oid sha256:bf442eb18fea804862950bd0a6f5f9896efc5f65cdbb9ca935c532cd4cfca520
+size 250

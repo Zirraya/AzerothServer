@@ -1,4 +1,3 @@
--- DB update 2025_10_31_00 -> 2025_10_31_01
-
--- Set Rooted
-UPDATE `creature_template_movement` SET `Rooted` = 1 WHERE (`CreatureId` = 16129);
+version https://git-lfs.github.com/spec/v1
+oid sha256:f77b23c73a2ad46d22b216beb7f2639e56565f9fe01decf02d34087c89a6c610
+size 142

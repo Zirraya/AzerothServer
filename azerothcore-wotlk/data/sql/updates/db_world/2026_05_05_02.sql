@@ -1,4 +1,3 @@
--- DB update 2026_05_05_01 -> 2026_05_05_02
-
--- Delete Row 7
-DELETE FROM `smart_scripts` WHERE (`entryorguid` = 3099200) AND (`source_type` = 9) AND (`id` IN (7));
+version https://git-lfs.github.com/spec/v1
+oid sha256:5c51520182567893c64b3832c249a2dbc3a9d38b3d45296cb4c3484000b30f9a
+size 164

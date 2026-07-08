@@ -1,2 +1,3 @@
--- DB update 2023_07_08_09 -> 2023_07_09_00
-UPDATE `npc_text` SET `BroadcastTextID0` = 0 WHERE `ID` = 15906 AND `BroadcastTextID0` = 40591; -- Unlink incorrect broadcast text
+version https://git-lfs.github.com/spec/v1
+oid sha256:925cd50de1e0ecba645236b4403a5e762892eb998631ab2b0d90eb4985091227
+size 175

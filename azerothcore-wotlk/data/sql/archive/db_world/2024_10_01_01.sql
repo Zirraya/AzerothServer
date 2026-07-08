@@ -1,4 +1,3 @@
--- DB update 2024_10_01_00 -> 2024_10_01_01
---
--- visibilityDistanceType to infinite for Orgrim's Hammer and The Skybreaker marker npcs
-UPDATE `creature_addon` SET `visibilityDistanceType` = 5 WHERE `guid` IN (134846, 134847);
+version https://git-lfs.github.com/spec/v1
+oid sha256:4a458bfbb4ed96e6958377dbe7a401be17c8c597e04d911f148e248424ce2b6b
+size 227

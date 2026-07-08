@@ -1,5 +1,3 @@
--- DB update 2023_04_03_00 -> 2023_04_04_00
--- Blood of the Mountain
-DELETE FROM `creature_loot_template` WHERE `Item` = 11382;
-INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES
-(11659, 11382, 0, 7.1259, 0, 1, 0, 1, 1, 'Molten Destroyer - Blood of the Mountain');
+version https://git-lfs.github.com/spec/v1
+oid sha256:1f7d923d4843d4652a1148c1ab674a0b931de28df61f37308950fa3bea5d4f6b
+size 374

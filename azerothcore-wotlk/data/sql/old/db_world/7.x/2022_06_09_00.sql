@@ -1,5 +1,3 @@
--- DB update 2022_06_08_02 -> 2022_06_09_00
---
-DELETE FROM `spell_script_names` WHERE `spell_id`=24326;
-INSERT INTO `spell_script_names` VALUES
-(24326,'spell_gahzranka_slam');
+version https://git-lfs.github.com/spec/v1
+oid sha256:f8927f3dfdd08457636dc26c0a71a6ca934ced9473dbb87cdab9e4f953293127
+size 176

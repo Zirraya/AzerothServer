@@ -1,3 +1,3 @@
--- DB update 2023_11_05_00 -> 2023_11_07_00
--- Boots & Gant
-UPDATE `creature_template` SET `npcflag` = `npcflag`|512 WHERE `entry` IN (19617,19572);
+version https://git-lfs.github.com/spec/v1
+oid sha256:d0c97af39f09965d26117f1aa885d1b83973b7a5b453a11d71509e78c5e20fdc
+size 149

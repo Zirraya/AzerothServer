@@ -1,4 +1,3 @@
--- DB update 2022_07_20_02 -> 2022_07_20_03
---
-DELETE FROM `command` WHERE `name` = 'npc guid';
-INSERT INTO `command` (`name`, `security`, `help`) VALUES ('npc guid', 1, 'Syntax: .npc guid\r\n\r\nDisplays GUID, faction, NPC flags, Entry ID, Model ID for selected creature.');
+version https://git-lfs.github.com/spec/v1
+oid sha256:2945fb667774d3392b0624444195636ef4c7d869c65165daaeb3b00ff100e942
+size 276

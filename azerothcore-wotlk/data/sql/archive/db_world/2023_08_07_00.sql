@@ -1,5 +1,3 @@
--- DB update 2023_08_06_11 -> 2023_08_07_00
---
-DELETE FROM `smart_scripts` WHERE (`entryorguid` = 18829) AND (`source_type` = 0) AND (`id` IN (2));
-INSERT INTO `smart_scripts` (`entryorguid`, `source_type`, `id`, `link`, `event_type`, `event_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `event_param5`, `action_type`, `action_param1`, `action_param2`, `action_param3`, `action_param4`, `action_param5`, `action_param6`, `target_type`, `target_param1`, `target_param2`, `target_param3`, `target_param4`, `target_x`, `target_y`, `target_z`, `target_o`, `comment`) VALUES
-(18829, 0, 2, 0, 0, 0, 100, 0, 8200, 8800, 12150, 19450, 0, 11, 34435, 32, 0, 1, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 'Hellfire Warder - In Combat - Cast \'Rain of Fire\'');
+version https://git-lfs.github.com/spec/v1
+oid sha256:edac2223fe2352640dd228f484a05caf28f6d3199469f54e44238f5079d40314
+size 802

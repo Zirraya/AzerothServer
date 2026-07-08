@@ -1,6 +1,3 @@
--- DB update 2025_06_21_01 -> 2025_06_21_02
---
-DELETE FROM `spell_script_names` WHERE `spell_id` IN (58552,58533) AND `ScriptName`='spell_chapter5_return_to_capital';
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(58552, 'spell_chapter5_return_to_capital'),
-(58533, 'spell_chapter5_return_to_capital');
+version https://git-lfs.github.com/spec/v1
+oid sha256:1c8146e10c9f168270c75c4514592fb2844c9792cf65bea941b6b35688926d1a
+size 324

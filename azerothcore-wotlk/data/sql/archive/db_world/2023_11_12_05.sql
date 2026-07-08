@@ -1,4 +1,3 @@
--- DB update 2023_11_12_04 -> 2023_11_12_05
--- Carinda's Scroll of Retribution
-DELETE FROM `spell_script_names` WHERE `spell_id`=30077 AND `ScriptName` = 'spell_item_scroll_of_retribution';
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES (30077, 'spell_item_scroll_of_retribution');
+version https://git-lfs.github.com/spec/v1
+oid sha256:ae03c0a0693267e6a4a35c56f80e1b5884ef84abd34f2ac9f9bc03dc582ef728
+size 302

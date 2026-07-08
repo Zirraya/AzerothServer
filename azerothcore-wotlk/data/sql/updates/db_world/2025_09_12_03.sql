@@ -1,5 +1,3 @@
--- DB update 2025_09_12_02 -> 2025_09_12_03
-DELETE FROM `spelldifficulty_dbc` WHERE `ID` IN (53472, 53509);
-INSERT INTO `spelldifficulty_dbc` (`ID`, `DifficultySpellID_1`, `DifficultySpellID_2`) VALUES
-(53509, 53509, 59432),
-(53472, 53472, 59433);
+version https://git-lfs.github.com/spec/v1
+oid sha256:6ad26e40491a6f8de5c6f406e8f27bd12618298af3c67b0c11994db6d49cd5d6
+size 248

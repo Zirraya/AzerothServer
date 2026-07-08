@@ -1,3 +1,3 @@
--- DB update 2025_03_17_02 -> 2025_03_17_03
-UPDATE `quest_poi` SET `WorldMapAreaId` = 1421, `VerifiedBuild` = 51831 WHERE (`QuestID` = 8948) AND (`id` = 0);
-UPDATE `quest_poi_points` SET `VerifiedBuild` = 51831 WHERE (`QuestID` = 8948) AND (`Idx1` = 0) AND (`Idx2` = 0);
+version https://git-lfs.github.com/spec/v1
+oid sha256:5fe03750b89b3dadf6f4f8b86ab63ff313ef8950d59fd67fdd3f3734711881ef
+size 271

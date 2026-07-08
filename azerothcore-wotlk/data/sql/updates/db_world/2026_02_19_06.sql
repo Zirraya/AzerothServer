@@ -1,3 +1,3 @@
--- DB update 2026_02_19_05 -> 2026_02_19_06
--- Blood Presence (63611): rename script to match new class name
-UPDATE `spell_script_names` SET `ScriptName` = 'spell_dk_improved_blood_presence_triggered' WHERE `spell_id` = 63611;
+version https://git-lfs.github.com/spec/v1
+oid sha256:b7c483bc12bcf88f4d80afde639e6e8029885e1b1b57d736602ed337a1edf1c6
+size 227

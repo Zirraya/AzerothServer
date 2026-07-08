@@ -1,27 +1,3 @@
--- DB update 2020_09_19_01 -> 2020_09_23_00
-DROP PROCEDURE IF EXISTS `updateDb`;
-DELIMITER //
-CREATE PROCEDURE updateDb ()
-proc:BEGIN DECLARE OK VARCHAR(100) DEFAULT 'FALSE';
-SELECT COUNT(*) INTO @COLEXISTS
-FROM information_schema.COLUMNS
-WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'version_db_world' AND COLUMN_NAME = '2020_09_19_01';
-IF @COLEXISTS = 0 THEN LEAVE proc; END IF;
-START TRANSACTION;
-ALTER TABLE version_db_world CHANGE COLUMN 2020_09_19_01 2020_09_23_00 bit;
-SELECT sql_rev INTO OK FROM version_db_world WHERE sql_rev = '1598563398098965889'; IF OK <> 'FALSE' THEN LEAVE proc; END IF;
---
--- START UPDATING QUERIES
---
-
-INSERT INTO `version_db_world` (`sql_rev`) VALUES ('1598563398098965889');
-UPDATE `waypoint_data` SET `position_x`=-6130.679199, `position_y`=393.473969 WHERE `id`=10210 and `point`=19;
-
---
--- END UPDATING QUERIES
---
-COMMIT;
-END //
-DELIMITER ;
-CALL updateDb();
-DROP PROCEDURE IF EXISTS `updateDb`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:f3582c4db192ccc5914e35cec8f405862ef5ab2e3fc9c1f028e608129b0fe22b
+size 937

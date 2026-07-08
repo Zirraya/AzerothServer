@@ -1,5 +1,3 @@
--- DB update 2026_04_04_00 -> 2026_04_04_01
---
-DELETE FROM `item_loot_template` WHERE (`Entry` = 52676) AND (`Item` IN (47241));
-INSERT INTO `item_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES
-(52676, 47241, 0, 100, 0, 1, 0, 2, 2, '');
+version https://git-lfs.github.com/spec/v1
+oid sha256:2cea2ee63cd92eac5bace9f15bdcdd7a443a71f39bb8ffb1edf1ba9ea5cee1cb
+size 328

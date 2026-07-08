@@ -1,3 +1,3 @@
--- DB update 2023_10_17_06 -> 2023_10_17_07
--- Moroes guests
-UPDATE `creature_template` SET `minlevel` = 70, `maxlevel` = 70 WHERE (`entry` = 19874);
+version https://git-lfs.github.com/spec/v1
+oid sha256:7c6fddea108e0533b1cac49320b0fd7d4ee8a5d5749b93e52b4caa28eb9dfacd
+size 150

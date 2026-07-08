@@ -1,3 +1,3 @@
--- DB update 2025_10_16_05 -> 2025_10_17_00
---
-UPDATE `gameobject` SET `state` = 0 WHERE `guid` IN (65573, 65585) AND `id` IN (191324, 191416);
+version https://git-lfs.github.com/spec/v1
+oid sha256:6c1bf0757376558b1ec24e478229184e23e3c10ef303bbf09d3e037189dd16da
+size 144

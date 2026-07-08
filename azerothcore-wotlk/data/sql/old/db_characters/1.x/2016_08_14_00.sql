@@ -1,7 +1,3 @@
--- uncomment and fix following line at next revision / updates archivation
--- ALTER TABLE auth_db_version CHANGE COLUMN xxxx_xx_xx_xx xxxx_xx_xx_xx bit;
-
---
--- Do not remove this file when we archive sql under this folder
--- it is needed for pending sql importer
---
+version https://git-lfs.github.com/spec/v1
+oid sha256:bdc09a9471a122946509767e43d12efb43521e4dbb6cc424b78b3788bec9385f
+size 266

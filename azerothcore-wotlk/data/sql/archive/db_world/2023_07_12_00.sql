@@ -1,4 +1,3 @@
--- DB update 2023_07_11_03 -> 2023_07_12_00
--- Mosh'Ogg Witch Doctor SAI flag correction
-UPDATE `smart_scripts` SET `event_flags`=0 WHERE `entryorguid`=1144 AND `source_type`=0 AND `id`=0 AND `link`=0;
-UPDATE `smart_scripts` SET `event_flags`=1 WHERE `entryorguid`=1144 AND `source_type`=0 AND `id`=1 AND `link`=0;
+version https://git-lfs.github.com/spec/v1
+oid sha256:d63a031fcc147f26f2081db29d2fb54e7955f695f44fc296ae6566639cf97b91
+size 315

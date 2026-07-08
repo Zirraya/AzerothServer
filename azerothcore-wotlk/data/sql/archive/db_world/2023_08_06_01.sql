@@ -1,3 +1,3 @@
--- DB update 2023_08_06_00 -> 2023_08_06_01
--- https://www.wowhead.com/wotlk/quest=9433/
-UPDATE `creature_template` SET `ScriptName`='npc_controller' WHERE `entry` IN (17178, 19405);
+version https://git-lfs.github.com/spec/v1
+oid sha256:1e5700e1ef81b11e435ca45c1447a78c92c8e00da95759f2a67e60959b867a2f
+size 183

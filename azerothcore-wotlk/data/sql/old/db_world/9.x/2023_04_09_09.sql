@@ -1,6 +1,3 @@
--- DB update 2023_04_09_08 -> 2023_04_09_09
---
-DELETE FROM `conditions` WHERE `SourceTypeOrReferenceId`=1 AND `SourceGroup` IN (17370,18608) AND `SourceEntry`=23894;
-INSERT INTO `conditions` VALUES
-(1,17370,23894,0,0,22,0,542,0,0,0,0,0,'','Drop Fel Orc Blood Vial only inside Blood Furnace'),
-(1,18608,23894,0,0,22,0,542,0,0,0,0,0,'','Drop Fel Orc Blood Vial only inside Blood Furnace');
+version https://git-lfs.github.com/spec/v1
+oid sha256:3f0c6ab457f92aa535b560410c7c744b5f12d4c8410e4f8a1dfef95d53ac50d9
+size 388

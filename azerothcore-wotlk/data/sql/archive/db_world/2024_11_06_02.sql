@@ -1,4 +1,3 @@
--- DB update 2024_11_06_01 -> 2024_11_06_02
--- Quest 'Strange Energy'
-UPDATE `quest_template_addon` SET `NextQuestID` = 0, `ExclusiveGroup` = 0 WHERE `ID` IN (9957,9960,9961);
-UPDATE `quest_template_addon` SET `ExclusiveGroup` = -9968 WHERE `ID` IN (9968,9971);
+version https://git-lfs.github.com/spec/v1
+oid sha256:1a66ea2ee6b8032e24d8499d25c014f1c5de13d16c4ced571ddf22b230cae7cd
+size 262

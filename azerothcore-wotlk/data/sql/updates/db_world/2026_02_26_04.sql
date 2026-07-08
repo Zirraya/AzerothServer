@@ -1,3 +1,3 @@
--- DB update 2026_02_26_03 -> 2026_02_26_04
--- Darkmoon Card: Blue Dragon - add NONE DmgClass proc flags and fix phase to CAST
-UPDATE `spell_proc` SET `ProcFlags` = 0x15400, `SpellPhaseMask` = 1 WHERE `SpellId` = 23688;
+version https://git-lfs.github.com/spec/v1
+oid sha256:323e32823a0e3644e6ceced00f27516844b0561f9189f80d972c0e128e783409
+size 220

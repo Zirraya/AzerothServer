@@ -1,5 +1,3 @@
--- DB update 2025_11_29_01 -> 2025_11_29_02
---
-UPDATE `quest_template` SET `RewardNextQuest` = 0 WHERE (`ID` = 11287);
-UPDATE `quest_template_addon` SET `NextQuestID` = 0 WHERE (`ID` = 11287);
-UPDATE `quest_template_addon` SET `ExclusiveGroup` = 11287 WHERE `ID` IN (11287, 11286);
+version https://git-lfs.github.com/spec/v1
+oid sha256:aa901a2cfc5f982a150fb0491a74b393c9665f5f6e032297f8fcdad8075734f9
+size 282

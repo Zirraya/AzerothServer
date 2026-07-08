@@ -1,3 +1,3 @@
--- DB update 2026_03_08_02 -> 2026_03_08_03
--- Remove SPELL_ATTR0_CU_DONT_BREAK_STEALTH (0x40) from Piercing Howl
-UPDATE `spell_custom_attr` SET `attributes` = `attributes` & ~(64) WHERE `spell_id` = 12323;
+version https://git-lfs.github.com/spec/v1
+oid sha256:56116f449c38fafec895f513edfb40d922dbbd2ef1e6134d3136e538249a7750
+size 207

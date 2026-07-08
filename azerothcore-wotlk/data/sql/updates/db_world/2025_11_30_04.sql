@@ -1,4 +1,3 @@
--- DB update 2025_11_30_03 -> 2025_11_30_04
---
-UPDATE `creature_template` SET `lootid` = 29605 WHERE `entry` = 30291;
-DELETE FROM `creature_loot_template` WHERE `Entry` = 30291;
+version https://git-lfs.github.com/spec/v1
+oid sha256:a3963690deb62b7958f077a7f7c955223198f67df083f848985752a752af9471
+size 178

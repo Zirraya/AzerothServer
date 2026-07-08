@@ -1,4 +1,3 @@
--- DB update 2023_11_09_00 -> 2023_11_10_00
--- Tunneler Acid
-DELETE FROM `spell_custom_attr` WHERE `spell_id`=14120;
-INSERT INTO `spell_custom_attr` (`spell_id`, `attributes`) VALUES (14120, 4194304);
+version https://git-lfs.github.com/spec/v1
+oid sha256:0ce3027a71c903d9a5eb83bc4c829f5c454d5f9e62639dda79282f2a57f9f645
+size 201

@@ -1,5 +1,3 @@
--- DB update 2022_11_16_04 -> 2022_11_16_05
---
-DELETE FROM `player_factionchange_spells` WHERE `alliance_id`=17454;
-INSERT INTO `player_factionchange_spells` VALUES
-(17454,'Unpainted Mechanostrider',18990,'Brown Kodo');
+version https://git-lfs.github.com/spec/v1
+oid sha256:e1fe367a56580c3877063566771b5a7ac01a2aa53fd46233109526dc44ff5e80
+size 220

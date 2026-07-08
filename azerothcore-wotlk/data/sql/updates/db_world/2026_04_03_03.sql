@@ -1,6 +1,3 @@
--- DB update 2026_04_03_02 -> 2026_04_03_03
--- Fix Skadi Poisoned Spear not applying periodic DOT in Heroic mode.
--- Spell 59331 is the heroic variant of 50255 (mapped via spelldifficulty_dbc),
--- but the spell script was only registered for the normal version.
-DELETE FROM `spell_script_names` WHERE `spell_id` = 59331 AND `ScriptName` = 'spell_skadi_poisoned_spear';
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES (59331, 'spell_skadi_poisoned_spear');
+version https://git-lfs.github.com/spec/v1
+oid sha256:e8a24d7c17d347b1d234cdd6c8eb8dc58cd125e687019a0c4f0cc0e838bb0ac0
+size 475

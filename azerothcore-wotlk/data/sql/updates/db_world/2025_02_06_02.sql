@@ -1,5 +1,3 @@
--- DB update 2025_02_06_01 -> 2025_02_06_02
--- Fix quest 11343 so that quest credit spell is cast on caster, not player
-UPDATE `smart_scripts`
-SET `target_type` = 1
-WHERE `entryorguid` = 2431400 AND `action_type` = 11 AND `action_param1` = 43458;
+version https://git-lfs.github.com/spec/v1
+oid sha256:d3f68e7d43e7dff8f5cf22f6ca7e9bf199c12d4e6775e2fb48146e69770ff7cf
+size 247

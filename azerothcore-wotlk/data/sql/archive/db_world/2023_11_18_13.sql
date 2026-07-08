@@ -1,4 +1,3 @@
--- DB update 2023_11_18_12 -> 2023_11_18_13
--- Mark of Malice
-DELETE FROM `spell_script_names` WHERE `spell_id`=33493 AND `ScriptName`='spell_mark_of_malice';
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES (33493, 'spell_mark_of_malice');
+version https://git-lfs.github.com/spec/v1
+oid sha256:1b25c7937e9f2988065c1d089508980e54c99019e6b7e94e6568dad053321556
+size 259

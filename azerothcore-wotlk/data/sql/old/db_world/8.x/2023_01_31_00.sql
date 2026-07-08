@@ -1,5 +1,3 @@
--- DB update 2023_01_30_00 -> 2023_01_31_00
---
-DELETE FROM `spell_script_names` WHERE `spell_id`=30421;
-INSERT INTO `spell_script_names` VALUES
-(30421,'spell_nether_portal_perseverence');
+version https://git-lfs.github.com/spec/v1
+oid sha256:90f1fa012df026b93328035885aede175808edce77857e506c27ccc14e447c6e
+size 188

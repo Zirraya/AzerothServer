@@ -1,4 +1,3 @@
--- DB update 2025_05_04_01 -> 2025_05_04_02
--- Avenging Spirit - Wither
-DELETE FROM `spell_custom_attr` WHERE `spell_id`=48585;
-INSERT INTO `spell_custom_attr` (`spell_id`, `attributes`) VALUES (48585, 4194304);
+version https://git-lfs.github.com/spec/v1
+oid sha256:efd0547430edf65baa00ce8231c5c478226575cf6684dc19a03e76c4768f738f
+size 212

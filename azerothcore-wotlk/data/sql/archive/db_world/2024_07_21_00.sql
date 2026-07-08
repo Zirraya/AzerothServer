@@ -1,6 +1,3 @@
--- DB update 2024_07_19_03 -> 2024_07_21_00
---
-DELETE FROM `spell_custom_attr` WHERE `spell_id` IN (25646, 13444);
-INSERT INTO `spell_custom_attr` (`spell_id`, `attributes`) VALUES
-(25646, 4194304),
-(13444, 4194304);
+version https://git-lfs.github.com/spec/v1
+oid sha256:c2aa5928f3b040f94f42c9ff38fe9883298fbd6aab31286ed8624f976a68a800
+size 217

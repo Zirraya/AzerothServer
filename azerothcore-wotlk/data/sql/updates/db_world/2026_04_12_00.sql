@@ -1,4 +1,3 @@
--- DB update 2026_04_11_00 -> 2026_04_12_00
-UPDATE `creature_template` SET `unit_flags` = `unit_flags` &~ 0x00040000 WHERE `entry` = 24722;
-UPDATE `creature_template` SET `unit_flags` = `unit_flags` &~ (0x00000100|0x00000200) WHERE `entry` = 25552;
-UPDATE `creature_template_addon` SET `auras` = '25900' WHERE `entry` IN (24722, 25552);
+version https://git-lfs.github.com/spec/v1
+oid sha256:8e1674d33d021ff19e8c4ef434c06eb294b9aa216f0b53cd6601dd25a70ce1bf
+size 337

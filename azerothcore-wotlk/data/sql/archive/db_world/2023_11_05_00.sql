@@ -1,6 +1,3 @@
--- DB update 2023_11_02_03 -> 2023_11_05_00
-UPDATE `gossip_menu` SET `TextID` = 4435 WHERE `MenuID` = 3642 AND `TextID` = 4437;
-UPDATE `gossip_menu` SET `TextID` = 4435 WHERE `MenuID` = 4558 AND `TextID` = 4437;
-
-UPDATE `conditions` SET `SourceEntry` = 4435 WHERE `SourceGroup` = 3642 AND `SourceEntry` = 4437;
-UPDATE `conditions` SET `SourceEntry` = 4435 WHERE `SourceGroup` = 4558 AND `SourceEntry` = 4437;
+version https://git-lfs.github.com/spec/v1
+oid sha256:024210fbf0f44e3cc58389231a4ec67403f9f5da07c952159140fd98ae116d65
+size 409

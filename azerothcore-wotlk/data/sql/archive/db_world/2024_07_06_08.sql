@@ -1,3 +1,3 @@
--- DB update 2024_07_06_07 -> 2024_07_06_08
---
-UPDATE `creature_template` SET `detection_range` = 55 WHERE `entry` = 22849;
+version https://git-lfs.github.com/spec/v1
+oid sha256:06fc0aedae4e7aa611b07c44cefc1d2ed04310ba97f0d10976d12e8f29e710a0
+size 124

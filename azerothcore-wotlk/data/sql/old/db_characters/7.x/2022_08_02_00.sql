@@ -1,3 +1,3 @@
--- DB update 2022_05_24_00 -> 2022_08_02_00
---
-UPDATE `characters` SET `taxi_path`=CONCAT('0 ', `taxi_path`) WHERE LENGTH(`taxi_path`) > 0;
+version https://git-lfs.github.com/spec/v1
+oid sha256:f1c2f4987d8d94f8479a1aeef999b74f974095f9e885967920e387647f4d8ef8
+size 140

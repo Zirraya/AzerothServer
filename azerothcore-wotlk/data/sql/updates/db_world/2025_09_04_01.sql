@@ -1,2 +1,3 @@
--- DB update 2025_09_04_00 -> 2025_09_04_01
-UPDATE `creature_model_info` SET `DisplayID_Other_Gender` = 0 WHERE `DisplayID` IN (16292, 16294);
+version https://git-lfs.github.com/spec/v1
+oid sha256:d4bca0ac224994758403b256646275d685eb095305dedeca718b7c1195fb7833
+size 143

@@ -1,3 +1,3 @@
--- DB update 2025_02_07_02 -> 2025_02_07_03
--- Setting the 'CREATURE_FLAG_EXTRA_CIVILIAN' flag
-UPDATE `creature_template` SET `flags_extra` = `flags_extra` | 2 WHERE `entry` = 27064;
+version https://git-lfs.github.com/spec/v1
+oid sha256:b8f5eea28ddb732710013a305a9c6f85e44ef0c4817d402885b19ba7a9b73429
+size 183

@@ -1,5 +1,3 @@
--- DB update 2025_10_28_02 -> 2025_10_28_03
---
-DELETE FROM `creature_template_addon` WHERE (`entry` = 30964);
-INSERT INTO `creature_template_addon` (`entry`, `path_id`, `mount`, `bytes1`, `bytes2`, `emote`, `visibilityDistanceType`, `auras`) VALUES
-(30964, 0, 0, 0, 0, 0, 0, '59140');
+version https://git-lfs.github.com/spec/v1
+oid sha256:b682a3dde6f32792c8c4b7cdb987f245abeaa52e0048a407ba765911674fa101
+size 285

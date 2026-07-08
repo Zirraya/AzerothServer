@@ -1,9 +1,3 @@
--- DB update 2022_10_22_00 -> 2022_10_23_00
---
-UPDATE `quest_template_addon` SET `PrevQuestId`=0, `ExclusiveGroup`=11361 WHERE `Id`=11361;
-UPDATE `quest_template_addon` SET `PrevQuestId`=0, `ExclusiveGroup`=11361 WHERE `Id`=11449;
-UPDATE `quest_template_addon` SET `PrevQuestId`=0, `ExclusiveGroup`=11361 WHERE `Id`=11450;
-
-UPDATE `quest_template_addon` SET `PrevQuestId`=0, `ExclusiveGroup`=11360 WHERE `Id`=11360;
-UPDATE `quest_template_addon` SET `PrevQuestId`=0, `ExclusiveGroup`=11360 WHERE `Id`=11439;
-UPDATE `quest_template_addon` SET `PrevQuestId`=0, `ExclusiveGroup`=11360 WHERE `Id`=11440;
+version https://git-lfs.github.com/spec/v1
+oid sha256:934031469288455c3b7539bb3096847755d3eefdbc2f482f16c1593cb6619fee
+size 600

@@ -1,5 +1,3 @@
--- DB update 2026_03_06_00 -> 2026_03_07_00
-
--- Set Spawn Masks.
-UPDATE `creature` SET `spawnMask` = `spawnMask` |2 WHERE (`id1` = 33059) AND (`guid` IN (136073, 136089, 136090));
-UPDATE `creature` SET `spawnMask` = `spawnMask` |2 WHERE (`id1` = 33063) AND (`guid` IN (136246, 136249));
+version https://git-lfs.github.com/spec/v1
+oid sha256:597a21889ea88383db7754eeaee16cc59514326e031a6bb5d46300b189c616be
+size 287

@@ -1,4 +1,3 @@
--- DB update 2023_02_19_09 -> 2023_02_19_10
--- add NO_MOVEMENT_UPDATE flag
-
-UPDATE `creature_template` SET `flags_extra` = 512 WHERE (`entry` = 10506);
+version https://git-lfs.github.com/spec/v1
+oid sha256:dd0a90f1a80caf9ddfae9911f17f15d9f1760002ea459b40259899c921c04662
+size 152

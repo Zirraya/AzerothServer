@@ -1,3 +1,3 @@
--- DB update 2025_11_21_00 -> 2025_11_21_01
---
-UPDATE `gameobject_loot_template` SET `QuestRequired` = 0 WHERE `Item` = 44724;
+version https://git-lfs.github.com/spec/v1
+oid sha256:86d20fcf210e1c26b7fa4c575529c6af19a2fa84b519088347c7a189b37795f9
+size 127

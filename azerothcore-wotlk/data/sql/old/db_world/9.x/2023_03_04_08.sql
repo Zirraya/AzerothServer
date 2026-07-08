@@ -1,5 +1,3 @@
--- DB update 2023_03_04_07 -> 2023_03_04_08
---
-DELETE FROM `spell_proc_event` WHERE `entry`=-31641;
-INSERT INTO `spell_proc_event` VALUES
-(-31641,0,0,0,0,0,0x000002A8,0x0000403,2,0,0,0);
+version https://git-lfs.github.com/spec/v1
+oid sha256:9b1dc2c1dd8a5e9b83b1238085630eee7e062225813031743f03b43df77e6c04
+size 187

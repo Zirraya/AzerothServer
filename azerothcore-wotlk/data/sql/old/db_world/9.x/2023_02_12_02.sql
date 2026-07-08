@@ -1,3 +1,3 @@
--- DB update 2023_02_12_01 -> 2023_02_12_02
---
-UPDATE `creature_template` SET `ScriptName`='npc_black_morass_summoned_add' WHERE `entry` IN (17835,21818,17892,18994,18995,21137,21136,21138,21139);
+version https://git-lfs.github.com/spec/v1
+oid sha256:a52f281550ed1db80f806162b6df1658272502cc20fdb50d862b2178976b77d5
+size 197

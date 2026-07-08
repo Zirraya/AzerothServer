@@ -1,5 +1,3 @@
--- DB update 2025_05_30_02 -> 2025_05_30_03
---
-DELETE FROM `spell_linked_spell` WHERE `spell_trigger`=-61874 AND `spell_effect`=24870;
-DELETE FROM `spell_script_names` WHERE `spell_id`=61874 AND `ScriptName`='spell_item_noblegarden_chocolate';
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES (61874, 'spell_item_noblegarden_chocolate');
+version https://git-lfs.github.com/spec/v1
+oid sha256:7578c611da1f0e06b878ecbf099248fe3ac6b73ed835cffc84e91756246ecfde
+size 356

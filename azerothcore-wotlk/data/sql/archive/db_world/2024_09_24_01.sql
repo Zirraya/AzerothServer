@@ -1,5 +1,3 @@
--- DB update 2024_09_24_00 -> 2024_09_24_01
---
-DELETE FROM `spell_script_names` WHERE `spell_id` = 36092;
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(36092, 'spell_kaelthas_kael_explodes');
+version https://git-lfs.github.com/spec/v1
+oid sha256:4bc3b00904fcbc726346a800794acd27c4ab1f8379339079492e794a65f1799a
+size 214

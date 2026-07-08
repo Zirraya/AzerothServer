@@ -1,3 +1,3 @@
--- DB update 2022_06_06_02 -> 2022_06_06_03
---
-UPDATE `smart_scripts` SET `action_param2`=0 WHERE `entryorguid`=30105 AND `source_type`=0 AND `id`=1;
+version https://git-lfs.github.com/spec/v1
+oid sha256:194fb995c058da13c846e24fbeeecf30fc82be27cf8cfb26d1a4c7685cd35f68
+size 150

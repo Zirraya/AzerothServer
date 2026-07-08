@@ -1,4 +1,3 @@
--- DB update 2026_02_15_02 -> 2026_02_15_03
-
--- Move the text in its own group.
-UPDATE `creature_text` SET `GroupID` = 10, `ID` = 0 WHERE (`CreatureID` = 28860) AND (`GroupID` = 7) AND (`ID` = 3);
+version https://git-lfs.github.com/spec/v1
+oid sha256:fbbc7bdb78ac8e74a0d5021682b47873a1c50e68086b55d38bfad7c279ed0d6a
+size 197

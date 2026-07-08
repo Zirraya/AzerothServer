@@ -1,5 +1,3 @@
--- DB update 2024_07_04_06 -> 2024_07_05_00
---
-DELETE FROM `spell_script_names` WHERE `spell_id` = 38929;
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(38929, 'spell_item_fel_mana_potion');
+version https://git-lfs.github.com/spec/v1
+oid sha256:4b55ecad9dcab781289af2e0bf7d5b6398f42a27855c72a2f975918ec56dc29e
+size 212

@@ -1,5 +1,3 @@
--- DB update 2022_11_16_03 -> 2022_11_16_04
---
-DELETE FROM `spell_script_names` WHERE `spell_id`=9160;
-INSERT INTO `spell_script_names` VALUES
-(9160,'spell_item_green_whelp_armor');
+version https://git-lfs.github.com/spec/v1
+oid sha256:9092f649f6ed5b10c7978f001afdee5c42368c65e2fe58e6fd2bbe408ba16c32
+size 182

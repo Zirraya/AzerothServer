@@ -1,12 +1,3 @@
--- DB update 2024_12_15_00 -> 2025_01_26_00
-DROP TABLE IF EXISTS `autobroadcast_locale`;
-CREATE TABLE `autobroadcast_locale` (
-  `realmid` INT NOT NULL,
-  `id` INT NOT NULL,
-  `locale` VARCHAR(4) NOT NULL,
-  `text` VARCHAR(45) NULL,
-  PRIMARY KEY (`realmid`, `id`))
-CHARSET = utf8mb4
-COLLATE = utf8mb4_unicode_ci
-ENGINE = InnoDB
-;
+version https://git-lfs.github.com/spec/v1
+oid sha256:737181b93b6b3831dab8d0f2c19c6bb7a25fd583b19277890bbba02fb2146d39
+size 331

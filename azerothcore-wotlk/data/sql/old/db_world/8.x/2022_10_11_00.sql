@@ -1,4 +1,3 @@
--- DB update 2022_10_09_00 -> 2022_10_11_00
---
-UPDATE `creature_template_addon` SET `auras` = '25801' WHERE (`entry` = 15229);
-UPDATE `creature_addon` SET `auras` = '25801' WHERE `guid` BETWEEN 87901 AND 87906;
+version https://git-lfs.github.com/spec/v1
+oid sha256:4aef08de7100a19c9000d7e591506f6292d9a2406592174ebf4de17410fcb8fd
+size 211

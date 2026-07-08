@@ -1,6 +1,3 @@
--- DB update 2022_06_14_05 -> 2022_06_14_06
---
-DELETE FROM `spell_group` WHERE `spell_id` IN (8042,20005);
-INSERT INTO `spell_group` VALUES
-(1014,8042,0),
-(1014,20005,0);
+version https://git-lfs.github.com/spec/v1
+oid sha256:1065e9ce92a0f881f83959afc3c1f136f556693ec0c544464838d93a7ff9c618
+size 171

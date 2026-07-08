@@ -1,9 +1,3 @@
--- DB update 2022_09_14_02 -> 2022_09_14_03
---
-DELETE FROM `creature_queststarter` WHERE `id` = 15738 AND `quest` = 8815;
-INSERT INTO `creature_queststarter` (`id`, `quest`) VALUES
-(15738, 8815);
-
-DELETE FROM `creature_questender` WHERE `id` = 15738 AND `quest` = 8832;
-INSERT INTO `creature_questender` (`id`, `quest`) VALUES
-(15738, 8832);
+version https://git-lfs.github.com/spec/v1
+oid sha256:b120887a4a52e9427751bad71a6eb287d1d105503d720b0bcefca5d785a82cd7
+size 342

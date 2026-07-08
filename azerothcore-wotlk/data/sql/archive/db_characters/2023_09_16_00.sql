@@ -1,7 +1,3 @@
--- DB update 2023_05_23_00 -> 2023_09_16_00
---
-ALTER TABLE `profanity_name`
-    CHANGE COLUMN `name` `name` VARCHAR(12) NOT NULL COLLATE 'utf8mb4_bin' FIRST;
-
-ALTER TABLE `reserved_name`
-    CHANGE COLUMN `name` `name` VARCHAR(12) NOT NULL COLLATE 'utf8mb4_bin' FIRST;
+version https://git-lfs.github.com/spec/v1
+oid sha256:29744646dd9398080bf6fd3163482275b85eaf49536882b559a196b20d84f87e
+size 269

@@ -1,2 +1,3 @@
--- DB update 2022_12_29_10 -> 2022_12_29_11
-DELETE FROM `creature` WHERE `id1` = 19461;
+version https://git-lfs.github.com/spec/v1
+oid sha256:abd3293876f60da746e767d4406449b1461d9f43fa59a7488f1cf7322636686c
+size 88

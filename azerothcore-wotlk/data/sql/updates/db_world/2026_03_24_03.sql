@@ -1,7 +1,3 @@
--- DB update 2026_03_24_02 -> 2026_03_24_03
--- https://eu.forums.blizzard.com/en/wow/t/unnerf-unholy-dk-pet-names-plz/113162
--- Removes extra 'Stone' from First names for DK Ghouls
-DELETE FROM `pet_name_generation` WHERE `id`=261 AND `word` = 'Stone' AND `entry` = 26125 AND `half` = 0;
-
--- Updates last name 'rawler' to 'crawler' for DK Ghouls
-UPDATE `pet_name_generation` SET `word` = 'crawler' WHERE  `id` = 308 AND `word` = 'rawler' AND `entry` = 26125 AND `half` = 1;
+version https://git-lfs.github.com/spec/v1
+oid sha256:6ff4185ad49bf0b031dbb9ad0f814fe937ce1749dc6941afce7470232419f385
+size 473

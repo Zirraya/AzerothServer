@@ -1,4 +1,3 @@
--- DB update 2024_12_15_00 -> 2024_12_17_00
---
--- Removes "While Charmed" flag from Frayfeather Stagwing and Frayfeather Skystormer
-UPDATE `smart_scripts` SET `event_flags` = 0 WHERE `entryorguid` in (5304, 5305) AND `source_type` = 0;;
+version https://git-lfs.github.com/spec/v1
+oid sha256:781fe33f1265bba97dae02f0d3c8fa9dff15f5e9169171fc1aee6e0a894bc681
+size 237

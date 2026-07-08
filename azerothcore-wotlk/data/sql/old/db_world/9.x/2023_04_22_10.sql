@@ -1,4 +1,3 @@
--- DB update 2023_04_22_09 -> 2023_04_22_10
---
-ALTER TABLE `creature_onkill_reputation` MODIFY `RewOnKillRepValue1` FLOAT NOT NULL DEFAULT 0;
-ALTER TABLE `creature_onkill_reputation` MODIFY `RewOnKillRepValue2` FLOAT NOT NULL DEFAULT 0;
+version https://git-lfs.github.com/spec/v1
+oid sha256:f04d831121e8b6236a04a2ffd3655b4c06713030c9df1290d5ccb8fd902607cb
+size 237

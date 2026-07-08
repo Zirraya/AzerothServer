@@ -1,3 +1,3 @@
--- DB update 2022_08_23_02 -> 2022_08_23_03
---
-UPDATE `creature_template` SET `mingold` = 0, `maxgold` = 0 WHERE `entry` IN (15344, 15555);
+version https://git-lfs.github.com/spec/v1
+oid sha256:94d31c205713aa55bb7bd72da2b34adb729af5b167d96ceb1dde9eb0eb850912
+size 140

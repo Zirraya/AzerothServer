@@ -1,32 +1,3 @@
--- DB update 2019_01_29_00 -> 2019_01_29_01
-DROP PROCEDURE IF EXISTS `updateDb`;
-DELIMITER //
-CREATE PROCEDURE updateDb ()
-proc:BEGIN DECLARE OK VARCHAR(100) DEFAULT 'FALSE';
-SELECT COUNT(*) INTO @COLEXISTS
-FROM information_schema.COLUMNS
-WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'version_db_world' AND COLUMN_NAME = '2019_01_29_00';
-IF @COLEXISTS = 0 THEN LEAVE proc; END IF;
-START TRANSACTION;
-ALTER TABLE version_db_world CHANGE COLUMN 2019_01_29_00 2019_01_29_01 bit;
-SELECT sql_rev INTO OK FROM version_db_world WHERE sql_rev = '1548704473723698729'; IF OK <> 'FALSE' THEN LEAVE proc; END IF;
---
--- START UPDATING QUERIES
---
-
-INSERT INTO `version_db_world` (`sql_rev`) VALUES ('1548704473723698729');
-
--- CONDITION_QUEST_SATISFY_EXCLUSIVE
-UPDATE `conditions` SET ConditionTypeOrReference = 101 WHERE ConditionTypeOrReference = 50;
-
--- CONDITION_HAS_AURA_TYPE
-UPDATE `conditions` SET ConditionTypeOrReference = 102 WHERE ConditionTypeOrReference = 51;
-
---
--- END UPDATING QUERIES
---
-COMMIT;
-END //
-DELIMITER ;
-CALL updateDb();
-DROP PROCEDURE IF EXISTS `updateDb`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:d488a9ce39255a10459ffcf2109650cffd0e5aafa17143bf69489ce490f2bf35
+size 1076

@@ -1,6 +1,3 @@
--- DB update 2026_03_14_01 -> 2026_03_14_02
---
-DELETE FROM `spell_script_names` WHERE `spell_id` IN (60936, 60939);
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(60936, 'spell_malygos_surge_of_power_25'),
-(60939, 'spell_malygos_surge_of_power_warning_selector_25');
+version https://git-lfs.github.com/spec/v1
+oid sha256:90f3dfef6ec69e1191ba478022ce467e0534c91bc6ec34b5b4d28bbd30849be3
+size 288

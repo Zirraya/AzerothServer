@@ -1,3 +1,3 @@
--- DB update 2024_04_03_00 -> 2024_04_03_01
---
-UPDATE `creature` SET `spawntimesecs` = 60 WHERE  `guid` = 148735 AND `id1` = 23089;
+version https://git-lfs.github.com/spec/v1
+oid sha256:30017b7cba434e7e668c414226f1b9b7ff21ae0afcde5cb6162136298367d37f
+size 132

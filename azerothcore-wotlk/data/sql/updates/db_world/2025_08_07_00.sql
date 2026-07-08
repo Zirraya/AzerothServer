@@ -1,6 +1,3 @@
--- DB update 2025_08_06_04 -> 2025_08_07_00
-
--- Init creature_template_addon (Wastes Scavenger)
-DELETE FROM `creature_template_addon` WHERE (`entry` = 28005);
-INSERT INTO `creature_template_addon` (`entry`, `path_id`, `mount`, `bytes1`, `bytes2`, `emote`, `visibilityDistanceType`, `auras`) VALUES
-(28005, 0, 0, 0, 0, 438, 0, '');
+version https://git-lfs.github.com/spec/v1
+oid sha256:204b786102887a4677b8f4dc5513f3e0e5537ac6212a062f2858acb9e2835ce9
+size 331

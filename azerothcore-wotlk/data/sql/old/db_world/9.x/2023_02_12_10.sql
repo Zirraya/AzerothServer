@@ -1,6 +1,3 @@
--- DB update 2023_02_12_09 -> 2023_02_12_10
---
-ALTER TABLE `creature_formations`
-	CHANGE COLUMN `dist` `dist` FLOAT NOT NULL DEFAULT '0' AFTER `memberGUID`,
-	CHANGE COLUMN `angle` `angle` FLOAT NOT NULL DEFAULT '0' AFTER `dist`,
-	CHANGE COLUMN `groupAI` `groupAI` INT(10) UNSIGNED NOT NULL DEFAULT '0' AFTER `angle`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:d44cab7e9ef709adb31ce99208ee874b015e582f5e1a4c5349af42d5dc7a9fd1
+size 317

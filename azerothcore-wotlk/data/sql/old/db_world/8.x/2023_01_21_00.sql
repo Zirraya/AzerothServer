@@ -1,14 +1,3 @@
--- DB update 2023_01_19_00 -> 2023_01_21_00
-
-SET @POOL = 60011;
-SET @MILKBARREL = 33607;
-SET @FOODCRATE = 31401;
-
-DELETE FROM `pool_template` WHERE `entry`=@POOL;
-INSERT INTO `pool_template` (`entry`, `max_limit`, `description`) VALUES
-(@POOL, 1, 'Milk Barrel (33607) / Food Crate (31401) - Stormwind City');
-
-DELETE FROM `pool_gameobject` WHERE `pool_entry`=@POOL;
-INSERT INTO `pool_gameobject` (`guid`, `pool_entry`, `chance`, `description`) VALUES
-(@MILKBARREL, @POOL, 0, 'Milk Barrel (33607) - Stormwind City'),
-(@FOODCRATE, @POOL, 0, 'Food Crate (31401) - Stormwind City');
+version https://git-lfs.github.com/spec/v1
+oid sha256:f086db652fdcc3a0ecfda516b6b65bb547ba7071526f9286f91ae95d3e45b5d7
+size 579

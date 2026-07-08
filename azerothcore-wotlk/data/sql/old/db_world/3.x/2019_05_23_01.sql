@@ -1,33 +1,3 @@
--- DB update 2019_05_23_00 -> 2019_05_23_01
-DROP PROCEDURE IF EXISTS `updateDb`;
-DELIMITER //
-CREATE PROCEDURE updateDb ()
-proc:BEGIN DECLARE OK VARCHAR(100) DEFAULT 'FALSE';
-SELECT COUNT(*) INTO @COLEXISTS
-FROM information_schema.COLUMNS
-WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'version_db_world' AND COLUMN_NAME = '2019_05_23_00';
-IF @COLEXISTS = 0 THEN LEAVE proc; END IF;
-START TRANSACTION;
-ALTER TABLE version_db_world CHANGE COLUMN 2019_05_23_00 2019_05_23_01 bit;
-SELECT sql_rev INTO OK FROM version_db_world WHERE sql_rev = '1554524766481187700'; IF OK <> 'FALSE' THEN LEAVE proc; END IF;
---
--- START UPDATING QUERIES
---
-
-INSERT INTO `version_db_world` (`sql_rev`) VALUES ('1554524766481187700');
-
-DELETE FROM `spell_script_names` WHERE `spell_id` IN (32111, 31984, 35354);
-
-INSERT INTO `spell_script_names` VALUES
-(32111, 'spell_red_sky_effect'),
-(31984, 'spell_finger_of_death'),
-(35354, 'spell_hand_of_death');
-
---
--- END UPDATING QUERIES
---
-COMMIT;
-END //
-DELIMITER ;
-CALL updateDb();
-DROP PROCEDURE IF EXISTS `updateDb`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:fd937e268187e89194411d17d7b47046ec1eec0edd19212740e5535e2732850b
+size 1043

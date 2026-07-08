@@ -1,4 +1,3 @@
--- DB update 2024_12_08_02 -> 2024_12_09_00
---
--- Removed the requirement of the player needing to have Blacksmithing to Interact with her
-UPDATE `creature_template` SET `trainer_spell` = 0 WHERE (`entry` = 29505);
+version https://git-lfs.github.com/spec/v1
+oid sha256:5e2140ab57423cc286d2f928e3dd900ab8a404127c69c6789a7bc4e39c84c67d
+size 215

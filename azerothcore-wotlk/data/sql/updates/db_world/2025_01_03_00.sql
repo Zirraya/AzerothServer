@@ -1,5 +1,3 @@
--- DB update 2024_12_31_01 -> 2025_01_03_00
---
-DELETE FROM `spell_script_names` WHERE `spell_id` = 43096;
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(43096, 'spell_summon_all_players_dummy');
+version https://git-lfs.github.com/spec/v1
+oid sha256:b843592ea347fdd97ca1975fef532f9a5eb955bb04e08c3ab23d7f89078c199b
+size 216

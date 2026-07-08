@@ -1,5 +1,3 @@
--- DB update 2023_07_23_00 -> 2023_07_24_00
-    --
-DELETE FROM `gameobject_loot_template` WHERE (`Entry` = 21764) AND (`Item` IN (29434));
-INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES
-(21764, 29434, 0, 100, 0, 1, 0, 1, 1, 'Badge of Justice');
+version https://git-lfs.github.com/spec/v1
+oid sha256:1340f56a0754f895b1bf3ec5c94999a71039bf70666a1ec973e0167e9084308a
+size 360

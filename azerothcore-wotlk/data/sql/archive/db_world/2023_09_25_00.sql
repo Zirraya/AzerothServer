@@ -1,4 +1,3 @@
--- DB update 2023_09_24_02 -> 2023_09_25_00
---
--- fix Malchezaar event door not being interactable with players
-UPDATE `gameobject_template_addon` SET `flags` = `flags`|16 WHERE `entry` = 185134;
+version https://git-lfs.github.com/spec/v1
+oid sha256:9da3368fe9a96f7334059510bb4a741c7aae081d5babcfcb051571621b3a77f9
+size 196

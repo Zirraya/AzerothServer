@@ -1,9 +1,3 @@
--- DB update 2026_03_07_03 -> 2026_03_07_04
---
-UPDATE `creature_template` SET `ScriptName` = 'npc_lor_themar_theron' WHERE (`entry` = 16802);
-UPDATE `creature_template` SET `ScriptName` = 'npc_king_varian_wrynn' WHERE (`entry` = 29611);
-UPDATE `creature_template` SET `ScriptName` = 'npc_tyrande_whisperwind' WHERE (`entry` = 7999);
-UPDATE `creature_template` SET `ScriptName` = 'npc_king_magni_bronzebeard', `AIName` = '' WHERE (`entry` = 2784);
-UPDATE `creature_template` SET `ScriptName` = 'npc_prophet_velen', `AIName` = '' WHERE (`entry` = 17468);
-
-DELETE FROM `smart_scripts` WHERE (`entryorguid` IN (2784,17468)) AND (`source_type` = 0);
+version https://git-lfs.github.com/spec/v1
+oid sha256:330d3088f59387b22133583c0c9cce7a895aac83b56d645eca1c7aa7c57b1dba
+size 645

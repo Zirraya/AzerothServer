@@ -1,5 +1,3 @@
--- DB update 2023_01_29_01 -> 2023_01_29_02
---
-DELETE FROM `spell_script_names` WHERE `ScriptName`='spell_rog_pickpocket';
-INSERT INTO `spell_script_names` (`spell_id`,`ScriptName`) VALUES
-(921,'spell_rog_pickpocket');
+version https://git-lfs.github.com/spec/v1
+oid sha256:ef45c90118fd80e0eead1939275de0e3b246c232d988ea98ad8ba0f7fd53797f
+size 219

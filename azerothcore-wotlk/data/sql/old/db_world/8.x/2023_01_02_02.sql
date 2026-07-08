@@ -1,7 +1,3 @@
--- DB update 2023_01_02_01 -> 2023_01_02_02
---
--- Recipe: Elixir of Major Frost Power 
-UPDATE `npc_vendor` SET `incrtime`=1800 WHERE `entry` IN (18005, 18017) AND `item`=22902 AND `ExtendedCost`=0;
-
--- Tailoring Recipes off Aarond
-UPDATE `npc_vendor` SET `incrtime`=1800 WHERE `entry`=19521 AND `item` IN (21900, 21901) AND `ExtendedCost`=0;
+version https://git-lfs.github.com/spec/v1
+oid sha256:1a3a2594adb241bceda0ff744593bc7df64497b4d93397ab317e6a7795afe93b
+size 342

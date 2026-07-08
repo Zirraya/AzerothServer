@@ -1,5 +1,3 @@
--- DB update 2022_12_06_17 -> 2022_12_06_18
---
-DELETE FROM `smart_scripts` WHERE `entryorguid`=17517 AND `source_type`=0 AND `id`=1;
-INSERT INTO `smart_scripts` VALUES
-(17517,0,1,0,4,0,100,0,0,0,0,0,0,45,0,1,0,0,0,0,23,0,0,0,0,0,0,0,0,'Hellfire Sentry - On Aggro - Set Data 0-1 on summoner');
+version https://git-lfs.github.com/spec/v1
+oid sha256:da422e369b6e1ae69e850651c58def1a8b1838df928fa4a097fc9cee3bbfcf81
+size 293

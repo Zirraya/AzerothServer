@@ -1,8 +1,3 @@
--- DB update 2024_08_06_00 -> 2024_08_06_01
-UPDATE `creature_loot_template` SET `Chance` = 50, `GroupId` = 2 WHERE `Entry` = 20783 AND `Reference` IN (14501, 24013);
-UPDATE `creature_loot_template` SET `Chance` = 50, `GroupId` = 1 WHERE `Entry` IN (20785, 20786, 20788, 20789, 20790) AND `Reference` IN (14501, 24013);
-UPDATE `creature_loot_template` SET `Chance` = 50, `GroupId` = 1 WHERE `Entry` = 20784 AND `Reference` = 14501;
-
-DELETE FROM `creature_loot_template` WHERE `Entry` = 20784 AND `Reference` = 24013;
-INSERT INTO `creature_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES
-(20784, 24013, 24013, 50, 0, 1, 1, 1, 1, 'Armbreaker Huffaz - (ReferenceTable)');
+version https://git-lfs.github.com/spec/v1
+oid sha256:b3e1ce672a90ea4eca214d1e306efb550b9278502bf09cf79047fdc1465c2d6a
+size 758

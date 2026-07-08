@@ -1,3 +1,3 @@
--- DB update 2026_04_12_03 -> 2026_04_12_04
--- Remove Bone Shield spell script (double charge consumption bug)
-DELETE FROM `spell_script_names` WHERE `spell_id` = 49222 AND `ScriptName` = 'spell_dk_bone_shield';
+version https://git-lfs.github.com/spec/v1
+oid sha256:d5429d3d40805113c40b9b018ad8f138f2fcd1f26cb814b1934f908a991196c7
+size 212

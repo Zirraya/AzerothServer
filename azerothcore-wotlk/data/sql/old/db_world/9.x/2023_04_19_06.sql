@@ -1,3 +1,3 @@
--- DB update 2023_04_19_05 -> 2023_04_19_06
--- Cyrukh the Firelord (21181)
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`|42090322 WHERE `entry` = 21181;
+version https://git-lfs.github.com/spec/v1
+oid sha256:58b7d1c26979425f273390a94e3d7e0a01398d7c65ce1da09e21b53bccebad0e
+size 186

@@ -1,3 +1,3 @@
--- DB update 2024_06_13_00 -> 2024_06_14_00
---  Reth'hedron the Subduer
-UPDATE `creature` SET `spawntimesecs` = 90 WHERE `id1` = 22357 AND `guid` = 86754;
+version https://git-lfs.github.com/spec/v1
+oid sha256:17ad2b6d2236d0022645c12bd12e31eb5d45d3a69a03103786238b0b1055f5df
+size 155

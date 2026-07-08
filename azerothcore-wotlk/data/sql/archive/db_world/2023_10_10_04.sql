@@ -1,3 +1,3 @@
--- DB update 2023_10_10_03 -> 2023_10_10_04
--- Shellfish
-UPDATE `gameobject_loot_template` SET `MaxCount` = 2 WHERE `Entry` = 13944 and `Item` = 13545;
+version https://git-lfs.github.com/spec/v1
+oid sha256:5fa03981b4a93aaa068a7ac6123d83b626bdc75df844b68009de185be55b71e0
+size 152

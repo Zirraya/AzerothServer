@@ -1,12 +1,3 @@
--- DB update 2025_03_16_02 -> 2025_03_16_03
--- Remove SmartAI sql for NPC Jenny (25969)
-DELETE FROM `smart_scripts`
-WHERE `entryorguid` = 25969;
-
-UPDATE `creature_template` SET `AIName` = '', `ScriptName` = 'npc_jenny' WHERE (`entry` = 25969);
-
--- spell 46340 Crates Carried
--- add custom attribute SPELL_ATTR0_CU_IGNORE_EVADE
-DELETE FROM `spell_custom_attr` WHERE `spell_id` = 46340;
-INSERT INTO `spell_custom_attr` (`spell_id`, `attributes`) VALUES
-(46340, 2048);
+version https://git-lfs.github.com/spec/v1
+oid sha256:1e591cf7e0a8ff972769c7e374913434ea7ff586d83cffa687a09d90bde49304
+size 466

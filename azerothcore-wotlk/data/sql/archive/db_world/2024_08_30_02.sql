@@ -1,4 +1,3 @@
--- DB update 2024_08_30_01 -> 2024_08_30_02
---
-DELETE FROM `spell_script_names` WHERE `spell_id`=39497;
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES(39497, 'spell_kaelthas_remove_enchanted_weapons');
+version https://git-lfs.github.com/spec/v1
+oid sha256:d692d8be82569117aba208ae4ed43d7c754ba61405b738ad4c6eb7364fe1261e
+size 222

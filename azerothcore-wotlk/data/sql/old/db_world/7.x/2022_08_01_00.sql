@@ -1,5 +1,3 @@
--- DB update 2022_07_31_02 -> 2022_08_01_00
---
-
-UPDATE `creature` SET `position_z`=94.3 WHERE `guid`=34977;
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:9700a23e54019bf72fed7710fd8923916ab01ebb3d789df7b8ef292aef7eff6f
+size 109

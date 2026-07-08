@@ -1,3 +1,3 @@
--- DB update 2023_03_27_00 -> 2023_03_27_01
---
-UPDATE `smart_scripts` SET `event_param1`=3600, `event_param2`=10800, `event_param3`=16900, `event_param4`=26500 WHERE `entryorguid`=20478 AND `source_type`=0 AND `id`=1;
+version https://git-lfs.github.com/spec/v1
+oid sha256:00e64b33acc279c3dfa7871f285fd0887b129d33a8cb7d597083002069fc2bf7
+size 218

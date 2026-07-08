@@ -1,10 +1,3 @@
--- DB update 2022_08_30_01 -> 2022_09_01_00
--- Update Vekniss Hive Crawler formations.
-UPDATE `creature_formations` SET `dist`=9 WHERE `memberGUID` IN (87940, 87942, 87944);
-UPDATE `creature_formations` SET `groupAI`=515 WHERE `memberGUID` BETWEEN 87939 AND 87944;
-
--- Update GroupAI in Stinger packs
-UPDATE `creature_formations` SET `groupAI`=515 WHERE `memberGUID` BETWEEN 87962 AND 87998;
-
--- Update GroupAI in Vekniss Warrior packs
-UPDATE `creature_formations` SET `groupAI`=515 WHERE `memberGUID` BETWEEN 87672 AND 87677;
+version https://git-lfs.github.com/spec/v1
+oid sha256:db0cfa597395c410c80161f6e7a38f4fdf0de5f9708166e45ddd7c8622b70995
+size 527

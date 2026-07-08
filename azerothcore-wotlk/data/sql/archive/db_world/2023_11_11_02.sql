@@ -1,5 +1,3 @@
--- DB update 2023_11_11_01 -> 2023_11_11_02
---
-DELETE FROM `spell_script_names` WHERE `spell_id` = 38452 AND `ScriptName` = 'spell_karathress_power_of_tidalvess';
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(38452, 'spell_karathress_power_of_tidalvess');
+version https://git-lfs.github.com/spec/v1
+oid sha256:b4f9a4b64232f3db8077d51a9676dd21d804e6fd25ba835871bb478c90de7b48
+size 278

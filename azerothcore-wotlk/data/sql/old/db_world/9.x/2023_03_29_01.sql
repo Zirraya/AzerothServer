@@ -1,5 +1,3 @@
--- DB update 2023_03_29_00 -> 2023_03_29_01
--- 
-DELETE FROM `creature_text` WHERE `CreatureID`=17797 AND `GroupID`=4 AND `ID`=0;
-INSERT INTO `creature_text` (`CreatureID`, `GroupID`, `ID`, `Text`, `Type`, `Language`, `Probability`, `Emote`, `Duration`, `Sound`, `BroadcastTextId`, `TextRange`, `comment`) VALUES
-(17797, 4, 0, 'Enjoy the storm warm bloods!', 14, 0, 100, 0, 0, 0, 19456, 0, 'thespia SAY_SPELL');
+version https://git-lfs.github.com/spec/v1
+oid sha256:43bc49b1659672bf15f6e3f78be582f7649cd57162442710dbc1f2bebf6c9269
+size 411

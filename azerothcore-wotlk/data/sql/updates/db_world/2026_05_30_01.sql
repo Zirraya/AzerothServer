@@ -1,8 +1,3 @@
--- DB update 2026_05_30_00 -> 2026_05_30_01
---
-DROP TABLE IF EXISTS `spell_cone`;
-CREATE TABLE `spell_cone` (
-    `ID` INT UNSIGNED NOT NULL COMMENT 'Spell ID',
-    `ConeDegrees` SMALLINT NOT NULL DEFAULT '60' COMMENT 'Cone angle in degrees',
-    PRIMARY KEY (`ID`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+version https://git-lfs.github.com/spec/v1
+oid sha256:c1af0408dedaef24f22151429c6c6247beed23af34e4b36a9cc239d371dd0ce3
+size 307

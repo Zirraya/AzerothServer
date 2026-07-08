@@ -1,4 +1,3 @@
--- DB update 2025_11_10_01 -> 2025_11_10_02
---
-DELETE FROM `game_event_gameobject` WHERE `eventEntry`=1 AND `guid`=5;
-INSERT INTO `game_event_gameobject` (`eventEntry`, `guid`) VALUES(1, 5);
+version https://git-lfs.github.com/spec/v1
+oid sha256:0c66a597432192a3e1dd1a159e73ab5ecddfbfeec811c494df06f6490ef7b6e3
+size 191

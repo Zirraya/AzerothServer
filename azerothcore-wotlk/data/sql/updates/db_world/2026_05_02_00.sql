@@ -1,5 +1,3 @@
--- DB update 2026_05_01_04 -> 2026_05_02_00
-DELETE FROM `smart_scripts` WHERE (`source_type` = 0 AND `entryorguid` = 28006 AND `id` = 7);
-
-UPDATE `vehicle_template_accessory` SET `summontype` = 1, `summontimer` = 30000
-    WHERE `entry` = 28018 AND `accessory_entry` = 28006;
+version https://git-lfs.github.com/spec/v1
+oid sha256:897aba474dc2e80418256ec57a2b4439061fed1a08b2cb85eb01dca9b234bda8
+size 276

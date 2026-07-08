@@ -1,6 +1,3 @@
--- DB update 2025_09_29_00 -> 2025_09_30_00
-DELETE FROM `creature_formations` WHERE (`leaderGUID` = 127046);
-INSERT INTO `creature_formations` (`leaderGUID`, `memberGUID`, `dist`, `angle`, `groupAI`, `point_1`, `point_2`) VALUES
-(127046, 127046, 0, 0, 1, 0, 0),
-(127046, 127080, 0, 0, 1, 0, 0),
-(127046, 127081, 0, 0, 1, 0, 0);
+version https://git-lfs.github.com/spec/v1
+oid sha256:d98829b8e6a026159131ae1b777961a96bcb915f35ad580d89b7fddede003a8f
+size 328

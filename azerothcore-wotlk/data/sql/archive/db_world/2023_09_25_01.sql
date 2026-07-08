@@ -1,8 +1,3 @@
--- DB update 2023_09_25_00 -> 2023_09_25_01
---
-DELETE FROM `spell_script_names` WHERE `spell_id` IN (67486, 67489, 67487, 67490);
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(67486, 'spell_item_healing_injector'),
-(67489, 'spell_item_healing_injector'),
-(67487, 'spell_item_mana_injector'),
-(67490, 'spell_item_mana_injector');
+version https://git-lfs.github.com/spec/v1
+oid sha256:9b3309362f4e39df6f051ce2f72a4cc1363eaa85fede6356d2ad7e7c99868750
+size 351

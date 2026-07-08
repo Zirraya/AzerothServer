@@ -1,4 +1,3 @@
--- DB update 2022_10_07_02 -> 2022_10_07_03
---
-UPDATE `creature` SET `id2`=15317 WHERE `id1`=15316;
-UPDATE `creature` SET `id2`=15316 WHERE `id1`=15317;
+version https://git-lfs.github.com/spec/v1
+oid sha256:1a79d96b56886d103b239e2b93f472f689803abc58f0c844d64757bdc498efbc
+size 153

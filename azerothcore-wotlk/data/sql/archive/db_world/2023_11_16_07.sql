@@ -1,4 +1,3 @@
--- DB update 2023_11_16_06 -> 2023_11_16_07
--- Sunder Armor
-DELETE FROM `spell_custom_attr` WHERE `spell_id`=15572;
-INSERT INTO `spell_custom_attr` (`spell_id`, `attributes`) VALUES (15572, 4194304);
+version https://git-lfs.github.com/spec/v1
+oid sha256:24299348906fab7bf668517116db3943f4ec33432c96229b3b466c7ed53ae3b7
+size 200

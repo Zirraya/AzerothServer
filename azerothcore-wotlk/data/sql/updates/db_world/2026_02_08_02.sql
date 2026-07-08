@@ -1,7 +1,3 @@
--- DB update 2026_02_08_01 -> 2026_02_08_02
---
-DELETE FROM `spell_script_names` WHERE `spell_id`=18153 AND `ScriptName`='spell_q5561_kodo_roundup_kodo_kombobulator';
-DELETE FROM `spell_script_names` WHERE `spell_id`=18269 AND `ScriptName`='spell_q5561_kodo_roundup_kodo_kombobulator_despawn';
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(18153, 'spell_q5561_kodo_roundup_kodo_kombobulator'),
-(18269, 'spell_q5561_kodo_roundup_kodo_kombobulator_despawn');
+version https://git-lfs.github.com/spec/v1
+oid sha256:faf849e3642442bdd44ec98f99d6ad55eeca75b9c080762a853f9f9382a589ff
+size 478

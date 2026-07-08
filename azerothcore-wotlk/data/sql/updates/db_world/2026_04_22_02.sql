@@ -1,7 +1,3 @@
--- DB update 2026_04_22_01 -> 2026_04_22_02
---
--- Add ICD to Vesperon's Twilight Torment during Vesperon's fight and Sartharion Hardmode
-DELETE FROM `spell_proc` WHERE `SpellId` IN (58835, 57935);
-INSERT INTO `spell_proc` (`SpellId`, `SpellPhaseMask`, `Cooldown`) VALUES
-(58835, 2, 2000),
-(57935, 2, 2000);
+version https://git-lfs.github.com/spec/v1
+oid sha256:eb287e1d7c7e87839198f058172432ff3da00fc03e12ae6805b9bbfe77b3412b
+size 307

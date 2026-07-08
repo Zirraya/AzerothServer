@@ -1,3 +1,3 @@
--- DB update 2023_06_02_02 -> 2023_06_02_03
--- guid 96761 is id 25580 aka old man barlo
-UPDATE `creature` SET `position_x` = -1460.62, `position_y` = 4992.52, `position_z` = -8.977667, `orientation` = 5.532693862915039062 WHERE `guid` = 96761 AND `id1` = 25580;
+version https://git-lfs.github.com/spec/v1
+oid sha256:64d3cec7e74c332fa299f2cc4f162a3627809b6301e9ff13bf018df212f0904a
+size 262

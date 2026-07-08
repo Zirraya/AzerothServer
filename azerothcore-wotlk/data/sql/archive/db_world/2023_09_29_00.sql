@@ -1,3 +1,3 @@
--- DB update 2023_09_27_02 -> 2023_09_29_00
---
-UPDATE `conditions` SET `ConditionTypeOrReference` = 8 WHERE `SourceGroup` = 8441 AND `ConditionTypeOrReference` = 9;
+version https://git-lfs.github.com/spec/v1
+oid sha256:2dededfac2d0ad1f6ad29170f47fe5468bdd82767906b588e6303ee6269ff115
+size 165

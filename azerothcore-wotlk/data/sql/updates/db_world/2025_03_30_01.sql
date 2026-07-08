@@ -1,4 +1,3 @@
--- DB update 2025_03_30_00 -> 2025_03_30_01
-
--- Remove Immune to Distract Flag
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`& ~8 WHERE (`entry` = 25741);
+version https://git-lfs.github.com/spec/v1
+oid sha256:72dbf552733d5906df94dc99692f6a700b597665947e9b0865e0eea6f8951e98
+size 187

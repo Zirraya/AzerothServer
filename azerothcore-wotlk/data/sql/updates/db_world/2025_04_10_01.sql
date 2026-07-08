@@ -1,4 +1,3 @@
--- DB update 2025_04_10_00 -> 2025_04_10_01
-
--- Remove Stun and Silence immunities
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`& ~ (256|2048)  WHERE (`entry` = 25588);
+version https://git-lfs.github.com/spec/v1
+oid sha256:9dfc36d3530ea2b834a126593c8937f4fe7e608a96deea9f1c7fa2828fec1370
+size 202

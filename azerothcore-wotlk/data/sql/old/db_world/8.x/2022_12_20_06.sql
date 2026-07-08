@@ -1,3 +1,3 @@
--- DB update 2022_12_20_05 -> 2022_12_20_06
---
-UPDATE `creature_loot_template` SET `Chance`=100 WHERE `Entry`=17084 AND `Item`=23580 AND `Reference`=0 AND `GroupId`=0;
+version https://git-lfs.github.com/spec/v1
+oid sha256:1ee0dbbd57f872e2a95c9c110405ca6df3f9b0ab3f2821cc82271dde2ed2f052
+size 168

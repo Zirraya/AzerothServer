@@ -1,3 +1,3 @@
--- DB update 2026_01_26_02 -> 2026_01_27_00
--- Adds "Disoriented" and "Sapped" Immunties to "Maruading Crust Burster" outcome from MoP and Retail
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask` | 2 | 536870912 WHERE `entry` = 16857;
+version https://git-lfs.github.com/spec/v1
+oid sha256:b7b607b3f3616cf7b7dc2c778d3d3f0d3787705c8e0cbd0de77ca807f9ef14e1
+size 264

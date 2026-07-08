@@ -1,4 +1,3 @@
--- DB update 2025_04_29_01 -> 2025_04_30_00
---
-DELETE FROM `spell_script_names` WHERE `spell_id` = 46771 and `ScriptName` = 'spell_eredar_twins_flame_sear';
-INSERT INTO `spell_script_names` VALUES (46771,'spell_eredar_twins_flame_sear');
+version https://git-lfs.github.com/spec/v1
+oid sha256:3677aaf736d8c567bac5b8309ab781e337c1b4cd512c814aedd084efaa0d1a5b
+size 238

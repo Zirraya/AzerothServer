@@ -1,3 +1,3 @@
--- DB update 2025_11_18_00 -> 2025_11_18_01
--- despawn on evade
-UPDATE `creature_template` SET `flags_extra` = `flags_extra`|0x80000000 WHERE `entry` IN (26631, 31350);
+version https://git-lfs.github.com/spec/v1
+oid sha256:56fd97a968fa2844c89514260c10c3b8c38a99f6b1d2972039ccc620c9e14100
+size 169

@@ -1,3 +1,3 @@
--- DB update 2026_03_15_02 -> 2026_03_15_03
--- Fix Replace Drakuru's Elixir gossip to triggered spell to allow casting while mounted
-UPDATE `smart_scripts` SET  `action_param2` = 2 WHERE (`entryorguid` = 26423) AND (`source_type` = 0) AND (`id` IN (2));
+version https://git-lfs.github.com/spec/v1
+oid sha256:93bec16a16144e229a69766d660e43433839563e5909a18c9aa6439e6bb7e094
+size 254

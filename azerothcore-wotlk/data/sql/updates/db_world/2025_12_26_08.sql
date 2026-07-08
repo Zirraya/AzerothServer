@@ -1,3 +1,3 @@
--- DB update 2025_12_26_07 -> 2025_12_26_08
---
-UPDATE `gameobject` SET `position_z` = -6.5780087, `comment` = 'Original position_z: -15.8641', `VerifiedBuild` = -52237 WHERE `guid` IN (208397, 208414, 208431) AND `id` IN (2040, 1734, 2047);
+version https://git-lfs.github.com/spec/v1
+oid sha256:035b361dbf7bb6a46d2345e70e56c3f7249ec8ef4f1b5403d0db9e759afb09c2
+size 241

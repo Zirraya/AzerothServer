@@ -1,10 +1,3 @@
--- DB update 2022_10_29_02 -> 2022_10_29_03
---
--- Lava Spawn (12265)
-DELETE FROM `creature_text` WHERE `CreatureID`=12265;
-INSERT INTO `creature_text` (`CreatureID`, `Text`, `Type`, `Probability`, `BroadcastTextId`, `comment`) VALUES
-(12265, '%s splits into two new Lava Spawns!', 16, 100, 7570, 'Lava Spawn');
-
-UPDATE `creature_template` SET `AiName`='', `ScriptName`='npc_lava_spawn' WHERE `entry`=12265;
-
-DELETE FROM `smart_scripts` WHERE `entryorguid`=12265 AND `source_type`=0;
+version https://git-lfs.github.com/spec/v1
+oid sha256:5822764e1a1e8b468337555baaa4ae6d33ff2e6047f40983f635cbffd24daff5
+size 483

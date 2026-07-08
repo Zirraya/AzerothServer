@@ -1,30 +1,3 @@
--- DB update 2021_11_07_04 -> 2021_11_07_05
-DROP PROCEDURE IF EXISTS `updateDb`;
-DELIMITER //
-CREATE PROCEDURE updateDb ()
-proc:BEGIN DECLARE OK VARCHAR(100) DEFAULT 'FALSE';
-SELECT COUNT(*) INTO @COLEXISTS
-FROM information_schema.COLUMNS
-WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'version_db_world' AND COLUMN_NAME = '2021_11_07_04';
-IF @COLEXISTS = 0 THEN LEAVE proc; END IF;
-START TRANSACTION;
-ALTER TABLE version_db_world CHANGE COLUMN 2021_11_07_04 2021_11_07_05 bit;
-SELECT sql_rev INTO OK FROM version_db_world WHERE sql_rev = '1636091637254613269'; IF OK <> 'FALSE' THEN LEAVE proc; END IF;
---
--- START UPDATING QUERIES
---
-
-INSERT INTO `version_db_world` (`sql_rev`) VALUES ('1636091637254613269');
-
-INSERT INTO `command` (`name`, `security`, `help`) VALUES
-('debug play music', 3, 'Syntax: .debug play music <musicId>\nPlay music with <musicId>.\nMusic will be played only for you. Other players will not hear this.');
-
---
--- END UPDATING QUERIES
---
-UPDATE version_db_world SET date = '2021_11_07_05' WHERE sql_rev = '1636091637254613269';
-COMMIT;
-END //
-DELIMITER ;
-CALL updateDb();
-DROP PROCEDURE IF EXISTS `updateDb`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:e1df9aebc867fe7511030aac3daf931b2e71a33ec1c768e24f4c03c65d93f1d3
+size 1137

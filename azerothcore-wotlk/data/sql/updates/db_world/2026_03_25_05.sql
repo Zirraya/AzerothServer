@@ -1,3 +1,3 @@
--- DB update 2026_03_25_04 -> 2026_03_25_05
--- Also add spark visual aura from Power Spark to Power Spark (1)
-UPDATE `creature_template_addon` SET `auras` = '55845' WHERE (`entry` = 32187);
+version https://git-lfs.github.com/spec/v1
+oid sha256:894611217ba45058ee19c66cbf2f0751ae4130f289d95674b43cd191ab2992d3
+size 190

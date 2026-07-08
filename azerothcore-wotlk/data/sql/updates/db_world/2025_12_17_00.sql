@@ -1,5 +1,3 @@
--- DB update 2025_12_16_02 -> 2025_12_17_00
---
--- Faerie Fire group
--- SPELL_GROUP_STACK_RULE_EXCLUSIVE_SAME_EFFECT	'Same effects of spells will not stack, yet auras will remain on a target'
-UPDATE `spell_group_stack_rules` SET `stack_rule`=3 WHERE `group_id`=1016;
+version https://git-lfs.github.com/spec/v1
+oid sha256:a797b1f8badb093a2eceb58bd7f3089be739bbe5fd0e74aa6336e1d7526d6224
+size 266

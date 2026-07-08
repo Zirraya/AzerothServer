@@ -1,3 +1,3 @@
--- DB update 2023_12_03_03 -> 2023_12_03_04
--- Banish More Demons should not be available without honoured reputation
-UPDATE `quest_template_addon` SET `RequiredMinRepFaction` = 1038, `RequiredMinRepValue` = 9000 WHERE `ID` = 11026;
+version https://git-lfs.github.com/spec/v1
+oid sha256:39c99222d42580fef1b26866339cf58338f8700233218fdcffb93868fc1a4974
+size 233

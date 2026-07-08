@@ -1,4 +1,3 @@
--- DB update 2023_11_08_00 -> 2023_11_08_01
--- Sundering Swipe
-DELETE FROM `spell_custom_attr` WHERE `spell_id`=35147;
-INSERT INTO `spell_custom_attr` (`spell_id`, `attributes`) VALUES (35147, 4194304);
+version https://git-lfs.github.com/spec/v1
+oid sha256:e67926162a20d91bf81b5b5a2fab16f7588a14aea6f7b89fba9a494fa5c905a2
+size 203

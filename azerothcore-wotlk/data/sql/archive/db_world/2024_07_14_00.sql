@@ -1,6 +1,3 @@
--- DB update 2024_07_13_04 -> 2024_07_14_00
---
-UPDATE`smart_scripts` SET `action_param1` = 39649 WHERE (`entryorguid` = 22855) AND (`source_type` = 0) AND (`id` = 3);
-
-DELETE FROM `spell_script_names` WHERE `spell_id`=39649 AND `ScriptName`='spell_black_temple_summon_shadowfiends';
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES (39649, 'spell_black_temple_summon_shadowfiends');
+version https://git-lfs.github.com/spec/v1
+oid sha256:910f69d9567a7dc5942ce24f7e66472b9286d5c4f3b9caf7c2e9f7999058f0b9
+size 401

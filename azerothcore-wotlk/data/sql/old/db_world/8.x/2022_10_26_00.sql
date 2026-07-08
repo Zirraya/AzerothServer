@@ -1,5 +1,3 @@
--- DB update 2022_10_25_03 -> 2022_10_26_00
---
-DELETE FROM `spell_script_names` WHERE `ScriptName` = 'spell_huhuran_poison_bolt' AND `spell_id` = 26180;
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(26180, 'spell_huhuran_poison_bolt');
+version https://git-lfs.github.com/spec/v1
+oid sha256:ad57d4a51c11543beb881d7e1aad3c9ec6aa855fedf19e778c42f7287ac1c46f
+size 258

@@ -1,3 +1,3 @@
--- DB update 2023_12_11_00 -> 2023_12_11_01
---
-DELETE FROM `spell_script_names` WHERE `spell_id`=38017 AND `ScriptName`='spell_gen_select_target_count_7_1';
+version https://git-lfs.github.com/spec/v1
+oid sha256:a0cccaccb0db98c6c75036130e209f06b747d793b26d07e482179ee4eb016fc2
+size 157

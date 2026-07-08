@@ -1,5 +1,3 @@
--- DB update 2023_03_01_00 -> 2023_03_01_01
--- Delete hack fix
-UPDATE `gameobject_template` SET `Data1` = 0 WHERE (`entry` = 182583);
-
-DELETE FROM `gameobject_loot_template` WHERE `Entry` = 19414;
+version https://git-lfs.github.com/spec/v1
+oid sha256:3d1aadd63300ea8db90e7e7940487dd2d8b82bb2e4616d28a0e3252887f5de3a
+size 197

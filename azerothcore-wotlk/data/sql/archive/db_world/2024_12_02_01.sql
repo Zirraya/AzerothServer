@@ -1,4 +1,3 @@
--- DB update 2024_12_02_00 -> 2024_12_02_01
---
--- The Crown of Will (1/5) requirement removed from The Crown of Will (2/5)
-UPDATE `quest_template_addon` SET `PrevQuestID` = 0 WHERE (`ID` = 518);
+version https://git-lfs.github.com/spec/v1
+oid sha256:80d7db2b822fdc98af124f994f73d2531d21272b91f8aae2f7f7674198a7504a
+size 195

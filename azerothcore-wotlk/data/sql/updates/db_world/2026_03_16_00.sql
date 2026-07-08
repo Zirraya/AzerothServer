@@ -1,4 +1,3 @@
--- DB update 2026_03_15_04 -> 2026_03_16_00
--- Fix Demonic Pact ICD: should be 20 seconds in 3.3.5, not 5 seconds
--- Also ensure both ranks (53646, 54909) have consistent cooldown
-UPDATE `spell_proc` SET `Cooldown` = 20000 WHERE `SpellId` IN (53646, 54909);
+version https://git-lfs.github.com/spec/v1
+oid sha256:dbb30895375e307fa7296a2894a3801a97ab18633211fab10698765310301879
+size 258

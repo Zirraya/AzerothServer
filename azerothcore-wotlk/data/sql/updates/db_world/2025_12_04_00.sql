@@ -1,4 +1,3 @@
--- DB update 2025_12_02_04 -> 2025_12_04_00
-
-UPDATE `creature_template` SET `exp` = 2 WHERE (`entry` = 32263);
-UPDATE `creature` SET `curhealth` = 10080 WHERE (`id1` = 32263) AND `guid` = 85056;
+version https://git-lfs.github.com/spec/v1
+oid sha256:6aea89623e27086d3be6f1280fcb2e1319a4e2090a2399b884cc4336ba0e5d36
+size 195

@@ -1,4 +1,3 @@
--- DB update 2025_01_11_01 -> 2025_01_12_00
---
--- Removes `Monster - Axe, 2H Horde Massive Spiked` from creature `Rorgish Jowl`
-UPDATE `creature_equip_template` SET `ItemID1` = 0 WHERE (`CreatureID` = 10639 AND `ItemID1` = 14870);
+version https://git-lfs.github.com/spec/v1
+oid sha256:c55e74c666aa5c6d56e855b18d4ce201e8c324cabc8e703850c1d9a9b8717b2c
+size 231

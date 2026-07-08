@@ -1,4 +1,3 @@
--- DB update 2024_06_28_04 -> 2024_06_29_00
-DELETE FROM `item_loot_template` WHERE `Entry` = 35512;
-INSERT INTO `item_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES
-(35512, 17202, 0, 100, 0, 1, 0, 2, 5, 'Pocket Full of Snow - Snowball');
+version https://git-lfs.github.com/spec/v1
+oid sha256:ee8c69f8740e2c9c46624b3bfdbc614a00f347db9c69c22ef3936c3de2cb2566
+size 329

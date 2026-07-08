@@ -1,3 +1,3 @@
--- DB update 2022_09_14_04 -> 2022_09_14_05
---
-UPDATE `creature_template` SET `ScriptName`='npc_vekniss_stinger' WHERE `entry`=15235;
+version https://git-lfs.github.com/spec/v1
+oid sha256:a505733ba180bdd39a086b4cf80051b47de7721f41d2465263f603c642c1cf61
+size 134

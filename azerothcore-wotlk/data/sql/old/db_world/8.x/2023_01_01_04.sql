@@ -1,4 +1,3 @@
--- DB update 2023_01_01_03 -> 2023_01_01_04
---
-UPDATE `creature_template` SET `mingold` = 270, `maxgold` = 1611 WHERE (`entry` = 21285);
-UPDATE `creature_template` SET `mingold` = 259, `maxgold` = 1547 WHERE (`entry` = 21242);
+version https://git-lfs.github.com/spec/v1
+oid sha256:b8855fc03ab2269f404fd6d9cb9c89e12dd3485dcdef1ed2199fe7c70a6ff710
+size 227

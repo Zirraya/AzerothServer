@@ -1,3 +1,3 @@
--- DB update 2023_11_20_00 -> 2023_11_20_01
--- Prayer of Mending inspiration
-UPDATE `spell_proc_event` SET `SpellFamilyMask1` = `SpellFamilyMask1`|32 WHERE entry = -14892;
+version https://git-lfs.github.com/spec/v1
+oid sha256:9671c93023cb81e74b320848e9066a6e115fad7e5e7632edd24e6ae737dc202b
+size 172

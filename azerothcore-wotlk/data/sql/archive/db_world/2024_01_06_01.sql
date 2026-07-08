@@ -1,3 +1,3 @@
--- DB update 2024_01_06_00 -> 2024_01_06_01
---
-UPDATE `reference_loot_template` SET `Item`=33054, `Comment`='The Seal of Danzalar' WHERE `Entry`=34058 AND `Item`=30054;
+version https://git-lfs.github.com/spec/v1
+oid sha256:7262a49e7afa8e200ecf0329ccea57a45e09b3babe047e55ee183b3db3a9f203
+size 169

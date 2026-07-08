@@ -1,4 +1,3 @@
--- DB update 2023_12_28_00 -> 2023_12_30_00
--- Rotting Touch
-DELETE FROM `spell_custom_attr` WHERE `spell_id`=50196;
-INSERT INTO `spell_custom_attr` (`spell_id`, `attributes`) VALUES (50196, 4194304);
+version https://git-lfs.github.com/spec/v1
+oid sha256:fac32a23737674b117f7699ed0bf3262053144ad4ba1ee0dde7bdc62fb0352ec
+size 201

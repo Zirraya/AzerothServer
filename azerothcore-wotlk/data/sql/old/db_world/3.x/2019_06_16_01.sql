@@ -1,28 +1,3 @@
--- DB update 2019_06_16_00 -> 2019_06_16_01
-DROP PROCEDURE IF EXISTS `updateDb`;
-DELIMITER //
-CREATE PROCEDURE updateDb ()
-proc:BEGIN DECLARE OK VARCHAR(100) DEFAULT 'FALSE';
-SELECT COUNT(*) INTO @COLEXISTS
-FROM information_schema.COLUMNS
-WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'version_db_world' AND COLUMN_NAME = '2019_06_16_00';
-IF @COLEXISTS = 0 THEN LEAVE proc; END IF;
-START TRANSACTION;
-ALTER TABLE version_db_world CHANGE COLUMN 2019_06_16_00 2019_06_16_01 bit;
-SELECT sql_rev INTO OK FROM version_db_world WHERE sql_rev = '1559915961271940130'; IF OK <> 'FALSE' THEN LEAVE proc; END IF;
---
--- START UPDATING QUERIES
---
-
-INSERT INTO `version_db_world` (`sql_rev`) VALUES ('1559915961271940130');
-
-UPDATE `smart_scripts` SET `action_param2` = 0 WHERE `entryorguid` = 28443 AND `source_type` = 0 AND `id` = 2;
-
---
--- END UPDATING QUERIES
---
-COMMIT;
-END //
-DELIMITER ;
-CALL updateDb();
-DROP PROCEDURE IF EXISTS `updateDb`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:19cc56259ec7e1cc19a342f2150e35387f2bc6ddf3f339707f8890016c5da52b
+size 938

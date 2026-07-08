@@ -1,5 +1,3 @@
--- DB update 2023_09_25_05 -> 2023_09_25_06
---
-DELETE FROM `spelldifficulty_dbc` WHERE `ID`=34780;
-INSERT INTO `spelldifficulty_dbc` VALUES
-(34780,34780,39340,0,0);
+version https://git-lfs.github.com/spec/v1
+oid sha256:b4c448883f303d483204eb609110c7bd24518ef95593b91814b5a90ae1584d64
+size 165

@@ -1,8 +1,3 @@
--- DB update 2024_02_04_00 -> 2024_02_04_01
---
-DELETE FROM `smart_scripts` WHERE `source_type` = 0 AND `entryorguid` IN (20060, 20062, 20063, 20064);
-
-UPDATE `creature_template` SET `AIName` = '', `ScriptName` = 'npc_lord_sanguinar' WHERE `entry` = 20060;
-UPDATE `creature_template` SET `AIName` = '', `ScriptName` = 'npc_capernian' WHERE `entry` = 20062;
-UPDATE `creature_template` SET `AIName` = '', `ScriptName` = 'npc_telonicus' WHERE `entry` = 20063;
-UPDATE `creature_template` SET `AIName` = '', `ScriptName` = 'npc_thaladred' WHERE `entry` = 20064;
+version https://git-lfs.github.com/spec/v1
+oid sha256:1af94167ccc024027dda71b45e09d3bb5217a78ad6c927b55ab4c3a44d6e088f
+size 556

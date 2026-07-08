@@ -1,3 +1,3 @@
--- DB update 2022_06_28_00 -> 2022_06_28_01
--- fix first aid trainer
-UPDATE `creature_template` SET `npcflag` = 209 WHERE `entry` IN (18990,18991) And `npcflag` = 208; 
+version https://git-lfs.github.com/spec/v1
+oid sha256:fadfb42b5e4281652614a146ad78b553805cbc9dddd575c6540097ff1047c266
+size 169

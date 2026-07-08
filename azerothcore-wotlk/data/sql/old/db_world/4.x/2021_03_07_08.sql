@@ -1,29 +1,3 @@
--- DB update 2021_03_07_07 -> 2021_03_07_08
-DROP PROCEDURE IF EXISTS `updateDb`;
-DELIMITER //
-CREATE PROCEDURE updateDb ()
-proc:BEGIN DECLARE OK VARCHAR(100) DEFAULT 'FALSE';
-SELECT COUNT(*) INTO @COLEXISTS
-FROM information_schema.COLUMNS
-WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'version_db_world' AND COLUMN_NAME = '2021_03_07_07';
-IF @COLEXISTS = 0 THEN LEAVE proc; END IF;
-START TRANSACTION;
-ALTER TABLE version_db_world CHANGE COLUMN 2021_03_07_07 2021_03_07_08 bit;
-SELECT sql_rev INTO OK FROM version_db_world WHERE sql_rev = '1614891941285225200'; IF OK <> 'FALSE' THEN LEAVE proc; END IF;
---
--- START UPDATING QUERIES
---
-
-INSERT INTO `version_db_world` (`sql_rev`) VALUES ('1614891941285225200');
-
-DELETE FROM `spell_script_names` WHERE (`spell_id` = 7932);
-INSERT INTO `spell_script_names` VALUES ('7932', 'spell_item_anti_venom');
-
---
--- END UPDATING QUERIES
---
-COMMIT;
-END //
-DELIMITER ;
-CALL updateDb();
-DROP PROCEDURE IF EXISTS `updateDb`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:e3271be7307757ab1312b460395c0f636f70a26c96ede3bb88cdb79c40626954
+size 962

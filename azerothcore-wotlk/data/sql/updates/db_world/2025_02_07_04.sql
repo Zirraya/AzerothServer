@@ -1,3 +1,3 @@
--- DB update 2025_02_07_03 -> 2025_02_07_04
--- Failed Incursion requirement removed from Lost in Action
-UPDATE `quest_template_addon` SET `PrevQuestID` = 0 WHERE (`ID` = 9738);
+version https://git-lfs.github.com/spec/v1
+oid sha256:a14d39d4967b3381b566ec794880fdb20652dc05836abce535a2c68939ed88b6
+size 177

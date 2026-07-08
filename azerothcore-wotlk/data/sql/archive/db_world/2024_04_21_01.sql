@@ -1,7 +1,3 @@
--- DB update 2024_04_21_00 -> 2024_04_21_01
--- add missing script to some fire places
--- Campfire
-UPDATE `gameobject_template` SET `ScriptName` = 'go_flames' WHERE (`entry` = 177324);
-
--- Burning Embers
-UPDATE `gameobject_template` SET `ScriptName` = 'go_flames' WHERE (`entry` BETWEEN 3832 AND 3838);
+version https://git-lfs.github.com/spec/v1
+oid sha256:530799ed96e2434cdeba9de65307c7b6a12a6e5127ed29586bc386301bc5ff1e
+size 302

@@ -1,4 +1,3 @@
--- DB update 2026_06_10_01 -> 2026_06_10_02
---
-DELETE FROM `spell_script_names` WHERE `spell_id` = 62976 AND `ScriptName` = 'spell_thorim_lightning_pillar_P2';
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES (62976, 'spell_thorim_lightning_pillar_P2');
+version https://git-lfs.github.com/spec/v1
+oid sha256:70578bc6bdeaf80292538fd745539f22da5baf0cd9fd645323a22811fcfcc918
+size 272

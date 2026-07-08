@@ -1,3 +1,3 @@
--- DB update 2022_12_20_07 -> 2022_12_21_00
-UPDATE `quest_template_addon` SET `PrevQuestID` = 0 WHERE `ID` IN (9884,9885,9887);
-UPDATE `quest_template_addon` SET `ExclusiveGroup` = 9884 WHERE `ID` IN (9884,9885,9887,9886);
+version https://git-lfs.github.com/spec/v1
+oid sha256:8df7b3aaadaf9494c9ef815f3b353cadcd48f07ba71ca1d541dee689a7e61906
+size 223

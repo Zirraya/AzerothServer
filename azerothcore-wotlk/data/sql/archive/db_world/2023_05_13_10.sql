@@ -1,4 +1,3 @@
--- DB update 2023_05_13_09 -> 2023_05_13_10
---
-UPDATE `creature_template` SET `ScriptName` = 'boss_swamplord_muselek', `AIName`= '' WHERE `entry` = 17826;
-DELETE FROM `smart_scripts` WHERE `entryorguid` = 17826 AND `source_type` = 0;
+version https://git-lfs.github.com/spec/v1
+oid sha256:469a288b0dafb1ed3674564489c640f14cfec67cbddbe0f17b61711881d87f99
+size 234

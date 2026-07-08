@@ -1,3 +1,3 @@
--- DB update 2024_02_25_02 -> 2024_02_25_03
---
-DELETE FROM `spell_script_names` WHERE `spell_id` = 34341 AND `ScriptName` = 'spell_alar_ember_blast_death';
+version https://git-lfs.github.com/spec/v1
+oid sha256:6f0982ca13cb44f3c66fab01f0b1d6701dabe7c8e7ebdad6a4ba9eca0f1a78c5
+size 156

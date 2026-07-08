@@ -1,3 +1,3 @@
--- DB update 2023_04_19_07 -> 2023_04_19_08
--- Revert Fiery Payback 1m ICD.
-DELETE FROM `spell_proc_event` WHERE `entry` IN (64349,64350);
+version https://git-lfs.github.com/spec/v1
+oid sha256:155fcf164bf632d10ed9a5c4978d3f4bef8ec640f0a950a8c94b8fc1e7fd3c46
+size 139

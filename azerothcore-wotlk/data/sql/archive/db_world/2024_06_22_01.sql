@@ -1,3 +1,3 @@
--- DB update 2024_06_22_00 -> 2024_06_22_01
--- make Quest 'Apothecary Zamah' failable in any state
-UPDATE `quest_template_addon` SET `SpecialFlags` = (`SpecialFlags` | 128) WHERE (`ID` = 853);
+version https://git-lfs.github.com/spec/v1
+oid sha256:280c5c5adcaa8ef62acca6afc56bacb3f2c612415406b6aa2fc1b2dfd807c634
+size 193

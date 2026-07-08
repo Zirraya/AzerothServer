@@ -1,4 +1,3 @@
--- DB update 2023_11_08_02 -> 2023_11_08_03
--- Virulent Poison
-DELETE FROM `spell_custom_attr` WHERE `spell_id`=16427;
-INSERT INTO `spell_custom_attr` (`spell_id`, `attributes`) VALUES (16427, 4194304);
+version https://git-lfs.github.com/spec/v1
+oid sha256:a3bc69603db72b26c2d1930ddbafde55bb6af137617942b961c0bc64a775938f
+size 203

@@ -1,30 +1,3 @@
--- DB update 2021_02_07_02 -> 2021_02_07_03
-DROP PROCEDURE IF EXISTS `updateDb`;
-DELIMITER //
-CREATE PROCEDURE updateDb ()
-proc:BEGIN DECLARE OK VARCHAR(100) DEFAULT 'FALSE';
-SELECT COUNT(*) INTO @COLEXISTS
-FROM information_schema.COLUMNS
-WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'version_db_world' AND COLUMN_NAME = '2021_02_07_02';
-IF @COLEXISTS = 0 THEN LEAVE proc; END IF;
-START TRANSACTION;
-ALTER TABLE version_db_world CHANGE COLUMN 2021_02_07_02 2021_02_07_03 bit;
-SELECT sql_rev INTO OK FROM version_db_world WHERE sql_rev = '1612272196448415878'; IF OK <> 'FALSE' THEN LEAVE proc; END IF;
---
--- START UPDATING QUERIES
---
-
-INSERT INTO `version_db_world` (`sql_rev`) VALUES ('1612272196448415878');
-
--- Deserter Propaganda should respawn way faster
-
-UPDATE `gameobject` SET `spawntimesecs`=2 WHERE `guid`=9175;
-
---
--- END UPDATING QUERIES
---
-COMMIT;
-END //
-DELIMITER ;
-CALL updateDb();
-DROP PROCEDURE IF EXISTS `updateDb`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:c96ead06a1a3ad9d36f7720f2dea3453670f7285e12bea7265b29d0f7276bcb8
+size 938

@@ -1,3 +1,3 @@
--- DB update 2022_12_11_07 -> 2022_12_11_08
---
-UPDATE `smart_scripts` SET `event_param5`=1 WHERE `entryorguid`=21126 AND `source_type`=0 AND `id` IN (5,6);
+version https://git-lfs.github.com/spec/v1
+oid sha256:6d1b7b3c3a17d75b95ff76768114fdbb8e881e72f9799df5dd41d5bcaa956300
+size 156

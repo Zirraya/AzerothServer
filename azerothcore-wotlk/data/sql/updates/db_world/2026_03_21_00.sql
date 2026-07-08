@@ -1,4 +1,3 @@
--- DB update 2026_03_20_01 -> 2026_03_21_00
--- Spirit Burn (54647) - Add 10s internal cooldown
-DELETE FROM `spell_proc` WHERE `SpellId` = 54647;
-INSERT INTO `spell_proc` (`SpellId`, `Cooldown`) VALUES (54647, 8000);
+version https://git-lfs.github.com/spec/v1
+oid sha256:65f4b15cb948abf12ec2e588b31c04d87290022ece87800bd1f6a0f5cb5e8d85
+size 216

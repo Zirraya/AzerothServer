@@ -1,5 +1,3 @@
--- DB update 2022_12_22_02 -> 2022_12_22_03
---
--- Xerintha Ravenoak vendor timers repaired
-UPDATE `npc_vendor` SET `incrtime`=300 WHERE `entry`=20916 AND `item`=31674 AND `ExtendedCost`=0;
-UPDATE `npc_vendor` SET `incrtime`=600 WHERE `entry`=20916 AND `item`=31675 AND `ExtendedCost`=0;
+version https://git-lfs.github.com/spec/v1
+oid sha256:4450c2045c6a98e471ca3b0ffaa36698e0e0b3ddf3b137a17d78213c75731a15
+size 287

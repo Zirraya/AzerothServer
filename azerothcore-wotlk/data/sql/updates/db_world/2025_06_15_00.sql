@@ -1,5 +1,3 @@
--- DB update 2025_06_12_04 -> 2025_06_15_00
---
-UPDATE `reference_loot_template` SET `Chance` = 0,  `GroupId` = 3 WHERE `Entry` = 1276884;
-
-UPDATE `creature_loot_template` SET `MinCount` = 3, `MaxCount` = 3 WHERE `Entry`= 17968 AND`Item` = 34069 AND `Reference` = 1276884;
+version https://git-lfs.github.com/spec/v1
+oid sha256:c9de550041a59d19d42c8f49baf276a31828d0128a353ac70a0a136a1a8c4e94
+size 272

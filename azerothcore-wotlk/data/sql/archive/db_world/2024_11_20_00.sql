@@ -1,7 +1,3 @@
--- DB update 2024_11_19_03 -> 2024_11_20_00
-DELETE FROM `conditions` WHERE `SourceTypeOrReferenceId` = 17 AND `SourceEntry` = 44969;
-
-INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry`, `SourceId`, `ElseGroup`, `ConditionTypeOrReference`, `ConditionTarget`, `ConditionValue1`, `ConditionValue2`, `ConditionValue3`, `NegativeCondition`, `ErrorType`, `ErrorTextId`, `ScriptName`, `Comment`)
-VALUES
-(17, 0, 44969, 0, 0, 29, 0, 24980, 15, 0, 0, 0, 0, '', 'Must be near Crystal Ward');
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:8d69fbb085f79ce434ea867768d0cedd8ae3693dd1f454a382826867f1587f8a
+size 513

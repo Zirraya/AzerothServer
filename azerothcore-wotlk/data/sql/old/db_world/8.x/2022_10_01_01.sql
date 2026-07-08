@@ -1,4 +1,3 @@
--- DB update 2022_10_01_00 -> 2022_10_01_01
---
-
-DELETE FROM `npc_vendor` WHERE `entry` = 24495 AND `item` IN (37737, 37599) AND `ExtendedCost` = 2276;
+version https://git-lfs.github.com/spec/v1
+oid sha256:bc9cfec4a311d3df70f9773172252b685e0903277a4bfa32629a4fb695f94c2b
+size 151

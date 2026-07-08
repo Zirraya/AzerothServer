@@ -1,6 +1,3 @@
--- DB update 2024_11_04_03 -> 2024_11_04_04
--- Spotlight
-DELETE FROM `spell_custom_attr` WHERE `spell_id` IN (29683,32214);
-INSERT INTO `spell_custom_attr` (`spell_id`, `attributes`) VALUES
-(29683, 536870912),
-(32214, 536870912);
+version https://git-lfs.github.com/spec/v1
+oid sha256:0dfd2db6e6a44139da3fe99de2d44d967731cb6ef49282369b43d46311318ce9
+size 230

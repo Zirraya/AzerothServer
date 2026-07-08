@@ -1,3 +1,3 @@
--- DB update 2026_03_21_03 -> 2026_03_21_04
-DELETE FROM `spell_script_names` WHERE `spell_id` = 55002;
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES (55002, 'spell_item_flexweave_underlay');
+version https://git-lfs.github.com/spec/v1
+oid sha256:15955c03b65529e256e67c2424d0f7094a445224489a91e47883002280c762ba
+size 212

@@ -1,7 +1,3 @@
--- DB update 2026_05_09_01 -> 2026_05_10_00
--- Restore TEMPSUMMON_MANUAL_DESPAWN (8) with no timer for Thiassi -> Antiok
--- accessory. With timer 0 this is rewritten to TEMPSUMMON_DEAD_DESPAWN at
--- runtime, so Antiok only despawns when he dies and no longer ticks down
--- while seated on Thiassi pre-engage.
-UPDATE `vehicle_template_accessory` SET `summontype` = 8, `summontimer` = 0
-    WHERE `entry` = 28018 AND `accessory_entry` = 28006;
+version https://git-lfs.github.com/spec/v1
+oid sha256:aa02bb5c866a8b11f0eef8a8e9a4832d271a3d4aebd7513c468d4a5d94c0ee6a
+size 442

@@ -1,7 +1,3 @@
--- DB update 2024_11_05_02 -> 2024_11_05_03
--- New Year Celebrations!
-DELETE FROM `creature_queststarter` WHERE `quest` IN (8860,8861);
-DELETE FROM `game_event_creature_quest` WHERE `quest` IN (8860,8861);
-INSERT INTO `game_event_creature_quest` (`eventEntry`, `id`, `quest`) VALUES
-(6, 15732, 8860),
-(6, 15732, 8861);
+version https://git-lfs.github.com/spec/v1
+oid sha256:a602cc3a95bf99e162bd88a1339307d43d573abcc8b91332ccc3e47fc4401a0e
+size 319

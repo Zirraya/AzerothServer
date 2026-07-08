@@ -1,6 +1,3 @@
--- DB update 2023_10_22_00 -> 2023_10_22_01
---
-DELETE FROM `spell_script_names` WHERE `spell_id` IN (30004, 29946);
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(30004, 'spell_flamewreath'),
-(29946, 'spell_flamewreath_aura');
+version https://git-lfs.github.com/spec/v1
+oid sha256:60c8c662eee7a0e164847690b85edcf5d0f25a7dbe96d8f2414a252ef343efe9
+size 248

@@ -1,4 +1,3 @@
--- DB update 2025_01_14_05 -> 2025_01_15_00
---
-DELETE FROM `spell_script_names` WHERE `spell_id`=43983 AND `ScriptName`='spell_gen_allow_proc_from_spells_with_cost';
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES(43983, 'spell_gen_allow_proc_from_spells_with_cost');
+version https://git-lfs.github.com/spec/v1
+oid sha256:7af5a8ea1b316d9d3a65791c1ac49bfdcc1cc3098849cc94947a32bd65ff708d
+size 287

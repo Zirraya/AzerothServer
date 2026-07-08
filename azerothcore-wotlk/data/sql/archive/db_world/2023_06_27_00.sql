@@ -1,4 +1,3 @@
--- DB update 2023_06_26_01 -> 2023_06_27_00
--- 31994 - Shoulder Charge
-DELETE FROM `spell_custom_attr` WHERE `spell_id` = 31994;
-INSERT INTO `spell_custom_attr` (`spell_id`, `attributes`) VALUES (31994, 16384);
+version https://git-lfs.github.com/spec/v1
+oid sha256:50fc87cc8f8789b805a64ead5eacb4e05ac7c2e90439edaab133cfcb5d75d20b
+size 211

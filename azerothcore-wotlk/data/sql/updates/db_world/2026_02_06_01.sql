@@ -1,3 +1,3 @@
--- DB update 2026_02_06_00 -> 2026_02_06_01
--- Recalculate quaternion rotation from orientation for unverified gameobjects
-UPDATE `gameobject` SET `rotation2` = SIN(`orientation` / 2), `rotation3` = COS(`orientation` / 2) WHERE `rotation0` = 0 AND `rotation1` = 0 AND (`VerifiedBuild` IS NULL OR `VerifiedBuild` = 0);
+version https://git-lfs.github.com/spec/v1
+oid sha256:9add25229ee8c5510f42be251d7ba93ca58aba7aa0373a4c382317f2f1624b46
+size 318

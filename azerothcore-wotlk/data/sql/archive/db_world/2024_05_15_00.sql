@@ -1,4 +1,3 @@
--- DB update 2024_05_14_02 -> 2024_05_15_00
--- clear all gameobjects in map 30 "Alterac Valley"
--- these will be spawned in the bg script
-DELETE FROM `gameobject` WHERE `map` = 30;
+version https://git-lfs.github.com/spec/v1
+oid sha256:9328b42a4479abee91129b8f3e5af10f48a9eb3c9e7ffe3e87f995957d3202e5
+size 181

@@ -1,3 +1,3 @@
--- DB update 2025_03_09_00 -> 2025_03_09_01
--- Increase Fists of fury proc chance to approx. 5%
-UPDATE `spell_proc_event` SET `ppmRate` = 1.5 WHERE (`entry` = 41989);
+version https://git-lfs.github.com/spec/v1
+oid sha256:a5566ccdcf512e8c4709bbb4f14cf9eee1d6355e872c65d520c4b1a6e91ef40c
+size 167

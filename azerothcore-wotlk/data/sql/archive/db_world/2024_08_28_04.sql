@@ -1,11 +1,3 @@
--- DB update 2024_08_28_03 -> 2024_08_28_04
--- Removes creature reference to broadcast text
-/*
-https://www.azerothcore.org/wiki states that broadcast text table contains only confirmed retail data.
-So to avoid polluting the table issue #19480 is being fixed in creature_text table instead.
-More info in issue #19480 and PR #19542
-*/
-UPDATE `creature_text` SET 
-`BroadcastTextId` = 0,
-`comment` = CONCAT(`comment`, ', removed BroadcastTextId 12690 (more info in PR#19542)')
-WHERE `CreatureID` IN (16325, 16326);
+version https://git-lfs.github.com/spec/v1
+oid sha256:f5de4fb469ad237be1bcc29651e300d9e616639e801cd99a5b9fc5fc3a6d8b78
+size 511

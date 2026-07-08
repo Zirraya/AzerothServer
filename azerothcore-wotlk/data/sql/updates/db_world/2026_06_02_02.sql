@@ -1,3 +1,3 @@
--- DB update 2026_06_02_01 -> 2026_06_02_02
--- Change quest requirement from Stop the Ascension! (11260) to The Conqueror of Skorm! (11261)
-UPDATE `quest_template_addon` SET `PrevQuestID` = 11261 WHERE (`ID` = 11265);
+version https://git-lfs.github.com/spec/v1
+oid sha256:7daaefbd5fbe1c6587ef69db16ca98618caa0ec52ce91419b2214ed62d227681
+size 218

@@ -1,5 +1,3 @@
--- DB update 2022_10_08_00 -> 2022_10_09_00
---
-DELETE FROM `spell_script_names` WHERE `ScriptName` = 'spell_cthun_dark_glare';
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(26029, 'spell_cthun_dark_glare');
+version https://git-lfs.github.com/spec/v1
+oid sha256:df73019745483617f81f06e93a2a7363d7fc06d02ed080e3b058b86e1f20c348
+size 229

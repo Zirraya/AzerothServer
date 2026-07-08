@@ -1,5 +1,3 @@
--- DB update 2022_06_13_05 -> 2022_06_14_00
---
-DELETE FROM `spell_script_names` WHERE `spell_id`=24684;
-INSERT INTO `spell_script_names` VALUES
-(24684,'spell_chain_burn');
+version https://git-lfs.github.com/spec/v1
+oid sha256:dbeed998d2111995c119c3dfd5c7d8299edf006987a30b1498ad547c17f5ec6e
+size 172

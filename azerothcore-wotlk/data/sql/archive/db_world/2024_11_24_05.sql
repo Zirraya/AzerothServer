@@ -1,3 +1,3 @@
--- DB update 2024_11_24_04 -> 2024_11_24_05
---
-UPDATE `spell_area` SET `gender` = 2 WHERE `spell` IN (43816, 43818, 43820, 43822);
+version https://git-lfs.github.com/spec/v1
+oid sha256:473619f833161d115c0f2e87acca8a91342a207c7e88f1dc9abbeca56c687079
+size 131

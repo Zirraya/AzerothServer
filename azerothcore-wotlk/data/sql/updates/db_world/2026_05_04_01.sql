@@ -1,6 +1,3 @@
--- DB update 2026_05_04_00 -> 2026_05_04_01
-
--- Add Stitches to legacy spawn group.
-DELETE FROM `spawn_group` WHERE `spawnId` = 300000;
-INSERT INTO `spawn_group` (`groupId`, `spawnType`, `spawnId`) VALUES
-(1, 0, 300000);
+version https://git-lfs.github.com/spec/v1
+oid sha256:712dd7d395fa6b20e870d7ad7dc301bee690d4c7270e384a9c11e949183afe63
+size 221

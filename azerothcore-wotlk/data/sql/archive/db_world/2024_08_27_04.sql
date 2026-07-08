@@ -1,4 +1,3 @@
--- DB update 2024_08_27_03 -> 2024_08_27_04
---
-DELETE FROM `spell_script_names` WHERE `spell_id` = 64765;
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES (64765, 'spell_gen_absorb0_hitlimit1');
+version https://git-lfs.github.com/spec/v1
+oid sha256:54a6825e460b78f297f208de74334af964a7c0b857a575b9f7dada760b58ee2f
+size 213

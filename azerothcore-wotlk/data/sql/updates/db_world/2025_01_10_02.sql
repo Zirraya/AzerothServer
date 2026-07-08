@@ -1,3 +1,3 @@
--- DB update 2025_01_10_01 -> 2025_01_10_02
---
-UPDATE `command` SET `help` = 'Syntax: .instance getbossstate [$Name]\nDisplays the state for every available encounter.\nIf no character name is provided, the current map will be used as target.' WHERE `name` = 'instance getbossstate';
+version https://git-lfs.github.com/spec/v1
+oid sha256:bf6f739d2d49bfa37fa30bc45385edda423dc81efdd8e31ae77f5b9b920c8e6e
+size 284

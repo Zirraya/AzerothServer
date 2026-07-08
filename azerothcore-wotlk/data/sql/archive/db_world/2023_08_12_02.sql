@@ -1,10 +1,3 @@
--- DB update 2023_08_12_01 -> 2023_08_12_02
---
-ALTER TABLE `smart_scripts`
-	ADD COLUMN `event_param6` INT UNSIGNED NOT NULL DEFAULT '0' AFTER `event_param5`;
-
-UPDATE `smart_scripts` SET `event_param6` = `event_param5` WHERE `event_type` = 106 AND `source_type` = 0;
-UPDATE `smart_scripts` SET `event_param5` = 0 WHERE `event_type` = 106 AND `source_type` = 0;
-
-UPDATE `smart_scripts` SET `event_param6` = `event_param5` WHERE `event_type` = 105 AND `source_type` = 0;
-UPDATE `smart_scripts` SET `event_param5` = 0 WHERE `event_type` = 105 AND `source_type` = 0;
+version https://git-lfs.github.com/spec/v1
+oid sha256:41dce96e052723b12315c39e21e229585c11e039e803f9ef3740902cd6394a71
+size 562

@@ -1,7 +1,3 @@
--- DB update 2025_09_23_01 -> 2025_09_23_02
---
-DELETE FROM `spell_script_names` WHERE `spell_id` IN (66050, 62062, 66052) AND `ScriptName` = 'spell_item_brewfest_hops';
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(66050, 'spell_item_brewfest_hops'),
-(62062, 'spell_item_brewfest_hops'),
-(66052, 'spell_item_brewfest_hops');
+version https://git-lfs.github.com/spec/v1
+oid sha256:4500bcaaf1f3ec9b85aa5304e3aaf0f830e9afaa1b76b474d9d929deb047fcf3
+size 347

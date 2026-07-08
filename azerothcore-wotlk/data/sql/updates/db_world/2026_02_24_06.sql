@@ -1,7 +1,3 @@
--- DB update 2026_02_24_05 -> 2026_02_24_06
---
-UPDATE `spell_proc`SET `ProcsPerMinute` = 2  WHERE `SpellId` = 51528;
-UPDATE `spell_proc`SET `ProcsPerMinute` = 4  WHERE `SpellId` = 51529;
-UPDATE `spell_proc`SET `ProcsPerMinute` = 6  WHERE `SpellId` = 51530;
-UPDATE `spell_proc`SET `ProcsPerMinute` = 8  WHERE `SpellId` = 51531;
-UPDATE `spell_proc`SET `ProcsPerMinute` = 10 WHERE `SpellId` = 51532;
+version https://git-lfs.github.com/spec/v1
+oid sha256:4355c18481d888e3a9c65924e2f591de4f0c40137b8eb1fce84cdd4924847eca
+size 397

@@ -1,5 +1,3 @@
--- DB update 2026_02_25_01 -> 2026_02_25_02
--- Add acore_string for Debug.LFG config message (same pattern as Debug.Battleground / Debug.Arena)
-DELETE FROM `acore_string` WHERE `entry` = 30098;
-INSERT INTO `acore_string` (`entry`, `content_default`) VALUES
-(30098, 'LFG Debugging is already enabled in the config, thus you are unable to enable/disable it with command.');
+version https://git-lfs.github.com/spec/v1
+oid sha256:aa557553bd7714149ec24e711a29dbfd57ef1dd1487898446830fb8e8883ef86
+size 372

@@ -1,3 +1,3 @@
--- DB update 2023_04_21_00 -> 2023_04_22_00
--- Tamed Kodo - Remove gossip flag & gosip menu.
-UPDATE `creature_template` SET `npcflag` = `npcflag`&~(1),`gossip_menu_id` = 0  WHERE `entry` = 11627;
+version https://git-lfs.github.com/spec/v1
+oid sha256:f9208d199e166ae1ba88145bcf3e6ff52b5b05ec1ec838d1a0d305f963f3c2cb
+size 196

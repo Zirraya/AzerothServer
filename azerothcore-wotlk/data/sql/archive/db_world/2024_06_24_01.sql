@@ -1,4 +1,3 @@
--- DB update 2024_06_24_00 -> 2024_06_24_01
---
-UPDATE `spell_script_names` SET `ScriptName`='spell_hadronox_summon_periodic_champion_aura' WHERE `spell_id`=53035;
-UPDATE `spell_script_names` SET `ScriptName`='spell_hadronox_summon_periodic_necromancer_aura' WHERE `spell_id`=53036;
+version https://git-lfs.github.com/spec/v1
+oid sha256:3009b813a149b7b0d16cae437ed6375fc6b2e6d8f640432e8c1588f39a895c05
+size 282

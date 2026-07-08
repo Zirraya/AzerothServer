@@ -1,5 +1,3 @@
--- DB update 2026_02_13_03 -> 2026_02_15_00
-DELETE FROM `waypoint_data` WHERE `id` IN (304490, 304520, 304510);
-
--- CREATURE_FLAG_EXTRA_HARD_RESET
-UPDATE `creature_template` SET `flags_extra` = `flags_extra` | 0x80000000 WHERE (`entry` = 28860);
+version https://git-lfs.github.com/spec/v1
+oid sha256:cd37cd21cd47b65fce41d86411c0676960b19c724fb4f81c420c9847cd3d3363
+size 246

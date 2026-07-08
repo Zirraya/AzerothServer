@@ -1,5 +1,3 @@
--- DB update 2022_05_03_02 -> 2022_05_04_00
-UPDATE `creature_template` SET `faction` = 1216 WHERE (`entry` = 13086);
-UPDATE `creature_template` SET `faction` = 1216 WHERE (`entry` = 22670);
-UPDATE `creature_template` SET `faction` = 1216 WHERE (`entry` = 31918);
-UPDATE `creature_template` SET `faction` = 1216 WHERE (`entry` = 37234);
+version https://git-lfs.github.com/spec/v1
+oid sha256:a0ca3150bb35aa59be5903ca4a38c928473ece07155b9afe339e41c0a94f85db
+size 336

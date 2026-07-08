@@ -1,3 +1,3 @@
--- DB update 2025_12_05_01 -> 2025_12_08_00
--- A Spark of Hope requires The Refiner's Fire
-UPDATE `quest_template_addon` SET `PrevQuestID` = 12922 WHERE `ID` = 12956;
+version https://git-lfs.github.com/spec/v1
+oid sha256:d0efee6eca4511e0c85774b220e984df28a923f84116f2298a671fa4680fa45e
+size 167

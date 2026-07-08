@@ -1,3 +1,3 @@
--- DB update 2023_02_18_08 -> 2023_02_19_00
---
-DELETE FROM `creature` WHERE `id1`=22102 AND `guid` IN (86101, 86102);
+version https://git-lfs.github.com/spec/v1
+oid sha256:24e30da8d6efe3b9ed6f014a0b8f1dd1d30f98367789ac95ade0a8b9e951de1a
+size 118

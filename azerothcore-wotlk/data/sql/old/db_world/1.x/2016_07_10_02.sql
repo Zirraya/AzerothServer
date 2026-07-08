@@ -1,4 +1,3 @@
-ALTER TABLE world_db_version CHANGE COLUMN 2016_07_10_01 2016_07_10_02 bit;
-
-/* Quest adding injury to insult, fix mob speed run, from 2.2 to 1.0 */
-UPDATE `creature_template` SET `speed_run` = 1 WHERE `entry` = 24238;
+version https://git-lfs.github.com/spec/v1
+oid sha256:38734d0643f603973806e7cdcb249be4bd129392016b9bee0b23917ee8a5c959
+size 219

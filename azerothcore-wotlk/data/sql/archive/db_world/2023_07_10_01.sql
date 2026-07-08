@@ -1,9 +1,3 @@
--- DB update 2023_07_10_00 -> 2023_07_10_01
---
-DELETE FROM `creature_formations` WHERE `memberGUID` IN (90978, 90979, 90980, 90981, 90982);
-INSERT INTO `creature_formations` (`memberGUID`, `leaderGUID`, `groupAI`) VALUES
-(90978, 90978, 3),
-(90979, 90978, 3),
-(90980, 90978, 3),
-(90981, 90978, 3),
-(90982, 90978, 3);
+version https://git-lfs.github.com/spec/v1
+oid sha256:67aae9f725d0e2b5ca68fdf1c9962279b42f50c40a0a7c5f579167967e8a6c44
+size 316

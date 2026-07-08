@@ -1,3 +1,3 @@
--- DB update 2024_03_11_01 -> 2024_03_13_00
---
-UPDATE `smart_scripts` SET `event_type` = 0, `comment` = 'Tempest Falconer - In Combat - Cast \'Shoot\'', `event_param6` = 0 WHERE `entryorguid` = 20037 AND `source_type` = 0 AND `id` = 1;
+version https://git-lfs.github.com/spec/v1
+oid sha256:c9a58b93b73aa5cbe7794e262439f4bd39842e088d7eb42f35a214af0c720879
+size 236

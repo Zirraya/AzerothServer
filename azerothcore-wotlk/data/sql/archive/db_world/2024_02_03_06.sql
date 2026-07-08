@@ -1,3 +1,3 @@
--- DB update 2024_02_03_05 -> 2024_02_03_06
--- Midsummer - disable unrelated debris spawns in front of the Exodar
-DELETE FROM `game_event_gameobject` WHERE (`eventEntry` = 1) AND (`guid` IN (SELECT `guid` from `gameobject` WHERE `id` IN (180698, 180699, 180700)));
+version https://git-lfs.github.com/spec/v1
+oid sha256:fa1686eb85130efd506671bd1f1f6231db3b24a965d1c6f1bd5abf2f70fae371
+size 265

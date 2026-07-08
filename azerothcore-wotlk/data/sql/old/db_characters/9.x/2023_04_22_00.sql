@@ -1,4 +1,3 @@
--- DB update 2023_03_04_00 -> 2023_04_22_00
---
-ALTER TABLE `characters`
-    ADD COLUMN `extraBonusTalentCount` INT NOT NULL DEFAULT '0' AFTER `innTriggerId`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:aea1f69baca818af64fdedf77ed18d19a43c32006a222f43587c98acf991edf6
+size 158

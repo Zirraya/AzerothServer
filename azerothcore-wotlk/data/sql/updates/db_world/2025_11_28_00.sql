@@ -1,3 +1,3 @@
--- DB update 2025_11_27_10 -> 2025_11_28_00
---
-UPDATE `creature_template_addon` SET `bytes2` = 3, `auras` = '49132 55795 61204' WHERE `entry` = 27530;
+version https://git-lfs.github.com/spec/v1
+oid sha256:a184674b40761a558e61a082e1bac84084c4102728fcca7c196f8912e47385ae
+size 151

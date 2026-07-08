@@ -1,7 +1,3 @@
--- DB update 2023_03_27_02 -> 2023_03_27_03
--- Verified in Build: 47213
-UPDATE `creature_template` SET `faction` = 1860 WHERE `entry` IN (
-21651, -- Time-Lost Skettis Reaver
-21763, -- Time-Lost Skettis Worshipper
-21787  -- Time-Lost Skettis High Priest
-);
+version https://git-lfs.github.com/spec/v1
+oid sha256:d53d3244d0f85566ede1125b3d3f475ba480e0456bfdf90d2f75aa52836a7e3b
+size 256

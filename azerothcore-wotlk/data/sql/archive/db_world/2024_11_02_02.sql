@@ -1,6 +1,3 @@
--- DB update 2024_11_02_01 -> 2024_11_02_02
-DELETE FROM `gameobject_queststarter` WHERE `id` = 142122 AND `quest` IN (2781, 2875);
-
-INSERT INTO `gameobject_queststarter` (`id`, `quest`) VALUES 
-(142122, 2781), 
-(142122, 2875);
+version https://git-lfs.github.com/spec/v1
+oid sha256:36433b1b96997c4f668e7fd1e8877d160e738410a324c9150e44928c6b0ec706
+size 227

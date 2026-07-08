@@ -1,3 +1,3 @@
--- DB update 2025_12_17_01 -> 2025_12_17_02
--- prevent 'Plagued Scavenger' from flying up to Dalaran
-DELETE FROM `waypoint_data` WHERE `id` = 1006640 AND `point` = 8;
+version https://git-lfs.github.com/spec/v1
+oid sha256:cdc8d122d4b0a99e5e52519dcab4536c1e78e8d063f843e5ea5c24d24aac0628
+size 167

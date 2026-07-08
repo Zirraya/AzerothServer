@@ -1,4 +1,3 @@
--- DB update 2023_04_04_12 -> 2023_04_04_13
---
-UPDATE `creature_template` SET `detection_range`=65 WHERE `entry` IN (20465,21943);
-UPDATE `creature_template` SET `minlevel`=70, `maxlevel`=70 WHERE `entry`=21943;
+version https://git-lfs.github.com/spec/v1
+oid sha256:9c534e1574606b2f0cf96b5d76f11879bc7699439702eafa2ee32d89b936436b
+size 212

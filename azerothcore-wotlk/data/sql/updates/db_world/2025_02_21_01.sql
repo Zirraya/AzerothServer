@@ -1,8 +1,3 @@
--- DB update 2025_02_21_00 -> 2025_02_21_01
---
-DELETE FROM `spell_script_names` WHERE `ScriptName` IN
-('spell_eredar_twins_handle_dark_touched_periodic', 'spell_eredar_twins_handle_flame_touched_periodic', 'spell_eredar_twins_handle_flame_touched_flame_sear');
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(45342, 'spell_eredar_twins_handle_flame_touched_periodic'),
-(45271, 'spell_eredar_twins_handle_dark_touched_periodic'),
-(46771, 'spell_eredar_twins_handle_flame_touched_flame_sear');
+version https://git-lfs.github.com/spec/v1
+oid sha256:7565007fe0c3b69fe1a66b56501d66fa1f9aa033f1d5161848b835e1ecd89695
+size 512

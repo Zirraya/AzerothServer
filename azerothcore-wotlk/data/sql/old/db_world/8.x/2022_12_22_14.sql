@@ -1,3 +1,3 @@
--- DB update 2022_12_22_13 -> 2022_12_22_14
---
-DELETE FROM `gameobject` WHERE `id` IN (184931, 184934, 184935, 184937, 184940, 184941) AND `map` IN (543, 545, 546, 555, 557) AND `guid` IN (6990, 11222, 13822, 25829, 25830, 25831, 25832, 32635, 32636, 32710, 32632, 43140, 43141);
+version https://git-lfs.github.com/spec/v1
+oid sha256:bd84c391db2b72586ef05cf0e9914258abd6113ae482c09829abd0c49a2fa27e
+size 280

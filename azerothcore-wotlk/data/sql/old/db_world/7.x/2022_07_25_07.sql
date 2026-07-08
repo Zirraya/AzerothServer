@@ -1,7 +1,3 @@
--- DB update 2022_07_25_06 -> 2022_07_25_07
-
--- Ossirian immune to Taunt
-UPDATE `creature_template` SET `flags_extra`=`flags_extra`|256 WHERE `entry`=15339;
-
--- Sand Vortex UNIT_FLAG_NOT_SELECTABLE
-UPDATE `creature_template` SET `unit_flags`=`unit_flags`|33554432 WHERE `entry`=15428;
+version https://git-lfs.github.com/spec/v1
+oid sha256:24d80b14b43a41ff77d0e0fc6047fdb839dbed45df4a0d72d7bbf961d52fabe9
+size 285

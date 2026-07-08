@@ -1,3 +1,3 @@
--- DB update 2023_06_24_04 -> 2023_06_24_05
---
-UPDATE `creature_template` SET `ScriptName` = '' WHERE `ScriptName` = 'npc_ahune_frozen_core';
+version https://git-lfs.github.com/spec/v1
+oid sha256:a6d38b0713b602a818e0c3db48aa35d78ec63ea0a9874aeb0668c7c047469a01
+size 142

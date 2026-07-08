@@ -1,4 +1,3 @@
--- DB update 2023_07_26_02 -> 2023_07_26_03
---
-DELETE FROM `areatrigger_teleport` WHERE `ID` = 2068;
-INSERT INTO `areatrigger_teleport` (`ID`, `Name`, `target_map`, `target_position_x`, `target_position_y`, `target_position_z`, `target_orientation`) VALUES (2068, 'Blackrock Spire - Jump Exit', 0, -7558.39, -1309.43, 248.454, 1.5708);
+version https://git-lfs.github.com/spec/v1
+oid sha256:e3b9cd66b5cb55bc89e1a4d390a01d173e0ce0d01be529b3d11bf2a377ca5127
+size 336

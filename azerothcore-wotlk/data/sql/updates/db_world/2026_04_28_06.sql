@@ -1,3 +1,3 @@
--- DB update 2026_04_28_05 -> 2026_04_28_06
--- Fix Spark of Life (spell 60519) proc on craft and equip
-UPDATE `spell_proc` SET `SpellTypeMask` = 3 WHERE `SpellId` = 60519;
+version https://git-lfs.github.com/spec/v1
+oid sha256:9e06f7c09ceac0b0ac21a02647ac0e01bea43c03f0a74171245db10c02c8b234
+size 172

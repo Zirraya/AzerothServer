@@ -1,3 +1,3 @@
--- DB update 2024_01_08_02 -> 2024_01_08_03
--- Fix Orgrimmar Grunt directions for barber shop
-UPDATE `npc_text` SET `BroadcastTextID0` = 0 WHERE `ID` = 13889;
+version https://git-lfs.github.com/spec/v1
+oid sha256:dccc57b959797e6027c3c4feccc030ee62119f8e2046320203c825fc9e68f7b0
+size 159

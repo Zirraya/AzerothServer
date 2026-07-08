@@ -1,3 +1,3 @@
--- DB update 2024_03_13_00 -> 2024_03_13_01
--- fix phaseMask of two 'Bench' spawns
-UPDATE `gameobject` SET `phaseMask` = 2 WHERE (`guid` IN (57773, 57784));
+version https://git-lfs.github.com/spec/v1
+oid sha256:f49c9e4e643b4fa7eb5fb163a4509d84412304d539ab0fae0a55f9c1b5d53fee
+size 157

@@ -1,4 +1,3 @@
--- DB update 2025_01_18_00 -> 2025_01_18_01
-
--- Change Unit Flags (IMMUNE_TO_PC, IMMUNE_TO_NPC)
-UPDATE `creature_template` SET `unit_flags` = `unit_flags`|768 WHERE `entry` IN (25465);
+version https://git-lfs.github.com/spec/v1
+oid sha256:a5c28da306f2b5131b9970a7604c50cf3300e652125d2d7da72c0fbb36ca7784
+size 185

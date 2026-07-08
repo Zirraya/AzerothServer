@@ -1,3 +1,3 @@
--- DB update 2023_08_11_00 -> 2023_08_11_01
---
-UPDATE `creature_onkill_reputation` SET `RewOnKillRepValue1` = 20 WHERE `creature_id` = 9816;
+version https://git-lfs.github.com/spec/v1
+oid sha256:165fb409ff3f8256d0300620513f10948e9756b57ef80545d8a0ca42af25b6f6
+size 141

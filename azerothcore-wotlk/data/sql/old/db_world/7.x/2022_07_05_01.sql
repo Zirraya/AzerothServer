@@ -1,3 +1,3 @@
--- DB update 2022_07_05_00 -> 2022_07_05_01
--- fixed `Anatoly Will Talk` quest
-UPDATE `smart_scripts` SET `event_flags`= 512 WHERE `entryorguid`= 2762600;
+version https://git-lfs.github.com/spec/v1
+oid sha256:ef320204881c404d5d46101672f2b5b1b981cf0754378096ac0b2cae55dee994
+size 155

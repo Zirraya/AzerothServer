@@ -1,4 +1,3 @@
--- DB update 2024_04_03_01 -> 2024_04_07_00
---
-DELETE FROM `creature_loot_template` WHERE `Entry` = 17968 AND `Item` = 190068;
-UPDATE `creature_loot_template` SET `MaxCount` = 3 WHERE `Entry` = 17968 AND `Item` = 34068;
+version https://git-lfs.github.com/spec/v1
+oid sha256:11e9c116c364e6c50a0393da1419ba2328b860c49ff4c8d2b1c73d91288d68a7
+size 220

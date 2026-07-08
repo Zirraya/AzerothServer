@@ -1,3 +1,3 @@
--- DB update 2022_07_18_01 -> 2022_07_19_00
---
-UPDATE `spell_dbc` SET `DurationIndex`=21 WHERE `ID`=24235;
+version https://git-lfs.github.com/spec/v1
+oid sha256:4efc3c9d701548f9763c0285f8730743e9d9611ae07bf12e7f8c59017dcb70de
+size 107

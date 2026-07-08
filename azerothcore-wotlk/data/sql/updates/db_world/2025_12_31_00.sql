@@ -1,2 +1,3 @@
--- DB update 2025_12_30_00 -> 2025_12_31_00
-UPDATE `creature_template` SET `speed_walk` = 0.640000009536743164, `speed_run` = 0.57142857142 WHERE `entry` IN (27737, 31208);
+version https://git-lfs.github.com/spec/v1
+oid sha256:477ce64f01db19fcc40f2843e626541d5a81f46090781af0fa5c2a5c8e56e3fa
+size 173

@@ -1,3 +1,3 @@
--- DB update 2026_02_24_06 -> 2026_02_25_00
---
-UPDATE `conditions` SET `ConditionValue3` = 2 WHERE `SourceGroup` = 10389 AND `SourceEntry` IN (0, 1, 2, 3, 4, 5, 6, 8) AND `SourceTypeOrReferenceId` = 15;
+version https://git-lfs.github.com/spec/v1
+oid sha256:aa4e1ba9ffed7eb713ba206c55b7e38b23ffc6345ec8ed568964a091e756509d
+size 203

@@ -1,4 +1,3 @@
--- DB update 2026_02_10_01 -> 2026_02_10_02
---
-DELETE FROM `spell_group_stack_rules` WHERE `group_id` = 1114;
-INSERT INTO `spell_group_stack_rules` (`group_id`,`stack_rule`, `description`) VALUES (1114, 1, 'Love is in the Air Flasks');
+version https://git-lfs.github.com/spec/v1
+oid sha256:87a4fddf3c0de14c7ee80bf69d5dc5a1cb42c946b4f86256114124281926fbf7
+size 236

@@ -1,3 +1,3 @@
--- DB update 2024_07_09_10 -> 2024_07_09_11
---
-UPDATE `quest_template_addon` SET `RequiredMinRepValue` = 3000 WHERE (`ID` = 11091);
+version https://git-lfs.github.com/spec/v1
+oid sha256:59894a75a25f258d7fd08c89a278409839c87c6d396e4c15bc16d13aac3f2f65
+size 132

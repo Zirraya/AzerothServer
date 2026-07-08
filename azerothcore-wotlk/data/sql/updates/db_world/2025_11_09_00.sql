@@ -1,3 +1,3 @@
--- DB update 2025_11_08_02 -> 2025_11_09_00
---
-UPDATE `creature_addon` SET `visibilityDistanceType` = 3 WHERE `guid` = 103278;
+version https://git-lfs.github.com/spec/v1
+oid sha256:b06402224507025f111392765a23eec9fbc55c457f8d3738d0f10870c1db10ec
+size 127

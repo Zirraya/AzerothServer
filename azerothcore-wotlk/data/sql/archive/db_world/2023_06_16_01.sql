@@ -1,4 +1,3 @@
--- DB update 2023_06_16_00 -> 2023_06_16_01
---
-UPDATE `creature_template` SET `flags_extra` = `flags_extra`|128 WHERE `entry`=20654;
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:c411afebaab22dc635155fbb9107bd49dde4e0c173b50f9a0bb42ea024efee73
+size 134

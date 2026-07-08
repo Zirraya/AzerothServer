@@ -1,3 +1,3 @@
--- DB update 2022_05_08_01 -> 2022_05_08_02
---
-UPDATE `areatrigger_teleport` SET `target_map` = 0, `target_position_x` = -7510.59, `target_position_y` = -1041.45, `target_position_z` = 180.911, `target_orientation` = 3.8666 WHERE ID = 2890;
+version https://git-lfs.github.com/spec/v1
+oid sha256:78ee77aa430f73128882589cdf68803f6cd2ef0f7b285b5f8d807cd75b728c1f
+size 241

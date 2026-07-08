@@ -1,4 +1,3 @@
--- DB update 2024_11_13_01 -> 2024_11_13_02
---
-DELETE FROM `spell_script_names` WHERE `spell_id` = 45217 AND `ScriptName` = 'spell_ritual_of_power';
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES (45217, 'spell_ritual_of_power');
+version https://git-lfs.github.com/spec/v1
+oid sha256:13bb13f0f698b76de1896e7db250ba88b117614509f2e1170361c6cfd87c7793
+size 250

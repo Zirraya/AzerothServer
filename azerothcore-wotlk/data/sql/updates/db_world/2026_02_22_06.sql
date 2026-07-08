@@ -1,4 +1,3 @@
--- DB update 2026_02_22_05 -> 2026_02_22_06
--- Lock and Load: allow periodic tick procs (Black Arrow, Explosive Trap)
--- SpellPhaseMask 6 = PROC_SPELL_PHASE_HIT | PROC_SPELL_PHASE_FINISH
-UPDATE `spell_proc` SET `SpellPhaseMask` = 6 WHERE `SpellId` = -56342;
+version https://git-lfs.github.com/spec/v1
+oid sha256:92f14db4a96f03ff9fce9047a2a24a64b9d11810608d71c5bc0200c39a85b64a
+size 258

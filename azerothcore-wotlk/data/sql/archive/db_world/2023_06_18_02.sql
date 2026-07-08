@@ -1,5 +1,3 @@
--- DB update 2023_06_18_01 -> 2023_06_18_02
---
-DELETE FROM `spell_script_names` WHERE `ScriptName` = 'spell_gargolmar_retalliation' AND `spell_id` = 22857;
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(22857, 'spell_gargolmar_retalliation');
+version https://git-lfs.github.com/spec/v1
+oid sha256:dd66ffbdc36a3ce10e978baecff58bfe7cae81da4d3781ada77bdc23a299a834
+size 264

@@ -1,3 +1,3 @@
--- DB update 2026_02_25_10 -> 2026_02_25_11
---
-UPDATE `gameobject_template_addon` SET `flags` = 16 WHERE (`entry` IN (185115, 185117, 185118));
+version https://git-lfs.github.com/spec/v1
+oid sha256:68e0385005ce99f19e0b05e95a0df0579d6bf85db47ce705181a7dade949016c
+size 144

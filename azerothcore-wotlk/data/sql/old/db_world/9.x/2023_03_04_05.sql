@@ -1,6 +1,3 @@
--- DB update 2023_03_04_04 -> 2023_03_04_05
--- Scarlet Enchanter - Remove OOC attack closest player
-DELETE FROM `smart_scripts` WHERE `entryorguid` = 9452 AND `source_type` = 0 AND `id` = 2;
-
--- Scarlet Cleric - Remove OOC attack closest player
-DELETE FROM `smart_scripts` WHERE `entryorguid` = 9449 AND `source_type` = 0 AND `id` = 3;
+version https://git-lfs.github.com/spec/v1
+oid sha256:fc04d8001daa8b7a1e708748cb577c61455558c09ad3b22e19ce4d4bbaeed79d
+size 336

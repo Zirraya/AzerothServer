@@ -1,3 +1,3 @@
--- DB update 2024_04_19_00 -> 2024_04_20_00
---
-DELETE FROM `creature_template_spell` WHERE `CreatureID` = 17899 AND `Index` = 0;
+version https://git-lfs.github.com/spec/v1
+oid sha256:f6dc7fddf6c5c90a99305d5c197b650e3d1407aa5f2a61fd2d14eddff9c47e72
+size 129

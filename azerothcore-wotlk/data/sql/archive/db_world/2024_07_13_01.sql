@@ -1,3 +1,3 @@
--- DB update 2024_07_13_00 -> 2024_07_13_01
--- add flag CU_DURATION_REAL_TIME to 21174 'Empty Festive Mug'
-UPDATE `item_template` SET `flagsCustom` = (`flagsCustom` | 1) WHERE (`entry` = 21174);
+version https://git-lfs.github.com/spec/v1
+oid sha256:774a535baef5825143d33da0782b654085d1541fa5c4de4fae820d00faf2800c
+size 195

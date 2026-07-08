@@ -1,7 +1,3 @@
--- DB update 2026_02_20_07 -> 2026_02_21_00
---
-UPDATE `spell_script_names` SET `ScriptName` = 'spell_gluth_decimate' WHERE `spell_id` = 28374 AND `ScriptName` = 'spell_item_mad_alchemists_potion';
-
-DELETE FROM `spell_script_names` WHERE `spell_id` = 45051;
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(45051, 'spell_item_mad_alchemists_potion');
+version https://git-lfs.github.com/spec/v1
+oid sha256:afc75265fa9b93aa958a57faf3265f60e92bad93c6b982e7cb6ecbb338d57952
+size 369

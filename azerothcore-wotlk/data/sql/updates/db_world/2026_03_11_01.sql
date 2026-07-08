@@ -1,4 +1,3 @@
--- DB update 2026_03_11_00 -> 2026_03_11_01
--- Restrict "on spellcast" procs to damage/heal only (SpellTypeMask=3)
--- Prevents proccing from utility spells like Open Lock (doors with keys)
-UPDATE `spell_proc` SET `SpellTypeMask` = 3 WHERE `SpellId` IN (27521, 27774, 32837, 32980, 32981, 34584, 38334, 55381, 58442, 62114, 71585);
+version https://git-lfs.github.com/spec/v1
+oid sha256:81d5989233681b47986d2c7c225035b929fa412727b6755919eae8f623e2362d
+size 331

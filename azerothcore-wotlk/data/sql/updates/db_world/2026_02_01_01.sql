@@ -1,4 +1,3 @@
--- DB update 2026_02_01_00 -> 2026_02_01_01
-
--- Set Emote to 0
-UPDATE `creature_addon` SET `emote` = 0 WHERE (`guid` IN (131012, 131014, 131015, 131016, 131020, 131021, 131022, 131023, 131026, 131027));
+version https://git-lfs.github.com/spec/v1
+oid sha256:ad46e7865b5e51d3dcc55b96f66b2f154fa9d07186a6332bbbc0e0195b3151b4
+size 203

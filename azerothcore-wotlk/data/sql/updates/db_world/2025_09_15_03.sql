@@ -1,3 +1,3 @@
--- DB update 2025_09_15_02 -> 2025_09_15_03
-ALTER TABLE `creature_model_info` ADD COLUMN `VerifiedBuild` MEDIUMINT NULL DEFAULT NULL AFTER `DisplayID_Other_Gender`;
-UPDATE `creature_model_info` SET `VerifiedBuild` = 0;
+version https://git-lfs.github.com/spec/v1
+oid sha256:35edabed98e6351983a3480bdf6fc083d829fa6135ba16a1c77ff60f92002075
+size 219

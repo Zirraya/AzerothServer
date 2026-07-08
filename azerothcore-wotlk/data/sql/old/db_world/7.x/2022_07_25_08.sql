@@ -1,3 +1,3 @@
--- DB update 2022_07_25_07 -> 2022_07_25_08
---
-UPDATE `creature_template` SET `ScriptName` = 'npc_anubisath_guardian' WHERE `entry` = 15355;
+version https://git-lfs.github.com/spec/v1
+oid sha256:c12cde29ceea968a3e3656d674d1b6715a469ed55bd3830cd96e896767d9a6b5
+size 141

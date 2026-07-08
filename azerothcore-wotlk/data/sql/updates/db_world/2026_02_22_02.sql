@@ -1,8 +1,3 @@
--- DB update 2026_02_22_01 -> 2026_02_22_02
--- Honor Among Thieves spell script registration
-DELETE FROM `spell_script_names` WHERE `spell_id` IN (51698, 51700, 51701, 52916);
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(51698, 'spell_rog_honor_among_thieves'),
-(51700, 'spell_rog_honor_among_thieves'),
-(51701, 'spell_rog_honor_among_thieves'),
-(52916, 'spell_rog_honor_among_thieves_proc');
+version https://git-lfs.github.com/spec/v1
+oid sha256:0a8d547a67c3500fae6f9620a5b999e8dd78b1c17ead2c30e983421a5a304375
+size 416

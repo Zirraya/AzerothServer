@@ -1,6 +1,3 @@
--- DB update 2023_02_12_12 -> 2023_02_12_13
---
-DELETE FROM `spell_script_names` WHERE `ScriptName` = 'spell_zereketh_seed_of_corruption';
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(36123, 'spell_zereketh_seed_of_corruption'),
-(39367, 'spell_zereketh_seed_of_corruption');
+version https://git-lfs.github.com/spec/v1
+oid sha256:2b99d1cd7449a9047076078cfb0c380a5a9addbf7206316a8e0b34eda8ec0de0
+size 297

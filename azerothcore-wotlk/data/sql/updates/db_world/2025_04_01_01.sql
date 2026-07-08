@@ -1,3 +1,3 @@
--- DB update 2025_04_01_00 -> 2025_04_01_01
--- Remove quest requirement for Gammerita, Mon!
-UPDATE `quest_template_addon` SET `PrevQuestID` = 0 WHERE (`ID` = 7816);
+version https://git-lfs.github.com/spec/v1
+oid sha256:37db7b775827be81d7f31c16ae3550455040a79c6681ba7bc2369b48e7cf98ec
+size 165

@@ -1,3 +1,3 @@
--- DB update 2024_02_01_00 -> 2024_02_01_01
--- Add Repair npcflag to 28344 Blazzle
-UPDATE `creature_template` SET `npcflag` = (`npcflag` | 4096) WHERE `entry` = 28344;
+version https://git-lfs.github.com/spec/v1
+oid sha256:ef73c3138a536c69bbe65798c42b8b5072347d0b2eac399d69365a2f2432a19e
+size 168

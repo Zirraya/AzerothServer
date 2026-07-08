@@ -1,4 +1,3 @@
--- DB update 2025_11_11_03 -> 2025_11_12_00
---
--- remove `DISABLE_MOVE`
-UPDATE `creature_template` SET `unit_flags` = `unit_flags` & ~4 WHERE (`entry` = 28998);
+version https://git-lfs.github.com/spec/v1
+oid sha256:27fe6b56fea87b41906fb62026b5536f4513b44276fcd5deb4a713393158bf36
+size 161

@@ -1,3 +1,3 @@
--- DB update 2022_08_01_01 -> 2022_08_01_02
--- trainer can learn skills
-UPDATE `creature_template` SET `npcflag`=`npcflag`|1 WHERE `entry` IN (18753,18752,18771);
+version https://git-lfs.github.com/spec/v1
+oid sha256:158ff8046f84e21144a66462a8c26fcae13bb1e83e56f973d39f7a0ec6b38d86
+size 163

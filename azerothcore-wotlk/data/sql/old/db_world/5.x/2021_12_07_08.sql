@@ -1,32 +1,3 @@
--- DB update 2021_12_07_07 -> 2021_12_07_08
-DROP PROCEDURE IF EXISTS `updateDb`;
-DELIMITER //
-CREATE PROCEDURE updateDb ()
-proc:BEGIN DECLARE OK VARCHAR(100) DEFAULT 'FALSE';
-SELECT COUNT(*) INTO @COLEXISTS
-FROM information_schema.COLUMNS
-WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'version_db_world' AND COLUMN_NAME = '2021_12_07_07';
-IF @COLEXISTS = 0 THEN LEAVE proc; END IF;
-START TRANSACTION;
-ALTER TABLE version_db_world CHANGE COLUMN 2021_12_07_07 2021_12_07_08 bit;
-SELECT sql_rev INTO OK FROM version_db_world WHERE sql_rev = '1638446224179942600'; IF OK <> 'FALSE' THEN LEAVE proc; END IF;
---
--- START UPDATING QUERIES
---
-
-INSERT INTO `version_db_world` (`sql_rev`) VALUES ('1638446224179942600');
-
-UPDATE `creature_template` SET `gossip_menu_id`= 4721 WHERE `entry`= 11861;
-
-DELETE FROM `gossip_menu`WHERE `MenuID` = 4721 AND `TextID` = 5773;
-INSERT INTO `gossip_menu` (`MenuID`, `TextID`) VALUES (4721, 5773);
-
---
--- END UPDATING QUERIES
---
-UPDATE version_db_world SET date = '2021_12_07_08' WHERE sql_rev = '1638446224179942600';
-COMMIT;
-END //
-DELIMITER ;
-CALL updateDb();
-DROP PROCEDURE IF EXISTS `updateDb`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:7eed352ebe75780b563647d84d5b64087f895d3448418d4e7d18a55ec1c3d6c6
+size 1130

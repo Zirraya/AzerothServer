@@ -1,3 +1,3 @@
--- DB update 2024_12_26_00 -> 2024_12_26_01
--- Add interrupt immunity to Illidari Nightlord
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask` | 33554432 WHERE (`entry` = 22855);
+version https://git-lfs.github.com/spec/v1
+oid sha256:177194f219409edbdd90f404d432450bdf761f13e800faf1ee7845d584f91af2
+size 207

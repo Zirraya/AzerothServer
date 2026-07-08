@@ -1,3 +1,3 @@
--- DB update 2025_08_01_01 -> 2025_08_06_00
-
-UPDATE `creature` SET `position_z` = 145.523 WHERE (`id1` = 26201) AND (`guid` IN (104059));
+version https://git-lfs.github.com/spec/v1
+oid sha256:3522c682ab8db4763fdfb51eccd9d7302493aa5412c636c493fa5ab9fbe5eb97
+size 138

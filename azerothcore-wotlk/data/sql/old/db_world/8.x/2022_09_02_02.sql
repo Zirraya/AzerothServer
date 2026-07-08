@@ -1,5 +1,3 @@
--- DB update 2022_09_02_01 -> 2022_09_02_02
---
-DELETE FROM `command` WHERE `name` = 'go creature id';
-INSERT INTO `command` (`name`, `security`, `help`) VALUES
-('go creature id', 1, 'Syntax: .go creature id #creature_entry\nTeleports you to the given creature entry.');
+version https://git-lfs.github.com/spec/v1
+oid sha256:1135d186c30a96984f3bf6280b802a0102c9e87bda2ccafb6a3011af91465506
+size 270

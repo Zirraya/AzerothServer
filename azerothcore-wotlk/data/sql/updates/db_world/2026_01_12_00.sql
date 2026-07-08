@@ -1,5 +1,3 @@
--- DB update 2026_01_10_00 -> 2026_01_12_00
--- bb
-DELETE FROM `spell_script_names` WHERE `spell_id` = -49182;
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(-49182, 'spell_dk_blade_barrier');
+version https://git-lfs.github.com/spec/v1
+oid sha256:7bb1c8bc146aaec7a4a55e9ea00df30995a5af24f7a4030c2666c79788208a80
+size 213

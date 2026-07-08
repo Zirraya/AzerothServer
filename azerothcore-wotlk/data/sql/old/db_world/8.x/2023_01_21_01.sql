@@ -1,5 +1,3 @@
--- DB update 2023_01_21_00 -> 2023_01_21_01
--- Lieutenant Commander Thalvos
-UPDATE `creature` SET `spawntimesecs`=60 WHERE `guid`=59381 AND `id1`=16978;
--- Arch Mage Xintor
-UPDATE `creature` SET `spawntimesecs`=60 WHERE `guid`=86049 AND `id1`=16977;
+version https://git-lfs.github.com/spec/v1
+oid sha256:2490f836aba3d07c928f17cac73a1eda9e390227121d984e6d7cbbe7987f9764
+size 250

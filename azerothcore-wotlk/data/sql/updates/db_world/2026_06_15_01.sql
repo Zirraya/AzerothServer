@@ -1,7 +1,3 @@
--- DB update 2026_06_15_00 -> 2026_06_15_01
---
--- Ony 25man difficulty Tail Sweep
-DELETE FROM `spell_cone` WHERE `ID` = 69286;
-INSERT INTO `spell_cone` (`ID`, `ConeDegrees`) VALUES (69286, 82);
--- Ony 10man difficulty Tail Sweep
-UPDATE `spell_cone` SET `ConeDegrees`=82 WHERE `ID`=68867;
+version https://git-lfs.github.com/spec/v1
+oid sha256:266e2fc94631e298a859b0a13466cb1e504fdcd18f4a8808306339c9918fd2ce
+size 288

@@ -1,5 +1,3 @@
--- DB update 2026_02_19_02 -> 2026_02_19_03
--- Enable charge tracking for Combustion (11129)
--- Charges were 0 (disabled), should be 3 to match DBC ProcCharges
--- Combustion should be removed after 3 critical strikes with Fire spells
-UPDATE `spell_proc` SET `Charges` = 3 WHERE `SpellId` = 11129;
+version https://git-lfs.github.com/spec/v1
+oid sha256:b145330578f7e5c1595d238f655558bda83d71510d8e6d55b1f857a35ab9ea99
+size 297

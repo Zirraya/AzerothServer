@@ -1,6 +1,3 @@
--- DB update 2024_06_22_08 -> 2024_06_22_09
---
-UPDATE `spell_script_names` SET `ScriptName`='spell_hodir_storm_power_aura' WHERE `spell_id` IN (63711,65134);
-UPDATE `spell_script_names` SET `ScriptName`='spell_hodir_storm_cloud_aura' WHERE `spell_id` IN (65123,65133);
-UPDATE `spell_script_names` SET `ScriptName`='spell_hodir_toasty_fire_aura' WHERE `spell_id`=62821;
-UPDATE `spell_script_names` SET `ScriptName`='spell_hodir_starlight_aura' WHERE `spell_id`=62807;
+version https://git-lfs.github.com/spec/v1
+oid sha256:2252a664413a149f8ebcca2354a37f3986c20db5546a2a050cc3726e6102ab15
+size 467

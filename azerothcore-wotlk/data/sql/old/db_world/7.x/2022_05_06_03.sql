@@ -1,3 +1,3 @@
--- DB update 2022_05_06_02 -> 2022_05_06_03
--- Fix Valkyrion Harpoon Gun SAI to set rooted on passenger exit
-UPDATE `smart_scripts` SET `event_type`=28, `event_flags`=0, `comment`='Valkyrion Harpoon Gun - On Passenger exit - Set Rooted On' WHERE `entryorguid`=30066;
+version https://git-lfs.github.com/spec/v1
+oid sha256:c715cbbc2bd4c6b0c25a94d43ea8d0be8fe93c41abfe5fbef03bd1fd0f206134
+size 267

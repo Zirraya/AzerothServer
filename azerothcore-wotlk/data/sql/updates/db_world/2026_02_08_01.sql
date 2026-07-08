@@ -1,6 +1,3 @@
--- DB update 2026_02_08_00 -> 2026_02_08_01
---
-DELETE FROM `command` WHERE `name` IN ('npc load', 'gobject load');
-INSERT INTO `command` (`name`, `security`, `help`) VALUES
-('npc load', 3, 'Syntax: .npc load #spawnId\nLoad a creature spawn from the database into the world by its GUID.'),
-('gobject load', 3, 'Syntax: .gobject load #spawnId\nLoad a gameobject spawn from the database into the world by its GUID.');
+version https://git-lfs.github.com/spec/v1
+oid sha256:31055270e93be7ec62c3b86f125636c298fbae16ff97af465b5552cba3ba4e87
+size 415

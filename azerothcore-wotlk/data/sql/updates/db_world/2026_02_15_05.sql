@@ -1,4 +1,3 @@
--- DB update 2026_02_15_04 -> 2026_02_15_05
---
-UPDATE `gossip_menu_option` SET `BoxCoded` = 1 WHERE `MenuID` = 6565 AND `OptionID` IN (0, 1, 2);
-UPDATE `gossip_menu_option` SET `BoxCoded` = 1 WHERE `MenuID` = 7034 AND `OptionID` = 0;
+version https://git-lfs.github.com/spec/v1
+oid sha256:1ae1c4d8fa748dda2b354f6209e8131bdc217547f268e57af24e6dca91772602
+size 234

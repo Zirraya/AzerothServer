@@ -1,10 +1,3 @@
--- DB update 2025_02_09_01 -> 2025_02_09_02
-
--- Theremis
-UPDATE `creature_template_movement` SET `Flight` = 1, `Ground` = 2 WHERE (`CreatureId` = 25976);
-
--- Shattered Sun Archmage
-UPDATE `creature_template_movement` SET `Flight` = 1, `Ground` = 2 WHERE (`CreatureId` = 25170);
-
--- Yrma
-UPDATE `creature_template_movement` SET `Flight` = 1, `Ground` = 2 WHERE (`CreatureId` = 25977);
+version https://git-lfs.github.com/spec/v1
+oid sha256:89f2ddda9cc4003aabd0b0b78b626e2b49b55a03d37897936d48e001707e8485
+size 384

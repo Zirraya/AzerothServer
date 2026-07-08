@@ -1,3 +1,3 @@
--- DB update 2022_11_12_15 -> 2022_11_13_00
--- Remove Syndicate emblems from Battered Junkbox and Worn Junkbox
-DELETE FROM `item_loot_template` WHERE `Entry` IN (16882, 16883) AND (`Item` IN (17124));
+version https://git-lfs.github.com/spec/v1
+oid sha256:0ac40ca88239f7cb933b8ab4248c88ec55e143d8e765441be1a3a52ba5dde913
+size 201

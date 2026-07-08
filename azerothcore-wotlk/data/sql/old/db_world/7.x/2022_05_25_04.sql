@@ -1,3 +1,3 @@
--- DB update 2022_05_25_03 -> 2022_05_25_04
--- (Hunter) Set Lock and Load procPhase to 0, allowing Black Arrow procs
-UPDATE `spell_proc_event` SET `procPhase`=0 WHERE `entry` = -56342;
+version https://git-lfs.github.com/spec/v1
+oid sha256:5ea038e71227dc788cfa9308e7b02c5911d69d8ff02c4acec706db7aca8bc29b
+size 185

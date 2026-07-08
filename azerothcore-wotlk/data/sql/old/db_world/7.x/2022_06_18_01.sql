@@ -1,2 +1,3 @@
--- DB update 2022_06_18_00 -> 2022_06_18_01
-UPDATE `quest_template_addon` SET `PrevQuestID` = 1701 WHERE `ID` IN (1705, 1708, 1710);
+version https://git-lfs.github.com/spec/v1
+oid sha256:94998b781ec3383ec3a41b213e2d09a5d9e5df15d9ac6f583fe47f1e69f7c520
+size 133

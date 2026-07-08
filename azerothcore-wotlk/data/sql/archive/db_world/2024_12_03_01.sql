@@ -1,8 +1,3 @@
--- DB update 2024_12_03_00 -> 2024_12_03_01
--- Marking a tower for Zeth'Gor Must Burn!
-DELETE FROM `conditions` WHERE (`SourceTypeOrReferenceId` = 17) AND (`SourceGroup` = 0) AND (`SourceEntry` = 36325);
-INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry`, `SourceId`, `ElseGroup`, `ConditionTypeOrReference`, `ConditionTarget`, `ConditionValue1`, `ConditionValue2`, `ConditionValue3`, `NegativeCondition`, `ErrorType`, `ErrorTextId`, `ScriptName`, `Comment`) VALUES
-(17, 0, 36325, 0, 0, 29, 0, 21182, 25, 0, 0, 0, 0, '', 'Cast \' They Must Burn Bomb Drop (DND)\' only if within 25 of dummy target'),
-(17, 0, 36325, 0, 1, 29, 0, 22401, 25, 0, 0, 0, 0, '', 'Cast \' They Must Burn Bomb Drop (DND)\' only if within 25 of dummy target'),
-(17, 0, 36325, 0, 2, 29, 0, 22402, 25, 0, 0, 0, 0, '', 'Cast \' They Must Burn Bomb Drop (DND)\' only if within 25 of dummy target'),
-(17, 0, 36325, 0, 3, 29, 0, 22403, 25, 0, 0, 0, 0, '', 'Cast \' They Must Burn Bomb Drop (DND)\' only if within 25 of dummy target');
+version https://git-lfs.github.com/spec/v1
+oid sha256:d7af763e90100ce2065a81a3e296f6a7ba2cc34d1d131bfe2928b6ea5f5a3988
+size 1033

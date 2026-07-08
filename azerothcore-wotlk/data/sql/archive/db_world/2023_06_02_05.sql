@@ -1,4 +1,3 @@
--- DB update 2023_06_02_04 -> 2023_06_02_05
---
--- remove Sha\'tar reputation gain from Restless Skeletons
-DELETE FROM `creature_onkill_reputation` WHERE `creature_id` = 17261;
+version https://git-lfs.github.com/spec/v1
+oid sha256:847d9c1e8785075833832141c556a51d6d6917f0e7fa403d7384ba5ca17b91fe
+size 176

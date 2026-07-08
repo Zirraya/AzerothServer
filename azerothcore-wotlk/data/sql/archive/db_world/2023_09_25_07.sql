@@ -1,5 +1,3 @@
--- DB update 2023_09_25_06 -> 2023_09_25_07
---
-DELETE FROM `spell_script_names` WHERE `ScriptName` = 'spell_warl_glyph_of_voidwalker' AND `spell_id` = 56247;
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(56247, 'spell_warl_glyph_of_voidwalker');
+version https://git-lfs.github.com/spec/v1
+oid sha256:028011f11839de1ecf26b7dddb5f197c8b2e86fd497d52055239a5341f7b7645
+size 268

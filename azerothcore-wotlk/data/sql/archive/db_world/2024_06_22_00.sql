@@ -1,9 +1,3 @@
--- DB update 2024_06_21_02 -> 2024_06_22_00
--- Refik
-DELETE FROM `gossip_menu` WHERE `MenuID` = 8868 and `TextID` = 10652;
-INSERT INTO `gossip_menu` (`MenuID`, `TextID`) VALUES
-(8868, 10652);
-
-DELETE FROM `conditions` WHERE (`SourceTypeOrReferenceId` = 14) AND (`SourceGroup` = 8868) AND (`SourceEntry` = 11551);
-INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry`, `SourceId`, `ElseGroup`, `ConditionTypeOrReference`, `ConditionTarget`, `ConditionValue1`, `ConditionValue2`, `ConditionValue3`, `NegativeCondition`, `ErrorType`, `ErrorTextId`, `ScriptName`, `Comment`) VALUES
-(14, 8868, 11551, 0, 0, 7, 0, 197, 200, 0, 0, 0, 0, '', 'Show npctext 11551 for Refik if the player\'s tailoring skill is over 200.');
+version https://git-lfs.github.com/spec/v1
+oid sha256:07050496176b8668f99517ac51fa7c2c4a22e439fe337c0e7eab187f76b36b01
+size 741

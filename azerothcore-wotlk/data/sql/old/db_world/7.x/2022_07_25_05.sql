@@ -1,7 +1,3 @@
--- DB update 2022_07_25_04 -> 2022_07_25_05
---
-DELETE FROM `creature_template_movement` WHERE `creatureId` = 15802;
-INSERT INTO `creature_template_movement` (`CreatureId`, `Ground`, `Swim`, `Flight`, `Rooted`, `Chase`, `Random`, `InteractionPauseTimer`) VALUES
-(15802, 1, 0, 0, 1, 0, 0, 0);
-
-UPDATE `creature_template` SET `ScriptName` = '' WHERE `entry` = 15802;
+version https://git-lfs.github.com/spec/v1
+oid sha256:1e240852e4ed832e25960abab8de781f59e58cc10c89206c194488a793ff03e7
+size 364

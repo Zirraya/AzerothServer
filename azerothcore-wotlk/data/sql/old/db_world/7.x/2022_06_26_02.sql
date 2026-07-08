@@ -1,5 +1,3 @@
--- DB update 2022_06_26_01 -> 2022_06_26_02
---
-DELETE FROM `spell_script_names` WHERE `ScriptName` IN ('spell_hakkar_blood_siphon');
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(24324, 'spell_hakkar_blood_siphon');
+version https://git-lfs.github.com/spec/v1
+oid sha256:57592b52e6adae9623bd14e6cd6c1b69ef1b423c6e69a312d79a175e02bef902
+size 238

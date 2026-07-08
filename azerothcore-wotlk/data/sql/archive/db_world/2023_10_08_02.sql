@@ -1,3 +1,3 @@
--- DB update 2023_10_08_01 -> 2023_10_08_02
--- Ghostweave Patterns
-DELETE FROM `reference_loot_template` WHERE `Entry` IN (24708,24709) AND `Item` IN (14495,14480,14473,14477);
+version https://git-lfs.github.com/spec/v1
+oid sha256:556339d505895b5361cb213960c00738f0dea5e45b9708ec04232f82fb6a2a87
+size 177

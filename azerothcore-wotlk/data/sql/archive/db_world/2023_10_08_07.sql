@@ -1,4 +1,3 @@
--- DB update 2023_10_08_06 -> 2023_10_08_07
--- 64930 - Electrified | Shaman T8 Elemental 4P Bonus
-DELETE FROM `spell_script_names` WHERE `spell_id` = 64928;
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES (64928, 'spell_sha_t8_electrified');
+version https://git-lfs.github.com/spec/v1
+oid sha256:483064ecfcf8dff71adcada7eb68de84d9ac8d84401f3c60a9194ab18d662de4
+size 261

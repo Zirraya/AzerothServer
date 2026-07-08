@@ -1,3 +1,3 @@
--- DB update 2022_07_24_03 -> 2022_07_24_04
---
-UPDATE `spell_proc_event` SET `SpellFamilyName`=11, `SpellFamilyMask0`=0x00000003, `SpellFamilyMask1`=0x00001000 WHERE `entry`=16166;
+version https://git-lfs.github.com/spec/v1
+oid sha256:39371ab1c70482fb78ccea3c9ba3013c4c725b04aeba01f9ffe2c7b42d026b5e
+size 181

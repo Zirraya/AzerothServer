@@ -1,3 +1,3 @@
--- DB update 2022_12_06_15 -> 2022_12_06_16
---
-DELETE FROM `conditions` WHERE `SourceTypeOrReferenceId`=13 AND `SourceEntry`=43450;
+version https://git-lfs.github.com/spec/v1
+oid sha256:48886c10ba3ac336d099982a3d22b39e22594ec2ea043f81751e0a31a31f4b3f
+size 132

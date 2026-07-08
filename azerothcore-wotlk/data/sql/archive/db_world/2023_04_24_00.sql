@@ -1,3 +1,3 @@
---
-UPDATE `version` SET `core_version` = 'AzerothCore rev. 5dc6f9cf78f1 2023-04-23 21:03:18 +0000 (master branch) (Win64, RelWithDebInfo, Static)', `core_revision` = '5dc6f9cf78f1', `db_version`='ACDB 335.10-dev', `cache_id`=10 LIMIT 1;
-UPDATE `updates` SET `state`='ARCHIVED';
+version https://git-lfs.github.com/spec/v1
+oid sha256:59b58190313ac13ade3372e13dd0b622b3fd9b7b3b13e206a82a2d2e0b6543b0
+size 278

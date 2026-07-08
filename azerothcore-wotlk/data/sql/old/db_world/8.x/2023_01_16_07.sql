@@ -1,4 +1,3 @@
--- DB update 2023_01_16_06 -> 2023_01_16_07
---
--- Mok'rash respawn timer 3hr
-UPDATE `creature` SET `spawntimesecs`=10800 WHERE `guid`=1672;
+version https://git-lfs.github.com/spec/v1
+oid sha256:b7f4628ca4507aaa4c7c28bb2ece9cae9b1add3770e695a257caa44bbd5ba9e6
+size 140

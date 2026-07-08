@@ -1,3 +1,3 @@
--- DB update 2024_10_11_02 -> 2024_10_11_03
-DELETE FROM `spell_script_names` WHERE `spell_id` = 40354;
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES (40354, 'spell_najentus_remove_spines');
+version https://git-lfs.github.com/spec/v1
+oid sha256:0c78b98bdac602260974180a1491ff70129b9a52f67a102b82cf206942226091
+size 211

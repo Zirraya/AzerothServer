@@ -1,5 +1,3 @@
--- DB update 2023_07_15_04 -> 2023_07_16_00
---
-DELETE FROM `spell_proc_event` WHERE `entry` IN (46662);
-INSERT INTO `spell_proc_event` (`entry`, `SchoolMask`, `SpellFamilyName`, `SpellFamilyMask0`, `SpellFamilyMask1`, `SpellFamilyMask2`, `procFlags`, `procEx`, `procPhase`, `ppmRate`, `CustomChance`, `Cooldown`) VALUES
-(46662,0,0,0,0,0,0,0,0,0,0,25000);
+version https://git-lfs.github.com/spec/v1
+oid sha256:4e107dea92b71a6d1c07c31fc7ce14d1009ac75aaf6f81c63b3dfc5a9200fd52
+size 355

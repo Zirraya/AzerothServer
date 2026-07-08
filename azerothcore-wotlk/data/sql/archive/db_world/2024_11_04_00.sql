@@ -1,3 +1,3 @@
--- DB update 2024_11_03_01 -> 2024_11_04_00
--- Eye of Magtheridon - add proc on miss
-UPDATE `spell_proc_event` SET `procEx` = `procEx`|4 WHERE `entry`=34749;
+version https://git-lfs.github.com/spec/v1
+oid sha256:d423d23454fa0922001d07923bf8778fb6fac064f1a9d09da2070511a7ba3faf
+size 158

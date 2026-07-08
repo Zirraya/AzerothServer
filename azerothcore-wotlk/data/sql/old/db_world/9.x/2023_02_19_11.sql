@@ -1,3 +1,3 @@
--- DB update 2023_02_19_10 -> 2023_02_19_11
---
-UPDATE `conditions` SET `ConditionValue2`=100 WHERE `SourceGroup`=7868 AND `SourceTypeOrReferenceId` IN (14, 15);
+version https://git-lfs.github.com/spec/v1
+oid sha256:e515f21f0d4635d87d50f878e20a4b512fc959c715214adfb899b554dc271611
+size 161

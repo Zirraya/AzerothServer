@@ -1,2 +1,3 @@
--- DB update 2023_07_24_00 -> 2023_07_26_00
-UPDATE `spell_proc_event` SET `procFlags` = 4 WHERE `entry` = 23689;
+version https://git-lfs.github.com/spec/v1
+oid sha256:dd7047156d90c40512de7bafbd479e0f7fba1b7462864c394b176374f24e9b0f
+size 113

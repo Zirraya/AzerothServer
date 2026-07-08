@@ -1,10 +1,3 @@
--- DB update 2024_07_25_00 -> 2024_07_26_00
---
-DELETE FROM `command` WHERE `name`='aura stack';
-INSERT INTO `command` VALUES ('aura stack', 2, 'Syntax: .aurastack #spellid #stacks\r\n\r\nModify #stacks of an already applied #spellid to the selected Unit.');
-
-DELETE FROM `acore_string` WHERE `entry` IN (373,374,375);
-INSERT INTO `acore_string` (`entry`, `content_default`) VALUES
-(373, 'Target unit does not have aura {}!'),
-(374, 'No stack amount specified!'),
-(375, 'Spell {} cannot have stacks!');
+version https://git-lfs.github.com/spec/v1
+oid sha256:2cbb302f084d9406dbd1544c3cd67c434601801a3889872be9d0d0acaab9d31b
+size 502

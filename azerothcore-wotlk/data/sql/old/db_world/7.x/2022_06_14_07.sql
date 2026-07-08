@@ -1,5 +1,3 @@
--- DB update 2022_06_14_06 -> 2022_06_14_07
---
-DELETE FROM `spell_script_names` WHERE `spell_id`=29341;
-INSERT INTO `spell_script_names` VALUES
-(29341,'spell_warl_shadowburn');
+version https://git-lfs.github.com/spec/v1
+oid sha256:12d396d57aea8cadd1b9cdaaf687e67518afef3de8e77c85a84f569b46f320ce
+size 177

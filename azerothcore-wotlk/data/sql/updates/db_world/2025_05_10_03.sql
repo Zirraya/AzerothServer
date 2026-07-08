@@ -1,3 +1,3 @@
--- DB update 2025_05_10_02 -> 2025_05_10_03
---
-UPDATE `spell_proc_event` SET `procFlags` = 0 WHERE `entry` IN (20186, 20185);
+version https://git-lfs.github.com/spec/v1
+oid sha256:364e09f08ed1508b264be38bc6349daf3d16bcf67ef92adfb75229945384de8b
+size 126

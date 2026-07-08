@@ -1,9 +1,3 @@
--- DB update 2022_08_01_17 -> 2022_08_01_18
---
-DELETE FROM `spell_script_names` WHERE `ScriptName` = 'spell_crystal_weakness';
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(25177, 'spell_crystal_weakness'),
-(25178, 'spell_crystal_weakness'),
-(25180, 'spell_crystal_weakness'),
-(25181, 'spell_crystal_weakness'),
-(25183, 'spell_crystal_weakness');
+version https://git-lfs.github.com/spec/v1
+oid sha256:167d526c58652a9ef5828e8cd808f9f6a21b2c1864c38e144f10f9230cf9b636
+size 369

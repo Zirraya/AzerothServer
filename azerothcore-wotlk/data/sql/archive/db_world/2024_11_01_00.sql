@@ -1,3 +1,3 @@
--- DB update 2024_10_31_01 -> 2024_11_01_00
--- Syndicate Thief
-UPDATE `creature_template` SET `unit_flags` = `unit_flags`&~(262144) WHERE (`entry` = 24477);
+version https://git-lfs.github.com/spec/v1
+oid sha256:79e2b5c7254872e0b23273000bc111a353ec716561fa198ce3f33a51546c7f9a
+size 157

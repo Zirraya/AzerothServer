@@ -1,5 +1,3 @@
--- DB update 2025_01_23_02 -> 2025_01_23_03
---
-UPDATE `creature_template` SET `AIName` = '' WHERE `entry` = 24777;
-DELETE FROM `smart_scripts` WHERE (`entryorguid` = 24777) AND (`source_type` = 0);
-UPDATE `creature_addon` SET `auras` = '44537' WHERE `guid` IN (96944, 96945, 96946);
+version https://git-lfs.github.com/spec/v1
+oid sha256:374113e31ecae2c27c8f1aa09afd05743b104d32e3c9299f2816615f5a3df262
+size 283

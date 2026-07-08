@@ -1,5 +1,3 @@
--- DB update 2023_12_12_11 -> 2023_12_12_12
---
-DELETE FROM `spell_script_names` WHERE `spell_id` = 37429 AND `ScriptName` = 'spell_lurker_below_spout';
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(37429, 'spell_lurker_below_spout');
+version https://git-lfs.github.com/spec/v1
+oid sha256:04799b9b55cf9bf4044033c6de8f4299880970c6b7973815743b0d0fe1cd8cc4
+size 256

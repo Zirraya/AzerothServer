@@ -1,5 +1,3 @@
--- DB update 2023_04_19_02 -> 2023_04_19_03
---
--- Remove Roughshod Pikes from any creature
-DELETE FROM `creature_loot_template` WHERE `Item` = 12533;
-UPDATE `creature_template` SET `lootid`=0 WHERE `entry`=415;
+version https://git-lfs.github.com/spec/v1
+oid sha256:20a80dad3bdb03b61d779e5488d8d055364409202edeaa10ed721767859cf950
+size 211

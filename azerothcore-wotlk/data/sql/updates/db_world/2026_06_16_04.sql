@@ -1,2 +1,3 @@
--- DB update 2026_06_16_03 -> 2026_06_16_04
-UPDATE `quest_poi_points` SET `X` = -6, `Y` = -927 WHERE `QuestID` = 7321 AND `Idx1` = 4 AND `Idx2` = 0;
+version https://git-lfs.github.com/spec/v1
+oid sha256:bbad5c26c4fe1a885ad19638b3848e026a69e0ecc8845215476f61ec97d703d0
+size 149

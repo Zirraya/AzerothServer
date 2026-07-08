@@ -1,3 +1,3 @@
--- DB update 2022_12_06_30 -> 2022_12_06_31
---
-UPDATE `quest_template` SET `RewardItem1` = 0, `RewardAmount1` = 0 WHERE (`ID` = 10172);
+version https://git-lfs.github.com/spec/v1
+oid sha256:dc1853ec41aa88c19daa58971f47362329ceaa4ac614580546d7e1cabcf49357
+size 136

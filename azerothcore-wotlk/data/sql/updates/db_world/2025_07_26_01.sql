@@ -1,3 +1,3 @@
--- DB update 2025_07_26_00 -> 2025_07_26_01
---
-UPDATE `spell_dbc` SET `Effect_1` = 6, `EffectBasePoints_1`= 100, `ImplicitTargetA_1`= 1, `EffectAura_1` = 61, `CumulativeAura`= 3 WHERE `ID`= 57059;
+version https://git-lfs.github.com/spec/v1
+oid sha256:a6fe2947373537adc095b6bd23b3d479031e907904a560e3006206bfa899f996
+size 197

@@ -1,30 +1,3 @@
--- DB update 2020_08_22_00 -> 2020_08_23_00
-DROP PROCEDURE IF EXISTS `updateDb`;
-DELIMITER //
-CREATE PROCEDURE updateDb ()
-proc:BEGIN DECLARE OK VARCHAR(100) DEFAULT 'FALSE';
-SELECT COUNT(*) INTO @COLEXISTS
-FROM information_schema.COLUMNS
-WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'version_db_world' AND COLUMN_NAME = '2020_08_22_00';
-IF @COLEXISTS = 0 THEN LEAVE proc; END IF;
-START TRANSACTION;
-ALTER TABLE version_db_world CHANGE COLUMN 2020_08_22_00 2020_08_23_00 bit;
-SELECT sql_rev INTO OK FROM version_db_world WHERE sql_rev = '1595118810076078406'; IF OK <> 'FALSE' THEN LEAVE proc; END IF;
---
--- START UPDATING QUERIES
---
-
-INSERT INTO `version_db_world` (`sql_rev`) VALUES ('1595118810076078406');
-
-UPDATE `creature_loot_template` SET `Chance` = 40 WHERE `Entry` = 3672 AND `Item` = 5423;
-UPDATE `creature_loot_template` SET `Chance` = 60, `GroupId` = 1 WHERE `Entry` = 3672 AND `Item` = 5422;
-
-
---
--- END UPDATING QUERIES
---
-COMMIT;
-END //
-DELIMITER ;
-CALL updateDb();
-DROP PROCEDURE IF EXISTS `updateDb`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:dac7580446196adacd6f0eae2cb51079477a3d154f9dd741ed21292c2fab8ec2
+size 1023

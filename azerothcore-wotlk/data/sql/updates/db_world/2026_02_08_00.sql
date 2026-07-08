@@ -1,3 +1,3 @@
--- DB update 2026_02_07_00 -> 2026_02_08_00
--- Up from 0.9
-UPDATE `creature_template` SET `speed_run` = 1.142857 WHERE (`entry` = 23070);
+version https://git-lfs.github.com/spec/v1
+oid sha256:594c623320ff3b0ea82f99cbf3272248a3fd4c60008d948001f1d1da9f91dc42
+size 138

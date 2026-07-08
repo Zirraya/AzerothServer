@@ -1,3 +1,3 @@
--- DB update 2025_03_09_01 -> 2025_03_09_02
--- XOR PrevQuestID that was 499 Elixir of Suffering
-UPDATE `quest_template_addon` SET `PrevQuestID` = 0 WHERE `ID` = 501;
+version https://git-lfs.github.com/spec/v1
+oid sha256:aa2d5cca2e091fc5bc319b80b2cb37a8d564d4fe8fce3f642c54c577e21d353d
+size 166

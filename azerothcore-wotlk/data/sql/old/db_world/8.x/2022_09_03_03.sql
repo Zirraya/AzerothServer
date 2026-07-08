@@ -1,4 +1,3 @@
--- DB update 2022_09_03_02 -> 2022_09_03_03
---
-DELETE FROM `spell_script_names` WHERE `spell_id` = 26077 AND `ScriptName` = 'spell_itch_aq40';
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES (26077, 'spell_itch_aq40');
+version https://git-lfs.github.com/spec/v1
+oid sha256:2b2282b93bdc0af509fd21c3485d46bf8a4e87fd6bd99caa3a361225c5cfd995
+size 238

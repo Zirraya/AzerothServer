@@ -1,5 +1,3 @@
--- DB update 2022_07_10_04 -> 2022_07_11_00
---
-UPDATE `smart_scripts` SET `link`=0 WHERE `entryorguid`=28665 AND `source_type`=0 AND `id`=0;
-UPDATE `smart_scripts` SET `event_type`=27 WHERE `entryorguid`=28665 AND `source_type`=0 AND `id`=1;
-UPDATE `smart_scripts` SET `event_flags`=`event_flags`|512 WHERE `entryorguid`=2866500 AND `source_type`=9;
+version https://git-lfs.github.com/spec/v1
+oid sha256:a3cb2b3ba8ba9697ebe44a5896aa59b7ff99d468b7be2e1e1878e47bb44cd622
+size 350

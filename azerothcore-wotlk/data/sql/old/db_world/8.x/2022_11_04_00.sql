@@ -1,4 +1,3 @@
--- DB update 2022_11_03_08 -> 2022_11_04_00
---
-SET @FACTION_BOTH := 6;
-UPDATE `areatrigger_tavern` SET `faction` = @FACTION_BOTH WHERE `id` = 862;
+version https://git-lfs.github.com/spec/v1
+oid sha256:5fa913c9daba65231e510e84cf8852f856973e18a4459d510d6146fe29a5a71a
+size 147

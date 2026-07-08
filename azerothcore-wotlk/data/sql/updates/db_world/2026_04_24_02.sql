@@ -1,4 +1,3 @@
--- DB update 2026_04_24_01 -> 2026_04_24_02
-
--- Edit Condition.
-UPDATE `conditions` SET `ConditionTarget` = 1 WHERE (`SourceTypeOrReferenceId` = 20) AND (`SourceGroup` = 0) AND (`SourceEntry` = 28406) AND (`SourceId` = 0) AND (`ElseGroup` = 0) AND (`ConditionTypeOrReference` = 106) AND (`ConditionTarget` = 0) AND (`ConditionValue1` = 0) AND (`ConditionValue2` = 0) AND (`ConditionValue3` = 0);
+version https://git-lfs.github.com/spec/v1
+oid sha256:83b4d72daf13ebe6040813654ad06c8d09eee4db49ce84c75905dc40e2d8285b
+size 396

@@ -1,4 +1,3 @@
-ALTER TABLE characters_db_version CHANGE COLUMN 2016_08_12_00 2016_08_15_00 bit;
-
-ALTER TABLE `channels`
-  ADD `ownership` tinyint(3) unsigned NOT NULL DEFAULT '1' AFTER `announce`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:912c164994ae3667d83ab4c61ca73b5943591b2d8bc5a317d6b86f60a3059949
+size 182

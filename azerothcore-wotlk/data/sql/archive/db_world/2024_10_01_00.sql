@@ -1,2 +1,3 @@
--- DB update 2024_09_28_02 -> 2024_10_01_00
-UPDATE `creature_model_info` SET `BoundingRadius` = 4, `CombatReach` = 8 WHERE `DisplayID` = 20431;
+version https://git-lfs.github.com/spec/v1
+oid sha256:4f1707f6d85bc9a9f4dd180133a7117e2cf3660442e8652e918eb97fde911e9c
+size 144

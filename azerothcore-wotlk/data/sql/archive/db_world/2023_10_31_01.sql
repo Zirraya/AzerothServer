@@ -1,4 +1,3 @@
--- DB update 2023_10_31_00 -> 2023_10_31_01
--- Blistering Rot
-DELETE FROM `spell_custom_attr` WHERE `spell_id`=32722;
-INSERT INTO `spell_custom_attr` (`spell_id`, `attributes`) VALUES (32722, 4194304);
+version https://git-lfs.github.com/spec/v1
+oid sha256:af9cfd41a21a4872e9d3b0b8e5bcacbfb59b66d762bdbd078bf7fe2627fee9fc
+size 202

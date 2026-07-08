@@ -1,9 +1,3 @@
--- DB update 2022_07_26_03 -> 2022_07_26_04
---
-
-UPDATE `creature_template` SET `mingold`=0, `maxgold`=0 WHERE `entry`=15546;
-UPDATE `creature_template` SET `flags_extra`=`flags_extra`|256 WHERE `entry`=15369;
-DELETE FROM `creature_addon` WHERE `guid`=144641;
-INSERT INTO `creature_addon` (`guid`, `auras`) VALUES 
-(144641, '8876'); -- Triggers SPELL_THRASH = 3391
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:fd64672deb7fe745fad219c76c75cc173fc3bb5a7a04aac6f1c3f8105c32249d
+size 365

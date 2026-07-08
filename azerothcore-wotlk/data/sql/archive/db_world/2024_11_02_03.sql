@@ -1,4 +1,3 @@
--- DB update 2024_11_02_02 -> 2024_11_02_03
-DELETE FROM `item_loot_template` WHERE `Entry` = 34077 AND `Item` = 34068;
-INSERT INTO `item_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES
-(34077, 34068, 0, 100, 0, 1, 0, 3, 5, 'Crudely Wrapped Gift - Weighted Jack-o\'-Lantern');
+version https://git-lfs.github.com/spec/v1
+oid sha256:9be93b411208b1156b2f1a65734e0fdafb58ea9c48c682cd5cd192559463ab36
+size 366

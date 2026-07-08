@@ -1,3 +1,3 @@
--- DB update 2024_11_07_03 -> 2024_11_07_04
---
-UPDATE `creature` SET `position_x` = 119.9805831909179687, `position_y` = 674.24493408203125, `position_z` = 51.8244781494140625, `orientation` = 1.466076612472534179, `VerifiedBuild` = 50373 WHERE `guid` = 89358 AND `id1` = 23863;
+version https://git-lfs.github.com/spec/v1
+oid sha256:3ba7ecd164546faefd84e5a38fb8af55daac045b71e0b95aaf6da46d780a8ed7
+size 279

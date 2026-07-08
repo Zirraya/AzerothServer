@@ -1,11 +1,3 @@
--- DB update 2024_09_27_00 -> 2024_09_28_00
---
-UPDATE `creature_template` SET `flags_extra` = `flags_extra` & ~2048 WHERE `entry` IN (
-3672,  -- Boahn
-20783, -- Porfus the Gem Gorger
-21639, -- Illidari Slayer
-21717, -- Dragonmaw Wrangler
-12100, -- Lava Reaver
-22076, -- Torloth the Magnificent
-22004  -- Leoroxx
-);
+version https://git-lfs.github.com/spec/v1
+oid sha256:730afd06f6680ee10d9b427b568616bdf8bda0ab7885d5c314474487ba598a43
+size 315

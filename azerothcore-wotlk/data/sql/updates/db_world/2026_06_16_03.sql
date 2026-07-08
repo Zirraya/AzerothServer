@@ -1,3 +1,3 @@
--- DB update 2026_06_16_02 -> 2026_06_16_03
--- Remove creature_multispawn rows orphaned by deleted creature spawns
-DELETE FROM `creature_multispawn` WHERE `spawnId` NOT IN (SELECT `guid` FROM `creature`);
+version https://git-lfs.github.com/spec/v1
+oid sha256:c4819250b4f8e9d632f56d262c558fbd88ade499324c6a9b8564c90d355b1b93
+size 205

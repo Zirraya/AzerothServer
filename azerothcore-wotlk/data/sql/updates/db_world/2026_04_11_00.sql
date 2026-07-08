@@ -1,4 +1,3 @@
--- DB update 2026_04_10_02 -> 2026_04_11_00
---
-UPDATE `waypoint_data` SET `delay` = 32000 WHERE `id` = 1281350 AND `point` = 1;
-UPDATE `waypoint_data` SET `delay` = 38000 WHERE `id` = 1281350 AND `point` = 8;
+version https://git-lfs.github.com/spec/v1
+oid sha256:c32a82e2d4ef4239d2c427742212ca42142d9aa06f7f7c57d502a4d1f02ff915
+size 209

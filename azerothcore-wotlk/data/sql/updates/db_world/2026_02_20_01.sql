@@ -1,2 +1,3 @@
--- DB update 2026_02_20_00 -> 2026_02_20_01
-UPDATE `spell_proc` SET `SpellPhaseMask` = 3, `AttributesMask` = 2 WHERE `SpellId` = 74396;
+version https://git-lfs.github.com/spec/v1
+oid sha256:c34b045e06be537a813047a4537c40841980d09c60381f5d9ebfe5640aea487c
+size 136

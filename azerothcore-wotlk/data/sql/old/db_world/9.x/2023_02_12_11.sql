@@ -1,5 +1,3 @@
--- DB update 2023_02_12_10 -> 2023_02_12_11
---
-UPDATE `smart_scripts` SET `target_type`=19, `target_param1`=20635, `target_param2`=20 WHERE `entryorguid`=21926 AND `source_type`=0 AND `id`=2;
-UPDATE `smart_scripts` SET `target_type`=19, `target_param1`=20771, `target_param2`=20 WHERE `entryorguid`=21926 AND `source_type`=0 AND `id`=3;
-UPDATE `smart_scripts` SET `target_type`=23 WHERE `entryorguid`=21926 AND `source_type`=0 AND `id`=4;
+version https://git-lfs.github.com/spec/v1
+oid sha256:14d0c0927d66d27a746aa8cbfae4df1edf4c335f3e5da2351b97aee20d7b56c9
+size 439

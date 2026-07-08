@@ -1,7 +1,3 @@
--- DB update 2023_10_21_00 -> 2023_10_21_01
--- Duplicated gossip option
-DELETE FROM `gossip_menu_option` WHERE (`MenuID` = 10316) AND (`OptionID` = 1);
-
-DELETE FROM `spell_script_names` WHERE `spell_id`=62536 AND `ScriptName`='spell_frog_kiss';
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(62536, 'spell_frog_kiss');
+version https://git-lfs.github.com/spec/v1
+oid sha256:646b74d878d1e229ffff33b6531e77421b3a73452247650dcdd92c0cbd1e9537
+size 340

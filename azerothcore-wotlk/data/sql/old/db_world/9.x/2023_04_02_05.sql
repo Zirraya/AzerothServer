@@ -1,4 +1,3 @@
--- DB update 2023_04_02_04 -> 2023_04_02_05
---
-ALTER TABLE `spell_enchant_proc_data` ADD COLUMN `attributeMask` INT UNSIGNED DEFAULT 0 NOT NULL AFTER `procEx`;
-UPDATE `spell_enchant_proc_data` SET `attributeMask`=1 WHERE `entry`=3225;
+version https://git-lfs.github.com/spec/v1
+oid sha256:1c1ba417329aa6049d9958161709ab459f66afffac04cf3a86ad7a1860a2da62
+size 235

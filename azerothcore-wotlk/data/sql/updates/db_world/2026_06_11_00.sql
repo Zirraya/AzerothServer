@@ -1,3 +1,3 @@
--- DB update 2026_06_10_03 -> 2026_06_11_00
-UPDATE `reference_loot_template` SET `Item` = 49667 WHERE `Item` = 48679 AND `entry` = 10016;
-UPDATE `conditions` SET `SourceEntry` = 49667, `Comment` = 'Only drop "Waterlogged Recipe" (49667) from "Bag of Fishing Treasures" (46007) if the player has at least 300 cooking skill' WHERE (`SourceTypeOrReferenceId` = 10) AND (`SourceGroup` = 10016) AND (`SourceEntry` = 48679) AND (`SourceId` = 0) AND (`ElseGroup` = 0) AND (`ConditionTypeOrReference` = 7) AND (`ConditionTarget` = 0) AND (`ConditionValue1` = 185) AND (`ConditionValue2` = 300) AND (`ConditionValue3` = 0);
+version https://git-lfs.github.com/spec/v1
+oid sha256:42ac92157c46860b0137f594d18d497ca93221ad1839d5c99cf976a3f68d26b4
+size 615

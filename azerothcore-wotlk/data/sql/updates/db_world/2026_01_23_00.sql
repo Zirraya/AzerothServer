@@ -1,2 +1,3 @@
--- DB update 2026_01_22_04 -> 2026_01_23_00
-UPDATE `creature` SET `position_x` = 6201.761, `position_y` = 4764.4507, `position_z` = 225.83981, `orientation` = 3.193952560424804687, `curhealth` = 6722, `VerifiedBuild` = 54261, `CreateObject` = 1 WHERE `id1` = 29056 AND `guid` = 200007;
+version https://git-lfs.github.com/spec/v1
+oid sha256:35a380705c9cc031523183d50b303bb4b3de319b7267cdec88187064379e4001
+size 286

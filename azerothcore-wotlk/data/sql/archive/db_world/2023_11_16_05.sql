@@ -1,3 +1,3 @@
--- DB update 2023_11_16_04 -> 2023_11_16_05
--- Underbog Colossus
-UPDATE `creature_template` SET `unit_flags` = `unit_flags`|64|32768, `mechanic_immune_mask` = `mechanic_immune_mask`|2|16|64|256|512|1024|2048|4096|8192|131072|8388608|33554432, `detection_range` = 30 WHERE (`entry` = 21251);
+version https://git-lfs.github.com/spec/v1
+oid sha256:462fe4b369eb06e35b478152ed23a3842229db9c84b4e418607ff55f762c410e
+size 291

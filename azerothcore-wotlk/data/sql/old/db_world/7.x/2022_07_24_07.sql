@@ -1,5 +1,3 @@
--- DB update 2022_07_24_06 -> 2022_07_24_07
---
-UPDATE `gameobject_template` SET `ScriptName` = 'go_sand_trap' WHERE `entry` = 180647;
-
-UPDATE `creature_text` SET `TextRange` = 3 WHERE `CreatureID` = 15339 AND `GroupID` = 5;
+version https://git-lfs.github.com/spec/v1
+oid sha256:1b3d74b2ee8f546da56f60dbf3eb30d99ebf9380d7bd7b89921f788ec141d329
+size 224

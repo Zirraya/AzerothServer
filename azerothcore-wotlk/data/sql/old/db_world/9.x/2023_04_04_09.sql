@@ -1,3 +1,3 @@
--- DB update 2023_04_04_08 -> 2023_04_04_09
--- damage modifier edit of Razormaw from 7.5 to 1.36 based on mangos values
-UPDATE `creature_template` SET `DamageModifier` = 1.36 WHERE `entry` = 17592;
+version https://git-lfs.github.com/spec/v1
+oid sha256:0bcee0189c3d7a623864d6893de52e6725410c2b525d9dc2ee97d16f97af4a54
+size 198

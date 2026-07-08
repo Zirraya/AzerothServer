@@ -1,4 +1,3 @@
--- DB update 2024_06_26_00 -> 2024_06_26_01
---
-UPDATE `spell_script_names` SET `ScriptName`='spell_mount_check_aura' WHERE `spell_id`=75420;
-UPDATE `spell_script_names` SET `ScriptName`='spell_boss_salramm_steal_flesh_aura' WHERE `spell_id`=52708;
+version https://git-lfs.github.com/spec/v1
+oid sha256:0a4b2ac2f29f02674dccc46629c27aec262c9006a65691befc8cac41bc58e904
+size 248

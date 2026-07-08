@@ -1,3 +1,3 @@
--- DB update 2025_11_15_02 -> 2025_11_15_03
---
-UPDATE `creature_template` SET `npcflag` = `npcflag` |65536 WHERE `entry` = 29944;
+version https://git-lfs.github.com/spec/v1
+oid sha256:09447a4b8e30c1f9bc4f78bf3a1c541273ed3e9a5f30feea8d7572aa7d448a9b
+size 130

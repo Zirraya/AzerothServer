@@ -1,4 +1,3 @@
--- DB update 2023_04_19_10 -> 2023_04_19_11
--- Prospector Ryedol (2910)
-DELETE FROM `npc_vendor` WHERE `entry` = 2910;
-UPDATE `creature_template` SET `npcflag` = `npcflag`&~(128) WHERE `entry` = 2910;
+version https://git-lfs.github.com/spec/v1
+oid sha256:cdbd90d5af089041f94cf307da7cd5725619373417574261e21818113e208168
+size 201

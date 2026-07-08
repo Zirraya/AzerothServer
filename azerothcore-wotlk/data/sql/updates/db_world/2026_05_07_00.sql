@@ -1,4 +1,3 @@
--- DB update 2026_05_06_00 -> 2026_05_07_00
-DELETE FROM `spell_linked_spell` WHERE `spell_trigger` = -48323;
-INSERT INTO `spell_linked_spell` (`spell_trigger`, `spell_effect`, `type`, `comment`) VALUES
-(-48323, 48330, 0, 'On Indisposed Expiring - Cast Create Amberseeds');
+version https://git-lfs.github.com/spec/v1
+oid sha256:7329bbfb2bab5950d711b135004df81f5f23729623f65a304c5d023b1f671ddd
+size 273

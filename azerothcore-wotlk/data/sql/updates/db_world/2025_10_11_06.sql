@@ -1,6 +1,3 @@
--- DB update 2025_10_11_05 -> 2025_10_11_06
--- Correctly uses Option0 instead of Option1 to summon the Terokk
-UPDATE `smart_scripts` SET `event_param2` = 0 WHERE `entryorguid` = 185928 AND `source_type` = 1 AND `id` = 0;
-
--- Removes the duplicated option.
-DELETE FROM `gossip_menu_option` WHERE `MenuID` = 8687 AND `OptionID` = 1;
+version https://git-lfs.github.com/spec/v1
+oid sha256:a493624bfa98c206d1fd71078c58280fb12fb5448168147acf1e2041765fcbae
+size 331

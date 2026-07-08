@@ -1,4 +1,3 @@
--- DB update 2023_11_08_07 -> 2023_11_09_00
--- Acidic Bite
-DELETE FROM `spell_custom_attr` WHERE `spell_id`=36796;
-INSERT INTO `spell_custom_attr` (`spell_id`, `attributes`) VALUES (36796, 4194304);
+version https://git-lfs.github.com/spec/v1
+oid sha256:81e5173fd96ec1d4f45f3e56f8a507e7f746873cb69a5f1dd06e279b13b8066d
+size 199

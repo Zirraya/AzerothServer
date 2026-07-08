@@ -1,5 +1,3 @@
--- DB update 2025_08_10_00 -> 2025_08_10_01
--- Delete Nerubian Chitin, Borean Leather, and Arctic Fur from loot table from various creatures in WotLK
-DELETE from `creature_loot_template` WHERE `item` = 33568;
-DELETE from `creature_loot_template` WHERE `item` = 44128;
-DELETE from `creature_loot_template` WHERE `item` = 38558;
+version https://git-lfs.github.com/spec/v1
+oid sha256:40f827ee45434ff234a735c66c8b703014e8825852765b9cc70ec59417d5abc4
+size 327

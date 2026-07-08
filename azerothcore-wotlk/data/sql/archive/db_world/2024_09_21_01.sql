@@ -1,3 +1,3 @@
--- DB update 2024_09_21_00 -> 2024_09_21_01
-DELETE FROM `command` WHERE `name` = 'debug cooldown';
-INSERT INTO `command` (`name`, `security`, `help`) VALUES ('debug cooldown', 3, 'Syntax: .debug cooldown #spellID #cooldownTime #itemID\nApply a cooldown of the given duration (in milliseconds) for the given spell and item ID.');
+version https://git-lfs.github.com/spec/v1
+oid sha256:b4286c4ba7e3eaaa32d7824f53acf06c0d2810ced376af1bec4ac3a72f4d9190
+size 329

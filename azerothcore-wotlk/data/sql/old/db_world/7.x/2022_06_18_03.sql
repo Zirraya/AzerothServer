@@ -1,2 +1,3 @@
--- DB update 2022_06_18_02 -> 2022_06_18_03
-UPDATE `creature_template` SET `npcflag` = 1, `gossip_menu_id` = '21208', `AIName` = 'SmartAI' WHERE (`entry` = 6669);
+version https://git-lfs.github.com/spec/v1
+oid sha256:f6cef1bb1d4cfda533e7c8f92c9004c240a371133e341e3400004fb65797670a
+size 163

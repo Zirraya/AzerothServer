@@ -1,2 +1,3 @@
--- DB update 2022_12_10_00 -> 2022_12_11_00
-DELETE FROM `item_loot_template` WHERE `Entry` = 17969 AND `Item` = 6332;
+version https://git-lfs.github.com/spec/v1
+oid sha256:8b79cd8f8c8abf78ee36af994907a7f0a6283bf32135aa0f128d676b3b19da3a
+size 118

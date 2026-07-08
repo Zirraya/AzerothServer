@@ -1,3 +1,3 @@
--- DB update 2022_08_21_13 -> 2022_08_21_14
---
-UPDATE `waypoint_data` SET `position_y`=-3747.85 WHERE `id`=1342370 AND `point`=4;
+version https://git-lfs.github.com/spec/v1
+oid sha256:b1c735531c2deb4ed98e6d7ec3b87bac1abb6baaa2678d88588f56a51b8236b6
+size 130

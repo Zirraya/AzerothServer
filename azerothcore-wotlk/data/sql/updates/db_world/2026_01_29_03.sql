@@ -1,4 +1,3 @@
--- DB update 2026_01_29_02 -> 2026_01_29_03
--- Wotlk armor value
-UPDATE `creature_classlevelstats` SET `basearmor`=10643 WHERE `level`=83 AND `class`=1;
-UPDATE `creature_classlevelstats` SET `basearmor`=10643 WHERE `level`=83 AND `class`=2;
+version https://git-lfs.github.com/spec/v1
+oid sha256:66a320066e60bd49bb54fe97b860764ca5b354664fc91f2b4f5b2e15b0851697
+size 241

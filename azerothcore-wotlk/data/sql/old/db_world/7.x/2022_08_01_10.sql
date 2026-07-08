@@ -1,3 +1,3 @@
--- DB update 2022_08_01_09 -> 2022_08_01_10
--- Undertaker Mordo https://classic.wowhead.com/npc=1568/undertaker-mordo
-UPDATE `creature` SET `position_x` = 1671.89,`position_y` = 1678.29,`position_z` = 120.802, `orientation` = 0.0349066 WHERE `id1` = 1568;
+version https://git-lfs.github.com/spec/v1
+oid sha256:9b42e50465d341a1e9233d4eea0d981fc4eaa34c627201fd4ddf4eaeab631f3a
+size 256

@@ -1,3 +1,3 @@
--- DB update 2025_03_02_01 -> 2025_03_02_02
-DELETE FROM `creature_queststarter` WHERE `quest` IN (12752, 12753, 12771, 12772, 12773, 12774, 12775, 12776, 12777, 12782, 12783, 12784, 12785, 12786, 12787, 12788, 12808, 12809, 12811, 12812); -- Should later be assigned in `game_event_creature_quest`.
-DELETE FROM `disables` WHERE `sourceType` = 1 AND `entry` IN (12752, 12753, 12771, 12772, 12773, 12774, 12775, 12776, 12777, 12782, 12783, 12784, 12785, 12786, 12787, 12788, 12808, 12809, 12811, 12812);
+version https://git-lfs.github.com/spec/v1
+oid sha256:d694e86e24b0e7ee42b89ce833f53ac37247330081e1ecc3fe44b6860445e301
+size 502

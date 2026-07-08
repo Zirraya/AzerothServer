@@ -1,3 +1,3 @@
--- DB update 2023_02_25_00 -> 2023_02_25_01
--- Defias Gunpowder - add missing No Repeat flag (was already in the SAI comment)
-UPDATE `smart_scripts` SET `event_flags` = `event_flags`|1 WHERE `entryorguid` = 17155 AND `source_type` = 1 AND `id` = 0;
+version https://git-lfs.github.com/spec/v1
+oid sha256:e1b45d5a8e8e748b1dc174698f4192d6bf8aa1c981a9ebcea5e573e945410169
+size 249

@@ -1,3 +1,3 @@
--- DB update 2024_07_06_03 -> 2024_07_06_04
--- RequiredMinRepValue was set to 1
-UPDATE `quest_template_addon` SET `RequiredMinRepValue` = 0 WHERE (`ID` IN (10412, 10414, 10415, 10325, 10326, 10327));
+version https://git-lfs.github.com/spec/v1
+oid sha256:ef7c19106a698d31a2ac8223ca6fb155e620d734f2c3241b9fa38ba6c02918ab
+size 200

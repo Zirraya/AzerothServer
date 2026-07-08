@@ -1,5 +1,3 @@
--- DB update 2026_06_16_05 -> 2026_06_16_06
--- Dust Cloud (54404) - remove on the affected unit's first missed melee swing
-DELETE FROM `spell_proc` WHERE `SpellId` = 54404;
-INSERT INTO `spell_proc` (`SpellId`, `ProcFlags`, `HitMask`, `Chance`, `Charges`)
-    VALUES (54404, 0x00000004, 0x00000004, 100, 1);
+version https://git-lfs.github.com/spec/v1
+oid sha256:ca8a57c7eaafb64ee483cd9c0f5b208b66ccaa3a312e6577a07e4a5a8e61bc38
+size 307

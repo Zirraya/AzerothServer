@@ -1,8 +1,3 @@
--- DB update 2024_12_29_00 -> 2024_12_29_01
---
-DELETE FROM `gameobject_template_locale` WHERE `name` = '';
-DELETE FROM `gameobject_template_locale` WHERE `name` = 'NULL';
-DELETE FROM `gameobject_template_locale` WHERE `name` IS NULL;
-DELETE FROM `quest_offer_reward_locale` WHERE `RewardText` = '';
-DELETE FROM `quest_offer_reward_locale` WHERE `RewardText` = 'NULL';
-DELETE FROM `quest_offer_reward_locale` WHERE `RewardText` IS NULL;
+version https://git-lfs.github.com/spec/v1
+oid sha256:f485228092e92702ab73fd2b95de3856b3abde8dbd8f45225210d88ca98cb3ee
+size 436

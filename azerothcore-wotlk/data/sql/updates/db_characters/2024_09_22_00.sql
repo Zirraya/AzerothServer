@@ -1,4 +1,3 @@
--- DB update 2024_09_03_00 -> 2024_09_22_00
---
-ALTER TABLE `recovery_item`
-    ADD COLUMN `DeleteDate` INT UNSIGNED NULL DEFAULT NULL AFTER `Count`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:7a07baad88b7b135c70bd0f582d4ceb8ffd0e81372470f911575e4a3ffd748b2
+size 149

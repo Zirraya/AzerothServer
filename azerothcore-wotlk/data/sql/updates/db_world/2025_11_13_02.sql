@@ -1,5 +1,3 @@
--- DB update 2025_11_13_01 -> 2025_11_13_02
---
-DELETE FROM `creature_template_movement` WHERE `CreatureId` = 27821;
-INSERT INTO `creature_template_movement` (`CreatureId`, `Ground`, `Flight`) VALUES
-(27821, 1, 1);
+version https://git-lfs.github.com/spec/v1
+oid sha256:230e25fe465d30e45b2e914f6394de1e766aa5d138d01a51b703095e4ab6c116
+size 214

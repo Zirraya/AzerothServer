@@ -1,5 +1,3 @@
--- DB update 2023_08_21_00 -> 2023_08_21_01
---
-DELETE FROM `spell_script_names` WHERE `spell_id` IN (37906, 36298);
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(37906, 'spell_q10651_q10692_book_of_fel_names');
+version https://git-lfs.github.com/spec/v1
+oid sha256:be5bdf39baf85449e818150001d32064fa72654fea304d422d50dc0ada88428d
+size 233

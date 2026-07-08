@@ -1,7 +1,3 @@
--- DB update 2024_11_17_02 -> 2024_11_18_00
---
--- Issue: 20606 (Vital Supplies)
-UPDATE `quest_template_addon` SET `PrevQuestID` = 0 WHERE (`ID` = 1395);
-
--- Issue: 20607 (Report to Mountaineer Rockgar)
-UPDATE `quest_template_addon` SET `PrevQuestID` = 0 WHERE (`ID` = 455);
+version https://git-lfs.github.com/spec/v1
+oid sha256:d7c9d15621905ca16563dc62baff9a6ac570347472dc6222ea28b76614b0679a
+size 274

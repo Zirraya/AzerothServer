@@ -1,5 +1,3 @@
--- DB update 2026_01_21_02 -> 2026_01_22_00
---
-DELETE FROM `spell_script_names` WHERE `spell_id` = 28375;
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(28375, 'spell_gluth_decimate_damage');
+version https://git-lfs.github.com/spec/v1
+oid sha256:805b8a458c209cf11ceb20cb530eae323b4dd76d3d73fb90a4f556fe9af85f7f
+size 213

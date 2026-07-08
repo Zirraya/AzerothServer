@@ -1,8 +1,3 @@
--- DB update 2023_02_27_01 -> 2023_02_27_02
---
-
-DELETE FROM `creature_loot_template` WHERE `entry`= 18201 AND `Item`= 22787;
-UPDATE `creature_template` SET `mingold`=0, `maxgold`=0, `lootid`=0 WHERE `entry`=18201;
-
-DELETE FROM `skinning_loot_template` WHERE `Entry`= 2565 AND `Item`= 4234;
-UPDATE `creature_template` SET `skinloot`=0 WHERE `entry`=2565;
+version https://git-lfs.github.com/spec/v1
+oid sha256:aa9dda406c485c09cae00a9c352398aa82305a5faac64ca4a86ef90488a9201f
+size 354

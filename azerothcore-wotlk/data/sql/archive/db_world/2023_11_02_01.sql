@@ -1,7 +1,3 @@
--- DB update 2023_11_02_00 -> 2023_11_02_01
--- Choking Vines
-DELETE FROM `spell_custom_attr` WHERE `spell_id`=35244;
-INSERT INTO `spell_custom_attr` (`spell_id`, `attributes`) VALUES (35244, 4194304);
-
-DELETE FROM `spell_script_names` WHERE `spell_id`=35244 AND `ScriptName`='spell_gen_choking_vines';
-INSERT INTO `spell_script_names` VALUES (35244, 'spell_gen_choking_vines');
+version https://git-lfs.github.com/spec/v1
+oid sha256:6109b7ee7179059473c6299309035d67b087c1647e6373462c279a5df7b0e06d
+size 378

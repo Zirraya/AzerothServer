@@ -1,6 +1,3 @@
--- DB update 2025_06_29_01 -> 2025_06_29_02
---
-DELETE FROM `acore_string` WHERE `entry` IN (1184,1185);
-INSERT INTO `acore_string` (`entry`, `content_default`) VALUES
-(1184, '| Guild Ranks:'),
-(1185, '| {} - {}');
+version https://git-lfs.github.com/spec/v1
+oid sha256:4ed3dbd2bdb3c3fafaf0fe79cd3fdae065dc4420699013826da846fec9faa926
+size 214

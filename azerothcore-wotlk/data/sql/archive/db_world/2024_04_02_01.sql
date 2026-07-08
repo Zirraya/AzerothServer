@@ -1,3 +1,3 @@
--- DB update 2024_04_02_00 -> 2024_04_02_01
---
-UPDATE `creature_loot_template` SET `MaxCount` = 2 WHERE `Entry` = 19622 AND `Item` = 90056 AND `Reference` = 34056 AND `GroupId` = 4;
+version https://git-lfs.github.com/spec/v1
+oid sha256:60d38f3547bfc5cf73e80b831d42ddd1924fcf84fb2e4e9981b1eb66f2ff425a
+size 182

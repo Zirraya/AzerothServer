@@ -1,3 +1,3 @@
--- DB update 2026_02_19_01 -> 2026_02_19_02
--- Elemental Focus (16164): change SpellPhaseMask from CAST (0x1) to HIT (0x2)
-UPDATE `spell_proc` SET `SpellPhaseMask` = 2 WHERE `SpellId` = 16164;
+version https://git-lfs.github.com/spec/v1
+oid sha256:aa1542163eb317e4c784f25aab7048752b494597686449965f0bd39d316de084
+size 193

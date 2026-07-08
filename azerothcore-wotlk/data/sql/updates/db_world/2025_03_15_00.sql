@@ -1,5 +1,3 @@
--- DB update 2025_03_13_00 -> 2025_03_15_00
---
--- SPELL_ATTR0_CU_ONLY_ONE_AREA_AURA 45402 Demonic Vapor
-DELETE FROM `spell_custom_attr` WHERE `spell_id` = 45402;
-INSERT INTO `spell_custom_attr` (`spell_id`, `attributes`) VALUES(45402, 536870912);
+version https://git-lfs.github.com/spec/v1
+oid sha256:98b5ab224ece28563a99686bc5e915af737aab6d8bd6594844da26c0df5267bf
+size 247

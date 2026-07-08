@@ -1,4 +1,3 @@
--- DB update 2025_06_15_02 -> 2025_06_16_00
---
-DELETE FROM `spell_script_names` WHERE `spell_id`=60244 AND `ScriptName`='spell_item_bloodsail_admiral_hat';
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES (60244, 'spell_item_bloodsail_admiral_hat');
+version https://git-lfs.github.com/spec/v1
+oid sha256:7df20321d3702194f6b2326f2e742493ad71b5ffb83e80feda3dcb9ca97c9179
+size 268

@@ -1,6 +1,3 @@
--- DB update 2023_04_12_00 -> 2023_04_12_01
--- Add spell script to database for 63471 - Spawn Blood Pool
-DELETE FROM `spell_script_names` WHERE `ScriptName`='spell_spawn_blood_pool';
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(63471, 'spell_spawn_blood_pool');
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:1a71e62770d41696b808e5584d5ae5c4fc3bd3de79061cc5320e7ab7ec871b96
+size 286

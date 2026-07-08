@@ -1,3 +1,3 @@
--- DB update 2023_03_30_04 -> 2023_03_30_05
--- Floating Ivory Bell
-UPDATE `gameobject` SET `position_z` = 145.04 WHERE `id` = 184443 AND `guid` = 25285;
+version https://git-lfs.github.com/spec/v1
+oid sha256:9d91cd690dd24bf3efa789cce25c2e52c366be6c2cbadcfa62b723c7a8169805
+size 153

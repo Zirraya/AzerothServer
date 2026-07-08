@@ -1,6 +1,3 @@
--- DB update 2025_01_26_02 -> 2025_01_27_00
---
-DELETE FROM `acore_string` WHERE `entry` IN (56, 82);
-INSERT INTO `acore_string` (`entry`, `content_default`, `locale_deDE`, `locale_zhCN`, `locale_esES`, `locale_esMX`) VALUES
-(56, 'Current Message of the day:', 'Aktuelle Nachricht des Tages:', '当前每日信息:', 'Mensaje actual del día:', 'Mensaje actual del día:'),
-(82, '{}: {}', '{}: {}', '{}: {}', '{}: {}', '{}: {}');
+version https://git-lfs.github.com/spec/v1
+oid sha256:3b90e2bba779f75fcdf874df9ed0021d1068b024f14ac06ff00c5f7970ebfd61
+size 429

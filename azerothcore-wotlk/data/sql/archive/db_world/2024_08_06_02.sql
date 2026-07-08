@@ -1,5 +1,3 @@
--- DB update 2024_08_06_01 -> 2024_08_06_02
---
-DELETE FROM `command` WHERE `name` = 'morph mount';
-INSERT INTO `command` (`name`, `security`, `help`) VALUES
-('morph mount', 1, 'Syntax: .morph mount #displayid - Change the selected target\'s mount\'s model ID to #displayid.');
+version https://git-lfs.github.com/spec/v1
+oid sha256:659adb565961ac373a96bdd9e04b021b6f7e3ca0c94142d8aad4e62a39755ffc
+size 277

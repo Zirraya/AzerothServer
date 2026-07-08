@@ -1,4 +1,3 @@
--- DB update 2024_11_24_00 -> 2024_11_24_01
---
--- Adds "Disarm" immunity to Creautre (Boss) "Halazzi" - [Zul'Aman]
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask` | 4 WHERE `entry` = 23577;
+version https://git-lfs.github.com/spec/v1
+oid sha256:433a0fa7fb0258f2993ed784ec72d1b1ede783121d54f5f5239924bd408858a2
+size 221

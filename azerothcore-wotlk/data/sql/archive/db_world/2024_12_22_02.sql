@@ -1,5 +1,3 @@
--- DB update 2024_12_22_01 -> 2024_12_22_02
---
-DELETE FROM `quest_request_items_locale` WHERE `CompletionText` = '';
-DELETE FROM `quest_request_items_locale` WHERE `CompletionText` = 'NULL';
-DELETE FROM `quest_request_items_locale` WHERE `CompletionText` IS NULL;
+version https://git-lfs.github.com/spec/v1
+oid sha256:10f0e60e4fc075799531fc1e5038f18de4dc8eff3de2924d237f54cbaddaf8ce
+size 264

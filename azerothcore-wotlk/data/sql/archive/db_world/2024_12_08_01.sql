@@ -1,6 +1,3 @@
--- DB update 2024_12_08_00 -> 2024_12_08_01
-
--- Change Z position for two Silt Crawlers.
-
-UPDATE `creature` SET `position_z` = -2.316132 WHERE `guid` = 34158;
-UPDATE `creature` SET `position_z` = -2.4465983 WHERE `guid` = 32692;
+version https://git-lfs.github.com/spec/v1
+oid sha256:062858964773fdd3abb536ca7c6458a6ba19ff33ea1ed9875b4a5046a4f22f40
+size 229

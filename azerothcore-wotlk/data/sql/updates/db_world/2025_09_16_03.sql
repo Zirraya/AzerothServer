@@ -1,5 +1,3 @@
--- DB update 2025_09_16_02 -> 2025_09_16_03
---
-DELETE FROM `spell_script_names` WHERE `spell_id` = 51009;
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(51009, 'spell_soul_deflection');
+version https://git-lfs.github.com/spec/v1
+oid sha256:90dd929d0f0664e42d2dc97ad9cc9d61db6b768d5a5c7e56137366a8a484810f
+size 207

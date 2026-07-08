@@ -1,3 +1,3 @@
--- DB update 2022_12_06_09 -> 2022_12_06_10
--- NOT_SELECTABLE, IMMUNE_TO_PC, IMMUNE_TO_NPC
-UPDATE `creature_template` SET `unit_flags`=`unit_flags`|33555200 WHERE `entry` IN (24222, 17378, 17407, 17408);
+version https://git-lfs.github.com/spec/v1
+oid sha256:0f5c34989f0962a96f4fe769c8d05b95386b700b0b1184766d795e7c29cbcc6e
+size 204

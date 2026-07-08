@@ -1,4 +1,3 @@
--- DB update 2023_05_10_02 -> 2023_05_10_03
---
-UPDATE `quest_template_addon` SET `ExclusiveGroup` = -10962 WHERE (`ID` IN (10962, 10968));
-UPDATE `quest_template_addon` SET `ExclusiveGroup` = 0 WHERE (`ID` = 10956);
+version https://git-lfs.github.com/spec/v1
+oid sha256:6b7fc6e76ae3e51bc18bec36bb6e4b21814eaff36813b7964e95045a6cbf04ce
+size 216

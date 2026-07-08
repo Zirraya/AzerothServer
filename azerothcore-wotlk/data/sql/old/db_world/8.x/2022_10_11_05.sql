@@ -1,3 +1,3 @@
--- DB update 2022_10_11_04 -> 2022_10_11_05
--- Springpaw Stalker 213/445  Elder Springpaw 112/238 drop rate of Springpaw Pelt (~47.5% 325/683)
-UPDATE `creature_loot_template` SET `Chance`='45' WHERE  `Item`=20772;
+version https://git-lfs.github.com/spec/v1
+oid sha256:723c47297ccf48ea25106607323e7c11848747172ae181e311cdcc231912b63b
+size 214

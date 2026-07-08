@@ -1,3 +1,3 @@
--- DB update 2023_09_26_03 -> 2023_09_27_00
---
-UPDATE `reference_loot_template` SET `Item` = 30559, `Comment` = 'Etched Fire Opal' WHERE `Entry` = 43010 AND `Item` = 30556;
+version https://git-lfs.github.com/spec/v1
+oid sha256:8da422fd79351b0e64a9fa98e90ccf80dca065f411f1a3d260ce4bdae268f178
+size 173

@@ -1,4 +1,3 @@
--- DB update 2022_08_25_00 -> 2022_08_25_01
---
-DELETE FROM `creature_addon` WHERE `guid` IN (144680, 144679);
-DELETE FROM `creature` WHERE `id1` = 15428;
+version https://git-lfs.github.com/spec/v1
+oid sha256:996de0f9a656d46943ad912cfcb24ea08c7e5ccd96e159c464752309823b642e
+size 154

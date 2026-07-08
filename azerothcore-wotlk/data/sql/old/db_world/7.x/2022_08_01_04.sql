@@ -1,3 +1,3 @@
--- DB update 2022_08_01_03 -> 2022_08_01_04
--- Marin Noggenfogger
-UPDATE `gossip_menu_option` SET `OptionText`="Yes! I want more of that fabulous Noggenfogger Elixir!", `OptionBroadcastTextID`=3793 WHERE `MenuID`=922 AND `OptionID`=0;
+version https://git-lfs.github.com/spec/v1
+oid sha256:6cf0654782ca51b0e1c08e4945114f3b97220e923b022fae8455ded27224f37f
+size 235

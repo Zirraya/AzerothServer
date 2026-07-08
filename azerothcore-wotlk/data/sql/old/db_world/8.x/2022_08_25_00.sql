@@ -1,3 +1,3 @@
--- DB update 2022_08_23_03 -> 2022_08_25_00
---
-UPDATE `creature` SET `spawntimesecs`=259200 WHERE `guid` IN (144632,144642,144602,144641,144603,144601);
+version https://git-lfs.github.com/spec/v1
+oid sha256:c94771a992106118f1774ff6d7a7b8ab14a16433253b012b96cbdf27b2e255d5
+size 153

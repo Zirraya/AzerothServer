@@ -1,4 +1,3 @@
--- DB update 2025_01_24_00 -> 2025_01_24_01
---
--- Remove extra Sanctum Planetarium
-DELETE FROM `gameobject` WHERE (`id` = 188081) AND (`guid` IN (27809));
+version https://git-lfs.github.com/spec/v1
+oid sha256:ff88015fd1934d713f193300400ab88b6a92fdba0bd3a9ed773ee901965624a8
+size 155

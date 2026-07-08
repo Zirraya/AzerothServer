@@ -1,5 +1,3 @@
--- DB update 2023_12_25_01 -> 2023_12_26_00
--- Spawn NPC 'Crown Apothecary' for event 'Love is in the Air' only
-DELETE FROM `game_event_creature` WHERE (`eventEntry` = 8) AND (`guid` = 146624);
-INSERT INTO `game_event_creature` (`eventEntry`,`guid`) VALUES
-(8, 146624);
+version https://git-lfs.github.com/spec/v1
+oid sha256:f1f39a42ee500ac3d7df1862be493fc9dfb9acf935dbb43b5382cf1a8f2c216c
+size 270

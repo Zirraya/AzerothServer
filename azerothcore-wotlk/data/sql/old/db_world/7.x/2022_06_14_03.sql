@@ -1,3 +1,3 @@
--- DB update 2022_06_14_02 -> 2022_06_14_03
--- Update movement for Tarindralla
-UPDATE `creature` SET `wander_distance` = 7, `MovementType` = 1 WHERE `guid` = 47347 AND `id1` = 1992;
+version https://git-lfs.github.com/spec/v1
+oid sha256:0fc890e8ee94e5d725a5d706c8d5bc0e70f6caed7e2d64e64d5441486fd7dc30
+size 182

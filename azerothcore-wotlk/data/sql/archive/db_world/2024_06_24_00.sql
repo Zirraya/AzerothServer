@@ -1,6 +1,3 @@
--- DB update 2024_06_23_00 -> 2024_06_24_00
--- 16606 'Midsummer Bonfire Despawner'
--- add TRIGGER flag
-UPDATE `creature_template` SET `flags_extra` = (`flags_extra` | 128) WHERE (`entry` = 16606);
--- Script
-UPDATE `creature_template` SET `ScriptName` = 'npc_midsummer_bonfire_despawner' WHERE (`entry` = 16606);
+version https://git-lfs.github.com/spec/v1
+oid sha256:da448fe0b29a5ed61929048c4550952b01e47a8396a45fd1ca3549439e875e33
+size 312

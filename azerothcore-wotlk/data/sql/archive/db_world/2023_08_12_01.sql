@@ -1,10 +1,3 @@
--- DB update 2023_08_12_00 -> 2023_08_12_01
---
-ALTER TABLE `gossip_menu`
-    CHANGE COLUMN `MenuID` `MenuID` INT UNSIGNED NOT NULL DEFAULT 0 FIRST;
-
-ALTER TABLE `gossip_menu_option`
-    CHANGE COLUMN `MenuID` `MenuID` INT UNSIGNED NOT NULL DEFAULT 0 FIRST;
-
-ALTER TABLE `gossip_menu_option_locale`
-	CHANGE COLUMN `MenuID` `MenuID` INT UNSIGNED NOT NULL DEFAULT 0 FIRST;
+version https://git-lfs.github.com/spec/v1
+oid sha256:f4e9c04e3881e14e5f3b26483107ca249dbfcde57948965aa885eb23a765cc92
+size 370

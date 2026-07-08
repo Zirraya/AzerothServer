@@ -1,3 +1,3 @@
--- DB update 2024_01_14_12 -> 2024_01_14_13
--- Rotface
-UPDATE `creature_template` SET `flags_extra` = `flags_extra`|2147483648 WHERE `entry` IN (36627, 38390, 38549, 38550);
+version https://git-lfs.github.com/spec/v1
+oid sha256:a160a3e0a7d5c9e450b8ab5e99456db89bdf3c3cc3e6107003f15978e86b5194
+size 174

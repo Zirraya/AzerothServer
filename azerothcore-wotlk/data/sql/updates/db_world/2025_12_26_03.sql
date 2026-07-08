@@ -1,3 +1,3 @@
--- DB update 2025_12_26_02 -> 2025_12_26_03
--- Double-Triple Checked with sniffs
-DELETE FROM `creature` WHERE `guid` IN (127961, 127962) AND `id1` = 15977 AND `map` = 533;
+version https://git-lfs.github.com/spec/v1
+oid sha256:906ed9fecbcb95a76208edab2c807ad6ba926d7d0551e5282ad0c3b2c5188ebb
+size 172

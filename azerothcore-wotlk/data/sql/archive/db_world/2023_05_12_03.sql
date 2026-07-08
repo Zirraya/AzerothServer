@@ -1,8 +1,3 @@
--- DB update 2023_05_12_02 -> 2023_05_12_03
---
-UPDATE `creature_template` SET `AiName`='', `ScriptName`='npc_underbat' WHERE `entry`=17724;
-DELETE FROM `smart_scripts` WHERE `entryorguid`=17724 AND `source_type`=0;
-
-DELETE FROM `spelldifficulty_dbc` WHERE `ID`=34171;
-INSERT INTO `spelldifficulty_dbc` VALUES
-(34171,34171,37956,0,0);
+version https://git-lfs.github.com/spec/v1
+oid sha256:a3e9de4532b557e72b27ce762c6eaf88d5bb63f595a89694084e4a2db342a792
+size 334

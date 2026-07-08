@@ -1,4 +1,3 @@
--- DB update 2022_06_15_01 -> 2022_06_15_02
-DELETE FROM `spell_script_names` WHERE `spell_id` = 24834;
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(24834, 'spell_shadow_bolt_whirl');
+version https://git-lfs.github.com/spec/v1
+oid sha256:88bfe9f520956b771592ddacfc852bfa8483d7c0fb5099fe4c68f985878c3839
+size 206

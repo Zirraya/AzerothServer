@@ -1,3 +1,3 @@
--- DB update 2024_06_21_01 -> 2024_06_21_02
--- add TRIGGER flag to 'Ribbon Pole Fire Spiral Bunny'
-UPDATE `creature_template` SET `flags_extra` = (`flags_extra` | 128) WHERE (`entry` = 25303);
+version https://git-lfs.github.com/spec/v1
+oid sha256:b37ec6b10eb785cc29cae296de765e398889e5c19eee8bfb68c99b0db64dd2cd
+size 193

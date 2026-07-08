@@ -1,4 +1,3 @@
--- DB update 2023_11_18_15 -> 2023_11_18_16
---
-DELETE FROM `creature` WHERE `id1` = 21215 AND `guid` = 93773;
-UPDATE `linked_respawn` SET `linkedGuid` = 15016 WHERE `linkedGuid` = 93773;
+version https://git-lfs.github.com/spec/v1
+oid sha256:9ac2eb5d9e6db3808a68c0a67fda6436fdfeee0e42d04b20b96cc407b964b334
+size 187

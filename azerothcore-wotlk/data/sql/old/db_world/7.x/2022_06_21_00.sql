@@ -1,7 +1,3 @@
--- DB update 2022_06_19_00 -> 2022_06_21_00
---
-DELETE FROM `creature_formations` WHERE `leaderGUID` = 49310;
-INSERT INTO `creature_formations` (`leaderGUID`, `memberGUID`, `dist`, `angle`, `groupAI`, `point_1`, `point_2`) VALUES
-(49310, 49310, 0, 0, 27, 0, 0),
-(49310, 49311, 0, 0, 27, 0, 0),
-(49310, 49312, 0, 0, 27, 0, 0);
+version https://git-lfs.github.com/spec/v1
+oid sha256:42161c6bf0c4c6cecdbc33f0fdaaf62bcc4c02210b7181992c8610f616ddc4dd
+size 325

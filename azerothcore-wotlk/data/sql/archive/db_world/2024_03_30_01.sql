@@ -1,4 +1,3 @@
--- DB update 2024_03_30_00 -> 2024_03_30_01
---
-UPDATE `creature_template_movement` SET `Chase` = 2 WHERE `CreatureId` = 20064;
-UPDATE `creature_template` SET `speed_walk` = 2 WHERE `entry` = 20064;
+version https://git-lfs.github.com/spec/v1
+oid sha256:b2143d2732d75df237f8e4b8d481311b33caf578dc6f7f15d8a3ca09899c3262
+size 198

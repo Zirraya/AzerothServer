@@ -1,4 +1,3 @@
--- DB update 2024_04_02_01 -> 2024_04_02_02
---
-UPDATE `creature_template` SET `speed_walk` = 3.2, `speed_run` = 2.857142 WHERE (`entry` = 19516);
-UPDATE `creature_model_info` SET `BoundingRadius` = 12.33326530456542968, `CombatReach` = 18 WHERE  `DisplayID` = 18951;
+version https://git-lfs.github.com/spec/v1
+oid sha256:b66260b69bd3f4273080238d272f34007e5474a951d5acc6aa034832af297de5
+size 267

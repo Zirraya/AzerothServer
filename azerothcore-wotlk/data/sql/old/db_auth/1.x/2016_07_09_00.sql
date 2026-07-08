@@ -1,3 +1,3 @@
-CREATE TABLE `auth_db_version` (
-  `2016_07_09_00` BIT(1) DEFAULT NULL
-) ENGINE=MYISAM DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='Last applied sql update to DB';
+version https://git-lfs.github.com/spec/v1
+oid sha256:86181c3b69ff37d1e7dec64c5efa981f0c5ae803b8b0d7fa17cc93593023d358
+size 168

@@ -1,3 +1,3 @@
--- DB update 2025_11_01_00 -> 2025_11_01_01
--- GO_TRIBUNAL_ACCESS_DOOR
-UPDATE `gameobject` SET `state` = 0 WHERE `id` = 191295 AND `map` = 599;
+version https://git-lfs.github.com/spec/v1
+oid sha256:ee89b37b926e6d47bff49143ef58e2ea0a555f09353c07b912964cf9b9f88f8f
+size 144

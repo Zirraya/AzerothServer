@@ -1,5 +1,3 @@
--- DB update 2022_12_11_03 -> 2022_12_11_04
--- fix pr13832
--- https://github.com/azerothcore/azerothcore-wotlk/commit/c791e2080e287e052fcaf717e3106977c822d28f
-DELETE FROM `creature_loot_template` WHERE `Entry` IN (17917, 20627) AND (`Item` IN (13926));
-UPDATE `creature_template` SET `lootid` = 0 WHERE (`entry` IN (17917, 20627));
+version https://git-lfs.github.com/spec/v1
+oid sha256:932b7109e4bdfe6c898af46a26b39b93b0e3dd4ddc34e5e2279aa3ba613f4eed
+size 332

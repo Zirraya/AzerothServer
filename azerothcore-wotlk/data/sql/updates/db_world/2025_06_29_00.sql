@@ -1,4 +1,3 @@
--- DB update 2025_06_28_00 -> 2025_06_29_00
---
-DELETE FROM `spell_script_names` WHERE `spell_id` = 29313 AND `ScriptName` = 'spell_gen_cooldown_all';
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES (29313 , 'spell_gen_cooldown_all');
+version https://git-lfs.github.com/spec/v1
+oid sha256:d2966813457b77c93061b71c55b5d49e6e8320df171eda919b3c347ac582969c
+size 253

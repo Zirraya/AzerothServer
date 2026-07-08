@@ -1,9 +1,3 @@
--- DB update 2025_02_24_00 -> 2025_02_25_00
--- update Mr. Bigglesworth script name
-UPDATE `creature_template` SET `ScriptName` = 'npc_mr_bigglesworth' WHERE (`entry` = 16998);
-
--- update Living Poison script name
-UPDATE `creature_template` SET `ScriptName` = 'npc_living_poison' WHERE (`entry` = 16027);
-
--- update Naxxramas Trigger script name
-UPDATE `creature_template` SET `ScriptName` = 'npc_naxxramas_trigger' WHERE (`entry` = 16082);
+version https://git-lfs.github.com/spec/v1
+oid sha256:29b2b59e0e2fb0f54564b196f3ccaedc8e40a50855418da7ba78adf526f875a3
+size 440

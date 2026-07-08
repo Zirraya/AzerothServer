@@ -1,4 +1,3 @@
--- DB update 2025_12_01_01 -> 2025_12_01_02
-
--- Set HP
-UPDATE `creature` SET `curhealth` = 8982 WHERE (`id1` = 26523) AND (`guid` IN (150213, 150214, 150215, 150216, 150217));
+version https://git-lfs.github.com/spec/v1
+oid sha256:683d6fbb1c482188beeee384921e3991a7978c831085a5084083f52a326790a2
+size 176

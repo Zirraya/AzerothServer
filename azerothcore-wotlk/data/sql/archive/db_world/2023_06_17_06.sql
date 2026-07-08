@@ -1,4 +1,3 @@
--- DB update 2023_06_17_05 -> 2023_06_17_06
---
-UPDATE `quest_template` SET `AllowableRaces` = 1101 WHERE `ID` IN (9494, 9492);
-UPDATE `quest_template` SET `AllowableRaces` = 690 WHERE `ID` = 9495;
+version https://git-lfs.github.com/spec/v1
+oid sha256:7f7c96f5e004c55527feb021bead6249fc683367c7ccc614658b474f7f005836
+size 197

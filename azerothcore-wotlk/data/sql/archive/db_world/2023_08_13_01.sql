@@ -1,3 +1,3 @@
--- DB update 2023_08_13_00 -> 2023_08_13_01
---
-UPDATE `conditions` SET `ConditionValue2` = 1, `Comment` = 'Require incendiary bombs placed' WHERE `SourceTypeOrReferenceId` = 15 AND `SourceGroup` = 7499 AND `SourceEntry` = 0 AND `SourceId` = 0 AND `ElseGroup` = 0 AND `ConditionTypeOrReference` = 13 AND `ConditionTarget` = 0 AND `ConditionValue1` = 0 AND `ConditionValue2` = 2 AND `ConditionValue3` = 0; 
+version https://git-lfs.github.com/spec/v1
+oid sha256:e1661723f9692cc245789f4e7c9e74857cfb64ef0085c14aa603421234fe3a2a
+size 405

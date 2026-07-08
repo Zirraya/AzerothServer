@@ -1,3 +1,3 @@
--- DB update 2023_10_10_12 -> 2023_10_10_13
--- Alliance / Horde Cleric
-UPDATE `smart_scripts` SET `event_param5` = 1 WHERE `source_type` = 0 AND `entryorguid` IN (26805,26803) AND `id` IN (0,1);
+version https://git-lfs.github.com/spec/v1
+oid sha256:0a89a9cbd12ab7320783e5c309e269528dec32422a029c6092daa66515bc35e4
+size 195

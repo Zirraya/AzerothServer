@@ -1,8 +1,3 @@
--- DB update 2023_11_16_03 -> 2023_11_16_04
--- Fear Fiend
-UPDATE `creature_template_addon` SET `auras` = '35408' WHERE `entry` = 22204;
-
-DELETE FROM `creature_template_spell` WHERE `CreatureID` = 22204;
-INSERT INTO `creature_template_spell` (`CreatureID`, `Index`, `Spell`, `VerifiedBuild`) VALUES
-(22204, 4, 36248, 0),
-(22204, 5, 34259, 0);
+version https://git-lfs.github.com/spec/v1
+oid sha256:d00a6f2d224c10fc7ff4873adef980281210c056a0b3835ce96313c9ad9d5331
+size 342

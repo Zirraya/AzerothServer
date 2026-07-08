@@ -1,33 +1,3 @@
--- DB update 2021_12_23_01 -> 2021_12_23_02
-DROP PROCEDURE IF EXISTS `updateDb`;
-DELIMITER //
-CREATE PROCEDURE updateDb ()
-proc:BEGIN DECLARE OK VARCHAR(100) DEFAULT 'FALSE';
-SELECT COUNT(*) INTO @COLEXISTS
-FROM information_schema.COLUMNS
-WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'version_db_world' AND COLUMN_NAME = '2021_12_23_01';
-IF @COLEXISTS = 0 THEN LEAVE proc; END IF;
-START TRANSACTION;
-ALTER TABLE version_db_world CHANGE COLUMN 2021_12_23_01 2021_12_23_02 bit;
-SELECT sql_rev INTO OK FROM version_db_world WHERE sql_rev = '1639428645054557700'; IF OK <> 'FALSE' THEN LEAVE proc; END IF;
---
--- START UPDATING QUERIES
---
-
-INSERT INTO `version_db_world` (`sql_rev`) VALUES ('1639428645054557700');
-
-UPDATE `quest_template` SET `RewardNextQuest` = 1518 WHERE `ID` = 1517;
-UPDATE `quest_template` SET `RewardNextQuest` = 1521 WHERE `ID` = 1520;
-UPDATE `quest_template` SET `RewardNextQuest` = 1517 WHERE `ID` = 1516;
-UPDATE `quest_template` SET `RewardNextQuest` = 1520 WHERE `ID` = 1519;
-UPDATE `quest_template` SET `Flags`= 65536 WHERE `ID` IN (1463, 1462);
-
---
--- END UPDATING QUERIES
---
-UPDATE version_db_world SET date = '2021_12_23_02' WHERE sql_rev = '1639428645054557700';
-COMMIT;
-END //
-DELIMITER ;
-CALL updateDb();
-DROP PROCEDURE IF EXISTS `updateDb`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:2c438e07357b979a856a3606b9a31f0a51e3175bc1098122d59ecbccd36092ec
+size 1276

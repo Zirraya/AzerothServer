@@ -1,5 +1,3 @@
--- DB update 2022_12_06_13 -> 2022_12_06_14
---
-DELETE FROM `creature_text` WHERE `CreatureID`=15264 AND `groupid`=1;
-INSERT INTO `creature_text` VALUES
-(15264,1,0,'%s shares his powers with his brethren.',16,0,100,0,0,0,11692,0,'Anubisath Sentinel Emote');
+version https://git-lfs.github.com/spec/v1
+oid sha256:17c82d09d649363f332cd9ae9e5ec16e629d933634141259f7c29af4f5deb74b
+size 257

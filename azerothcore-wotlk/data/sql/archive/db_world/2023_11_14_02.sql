@@ -1,5 +1,3 @@
--- DB update 2023_11_14_01 -> 2023_11_14_02
---
-DELETE FROM `spell_script_names` WHERE `spell_id` = 29494;
-INSERT INTO `spell_script_names` VALUES
-(29494, 'spell_karazhan_temptation');
+version https://git-lfs.github.com/spec/v1
+oid sha256:2b9d4ab4a502e55e0f3c9f49887d23d9640397c309d25c47274b380baf0ec3f5
+size 184

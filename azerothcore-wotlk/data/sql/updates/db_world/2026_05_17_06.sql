@@ -1,3 +1,3 @@
--- DB update 2026_05_17_05 -> 2026_05_17_06
---
-UPDATE `item_loot_template` SET `Chance` = 0 WHERE `Entry` = 41888 AND `GroupId` = 1;
+version https://git-lfs.github.com/spec/v1
+oid sha256:d16bdb6ef5727cba014de26ba05512e6b2c758b100ab3cc45b06718c69531541
+size 133

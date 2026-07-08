@@ -1,3 +1,3 @@
--- DB update 2026_01_30_01 -> 2026_01_31_00
---
-UPDATE `creature_loot_template` SET `Chance` = 40 WHERE `Item` = 42422 AND `Entry` IN (29880, 30037, 30243, 30250, 30632, 30725);
+version https://git-lfs.github.com/spec/v1
+oid sha256:f2b0187f3e8d5aed0823ab058b01d8cd4a9ab9a8d6a44cc848134b86dc71d3e4
+size 177

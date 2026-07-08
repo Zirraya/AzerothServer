@@ -1,3 +1,3 @@
--- DB update 2025_11_15_00 -> 2025_11_15_01
--- fix spell focus location for quest 'Will of the Titans'
-UPDATE `gameobject` SET `position_x` = 5110.11, `position_y` = 5471.22, `position_z` = -91.84 WHERE `id` = 190781 AND `guid` = 99745;
+version https://git-lfs.github.com/spec/v1
+oid sha256:0d1a9e6f24cc5bd5d55872160c019db65667e3486036b92fe4c5f00e1ddc1dbf
+size 237

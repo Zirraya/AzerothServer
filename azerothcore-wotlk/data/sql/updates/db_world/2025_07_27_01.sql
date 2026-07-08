@@ -1,5 +1,3 @@
--- DB update 2025_07_27_00 -> 2025_07_27_01
---
-DELETE FROM `acore_string` WHERE `entry` = 179;
-INSERT INTO `acore_string` (`entry`, `content_default`) VALUES
-(179, '| AccountFlags:');
+version https://git-lfs.github.com/spec/v1
+oid sha256:0fd44b13eaf0c3f072a40b78f553920f3c0618a9ab16e114c4ccd16a644c4bf1
+size 184

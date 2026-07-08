@@ -1,2 +1,3 @@
--- DB update 2024_07_30_02 -> 2024_07_31_00
-UPDATE `game_event` SET `start_time`='2008-07-31 12:00:00', `end_time`='2008-08-05 12:00:00', `occurence` = 60, `description` = 'L70ETC BlizzCon Concert' WHERE `eventEntry` = 32;
+version https://git-lfs.github.com/spec/v1
+oid sha256:70fd676d670607e282757078430de3178329d61b8a6a73c76da641a922f4f2fb
+size 223

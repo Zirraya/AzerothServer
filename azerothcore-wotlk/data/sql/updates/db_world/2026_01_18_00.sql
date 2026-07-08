@@ -1,3 +1,3 @@
--- DB update 2026_01_17_01 -> 2026_01_18_00
--- Sets "Spiritsbreath" to be 100 from 58 % drop rate for "Grumbald One-Eye"
-UPDATE `creature_loot_template` SET `Chance` = 100 WHERE `Entry` = 26681 AND `Item` = 36740;
+version https://git-lfs.github.com/spec/v1
+oid sha256:a913ac633f4c49530adfc3d8e7c603d300fbf71458fb2b86adf17b6adb66c558
+size 214

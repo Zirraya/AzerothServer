@@ -1,3 +1,3 @@
--- DB update 2023_02_19_05 -> 2023_02_19_06
--- Fenrus the Devourer - Increase MaxDistance from 100 to 200
-UPDATE `smart_scripts` SET `target_param2` = 200 WHERE `entryorguid` = 4274 AND `target_param1` = 4275;
+version https://git-lfs.github.com/spec/v1
+oid sha256:a07ff167868e43fb5a8f18500967d21e538c4ba76950d8b35eb279bcc29242c1
+size 210

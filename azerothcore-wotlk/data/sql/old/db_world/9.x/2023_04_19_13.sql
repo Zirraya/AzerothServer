@@ -1,4 +1,3 @@
--- DB update 2023_04_19_12 -> 2023_04_19_13
---
--- Quicker Respawn Timer on Corporal Keeshan
-UPDATE `creature` SET `spawntimesecs`=120 WHERE `guid`=17874 AND `id1`=349;
+version https://git-lfs.github.com/spec/v1
+oid sha256:5aa2cb2c4cb3ea7dc1fc6ea4e88afb90dc59a8ecd78a0a3f8f64161f4f18dbea
+size 168

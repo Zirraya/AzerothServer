@@ -1,28 +1,3 @@
--- DB update 2019_01_31_00 -> 2019_02_01_00
-DROP PROCEDURE IF EXISTS `updateDb`;
-DELIMITER //
-CREATE PROCEDURE updateDb ()
-proc:BEGIN DECLARE OK VARCHAR(100) DEFAULT 'FALSE';
-SELECT COUNT(*) INTO @COLEXISTS
-FROM information_schema.COLUMNS
-WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'version_db_world' AND COLUMN_NAME = '2019_01_31_00';
-IF @COLEXISTS = 0 THEN LEAVE proc; END IF;
-START TRANSACTION;
-ALTER TABLE version_db_world CHANGE COLUMN 2019_01_31_00 2019_02_01_00 bit;
-SELECT sql_rev INTO OK FROM version_db_world WHERE sql_rev = '1548850930086940600'; IF OK <> 'FALSE' THEN LEAVE proc; END IF;
---
--- START UPDATING QUERIES
---
-
-INSERT INTO version_db_world (`sql_rev`) VALUES ('1548850930086940600');
-
-INSERT INTO `spell_script_names` VALUES (64415, 'spell_item_valanyr_hammer_of_ancient_kings');
-
---
--- END UPDATING QUERIES
---
-COMMIT;
-END //
-DELIMITER ;
-CALL updateDb();
-DROP PROCEDURE IF EXISTS `updateDb`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:783e0dee0f0e918c1e4311c415d20f287d712ac4bfd7ca97f1d0bc4f01d37bc5
+size 920

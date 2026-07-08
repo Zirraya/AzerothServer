@@ -1,3 +1,3 @@
--- DB update 2025_12_29_10 -> 2025_12_29_11
-UPDATE `reference_loot_template` SET `Chance` = 5 WHERE `Entry` = 6010 AND `Item` = 1 AND `Reference` = 4000;
-UPDATE `reference_loot_template` SET `Chance` = 5 WHERE `Entry` = 6010 AND `Item` = 2 AND `Reference` = 4001;
+version https://git-lfs.github.com/spec/v1
+oid sha256:d17c79ce3d88b8c57ec8333081d124202da302f9755e777bfbf29692db72654e
+size 264

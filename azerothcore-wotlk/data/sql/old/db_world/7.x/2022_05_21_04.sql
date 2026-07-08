@@ -1,7 +1,3 @@
--- DB update 2022_05_21_03 -> 2022_05_21_04
---
-ALTER TABLE `waypoint_data` CHANGE `orientation` `orientation` FLOAT DEFAULT NULL NULL;
-UPDATE `waypoint_data` SET `orientation`= NULL WHERE `orientation`= 0;
-
-ALTER TABLE `waypoints` CHANGE `orientation` `orientation` FLOAT DEFAULT NULL NULL;
-UPDATE `waypoints` SET `orientation`= NULL WHERE `orientation`= 0;
+version https://git-lfs.github.com/spec/v1
+oid sha256:0d5cacfb9f61842360d0c580eb08d2d52cb15fbd82e63a50e966ba82fbab5dab
+size 358

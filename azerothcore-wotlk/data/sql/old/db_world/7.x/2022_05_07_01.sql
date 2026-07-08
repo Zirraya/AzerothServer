@@ -1,4 +1,3 @@
--- DB update 2022_05_07_00 -> 2022_05_07_01
--- Remove Orphan Matron Aria duplicate
-DELETE FROM `creature` WHERE `id1` = 34365 AND `guid` = 245000;
-DELETE FROM `game_event_creature` WHERE `guid` = 245000 AND `eventEntry` = 10;
+version https://git-lfs.github.com/spec/v1
+oid sha256:4a988233ac3d6644a04ea5396c1abf4cfbff0413b61672718538287104d12adb
+size 226

@@ -1,3 +1,3 @@
--- DB update 2025_11_15_13 -> 2025_11_15_14
-DELETE FROM `smart_scripts` WHERE `entryorguid` = 27598 AND `source_type` = 0;
-UPDATE `creature_template` SET `AIName` = '' WHERE `entry` = 27598;
+version https://git-lfs.github.com/spec/v1
+oid sha256:afbc788b058e4e65d5fa62afc2a7464a920e6b9eb73d8f15caccd5415e1fd178
+size 191

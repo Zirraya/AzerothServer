@@ -1,8 +1,3 @@
--- DB update 2022_08_12_01 -> 2022_08_14_00
---
-UPDATE `creature_formations` SET `dist`=5 WHERE `memberGUID` IN (87649,87650,87651);
-
-DELETE FROM `spell_linked_spell` WHERE `spell_trigger`=26084 AND `spell_effect`=25174 AND `type`=1;
-INSERT INTO `spell_linked_spell` (`spell_trigger`, `spell_effect`, `type`, `comment`) VALUES 
-(26084, 25174, 1, 'Battleguard Sartura - OnHit Whirlwind - Apply Sundering Cleave');
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:7602149a51e7aa41927f6ce0cb48f0f46d43cf43ab258e2860add0f19eaeb779
+size 413

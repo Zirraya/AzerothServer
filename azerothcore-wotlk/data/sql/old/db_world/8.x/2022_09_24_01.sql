@@ -1,3 +1,3 @@
--- DB update 2022_09_24_00 -> 2022_09_24_01
---
-UPDATE `creature_template` SET `gossip_menu_id` = 11383, `npcflag` = `npcflag` |1 WHERE `entry` = 40437;
+version https://git-lfs.github.com/spec/v1
+oid sha256:339d5e9414c0773c3ccdd0ccdadd9ce2f0e7860799556c6cf22b747eb0865364
+size 152

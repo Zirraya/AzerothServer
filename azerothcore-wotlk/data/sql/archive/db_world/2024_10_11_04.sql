@@ -1,5 +1,3 @@
--- DB update 2024_10_11_03 -> 2024_10_11_04
-DELETE FROM `creature_template_model` WHERE `CreatureID` = 22871;
-INSERT INTO `creature_template_model` (`CreatureID`, `Idx`, `CreatureDisplayID`, `DisplayScale`, `Probability`, `VerifiedBuild`) VALUES
-(22871, 0, 21254, 1, 0, 51831),
-(22871, 1, 21262, 1, 1, 51831);
+version https://git-lfs.github.com/spec/v1
+oid sha256:d8862f666f38f2acb8d39a029da7612166dc1efbdf0d6fd9d2d7eeb3952589dd
+size 310

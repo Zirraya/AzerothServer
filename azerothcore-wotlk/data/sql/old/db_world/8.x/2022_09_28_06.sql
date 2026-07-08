@@ -1,4 +1,3 @@
--- DB update 2022_09_28_05 -> 2022_09_28_06
---
-UPDATE `creature_template` SET `AIName`='', `ScriptName`='npc_ahnqiraji_critter' WHERE `entry` IN (15316,15317);
-DELETE FROM `smart_scripts` WHERE `entryorguid` IN (15316,15317) AND `source_type`=0;
+version https://git-lfs.github.com/spec/v1
+oid sha256:08bde171c845751006f1de31b51c123da53b992e2dcf288c22214bb815e3c14b
+size 246

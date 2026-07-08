@@ -1,16 +1,3 @@
--- DB update 2022_11_21_19 -> 2022_11_27_00
---
-DELETE FROM `npc_trainer` WHERE `ID`=33621 AND `SpellID`=-202009;
-DELETE FROM `npc_trainer` WHERE `ID`=33623 AND `SpellID`=-202003;
-DELETE FROM `npc_trainer` WHERE `ID`=33619 AND `SpellID`=-202006;
-DELETE FROM `npc_trainer` WHERE `ID`=33618 AND `SpellID`=-201038;
-DELETE FROM `npc_trainer` WHERE `ID`=33617 AND `SpellID`=-201035;
-DELETE FROM `npc_trainer` WHERE `ID`=33616 AND `SpellID`=-201020;
-DELETE FROM `npc_trainer` WHERE `ID`=33613 AND `SpellID`=-201041;
-DELETE FROM `npc_trainer` WHERE `ID`=33612 AND `SpellID`=-201029;
-DELETE FROM `npc_trainer` WHERE `ID`=33614 AND `SpellID`=-201026;
-DELETE FROM `npc_trainer` WHERE `ID`=33615 AND `SpellID`=-201023;
-DELETE FROM `npc_trainer` WHERE `ID`=33611 AND `SpellID`=-201014;
-DELETE FROM `npc_trainer` WHERE `ID`=33610 AND `SpellID`=-201011;
-DELETE FROM `npc_trainer` WHERE `ID`=33609 AND `SpellID`=-201006;
-DELETE FROM `npc_trainer` WHERE `ID`=33608 AND `SpellID`=-201003;
+version https://git-lfs.github.com/spec/v1
+oid sha256:83ed71e30a2a50cd635de80f13dcdd3dc156e7cc3c974b40980485d585028a6e
+size 971

@@ -1,3 +1,3 @@
--- DB update 2024_10_11_00 -> 2024_10_11_01
---
-UPDATE `smart_scripts` SET `target_type`=12, `target_param1`=1 WHERE `entryorguid`=1436800 AND `source_type`=9 AND `id` IN (2, 4);
+version https://git-lfs.github.com/spec/v1
+oid sha256:87fdd3429e133dfbac4020b5918c8d9b98c1eac8638748dcd3b70b54ea1e6022
+size 178

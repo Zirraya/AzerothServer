@@ -1,29 +1,3 @@
--- DB update 2021_03_11_04 -> 2021_03_11_05
-DROP PROCEDURE IF EXISTS `updateDb`;
-DELIMITER //
-CREATE PROCEDURE updateDb ()
-proc:BEGIN DECLARE OK VARCHAR(100) DEFAULT 'FALSE';
-SELECT COUNT(*) INTO @COLEXISTS
-FROM information_schema.COLUMNS
-WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'version_db_world' AND COLUMN_NAME = '2021_03_11_04';
-IF @COLEXISTS = 0 THEN LEAVE proc; END IF;
-START TRANSACTION;
-ALTER TABLE version_db_world CHANGE COLUMN 2021_03_11_04 2021_03_11_05 bit;
-SELECT sql_rev INTO OK FROM version_db_world WHERE sql_rev = '1615289798727272419'; IF OK <> 'FALSE' THEN LEAVE proc; END IF;
---
--- START UPDATING QUERIES
---
-
-INSERT INTO `version_db_world` (`sql_rev`) VALUES ('1615289798727272419');
-
--- Quest Gathering Leather
-UPDATE `quest_template_addon` SET `RequiredSkillID`=393, `RequiredSkillPoints`=1 WHERE `ID`=768;
-
---
--- END UPDATING QUERIES
---
-COMMIT;
-END //
-DELIMITER ;
-CALL updateDb();
-DROP PROCEDURE IF EXISTS `updateDb`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:267a056a15c6a0dac11bef1cad035efecc3091459d509bb3b07b1f4736f37b5b
+size 951

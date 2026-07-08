@@ -1,4 +1,3 @@
--- DB update 2023_07_28_00 -> 2023_07_29_00
---
-DELETE FROM `spell_script_names` WHERE `spell_id` = 38048;
-INSERT INTO `spell_script_names` (`spell_id`,`ScriptName`) VALUES (38048, 'spell_gen_curse_of_pain');
+version https://git-lfs.github.com/spec/v1
+oid sha256:15d4192669bd2b5bc5a5a8b59452e547f5e0783b11260f69f8af2677a9cfc5ba
+size 208

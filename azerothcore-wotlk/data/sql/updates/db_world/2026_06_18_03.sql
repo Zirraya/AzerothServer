@@ -1,5 +1,3 @@
--- DB update 2026_06_18_02 -> 2026_06_18_03
---
--- Hodir: Flash Freeze should not be Bleed-immune (let Warriors apply Rend).
--- Move to preset -361 (identical to -369 but without the BLEED mechanic).
-UPDATE `creature_template` SET `CreatureImmunitiesId` = -361 WHERE `entry` IN (32926, 32938, 33352, 33353);
+version https://git-lfs.github.com/spec/v1
+oid sha256:e5f01c28b7a26dac2fb67b3e5769c8c363bebbd51280121618da72009f986430
+size 307

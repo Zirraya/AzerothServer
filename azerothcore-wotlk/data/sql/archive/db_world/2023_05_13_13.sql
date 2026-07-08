@@ -1,5 +1,3 @@
--- DB update 2023_05_13_12 -> 2023_05_13_13
-DELETE FROM `warden_checks` WHERE `id` IN (795,796);
-INSERT INTO `warden_checks` (`id`, `type`, `data`, `str`, `address`, `length`, `result`, `comment`) VALUES
-(795, 139, NULL, 'local f=DEFAULT_CHAT_FRAME for i=1,f:GetNumMessages() do if (f:GetMessageInfo(i)):find("Rotation Mode Disable") then return true end end', NULL, NULL, NULL, 'Detects PQR'),
-(796, 139, NULL, 'local f=DEFAULT_CHAT_FRAME for i=1,f:GetNumMessages() do if (f:GetMessageInfo(i)):find("Rotation Mode Enable") then return true end end', NULL, NULL, NULL, 'Detects PQR');
+version https://git-lfs.github.com/spec/v1
+oid sha256:7d982e9a7d5c0f04df0514ae918973f19160a4b01322101492e120f32013e572
+size 585

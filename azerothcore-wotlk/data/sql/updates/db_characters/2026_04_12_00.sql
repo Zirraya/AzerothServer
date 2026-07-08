@@ -1,6 +1,3 @@
--- DB update 2026_04_03_00 -> 2026_04_12_00
--- Flush all respawn times to ensure a clean slate for the spawn group system.
--- Compat-mode creatures/GOs will respawn naturally on next grid load;
--- non-compat spawns will be handled by ProcessRespawns().
-TRUNCATE TABLE `creature_respawn`;
-TRUNCATE TABLE `gameobject_respawn`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:56a299bc85537ca86644aebf750cfd219839944f2b2a966290623f63f6a17954
+size 325

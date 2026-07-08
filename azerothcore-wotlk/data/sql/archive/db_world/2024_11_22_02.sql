@@ -1,4 +1,3 @@
--- DB update 2024_11_22_01 -> 2024_11_22_02
---
--- fix(db/Creature) - Bonechewer Behemoth isn't immune to Distract anymore
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask` &~ 8 WHERE `entry` = 23196;
+version https://git-lfs.github.com/spec/v1
+oid sha256:c343ce896359e47d5086c3280dbcc6acaad9936912b3b5b131325d5221b6484c
+size 229

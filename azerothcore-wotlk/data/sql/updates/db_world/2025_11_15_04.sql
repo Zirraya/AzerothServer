@@ -1,3 +1,3 @@
--- DB update 2025_11_15_03 -> 2025_11_15_04
---
-UPDATE `creature_template` SET `unit_flags` = `unit_flags` &~ 256 WHERE `entry` = 24787;
+version https://git-lfs.github.com/spec/v1
+oid sha256:b22467c13ffe304a0557975db6afd230f425c447a0d10deb16b8917b6803a810
+size 136

@@ -1,4 +1,3 @@
--- DB update 2024_06_29_07 -> 2024_06_29_08
--- remove duplicate 25962 'Fire Eater' spawns
-DELETE FROM `creature` WHERE (`id1` = 25962) AND (`guid` IN (25954, 25957));
-DELETE FROM `game_event_creature` WHERE (`eventEntry` = 1) AND (`guid` IN (25954, 25957));
+version https://git-lfs.github.com/spec/v1
+oid sha256:37327a158c72515d407bb0fa3c076ef17588a736fb80f6d992935eb94c4e4aa4
+size 258

@@ -1,4 +1,3 @@
--- DB update 2025_04_13_00 -> 2025_04_13_01
-
--- Add Verified Build
-UPDATE `creature` SET `VerifiedBuild` = 59185 WHERE (`id1` = 28406) AND (`guid` IN (129500, 129501, 129502, 129503, 129520, 129529, 129530, 129531, 129532, 129546, 129547, 129556));
+version https://git-lfs.github.com/spec/v1
+oid sha256:2c56cc6c3d7cd1279aa37850d41286a59422662d7104ec4c541460f23e00f4f5
+size 249

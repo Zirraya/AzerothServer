@@ -1,5 +1,3 @@
--- DB update 2022_10_06_00 -> 2022_10_06_01
---
-DELETE FROM `disables` WHERE `sourceType`=7 AND `entry`=180619;
-INSERT INTO `disables` VALUES
-(7,180619,0,0,0,'Ignore LoS by Ossirian Crystal');
+version https://git-lfs.github.com/spec/v1
+oid sha256:bb459e5114127625e1cc4cce963a75094d8ba991ccd510cc2f8c1948c515442d
+size 192

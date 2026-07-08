@@ -1,4 +1,3 @@
--- DB update 2025_03_16_03 -> 2025_03_16_04
--- fixes quest "Pushed Too Far" not having a prerequisite
--- https://github.com/azerothcore/azerothcore-wotlk/issues/21553
-UPDATE `quest_template_addon` SET `PrevQuestID` = 12867 WHERE (`ID` = 12869);
+version https://git-lfs.github.com/spec/v1
+oid sha256:27809cdf5b120476f0d16da54be2667d411cffc2ae54f10ec0eeb0d11f1f84e8
+size 245

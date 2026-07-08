@@ -1,5 +1,3 @@
--- DB update 2024_11_14_04 -> 2024_11_14_05
---
-DELETE FROM `smart_scripts` WHERE `entryorguid` IN
-(-45537,-45570,-45571,-48394,-48400,-54994,-54996,-54999,-55062,-55064,-55065)
-AND `event_type` = 61 AND `action_type` IN (18, 19);
+version https://git-lfs.github.com/spec/v1
+oid sha256:9bfc1607be0c6844616089af803b4c08ad6a4648fc82ac0e9624e771df5bd661
+size 230

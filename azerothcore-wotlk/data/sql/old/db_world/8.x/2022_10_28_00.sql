@@ -1,8 +1,3 @@
--- DB update 2022_10_26_01 -> 2022_10_28_00
---
-
-UPDATE `creature_template` SET `flags_extra`=`flags_extra`|256 WHERE entry IN (
-15517, -- Ouro
-15275, -- Emperor Vek'nilash
-15276); -- Emperor Vek'lor
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:542ed9a85c25525c75100c0fbe49cf5e708d7f9c40c63bfaa97f803425ca6373
+size 200

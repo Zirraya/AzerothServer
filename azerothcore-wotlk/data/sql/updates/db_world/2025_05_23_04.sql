@@ -1,3 +1,3 @@
--- DB update 2025_05_23_03 -> 2025_05_23_04
---
-DELETE FROM `spell_linked_spell` WHERE `spell_trigger`=24707;
+version https://git-lfs.github.com/spec/v1
+oid sha256:610c14ebf7d992ab8c809dbef3cabf16023d66fa90f9231399827f9f4666d0a8
+size 109

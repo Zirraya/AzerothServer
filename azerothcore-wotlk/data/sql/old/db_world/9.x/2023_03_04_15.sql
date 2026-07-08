@@ -1,4 +1,3 @@
--- DB update 2023_03_04_14 -> 2023_03_04_15
--- Detected build: V3_4_0_46368
-UPDATE `creature_template` SET `unit_flags` = 33554688 WHERE (`entry` = 18778);
-UPDATE `creature_template` SET `unit_flags` = 33555200 WHERE (`entry` = 18726);
+version https://git-lfs.github.com/spec/v1
+oid sha256:10155172aa60f2a51993b8d494fa7351090f4ae8366397a217b96a93c84f7ed6
+size 236

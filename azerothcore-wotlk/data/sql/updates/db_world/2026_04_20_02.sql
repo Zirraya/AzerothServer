@@ -1,7 +1,3 @@
--- DB update 2026_04_20_01 -> 2026_04_20_02
-UPDATE `quest_poi` SET `MapID` = 571, `WorldMapAreaId` = 491 WHERE `QuestID` = 11527;
-
-DELETE FROM `quest_poi_points` WHERE `QuestID` = 11527;
-INSERT INTO `quest_poi_points` (`QuestID`, `Idx1`, `Idx2`, `X`, `Y`, `VerifiedBuild`) VALUES
-(11527, 0, 0, 118, -3697, 0),
-(11527, 1, 0, 118, -3697, 0);
+version https://git-lfs.github.com/spec/v1
+oid sha256:e912cc1bab520c323f1e97dc4b72bbd5456921b482e8d1af0fb6a013c746912c
+size 340

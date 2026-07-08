@@ -1,3 +1,3 @@
--- DB update 2023_12_12_16 -> 2023_12_24_00
--- Spell Bomb
-UPDATE `spell_proc_event` SET `Cooldown`=1000 WHERE `entry`=40303;
+version https://git-lfs.github.com/spec/v1
+oid sha256:e1e3fdcab30ebc6e1e530dda0980d38d3de5a50e81359274a544fd6336a2d72b
+size 125

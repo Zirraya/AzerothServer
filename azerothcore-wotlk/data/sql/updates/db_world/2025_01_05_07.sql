@@ -1,3 +1,3 @@
--- DB update 2025_01_05_06 -> 2025_01_05_07
---
-DELETE FROM `smart_scripts` WHERE (`entryorguid` = 23889) AND (`source_type` = 0) AND (`id` = 3);
+version https://git-lfs.github.com/spec/v1
+oid sha256:6419910a63108182fdcf853aa2753fc61bcfc5de7b65b4104d0a9e48ee93d87d
+size 145

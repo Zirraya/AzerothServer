@@ -1,6 +1,3 @@
--- DB update 2025_04_13_04 -> 2025_04_14_00
--- Remove SmartAI from dark fiend to ScriptedAI (c++)
-UPDATE `creature_template` SET
-  `AIName` = '',
-  `ScriptName` = 'npc_dark_fiend'
-WHERE `entry` = 25744;
+version https://git-lfs.github.com/spec/v1
+oid sha256:1c90c567542aae190d2a518607c0456a4b4d4ca8ff89acc0c5a25d04ca768907
+size 203

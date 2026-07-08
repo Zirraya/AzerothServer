@@ -1,6 +1,3 @@
--- DB update 2023_10_20_03 -> 2023_10_20_04
--- Bloodlust/Heroism - Karazhan chest event
-DELETE FROM `spell_cooldown_overrides` WHERE `Id` IN (37472,37471);
-INSERT INTO `spell_cooldown_overrides` (`Id`, `RecoveryTime`, `CategoryRecoveryTime`, `StartRecoveryTime`, `StartRecoveryCategory`) VALUES
-(37472, 15000, 15000, 0, 0),
-(37471, 15000, 15000, 0, 0);
+version https://git-lfs.github.com/spec/v1
+oid sha256:195efc71784b559b72f1fd7a7951cb82ca756bd60cb281cb49346d18e425d786
+size 353

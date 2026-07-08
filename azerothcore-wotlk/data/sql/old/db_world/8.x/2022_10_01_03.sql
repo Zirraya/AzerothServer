@@ -1,8 +1,3 @@
--- DB update 2022_10_01_02 -> 2022_10_01_03
---
-DELETE FROM `creature_template_resistance` WHERE (`CreatureID` = 15339) AND (`School` IN (2, 3, 4, 5));
-INSERT INTO `creature_template_resistance` (`CreatureID`, `School`, `Resistance`, `VerifiedBuild`) VALUES
-(15339, 2, 1000, 0),
-(15339, 3, 1000, 0),
-(15339, 4, 1000, 0),
-(15339, 5, 1000, 0);
+version https://git-lfs.github.com/spec/v1
+oid sha256:b379cf3f647abbc32eccaf01895817aaa04e731553c937794d31a19f70935217
+size 341

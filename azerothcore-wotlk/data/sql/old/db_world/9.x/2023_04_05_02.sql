@@ -1,4 +1,3 @@
--- DB update 2023_04_05_01 -> 2023_04_05_02
---
--- Remove Pollution from Water Barrels (gameobject 3658)
-DELETE FROM `gameobject_loot_template` WHERE `Entry`=2502 AND `Item` IN (851, 852, 853, 854, 858, 1196, 1197, 1198, 2207, 2455, 4765, 4766, 4777, 4778);
+version https://git-lfs.github.com/spec/v1
+oid sha256:fa9713ad6514bb39d14b5a188bd0ea5caadffdc8ffaf1bc96aa43f3af108e0a2
+size 257

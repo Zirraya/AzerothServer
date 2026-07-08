@@ -1,4 +1,3 @@
--- DB update 2022_11_21_08 -> 2022_11_21_09
--- 
-DELETE FROM `creature` WHERE `guid` = 85566;
-UPDATE `creature_template_addon` SET `emote` = 234 WHERE `entry` = 18595;
+version https://git-lfs.github.com/spec/v1
+oid sha256:cd109840f7bacdeef0d8f081947c603c56b78f7be1bad0da452eb176c663ee64
+size 167

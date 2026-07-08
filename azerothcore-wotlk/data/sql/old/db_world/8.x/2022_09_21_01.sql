@@ -1,3 +1,3 @@
--- DB update 2022_09_21_00 -> 2022_09_21_01
---
-UPDATE `creature_formations` SET `groupAI` = 515 WHERE `leaderGUID` = 87648 AND `memberGUID` IN (87649, 87650, 87651);
+version https://git-lfs.github.com/spec/v1
+oid sha256:9fc117ad99296580bd51365bc306da3891624cf64c17b077d32a3c3a527edbdf
+size 166

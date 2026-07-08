@@ -1,4 +1,3 @@
--- DB update 2024_11_01_03 -> 2024_11_01_04
-ALTER TABLE `game_event_npc_vendor`
-	DROP PRIMARY KEY,
-	ADD PRIMARY KEY (`eventEntry`, `guid`, `item`) USING BTREE;
+version https://git-lfs.github.com/spec/v1
+oid sha256:e32aa000bf666750fba9e93456131c6963463cdd1e1ddfcd7f2df3ec37e476cc
+size 160

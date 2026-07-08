@@ -1,3 +1,3 @@
--- DB update 2026_01_06_00 -> 2026_01_06_01
--- Bonestripper Vulture, Castflag 0 to 32 "Only casts the spell if the target does not have an aura from the spell"
-UPDATE `smart_scripts` SET `action_param2` = `action_param2` | 32 WHERE `entryorguid` = 16973 AND `source_type` = 0 AND `id` = 0;
+version https://git-lfs.github.com/spec/v1
+oid sha256:37de7dafa6346bc9cdaae110ad080a75689e85291b6e9f01f68718a7a326f9e5
+size 290

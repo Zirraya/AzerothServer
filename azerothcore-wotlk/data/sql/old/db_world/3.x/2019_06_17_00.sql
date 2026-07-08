@@ -1,28 +1,3 @@
--- DB update 2019_06_16_01 -> 2019_06_17_00
-DROP PROCEDURE IF EXISTS `updateDb`;
-DELIMITER //
-CREATE PROCEDURE updateDb ()
-proc:BEGIN DECLARE OK VARCHAR(100) DEFAULT 'FALSE';
-SELECT COUNT(*) INTO @COLEXISTS
-FROM information_schema.COLUMNS
-WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'version_db_world' AND COLUMN_NAME = '2019_06_16_01';
-IF @COLEXISTS = 0 THEN LEAVE proc; END IF;
-START TRANSACTION;
-ALTER TABLE version_db_world CHANGE COLUMN 2019_06_16_01 2019_06_17_00 bit;
-SELECT sql_rev INTO OK FROM version_db_world WHERE sql_rev = '1560493947655900000'; IF OK <> 'FALSE' THEN LEAVE proc; END IF;
---
--- START UPDATING QUERIES
---
-
-INSERT INTO `version_db_world` (`sql_rev`) VALUES ('1560493947655900000');
-
-UPDATE `spell_script_names` SET `spell_id`=-6229 WHERE `ScriptName`='spell_warl_shadow_ward';
-
---
--- END UPDATING QUERIES
---
-COMMIT;
-END //
-DELIMITER ;
-CALL updateDb();
-DROP PROCEDURE IF EXISTS `updateDb`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:952c02d03e5a3f0069304ab2e28b43b182ad9c7aee7cdd1c3603d5f8247accc6
+size 921

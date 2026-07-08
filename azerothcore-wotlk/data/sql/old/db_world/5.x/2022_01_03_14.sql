@@ -1,30 +1,3 @@
--- DB update 2022_01_03_13 -> 2022_01_03_14
-DROP PROCEDURE IF EXISTS `updateDb`;
-DELIMITER //
-CREATE PROCEDURE updateDb ()
-proc:BEGIN DECLARE OK VARCHAR(100) DEFAULT 'FALSE';
-SELECT COUNT(*) INTO @COLEXISTS
-FROM information_schema.COLUMNS
-WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'version_db_world' AND COLUMN_NAME = '2022_01_03_13';
-IF @COLEXISTS = 0 THEN LEAVE proc; END IF;
-START TRANSACTION;
-ALTER TABLE version_db_world CHANGE COLUMN 2022_01_03_13 2022_01_03_14 bit;
-SELECT sql_rev INTO OK FROM version_db_world WHERE sql_rev = '1640421402880757319'; IF OK <> 'FALSE' THEN LEAVE proc; END IF;
---
--- START UPDATING QUERIES
---
-
-INSERT INTO `version_db_world` (`sql_rev`) VALUES ('1640421402880757319');
-
--- quest
-UPDATE `quest_template_addon` SET `SpecialFlags` = 0 WHERE `ID` IN (8799, 8763);
-
---
--- END UPDATING QUERIES
---
-UPDATE version_db_world SET date = '2022_01_03_14' WHERE sql_rev = '1640421402880757319';
-COMMIT;
-END //
-DELIMITER ;
-CALL updateDb();
-DROP PROCEDURE IF EXISTS `updateDb`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:8c5d1709ed0dc3c345fd1fb6e7c83a2c6889778b6fcd9f139eb53887a58b14b6
+size 1007

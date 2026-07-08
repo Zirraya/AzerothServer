@@ -1,5 +1,3 @@
--- DB update 2023_06_21_00 -> 2023_06_22_00
---
-DELETE FROM `spell_script_names` WHERE `ScriptName` IN ('spell_murmur_touch', 'spell_shockwave_knockback');
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(33686, 'spell_shockwave_knockback');
+version https://git-lfs.github.com/spec/v1
+oid sha256:6d2c529749e6c6838c0bf62e8397811d25a716ed20a9c8303258294bbfec1f96
+size 260

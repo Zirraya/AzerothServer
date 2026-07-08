@@ -1,8 +1,3 @@
--- DB update 2025_12_20_00 -> 2025_12_20_01
---
--- Temporary Haste Buffs (PI, Heroism, Bloodlust)
--- 3	SPELL_GROUP_STACK_RULE_EXCLUSIVE_SAME_EFFECT	Same effects of spells will not stack, yet auras will remain on a target
-UPDATE `spell_group_stack_rules` SET `stack_rule`=3 WHERE `group_id`=1122;
--- Power Infusion and Arcane Power
--- 4	SPELL_GROUP_STACK_RULE_EXCLUSIVE_HIGHEST	Only Highest effect will remain on target
-UPDATE `spell_group_stack_rules` SET `stack_rule`=4 WHERE `group_id`=1123;
+version https://git-lfs.github.com/spec/v1
+oid sha256:453c41036880f0c95125a99c4e664144633d16eeed6a6c5f73203872cc3413c5
+size 493

@@ -1,4 +1,3 @@
--- DB update 2025_03_08_00 -> 2025_03_08_01
---
-UPDATE `creature_template` SET `AIName` = '', `ScriptName` = 'npc_sunblade_scout' WHERE (`entry` = 25372);
-DELETE FROM `smart_scripts` WHERE (`source_type` = 0 AND `entryorguid` = 25372);
+version https://git-lfs.github.com/spec/v1
+oid sha256:b047db6737ba71f0b0c125da3b58fb57e51805337839984108732560f8e486b8
+size 235

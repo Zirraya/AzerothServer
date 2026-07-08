@@ -1,3 +1,3 @@
--- DB update 2025_06_12_00 -> 2025_06_12_01
---
-UPDATE `creature_template` SET `flags_extra` = `flags_extra`|2147483648 WHERE `entry` IN (29311, 31464);
+version https://git-lfs.github.com/spec/v1
+oid sha256:8207f4095eb6b9fc127be3936ee29758726d1e2b90a5a4ca8edf3ca15f21e196
+size 152

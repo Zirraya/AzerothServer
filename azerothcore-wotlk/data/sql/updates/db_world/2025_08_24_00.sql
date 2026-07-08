@@ -1,3 +1,3 @@
--- DB update 2025_08_23_02 -> 2025_08_24_00
---
-UPDATE `smart_scripts` SET `event_type` = 61  WHERE `entryorguid` = 18945 AND `source_type` = 0 AND `id` = 4;
+version https://git-lfs.github.com/spec/v1
+oid sha256:82ba6fbd5d4900bd4b45bce051ab431bd01d7d978ec010b8102e6f05337a1ecb
+size 157

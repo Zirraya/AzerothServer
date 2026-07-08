@@ -1,12 +1,3 @@
--- DB update 2022_05_23_03 -> 2022_05_23_04
-SET @LEADERGUID := 84542;
-DELETE FROM `creature_formations` WHERE `memberGUID` IN (@LEADERGUID, 84190, 84194, 84192, 84541, 84543, 84186, 84188);
-INSERT INTO `creature_formations` (`leaderGUID`, `memberGUID`, `dist`, `angle`, `groupAI`) VALUES
-(@LEADERGUID, @LEADERGUID, 0, 0, 3),
-(@LEADERGUID, 84190, 0, 0, 3),
-(@LEADERGUID, 84194, 0, 0, 3),
-(@LEADERGUID, 84192, 0, 0, 3),
-(@LEADERGUID, 84541, 0, 0, 3),
-(@LEADERGUID, 84543, 0, 0, 3),
-(@LEADERGUID, 84188, 0, 0, 3),
-(@LEADERGUID, 84186, 0, 0, 3);
+version https://git-lfs.github.com/spec/v1
+oid sha256:7b65766fb562b10ec047f576ee5515a4a2126cb0d2db363d2a02d4eb6c17f2b4
+size 542

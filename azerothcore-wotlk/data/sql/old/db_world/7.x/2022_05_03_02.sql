@@ -1,5 +1,3 @@
--- DB update 2022_05_03_01 -> 2022_05_03_02
---
-DELETE FROM `areatrigger_scripts` WHERE `entry` = 4052 AND `ScriptName` = 'at_battleguard_sartura';
-INSERT INTO `areatrigger_scripts` (`entry`, `ScriptName`) VALUES
-(4052, 'at_battleguard_sartura');
+version https://git-lfs.github.com/spec/v1
+oid sha256:5b5923cbb156409d14034fea15ab1091fcab82e10488207e771439a4a9ed4527
+size 246

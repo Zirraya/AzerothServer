@@ -1,3 +1,3 @@
--- DB update 2024_06_11_01 -> 2024_06_13_00
---
-UPDATE `creature_equip_template` SET `ItemID1` = 12285 WHERE (`CreatureID` = 8582);
+version https://git-lfs.github.com/spec/v1
+oid sha256:1b72df8a5bfb04d241224adebc8b8e1ca214eeb15208a00ee7e41740d53c2250
+size 131

@@ -1,4 +1,3 @@
--- DB update 2024_07_07_01 -> 2024_07_07_02
---
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`&~16384 WHERE `type` = 9 AND `mechanic_immune_mask`&16384;
-UPDATE `creature_template` SET `mechanic_immune_mask` = `mechanic_immune_mask`&~16384 WHERE `type` = 6 AND `mechanic_immune_mask`&16384 AND `entry` NOT IN (4543, 8317, 11561, 16194, 16215, 16216, 28443);
+version https://git-lfs.github.com/spec/v1
+oid sha256:1ec1ff369f22a8752af5f766138f821f714ff14f5df8e328c6d7e683e8275a6a
+size 388

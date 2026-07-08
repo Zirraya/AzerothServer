@@ -1,4 +1,3 @@
--- DB update 2025_05_10_01 -> 2025_05_10_02
-DELETE FROM `spell_script_names` WHERE `spell_id` = -1022;
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(-1022, 'spell_pal_hand_of_protection');
+version https://git-lfs.github.com/spec/v1
+oid sha256:aad768c1cf930d26524fd569b72cf6af24a747ebfcdd66f5e4b36bc4c579d92c
+size 211

@@ -1,8 +1,3 @@
--- DB update 2025_03_16_04 -> 2025_03_17_00
---
-DELETE FROM `spell_script_names` WHERE `spell_id` IN (29707, 30324, 47449, 47450) AND `ScriptName` = 'spell_warr_heroic_strike';
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(29707, 'spell_warr_heroic_strike'),
-(30324, 'spell_warr_heroic_strike'),
-(47449, 'spell_warr_heroic_strike'),
-(47450, 'spell_warr_heroic_strike');
+version https://git-lfs.github.com/spec/v1
+oid sha256:6a04a6496ee4aa629b65e4c7bdad1242be5822bcf541fd4a7af80a856f73e95f
+size 391

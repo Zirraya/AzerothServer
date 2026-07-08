@@ -1,5 +1,3 @@
--- DB update 2026_05_16_00 -> 2026_05_16_01
---
-DELETE FROM `creature_text` WHERE (`CreatureID` = 24322) AND (`GroupID` IN (0));
-INSERT INTO `creature_text` (`CreatureID`, `GroupID`, `ID`, `Text`, `Type`, `Language`, `Probability`, `Emote`, `Duration`, `Sound`, `BroadcastTextId`, `TextRange`, `comment`) VALUES
-    (24322, 0, 0, 'Silence!', 14, 0, 100, 1, 0, 0, 32240, 0, 'Ancient Citizen of Nifflevar yell');
+version https://git-lfs.github.com/spec/v1
+oid sha256:7047f71e2cb0de8a0a48bfee3578fa1153ea5097a82dfdfebe7e7d2ffff3adec
+size 410

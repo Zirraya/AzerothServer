@@ -1,5 +1,3 @@
--- DB update 2025_07_10_00 -> 2025_07_12_00
---
-DELETE FROM `spell_script_names` WHERE `spell_id` = 53099 AND `ScriptName` = 'spell_portal_effect_acherus';
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES(53099, 'spell_portal_effect_acherus');
-DELETE FROM `spell_scripts` WHERE `id`=53099 AND `effIndex`=0;
+version https://git-lfs.github.com/spec/v1
+oid sha256:6ce5c2de3b7ef0925bfc7f5e118fe2c0ea974ac9d546cae2305c463d3c95eeda
+size 324

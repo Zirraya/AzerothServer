@@ -1,3 +1,3 @@
--- DB update 2026_02_19_04 -> 2026_02_19_05
--- Lock and Load (-56342): fix SpellPhaseMask from HIT (2) to FINISH (4)
-UPDATE `spell_proc` SET `SpellPhaseMask` = 4 WHERE `SpellId` = -56342;
+version https://git-lfs.github.com/spec/v1
+oid sha256:3914ee2084a6a6f0ebeb175fef31bea5972d9fc17a925e8f7e431fa0fcc99a45
+size 188

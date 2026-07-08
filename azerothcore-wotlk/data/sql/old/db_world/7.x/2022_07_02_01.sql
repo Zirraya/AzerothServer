@@ -1,4 +1,3 @@
--- DB update 2022_07_02_00 -> 2022_07_02_01
---
-UPDATE `creature_template` SET `flags_extra`=`flags_extra`|0x00200000 WHERE `entry` IN (29618,29619);
-UPDATE `smart_scripts` SET `target_type`=23 WHERE `entryorguid`=29475 AND `source_type`=0 AND `id` IN (2,3);
+version https://git-lfs.github.com/spec/v1
+oid sha256:a54cbb2cd3bf87360b7ff9e542e15b1c0839d532424f37a84623c234193529af
+size 258

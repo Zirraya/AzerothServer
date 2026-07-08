@@ -1,5 +1,3 @@
--- DB update 2024_03_11_00 -> 2024_03_11_01
---
-DELETE FROM `spell_script_names` WHERE `spell_id` = 36819;
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(36819, 'spell_kael_pyroblast');
+version https://git-lfs.github.com/spec/v1
+oid sha256:639609d4d6e01fdaa59e7a5f225f2f411c8e68497c6a031d0f9951f27d2a3f03
+size 206

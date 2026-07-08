@@ -1,3 +1,3 @@
--- DB update 2026_06_05_00 -> 2026_06_08_00
--- Remove the XP gains from "Risen Alliance Soldier" and "Icy Ghoul"
-UPDATE `creature_template` SET `ExperienceModifier` = 0 WHERE `entry` IN (31205, 31142);
+version https://git-lfs.github.com/spec/v1
+oid sha256:9bb96c863af815509a26ada69f755228e2b07a9df018d377607094e0eaba5cef
+size 202

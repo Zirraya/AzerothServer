@@ -1,2 +1,3 @@
--- DB update 2024_08_27_00 -> 2024_08_27_01
-UPDATE `creature_template` SET `unit_class` = 1 WHERE `entry` = 22917;
+version https://git-lfs.github.com/spec/v1
+oid sha256:d4898a05c9f8cc59038541ca11838dc97acdac54be15edb860a05eeec924316b
+size 115

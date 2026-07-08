@@ -1,6 +1,3 @@
--- DB update 2025_01_09_00 -> 2025_01_09_01
---
-DELETE FROM `spell_script_names` WHERE `spell_id` IN (7098, 39647);
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
-(7098, 'spell_gen_proc_on_victim'),
-(39647, 'spell_gen_proc_on_victim');
+version https://git-lfs.github.com/spec/v1
+oid sha256:44a728e7ffd994bda6363d00b69e38265b1a26941a09011685370db6183c1662
+size 255

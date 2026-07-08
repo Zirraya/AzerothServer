@@ -1,5 +1,3 @@
--- DB update 2022_07_07_00 -> 2022_07_09_00
---
-DELETE FROM `spell_script_names` WHERE `spell_id`=24324;
-INSERT INTO `spell_script_names` VALUES
-(24324,'spell_blood_siphon');
+version https://git-lfs.github.com/spec/v1
+oid sha256:8522e4855f9a6ad8889f5ed3e27df63a67f48c4b5874210e79acc673407d0a04
+size 174

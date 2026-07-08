@@ -1,3 +1,3 @@
--- DB update 2023_04_06_00 -> 2023_04_06_01
-DELETE FROM `creature` WHERE (`id1` = 37230) AND (`guid` IN (247157));
-DELETE FROM `creature_movement_override` WHERE `SpawnId`=247157;
+version https://git-lfs.github.com/spec/v1
+oid sha256:95206b82beee2e0e3b3c143de1b24d44a6946f1853b2a80b43ef10bedf7140fd
+size 180

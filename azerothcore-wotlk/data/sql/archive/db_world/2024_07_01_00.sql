@@ -1,5 +1,3 @@
--- DB update 2024_06_29_11 -> 2024_07_01_00
---
-DELETE FROM `acore_string` WHERE `entry` = 602;
-INSERT INTO `acore_string` (`entry`, `content_default`) VALUES
-(602, ' [rewarded]');
+version https://git-lfs.github.com/spec/v1
+oid sha256:a44fe717eb3ed064816cfcb5b7f2f5f8de22b82a69455f6f216feaa80025b91d
+size 180

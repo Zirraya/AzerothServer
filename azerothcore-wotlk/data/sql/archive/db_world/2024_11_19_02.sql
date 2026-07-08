@@ -1,4 +1,3 @@
--- DB update 2024_11_19_01 -> 2024_11_19_02
--- Multiphase Goggles
-DELETE FROM `spell_script_names` WHERE `spell_id`=46273 AND `ScriptName`='spell_item_multiphase_goggles';
-INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES (46273, 'spell_item_multiphase_goggles');
+version https://git-lfs.github.com/spec/v1
+oid sha256:eeb6e081c1681164d20a9d5ed383b702e016731a1b16a91c92af869d6804aea2
+size 281

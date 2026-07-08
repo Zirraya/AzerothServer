@@ -1,4 +1,3 @@
--- DB update 2025_07_11_00 -> 2025_07_29_00
---
-ALTER TABLE `mail_server_template_conditions`
-    CHANGE COLUMN `conditionType` `conditionType` ENUM('Level','PlayTime','Quest','Achievement','Reputation','Faction','Race','Class','AccountFlags') NOT NULL COLLATE 'utf8mb4_unicode_ci' AFTER `templateID`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:ad0d9368bc75ca2c56950c125108539c23c574c13597ae0a3b7bb4a5425dbd78
+size 301

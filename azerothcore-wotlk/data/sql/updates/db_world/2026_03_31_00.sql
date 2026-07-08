@@ -1,3 +1,3 @@
--- DB update 2026_03_30_00 -> 2026_03_31_00
--- Valithria Dreamwalker
-UPDATE `creature_template` SET `flags_extra` = `flags_extra` & ~128 WHERE `entry` = 37950;
+version https://git-lfs.github.com/spec/v1
+oid sha256:268cf6b4352a394dfbed685f81322a93ccd477acc696a9602a03cf22f3eddd50
+size 160

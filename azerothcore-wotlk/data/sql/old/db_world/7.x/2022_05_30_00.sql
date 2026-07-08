@@ -1,6 +1,3 @@
--- DB update 2022_05_29_01 -> 2022_05_30_00
---
-UPDATE `smart_scripts` SET `event_type`=60 WHERE `entryorguid`=14122 AND `source_type`=0 AND `id`=0;
-DELETE FROM `smart_scripts` WHERE `entryorguid`=14122 AND `source_type`=0 AND `id`=1;
-INSERT INTO `smart_scripts` VALUES
-(14122,0,1,0,54,0,100,0,0,0,0,0,0,8,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,'Hydrospawn - on summon - set passive react');
+version https://git-lfs.github.com/spec/v1
+oid sha256:6f0732f2e101187bd31c012c235955ab8c88b3d113b4e15c0d0883f8fd0c211a
+size 382

@@ -1,4 +1,3 @@
--- DB update 2024_02_27_01 -> 2024_03_03_00
-DELETE FROM `pool_creature` WHERE `guid` in (151928,48204,134380,151938,151942);
-DELETE FROM `pool_template` WHERE `entry` in (1084,1028,1042,1087,1089);
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:1a539be8740d0ee60d4d1393760ba29138e45344aaa89d16b746e25b1e1f212e
+size 199

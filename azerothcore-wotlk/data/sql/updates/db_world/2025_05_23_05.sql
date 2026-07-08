@@ -1,3 +1,3 @@
--- DB update 2025_05_23_04 -> 2025_05_23_05
--- Captured Totem - NON_ATTACKABLE
-UPDATE `creature_template` SET `unit_flags` = `unit_flags`|2 WHERE (`entry` = 23811);
+version https://git-lfs.github.com/spec/v1
+oid sha256:1573de6e75b0ca6f0a51a63354e78c16d5506daf5123c413450ceac026d2c84e
+size 165
